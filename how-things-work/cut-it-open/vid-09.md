@@ -1,0 +1,80 @@
+---
+id: vid-09
+title: Your phone feels your electricity
+series: cut-it-open
+topic: Touchscreen
+status: script-ready
+duration: 40
+music: cipher
+musicVolume: 0.12
+accent: "#FFD60A"
+---
+
+# vid-09 · Your phone feels your electricity
+
+> **Status: script ready, visuals not built yet.** The build renders it with a placeholder card where the `touchscreen` visual will go. Next step: build that visual the way `Lock.tsx` was built for vid-01, then set `status: ready-to-build`.
+
+## Hook
+
+- **Chosen (0-2s):** "Your phone isn't feeling your touch. It's feeling you."
+- **Backup hooks:**
+    1. "Your phone can't feel gloves. Here's why."
+    2. "Your touchscreen feels your electricity."
+    3. "Try tapping your phone with a sausage. It works."
+
+## Scenes
+
+The build reads this block. `note` is the exact visual to draw for that scene.
+
+```yaml
+scenes:
+  - at: 0
+    dur: 2
+    vo: "Your phone isn't feeling your touch. It's feeling you."
+    text: "IT FEELS YOU"
+    visual: { kind: touchscreen }
+    note: "Gloved finger tapping a phone, nothing happens"
+  - at: 2
+    dur: 7
+    vo: "Under the glass is a grid of see-through wires."
+    text: "INVISIBLE GRID"
+    visual: { kind: touchscreen }
+    note: "Screen peels apart in layers; an invisible grid glows"
+  - at: 9
+    dur: 8
+    vo: "That grid holds a tiny, steady electric charge."
+    text: "ELECTRIC FIELD"
+    visual: { kind: touchscreen }
+    note: "Grid holds a steady electric field, shown as soft glow"
+  - at: 17
+    dur: 8
+    vo: "Your body conducts electricity. When your finger gets close, it pulls some of that charge away."
+    text: "YOU CONDUCT"
+    visual: { kind: touchscreen }
+    note: "Bare finger approaches; charge drains toward it at one crossing"
+  - at: 25
+    dur: 7
+    vo: "The phone measures which crossing changed, and that's exactly where you touched."
+    text: "X + Y"
+    visual: { kind: touchscreen }
+    note: "Chip pinpoints the crossing, cursor dot appears"
+  - at: 32
+    dur: 4
+    vo: "A normal glove doesn't conduct, so the grid can't feel you."
+    text: ""
+    visual: { kind: touchscreen }
+    note: "Glove blocks the charge"
+  - at: 36
+    dur: 4
+    vo: "Which is why this..."
+    text: ""
+    visual: { kind: touchscreen }
+    note: "Back to the gloved tap"
+```
+
+## Notes
+
+**Loop:** "this..." over the gloved tap runs into "Your phone isn't feeling your touch."
+**Fact check:** capacitive screens (most phones); grid is indium tin oxide or similar.
+
+Visual style, safe areas and audio rules: same as [vid-01](../cut-it-open/vid-01.md).
