@@ -3,7 +3,7 @@ id: vid-06
 title: Why self-checkout always knows
 series: cut-it-open
 topic: Self-checkout scale
-status: script-ready
+status: ready-to-build
 duration: 35
 music: sneaky-snitch
 musicVolume: 0.12
@@ -11,8 +11,6 @@ accent: "#FFD60A"
 ---
 
 # vid-06 · Why self-checkout always knows
-
-> **Status: script ready, visuals not built yet.** The build renders it with a placeholder card where the `self-checkout` visual will go. Next step: build that visual the way `Lock.tsx` was built for vid-01, then set `status: ready-to-build`.
 
 ## Hook
 
@@ -32,37 +30,37 @@ scenes:
     dur: 2
     vo: "Usually, it's not a camera catching you. It's a scale."
     text: "IT'S A SCALE"
-    visual: { kind: self-checkout }
+    visual: { kind: checkout, state: screen }
     note: "Screen flashing \"Unexpected item in bagging area\""
   - at: 2
     dur: 7
     vo: "Under the bagging area are load cells, sensors that weigh everything to a few grams."
     text: "LOAD CELLS"
-    visual: { kind: self-checkout }
+    visual: { kind: checkout, state: loadcells }
     note: "Bagging area cut away, load cells under the shelf glow"
   - at: 9
     dur: 8
     vo: "When you scan something, the machine looks up how much it should weigh."
-    text: "EXPECTED: 1,035 g"
-    visual: { kind: self-checkout }
+    text: "EXPECTED: 1,035g"
+    visual: { kind: checkout, state: lookup }
     note: "Barcode scan, a database card pops up: \"Milk 1L, 1,035 g\""
   - at: 17
     dur: 7
     vo: "Put it in the bag. If the weight matches, you're fine."
     text: "MATCH"
-    visual: { kind: self-checkout }
+    visual: { kind: checkout, state: match }
     note: "Item placed, scale reads 1,036 g, green tick"
   - at: 24
     dur: 7
     vo: "Add weight it didn't expect, and it stops everything."
     text: "MISMATCH"
-    visual: { kind: self-checkout }
+    visual: { kind: checkout, state: mismatch }
     note: "Unscanned item placed, weight jumps, red alert"
   - at: 31
     dur: 4
     vo: "Which is exactly why you keep seeing..."
     text: ""
-    visual: { kind: self-checkout }
+    visual: { kind: checkout, state: screen }
     note: "Back to the flashing screen"
 ```
 

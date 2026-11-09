@@ -2,12 +2,17 @@ import React from "react";
 import { spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { SAFE, theme } from "../theme";
 
-export const OnScreenText: React.FC<{ text: string; highlight?: string; accent: string }> = ({ text, highlight, accent }) => {
+export const OnScreenText: React.FC<{
+  text: string;
+  highlight?: string;
+  accent: string;
+}> = ({ text, highlight, accent }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   if (!text) return null;
   const pop = spring({ frame, fps, config: { damping: 12, stiffness: 180 } });
-  const parts = highlight && text.includes(highlight) ? text.split(highlight) : [text];
+  const parts =
+    highlight && text.includes(highlight) ? text.split(highlight) : [text];
 
   return (
     <div

@@ -5,7 +5,10 @@ import { theme } from "../theme";
 const CHUNK = 3;
 
 /** Word-by-word captions: shows 3 words at a time and highlights the one being spoken. */
-export const Captions: React.FC<{ vo: string; accent: string }> = ({ vo, accent }) => {
+export const Captions: React.FC<{ vo: string; accent: string }> = ({
+  vo,
+  accent,
+}) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const words = vo.split(/\s+/).filter(Boolean);
@@ -13,7 +16,10 @@ export const Captions: React.FC<{ vo: string; accent: string }> = ({ vo, accent 
 
   // Spread words evenly across the scene, leaving a short tail.
   const speakFrames = Math.max(1, durationInFrames - Math.round(fps * 0.2));
-  const current = Math.min(words.length - 1, Math.floor((frame / speakFrames) * words.length));
+  const current = Math.min(
+    words.length - 1,
+    Math.floor((frame / speakFrames) * words.length),
+  );
   const start = Math.floor(current / CHUNK) * CHUNK;
   const chunk = words.slice(start, start + CHUNK);
 
@@ -33,7 +39,13 @@ export const Captions: React.FC<{ vo: string; accent: string }> = ({ vo, accent 
       }}
     >
       {chunk.map((w, i) => (
-        <span key={start + i} style={{ color: start + i === current ? accent : theme.text, marginRight: 18 }}>
+        <span
+          key={start + i}
+          style={{
+            color: start + i === current ? accent : theme.text,
+            marginRight: 18,
+          }}
+        >
           {w}
         </span>
       ))}

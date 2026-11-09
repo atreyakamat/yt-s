@@ -41,8 +41,18 @@ Output: `out/vid-01.mp4`. Then copy it to the pendrive.
 
 | Reel | Series | Status |
 | --- | --- | --- |
-| vid-01 Pin tumbler lock | cut-it-open | ready-to-build (full visuals) |
-| vid-02 to vid-10 | various | script-ready: renders with a placeholder card until its visual is built |
+| vid-01 Pin tumbler lock | cut-it-open | ready-to-build |
+| vid-02 Zipper | cut-it-open | ready-to-build |
+| vid-03 Pen cap hole | youve-been-using-it-wrong | ready-to-build |
+| vid-04 Airbag | the-1-second-machine | ready-to-build |
+| vid-05 Microwave | cut-it-open | ready-to-build |
+| vid-06 Self-checkout | cut-it-open | ready-to-build |
+| vid-07 Manhole covers | why-is-it-shaped-like-that | ready-to-build |
+| vid-08 Clicky pen | cut-it-open | ready-to-build |
+| vid-09 Touchscreen | cut-it-open | ready-to-build |
+| vid-10 Before fridges | before-it-existed | ready-to-build |
+
+All visuals live in `video/src/visuals/`. A new topic = a new visual component with named states, listed in `video/tools/sync.mjs`, then referenced from the script as `visual: { kind: <name>, state: <state> }`.
 
 ## Backing up a big file to GitHub in 45 MB parts
 

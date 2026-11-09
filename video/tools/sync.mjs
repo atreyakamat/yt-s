@@ -12,7 +12,21 @@ const repo = path.resolve(videoDir, "..");
 const contentDir = path.join(repo, "how-things-work");
 const publicDir = path.join(videoDir, "public");
 
-const VISUALS = new Set(["lock", "key-grid", "placeholder"]);
+// Every visual kind and the states it supports. Keep in sync with src/visuals/*.tsx.
+const VISUALS = {
+  lock: ["closed", "cutaway", "springs", "wrong-key", "right-key", "unlocked"],
+  "key-grid": [],
+  placeholder: [],
+  zipper: ["race", "tunnel", "teeth", "interlock", "sideways", "wedge", "ykk"],
+  "pen-cap": ["hook", "chew", "airway", "standard"],
+  airbag: ["freeze", "sensor", "igniter", "gas", "clock", "vents"],
+  microwave: ["mesh", "magnetron", "molecules", "heat", "wave-vs-hole", "light"],
+  checkout: ["screen", "loadcells", "lookup", "match", "mismatch"],
+  manhole: ["square-drop", "diagonal", "circle", "roll", "no-lineup"],
+  "click-pen": ["click", "parts", "push-twist", "locked", "released", "spin"],
+  touchscreen: ["glove", "layers", "field", "finger", "xy", "glove-block"],
+  fridge: ["ship", "lake", "icehouse", "map", "fridge", "coils"],
+};
 const errors = [];
 const warn = (m) => console.warn(`  ! ${m}`);
 
@@ -33,9 +47,12 @@ function parseReel(file) {
     if (Math.abs(s.at - cursor) > 0.001) throw new Error(`${where}: starts at ${s.at}s but previous scene ends at ${cursor}s`);
     cursor = s.at + s.dur;
     s.visual ??= { kind: "placeholder" };
-    if (!VISUALS.has(s.visual.kind)) {
+    const states = VISUALS[s.visual.kind];
+    if (!states) {
       warn(`${meta.id} ${where}: visual '${s.visual.kind}' not built yet, using placeholder`);
       s.visual = { kind: "placeholder", label: s.visual.kind, note: s.note ?? "" };
+    } else if (states.length && !states.includes(s.visual.state)) {
+      throw new Error(`${where}: '${s.visual.kind}' has no state '${s.visual.state}' (use one of: ${states.join(", ")})`);
     }
     s.text ??= "";
     s.vo ??= "";
