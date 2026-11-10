@@ -30,7 +30,10 @@
     "upgrade": "remotion upgrade",
     "lint": "node tools/sync.mjs && eslint src && tsc",
     "sync": "node tools/sync.mjs",
-    "build:reel": "node tools/build.mjs"
+    "build:reel": "node tools/build.mjs",
+    "check": "node tools/precheck.mjs",
+    "daily": "node tools/daily.mjs",
+    "gen": "node tools/gen-scripts.mjs"
   },
   "allowScripts": {
     "esbuild": false

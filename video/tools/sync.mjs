@@ -1,91 +1,67 @@
-// Reads every how-things-work/<series>/vid-xx.md, validates it, and writes
-// src/reels.generated.json for Remotion. Also copies the music/SFX/VO the
-// reels need from ../assets and ../music/files into public/ (gitignored).
+// Validates every how-things-work/<series>/vid-N.md (rules: tools/validate.mjs) and writes
+// src/reels.generated.json for Remotion. Also copies the music/SFX/VO the reels need from
+// ../assets and ../music/files into public/ (gitignored).
+//
+//   node tools/sync.mjs                         validate + sync every reel
+//   node tools/sync.mjs --only vid-12,vid-13    validate all, but only bundle these
+//   node tools/sync.mjs --check                 validate only (writes nothing)
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
+import { repo, validateAll } from "./validate.mjs";
 
-const here = path.dirname(fileURLToPath(import.meta.url));
-const videoDir = path.resolve(here, "..");
-const repo = path.resolve(videoDir, "..");
-const contentDir = path.join(repo, "how-things-work");
+const videoDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicDir = path.join(videoDir, "public");
 
-const VISUALS = new Set(["lock", "key-grid", "placeholder"]);
-const errors = [];
-const warn = (m) => console.warn(`  ! ${m}`);
+const args = process.argv.slice(2);
+const checkOnly = args.includes("--check");
+const onlyArg = args.find((a, i) => args[i - 1] === "--only");
+const only = onlyArg ? new Set(onlyArg.split(",").filter(Boolean)) : null;
 
-function parseReel(file) {
-  const raw = fs.readFileSync(file, "utf8");
-  const fm = raw.match(/^---\n([\s\S]*?)\n---/);
-  if (!fm) throw new Error("missing frontmatter");
-  const meta = YAML.parse(fm[1]);
-  const block = raw.match(/```yaml\n([\s\S]*?)\n```/);
-  if (!block) throw new Error("missing ```yaml scenes block");
-  const { scenes } = YAML.parse(block[1]);
-  if (!Array.isArray(scenes) || scenes.length === 0) throw new Error("no scenes");
-
-  let cursor = 0;
-  for (const [i, s] of scenes.entries()) {
-    const where = `scene ${i + 1}`;
-    if (typeof s.at !== "number" || typeof s.dur !== "number") throw new Error(`${where}: at/dur must be numbers`);
-    if (Math.abs(s.at - cursor) > 0.001) throw new Error(`${where}: starts at ${s.at}s but previous scene ends at ${cursor}s`);
-    cursor = s.at + s.dur;
-    s.visual ??= { kind: "placeholder" };
-    if (!VISUALS.has(s.visual.kind)) {
-      warn(`${meta.id} ${where}: visual '${s.visual.kind}' not built yet, using placeholder`);
-      s.visual = { kind: "placeholder", label: s.visual.kind, note: s.note ?? "" };
-    }
-    s.text ??= "";
-    s.vo ??= "";
-  }
-  if (meta.duration && Math.abs(meta.duration - cursor) > 0.001)
-    throw new Error(`scenes add up to ${cursor}s but duration says ${meta.duration}s`);
-  return { ...meta, duration: cursor, scenes };
+const { reels, errors } = validateAll((t) => YAML.parse(t));
+if (errors.length) {
+  console.error(`\n${errors.length} script(s) have errors:\n` + errors.map((e) => `  x ${e}`).join("\n"));
+  process.exit(1);
+}
+if (checkOnly) {
+  console.log(`Checked ${reels.length} reels: all valid.`);
+  process.exit(0);
 }
 
-function copyIfExists(src, dest) {
-  if (!fs.existsSync(src)) return false;
+let out = reels;
+if (only) {
+  const missing = [...only].filter((id) => !reels.some((r) => r.id === id));
+  if (missing.length) {
+    console.error(`No reel(s): ${missing.join(", ")}`);
+    process.exit(1);
+  }
+  out = reels.filter((r) => only.has(r.id));
+}
+
+function copyIfExists(from, dest) {
+  if (!fs.existsSync(from)) return false;
   fs.mkdirSync(path.dirname(dest), { recursive: true });
-  fs.copyFileSync(src, dest);
+  fs.copyFileSync(from, dest);
   return true;
 }
 
-const files = fs
-  .readdirSync(contentDir, { recursive: true })
-  .filter((f) => /vid-\d+\.md$/.test(f))
-  .map((f) => path.join(contentDir, f))
-  .sort();
-
-const reels = [];
-for (const file of files) {
-  const rel = path.relative(repo, file);
-  try {
-    const reel = parseReel(file);
-    // Assets: copied into public/ so Remotion can serve them.
-    reel.assets = {
-      vo: copyIfExists(path.join(repo, "assets/vo", `${reel.id}.mp3`), path.join(publicDir, "vo", `${reel.id}.mp3`)),
-      music: reel.music
-        ? copyIfExists(path.join(repo, "music/files", `${reel.music}.mp3`), path.join(publicDir, "music", `${reel.music}.mp3`))
-        : false,
-      sfx: [...new Set(reel.scenes.map((s) => s.sfx).filter(Boolean))].filter((n) =>
-        copyIfExists(path.join(repo, "assets/sfx", `${n}.mp3`), path.join(publicDir, "sfx", `${n}.mp3`)),
-      ),
-    };
-    if (!reel.assets.vo) warn(`${reel.id}: no voiceover (assets/vo/${reel.id}.mp3), captions only`);
-    if (reel.music && !reel.assets.music) warn(`${reel.id}: music '${reel.music}' not downloaded (run music/download.sh)`);
-    reels.push(reel);
-    console.log(`  ✓ ${rel} (${reel.scenes.length} scenes, ${reel.duration}s)`);
-  } catch (e) {
-    errors.push(`${rel}: ${e.message}`);
-  }
+const warnings = [];
+for (const reel of out) {
+  reel.assets = {
+    vo: copyIfExists(path.join(repo, "assets/vo", `${reel.id}.mp3`), path.join(publicDir, "vo", `${reel.id}.mp3`)),
+    music: reel.music
+      ? copyIfExists(path.join(repo, "music/files", `${reel.music}.mp3`), path.join(publicDir, "music", `${reel.music}.mp3`))
+      : false,
+    sfx: [...new Set(reel.scenes.map((s) => s.sfx).filter(Boolean))].filter((n) =>
+      copyIfExists(path.join(repo, "assets/sfx", `${n}.mp3`), path.join(publicDir, "sfx", `${n}.mp3`)),
+    ),
+  };
+  if (!reel.assets.vo) warnings.push(`${reel.id}: no voiceover (assets/vo/${reel.id}.mp3), captions only`);
+  if (reel.music && !reel.assets.music) warnings.push(`${reel.id}: music '${reel.music}' not downloaded (music/download.sh)`);
 }
 
-reels.sort((a, b) => a.id.localeCompare(b.id));
-fs.writeFileSync(path.join(videoDir, "src/reels.generated.json"), JSON.stringify(reels, null, 2));
-if (errors.length) {
-  console.error("\nErrors:\n" + errors.map((e) => `  ✗ ${e}`).join("\n"));
-  process.exit(1);
-}
-console.log(`\nSynced ${reels.length} reels.`);
+fs.writeFileSync(path.join(videoDir, "src/reels.generated.json"), JSON.stringify(out, null, 2));
+if (warnings.length <= 12) warnings.forEach((w) => console.warn(`  ! ${w}`));
+else console.warn(`  ! ${warnings.length} reels have no voiceover/music yet (captions only)`);
+console.log(`\nSynced ${out.length} reels${only ? ` (all ${reels.length} scripts valid)` : ""}.`);

@@ -4,7 +4,7 @@ title: Your house key is hiding 5 passwords
 series: cut-it-open
 topic: Pin tumbler lock
 status: ready-to-build
-duration: 45
+duration: 46
 music: investigations
 musicVolume: 0.12
 accent: "#FFD60A"
@@ -15,7 +15,7 @@ hashtags: [howthingswork, engineering, lock, shorts]
 
 ## Hook
 
-- **Chosen (0-2s):** "Your house key is carrying five secret passwords." Big text: 5 SECRET PASSWORDS.
+- **Chosen (0-3s):** "Your house key is carrying five secret passwords." Big text: 5 SECRET PASSWORDS.
 - **Why it works:** everyone owns a key (instant relevance), "secret" opens a curiosity gap, and "5" is a specific number the brain wants explained.
 - **Backup hooks** to A/B test on re-uploads:
     1. "Every lock in the world works on one tiny line."
@@ -48,14 +48,14 @@ The build reads this block. Times are in seconds.
 ```yaml
 scenes:
   - at: 0
-    dur: 2
+    dur: 3
     vo: "Your house key is carrying five secret passwords."
     text: "5 SECRET PASSWORDS"
     highlight: "SECRET"
     visual: { kind: lock, state: closed, keyIn: 0.6, camera: punch-in }
     sfx: whoosh
     note: "Open on the key already 60% inserted so frame 1 is not static. Camera punches from 1.25x to 1x in 8 frames."
-  - at: 2
+  - at: 3
     dur: 5
     vo: "Inside this lock are five tiny pin stacks, each split at a different height."
     text: "5 PIN STACKS"
@@ -63,7 +63,7 @@ scenes:
     visual: { kind: lock, state: cutaway, keyIn: 0 }
     sfx: slice
     note: "Housing front face fades to 15% opacity left to right (a 'slice'), revealing chambers. Pins pop in one by one, 4 frames apart."
-  - at: 7
+  - at: 8
     dur: 7
     vo: "Springs push them down, so the top pins jam the cylinder. Locked."
     text: "LOCKED"
@@ -71,7 +71,7 @@ scenes:
     visual: { kind: lock, state: springs, keyIn: 0 }
     sfx: thunk
     note: "Springs compress and push. Driver pins straddle the shear line; the shear line flashes red on the word 'Locked'."
-  - at: 14
+  - at: 15
     dur: 8
     vo: "Wrong key? The splits land in the wrong place. Nothing moves."
     text: "WRONG KEY"
@@ -79,7 +79,7 @@ scenes:
     visual: { kind: lock, state: wrong-key }
     sfx: buzz
     note: "A grey key slides in over 1.2s. Splits stop at random heights. Plug shakes 3 times (±6px) and the line pulses red."
-  - at: 22
+  - at: 23
     dur: 8
     vo: "Your key's bumps lift every pin to exactly the gap, a line called the shear line."
     text: "THE SHEAR LINE"
@@ -87,7 +87,7 @@ scenes:
     visual: { kind: lock, state: right-key }
     sfx: click
     note: "Brass key slides in slowly. Each pin rises as the key tip passes it (one click each). Glowing yellow shear line draws left to right once all splits meet it."
-  - at: 30
+  - at: 31
     dur: 7
     vo: "All five line up, the cylinder is free, and it turns."
     text: "UNLOCKED"
@@ -95,7 +95,7 @@ scenes:
     visual: { kind: lock, state: unlocked }
     sfx: unlock
     note: "Shear line turns green. Plug gets a rotating highlight sweep and a curved arrow, implying it turns into the screen."
-  - at: 37
+  - at: 38
     dur: 5
     vo: "Five pins, several heights each. That's thousands of possible keys."
     text: "1000s OF KEYS"
@@ -103,7 +103,7 @@ scenes:
     visual: { kind: key-grid }
     sfx: pop
     note: "Keys with different cuts pop in a 4x6 grid, then a counter ticks up to 1000s."
-  - at: 42
+  - at: 43
     dur: 3
     vo: "So next time you unlock your door, remember..."
     text: ""

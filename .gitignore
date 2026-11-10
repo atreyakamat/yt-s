@@ -2,10 +2,11 @@
 out/
 # Downloaded music: stays local / on the pendrive
 music/files/
-# Recorded voiceover and sound effects: large, keep on the pendrive (or chunk them via tools/chunk.sh)
+# Generated voiceover: keep on the pendrive. (assets/sfx/*.mp3 are our own synthesised effects and ARE committed.)
 assets/vo/*
-assets/sfx/*
 !assets/vo/.gitkeep
-!assets/sfx/.gitkeep
 .DS_Store
 .env
+tools/voices/
+# Which reels the daily command has rendered (local to this PC)
+.cutaway-progress.json
