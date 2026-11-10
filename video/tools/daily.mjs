@@ -6,7 +6,7 @@
 //   npm run daily -- --dry        just show what's next
 //   npm run daily -- --redo vid-26   render one again (e.g. after a script fix)
 //
-// Output: ../out/<YYYY-MM-DD>/<id>.mp4 + <id>.txt (title, description, hashtags, pinned comment)
+// Output: ../out/<YYYY-MM-DD>/<id>.mp4 + <id>.txt (title, description, hashtags, pinned comment) + <id>.transcript.txt + <id>.srt
 import fs from "node:fs";
 import path from "node:path";
 import YAML from "yaml";
@@ -31,6 +31,17 @@ const PINNED = {
   "before-it-existed": "What should we go back in time for next?",
   "new-year": "What should we explain for the new year?",
 };
+
+const stamp = (t) => {
+  const ms = Math.round(t * 1000);
+  const p = (n, w = 2) => String(n).padStart(w, "0");
+  return `${p(Math.floor(ms / 3600000))}:${p(Math.floor(ms / 60000) % 60)}:${p(Math.floor(ms / 1000) % 60)},${p(ms % 1000, 3)}`;
+};
+const toSrt = (scenes) =>
+  scenes
+    .filter((sc) => sc.vo)
+    .map((sc, i) => `${i + 1}\n${stamp(sc.at)} --> ${stamp(sc.at + sc.dur - 0.05)}\n${sc.vo}\n`)
+    .join("\n");
 
 const { reels, errors } = validateAll((t) => YAML.parse(t));
 if (errors.length) {
@@ -92,6 +103,9 @@ for (const reel of picks) {
     `PINNED COMMENT:\n${reel.pinned ?? PINNED[reel.series] ?? ""}`,
   ].join("\n\n");
   fs.writeFileSync(path.join(dir, `${reel.id}.txt`), post + "\n");
+  // Transcript (plain text) and an .srt subtitle file (YouTube accepts it as a caption upload).
+  fs.writeFileSync(path.join(dir, `${reel.id}.transcript.txt`), reel.scenes.map((sc) => sc.vo).filter(Boolean).join("\n") + "\n");
+  fs.writeFileSync(path.join(dir, `${reel.id}.srt`), toSrt(reel.scenes));
   state.done[reel.id] = day;
   save();
   made.push(reel.id);
@@ -99,5 +113,5 @@ for (const reel of picks) {
 }
 
 console.log(`\n${made.length} reel(s) ready in ${path.relative(process.cwd(), dir) || dir}:`);
-for (const id of made) console.log(`  ${id}.mp4  + ${id}.txt (copy the title/description from here)`);
+for (const id of made) console.log(`  ${id}.mp4  + ${id}.txt (post text) + ${id}.transcript.txt + ${id}.srt`);
 console.log("Post them, then run the same command tomorrow.");

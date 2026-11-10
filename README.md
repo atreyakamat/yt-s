@@ -101,3 +101,5 @@ Hand-write only the compact sources in `scripts-src/`; `cd video && npm run gen`
 `how-things-work/<series>/<group>/vid-NNN.md` (full timed scenes, voiceover, fact-check, upload text) and `SCRIPTS.md`.
 The generator rejects hooks over 8 words, scenes with unknown icons/layouts, missing fact-check lines and runtimes outside 18-55 s.
 Scenes use the generic `explainer` visual (layouts: hero, pair, flow, grid, num, bars, timeline) and the icon library in `video/src/visuals/icons.tsx`, so no per-reel code is needed.
+
+`npm run daily` also writes `<id>.transcript.txt` (voice lines) and `<id>.srt` (subtitles YouTube accepts) next to each video.
