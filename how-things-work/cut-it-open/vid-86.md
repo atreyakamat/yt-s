@@ -16,7 +16,7 @@ pinned: "What should we cut open next?"
 
 ## Hook
 
-- **Chosen (0-3s):** "Your pressure cooker makes water boil at 120 degrees." Big text: BOILING AT 120°C
+- **Chosen (0-3s):** "Your pressure cooker boils water at 120 degrees." Big text: BOILING AT 120°C
 - **Backup hooks:**
     1. "Water can get hotter than 100°C. Your pressure cooker proves it."
     2. "A pressure cooker is a steam trap with a valve."
@@ -28,14 +28,14 @@ pinned: "What should we cut open next?"
 scenes:
   - at: 0
     dur: 3
-    vo: "Your pressure cooker makes water boil at 120 degrees."
+    vo: "Your pressure cooker boils water at 120 degrees."
     text: "BOILING AT 120°C"
     highlight: "120°C"
     visual: { kind: hero, icon: flame, motion: pulse, color: red, label: "Pressure cooker" }
     sfx: whoosh
   - at: 3
     dur: 5
-    vo: "In an open pot, water can't get hotter than about 100 degrees. It turns to steam."
+    vo: "In open pots, water can't get hotter than about 100 degrees. It turns to steam."
     text: "STUCK AT 100°C"
     highlight: "100°C"
     visual: { kind: gauge, value: 50, low: "0°C", high: "200°C", label: "Open pot: about 100°C" }

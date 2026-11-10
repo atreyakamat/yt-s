@@ -196,7 +196,11 @@ export function parseReel(file, parseYaml) {
       s.vo ??= "";
       if (typeof s.text !== "string" || s.text.length > 28) fail(`text "${s.text}" is over 28 chars`);
       if (s.highlight && !s.text.includes(s.highlight)) fail(`highlight "${s.highlight}" is not in text "${s.text}"`);
-      const words = s.vo.split(/\s+/).filter(Boolean).length;
+      // Numbers are spoken as several words: "1833" = "eighteen thirty-three", "250" = "two hundred fifty".
+      const words = s.vo
+        .split(/\s+/)
+        .filter(Boolean)
+        .reduce((n, w) => n + (/\d/.test(w) ? Math.max(1, w.replace(/\D/g, "").length) : 1), 0);
       if (words > s.dur * MAX_WORDS_PER_SEC)
         fail(`vo has ${words} words for ${s.dur}s (max ${Math.floor(s.dur * MAX_WORDS_PER_SEC)}): shorten it or lengthen the scene`);
       if (i === 0 && words > 10) fail(`hook line has ${words} words (max 10)`);

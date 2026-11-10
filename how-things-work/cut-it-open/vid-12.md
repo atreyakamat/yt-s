@@ -68,7 +68,7 @@ scenes:
     visual: { kind: layers, items: [{ label: "Tab stays on", color: accent }, { label: "Flap folds in", color: steel }, { label: "Drink", color: blue }] }
   - at: 29
     dur: 6
-    vo: "Older pull tabs came right off, and beaches filled with them. Stay-on tabs arrived in the mid 1970s."
+    vo: "Older pull tabs came off, and beaches filled with them. Stay-on tabs arrived in the mid 1970s."
     text: "NO MORE LITTER"
     highlight: "LITTER"
     visual: { kind: compare, mode: before-after, left: { label: "Pull-off ring", icon: arrow, tag: "Litter" }, right: { label: "Stay-on tab", icon: cup, tag: "Stays put" } }

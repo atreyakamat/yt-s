@@ -14,7 +14,7 @@ accent: "#FFD60A"
 
 ## Hook
 
-- **Chosen (0-3s):** "In 1833, ice sailed from Boston to India."
+- **Chosen (0-3s):** "In 1833, ice sailed to India."
 - **Backup hooks:**
     1. "In 1833, a ship sailed ice to India."
     2. "Before fridges, ice crossed oceans."
@@ -29,7 +29,7 @@ scenes:
   - at: 0
     dur: 3
     sfx: whoosh
-    vo: "In 1833, ice sailed from Boston to India."
+    vo: "In 1833, ice sailed to India."
     text: "BOSTON \u2192 INDIA"
     visual: { kind: fridge, state: ship }
     note: "Ice block on a ship's deck in tropical sun"
@@ -79,7 +79,7 @@ scenes:
 
 ## Notes
 
-**Loop:** "a ship that..." runs into "In 1833, ice sailed from Boston to India."
+**Loop:** "a ship that..." runs into "In 1833, ice sailed to India."
 **Fact check:** Tudor's ice reached Calcutta in 1833 (ship Tuscany). Confirm voyage length before recording.
 
 Visual style, safe areas and audio rules: same as [vid-01](../cut-it-open/vid-01.md).

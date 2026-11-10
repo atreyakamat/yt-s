@@ -16,7 +16,7 @@ pinned: "What should we cut open next?"
 
 ## Hook
 
-- **Chosen (0-3s):** "Your dimmer switches your light off 100 times a second." Big text: OFF 100 TIMES A SECOND
+- **Chosen (0-3s):** "Your dimmer cuts power 100 times a second." Big text: OFF 100 TIMES A SECOND
 - **Backup hooks:**
     1. "Your dimmer switch is flickering your light on purpose."
     2. "A dimmer doesn't turn the power down. It chops it."
@@ -28,7 +28,7 @@ pinned: "What should we cut open next?"
 scenes:
   - at: 0
     dur: 3
-    vo: "Your dimmer switches your light off 100 times a second."
+    vo: "Your dimmer cuts power 100 times a second."
     text: "OFF 100 TIMES A SECOND"
     highlight: "100"
     visual: { kind: hero, icon: bulb, motion: pulse, color: accent }
