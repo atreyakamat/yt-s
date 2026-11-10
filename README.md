@@ -37,6 +37,25 @@ npm run build:reel -- all
 
 Output: `out/vid-01.mp4`. Then copy it to the pendrive.
 
+## Sound
+
+Three layers, all optional (the build skips whatever is missing):
+
+| Layer | How you get it | Where it lands |
+| --- | --- | --- |
+| Sound effects | `python3 tools/make_sfx.py` (synthesised, already committed) | `assets/sfx/*.mp3` |
+| Voiceover | `python3 tools/voiceover.py` (Piper TTS, free and offline; setup in the file header) | `assets/vo/vid-xx.mp3` (gitignored) |
+| Music | `./music/download.sh` (yt-dlp) | `music/files/*.mp3` (gitignored) |
+
+The voiceover is built scene by scene: each `vo:` line is spoken, sped up (at most 1.3x) if it is longer than its scene, and placed at the scene start. The tool tells you which line to shorten if one doesn't fit. Re-run it after editing any `vo:` line, then rebuild.
+
+```bash
+pip install piper-tts
+python3 -m piper.download_voices en_US-lessac-medium --data-dir tools/voices
+python3 tools/voiceover.py            # all reels (or: vid-01)
+cd video && npm run build:reel -- all
+```
+
 ## Reel status
 
 | Reel | Series | Status |

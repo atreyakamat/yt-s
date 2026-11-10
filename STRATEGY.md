@@ -38,7 +38,7 @@
 
 1. **Script:** copy an existing `vid-xx.md`, fill the hook, beats and the `scenes` YAML block. Fact-check every claim.
 2. **Visual:** if the topic needs a new visual (e.g. `zipper`), build it in `video/src/visuals/` like `Lock.tsx`, register it in `sync.mjs` and `Reel.tsx`, and set `status: ready-to-build`.
-3. **Voice:** record or generate the voiceover to the scene times, save as `assets/vo/vid-xx.mp3`.
+3. **Voice:** `python3 tools/voiceover.py vid-xx` (Piper, free, offline) or record your own to the scene times and save as `assets/vo/vid-xx.mp3`. Hook line must be speakable in about 3 seconds (8 words max).
 4. **Music:** pick a slug from `music/tracks.tsv`, run `./music/download.sh <slug>` once.
 5. **Build:** `cd video && npm run build:reel -- vid-xx` → `out/vid-xx.mp4`.
 6. **Review:** watch it once on a phone. Check the hook, the captions and the loop.

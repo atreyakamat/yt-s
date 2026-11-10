@@ -4,7 +4,7 @@ title: Why manhole covers are round
 series: why-is-it-shaped-like-that
 topic: Why manhole covers are round
 status: ready-to-build
-duration: 30
+duration: 31
 music: pixel-peeker-polka
 musicVolume: 0.12
 accent: "#FFD60A"
@@ -14,7 +14,7 @@ accent: "#FFD60A"
 
 ## Hook
 
-- **Chosen (0-2s):** "This is why manhole covers are almost never square."
+- **Chosen (0-3s):** "This is why manhole covers are almost never square."
 - **Backup hooks:**
     1. "A square manhole cover could kill someone."
     2. "There's a reason you've never stepped on a square manhole."
@@ -27,37 +27,43 @@ The build reads this block. `note` is the exact visual to draw for that scene.
 ```yaml
 scenes:
   - at: 0
-    dur: 2
+    dur: 3
+    sfx: whoosh
     vo: "This is why manhole covers are almost never square."
     text: "NEVER SQUARE"
     visual: { kind: manhole, state: square-drop }
     note: "Top-down: square cover tilts and drops into its hole"
-  - at: 2
+  - at: 3
     dur: 8
+    sfx: pop
     vo: "A square's diagonal is longer than its side, so turned the right way, it falls right through."
     text: "DIAGONAL > SIDE"
     visual: { kind: manhole, state: diagonal }
     note: "Square cover rotated diagonally; diagonal measurement line longer than the side"
-  - at: 10
+  - at: 11
     dur: 7
+    sfx: click
     vo: "A circle is the same width in every direction. It can never fall into its own hole."
     text: "SAME WIDTH"
     visual: { kind: manhole, state: circle }
     note: "Round cover rotated every way, never fits through"
-  - at: 17
+  - at: 18
     dur: 6
+    sfx: whoosh
     vo: "It's heavy, so being able to roll it helps too."
     text: "ROLLS"
     visual: { kind: manhole, state: roll }
     note: "Worker rolls a round cover along the street"
-  - at: 23
+  - at: 24
     dur: 4
+    sfx: thunk
     vo: "And you don't have to line it up to put it back."
     text: "NO LINING UP"
     visual: { kind: manhole, state: no-lineup }
     note: "Cover dropped in without lining it up"
-  - at: 27
+  - at: 28
     dur: 3
+    sfx: whoosh
     vo: "Now you'll notice every one you walk over..."
     text: ""
     visual: { kind: manhole, state: square-drop }
