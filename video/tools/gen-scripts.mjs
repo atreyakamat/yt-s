@@ -126,7 +126,7 @@ function compile(entry, ctx) {
 }
 
 function parseFile(file) {
-  const raw = fs.readFileSync(file, "utf8");
+  const raw = fs.readFileSync(file, "utf8").replace(/\r\n/g, "\n");
   const head = raw.match(/^#\s*(.+)$/m);
   const cfg = {};
   for (const kv of head[1].split("|")) {

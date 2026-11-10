@@ -35,7 +35,7 @@ const errors = [];
 const warn = (m) => console.warn(`  ! ${m}`);
 
 function parseReel(file) {
-  const raw = fs.readFileSync(file, "utf8");
+  const raw = fs.readFileSync(file, "utf8").replace(/\r\n/g, "\n");
   const fm = raw.match(/^---\n([\s\S]*?)\n---/);
   if (!fm) throw new Error("missing frontmatter");
   const meta = YAML.parse(fm[1]);
