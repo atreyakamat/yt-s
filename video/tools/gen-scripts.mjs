@@ -33,6 +33,8 @@ const errors = [];
 const seen = new Map();
 
 const words = (s) => s.trim().split(/\s+/).filter(Boolean).length;
+// Numbers are spoken as several words (same rule as tools/validate.mjs), so timing counts digits.
+const spoken = (s) => s.trim().split(/\s+/).filter(Boolean).reduce((n, w) => n + (/\d/.test(w) ? Math.max(1, w.replace(/\D/g, "").length) : 1), 0);
 const round1 = (n) => Math.round(n * 10) / 10;
 
 function parseLayout(spec, where) {
@@ -111,7 +113,7 @@ function compile(entry, ctx) {
 
   let at = 0;
   const out = scenes.map((s, i) => {
-    const dur = round1(Math.max(i === 0 ? 3 : 2.5, words(s.vo) / 2.6 + 0.4));
+    const dur = round1(Math.max(i === 0 ? 3 : 2.5, spoken(s.vo) / 2.4 + 0.6));
     const sc = { at: round1(at), dur, vo: s.vo, text: s.text };
     if (s.highlight) sc.highlight = s.highlight;
     sc.visual = s.visual;
