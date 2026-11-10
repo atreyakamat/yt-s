@@ -8,3 +8,5 @@ assets/vo/*
 .DS_Store
 .env
 tools/voices/
+# Which reels the daily command has rendered (local to this PC)
+.cutaway-progress.json

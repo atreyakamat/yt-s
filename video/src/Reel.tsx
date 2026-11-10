@@ -22,12 +22,16 @@ import { Microwave, type MicrowaveState } from "./visuals/Microwave";
 import { PenCap, type PenCapState } from "./visuals/PenCap";
 import { Touchscreen, type TouchscreenState } from "./visuals/Touchscreen";
 import { Zipper, type ZipperState } from "./visuals/Zipper";
+import { GenericVisualView } from "./visuals/generic/Generic";
 import { theme } from "./theme";
 import type { Reel as ReelData, Scene } from "./types";
 
 loadFont("normal", { weights: ["600", "800", "900"], subsets: ["latin"] });
 
-const SceneVisual: React.FC<{ scene: Scene }> = ({ scene }) => {
+const SceneVisual: React.FC<{ scene: Scene; accent: string }> = ({
+  scene,
+  accent,
+}) => {
   const v = scene.visual;
   switch (v.kind) {
     case "lock":
@@ -54,6 +58,20 @@ const SceneVisual: React.FC<{ scene: Scene }> = ({ scene }) => {
       return <Fridge state={v.state as FridgeState} />;
     case "placeholder":
       return <Placeholder label={v.label} note={v.note} />;
+    case "hero":
+    case "layers":
+    case "flow":
+    case "compare":
+    case "cycle":
+    case "counter":
+    case "timeline":
+    case "bars":
+    case "zoom":
+    case "callout":
+    case "grid":
+    case "gauge":
+    case "wave":
+      return <GenericVisualView v={v} accent={accent} />;
   }
 };
 
@@ -73,7 +91,7 @@ export const Reel: React.FC<{ reel: ReelData }> = ({ reel }) => {
           durationInFrames={Math.round(scene.dur * fps)}
           name={`${i + 1}. ${scene.text || "loop"}`}
         >
-          <SceneVisual scene={scene} />
+          <SceneVisual scene={scene} accent={accent} />
           <OnScreenText
             text={scene.text}
             highlight={scene.highlight}

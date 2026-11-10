@@ -97,7 +97,7 @@ def main():
     args = ap.parse_args()
 
     run(["node", "tools/sync.mjs"], cwd=ROOT / "video", stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    reels = json.loads((ROOT / "video" / "src" / "reels.generated.json").read_text())
+    reels = json.loads((ROOT / "video" / "src" / "reels.generated.json").read_text(encoding="utf-8"))
     if args.reels:
         reels = [r for r in reels if r["id"] in args.reels]
         if not reels:
