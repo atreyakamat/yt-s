@@ -9,13 +9,14 @@ import { fileURLToPath } from "node:url";
 
 const videoDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const outDir = path.resolve(videoDir, "../out");
+const remotionCli = path.join(videoDir, "node_modules/@remotion/cli/remotion-cli.js"); // run via node: works on Windows and Linux
 const target = process.argv[2];
 if (!target) {
   console.error("Usage: npm run build:reel -- <vid-xx|all>");
   process.exit(1);
 }
 
-execFileSync("node", ["tools/sync.mjs"], { cwd: videoDir, stdio: "inherit" });
+execFileSync(process.execPath, ["tools/sync.mjs"], { cwd: videoDir, stdio: "inherit" });
 const reels = JSON.parse(fs.readFileSync(path.join(videoDir, "src/reels.generated.json"), "utf8"));
 const ids = target === "all" ? reels.filter((r) => r.status === "ready-to-build").map((r) => r.id) : [target];
 
@@ -27,10 +28,10 @@ for (const id of ids) {
   }
   const out = path.join(outDir, `${id}.mp4`);
   console.log(`\nRendering ${id} -> ${path.relative(process.cwd(), out)}`);
-  const args = ["remotion", "render", "src/index.ts", id, out, "--codec=h264", "--crf=18"];
+  const args = [remotionCli, "render", "src/index.ts", id, out, "--codec=h264", "--crf=18"];
   // Optional: use an existing Chrome instead of Remotion downloading one.
   if (process.env.BROWSER_EXECUTABLE) args.push(`--browser-executable=${process.env.BROWSER_EXECUTABLE}`);
-  execFileSync("npx", args, {
+  execFileSync(process.execPath, args, {
     cwd: videoDir,
     stdio: "inherit",
   });
