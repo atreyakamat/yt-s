@@ -40,7 +40,19 @@ export function render(id, out) {
   execFileSync(process.execPath, args, { cwd: videoDir, stdio: "inherit" });
 }
 
-const python = process.platform === "win32" ? "python" : "python3";
+/** Find a program on PATH ourselves and run it by absolute path (no bare-name lookup at spawn time). */
+export function findExe(name) {
+  const exts = process.platform === "win32" ? (process.env.PATHEXT ?? ".EXE;.CMD;.BAT").split(";") : [""];
+  for (const dir of (process.env.PATH ?? "").split(path.delimiter).filter(Boolean)) {
+    for (const ext of exts) {
+      const candidate = path.join(dir, name + ext.toLowerCase());
+      if (fs.existsSync(candidate)) return candidate;
+    }
+  }
+  return null;
+}
+
+const python = findExe(process.platform === "win32" ? "python" : "python3") ?? "python3";
 
 /** Is the free offline Piper voice set up? (see tools/voiceover.py) */
 export function voiceReady() {
@@ -76,12 +88,13 @@ export function ensureMusic(slug) {
   if (fs.existsSync(dest)) return true;
   const track = musicCredits()[slug];
   if (!track) return false;
-  if (spawnSync("yt-dlp", ["--version"], { stdio: "ignore" }).status !== 0) return false;
+  const ytdlp = findExe("yt-dlp");
+  if (!ytdlp || spawnSync(ytdlp, ["--version"], { stdio: "ignore" }).status !== 0) return false;
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   const src = track.query.startsWith("http") ? track.query : `ytsearch1:${track.query}`;
   console.log(`  downloading music '${slug}' <- ${src}`);
   const r = spawnSync(
-    "yt-dlp",
+    ytdlp,
     [
       src,
       "--no-playlist",
