@@ -26,6 +26,14 @@ const CY = 910;
 const TOP = 545;
 const BOTTOM = 1285;
 
+/** True for pale fills (steel, white, cyan...) that need dark text on top. */
+const isLight = (hex: string) => {
+  const n = parseInt(hex.replace("#", "").slice(0, 6), 16);
+  if (Number.isNaN(n)) return false;
+  const lum = 0.299 * ((n >> 16) & 255) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255);
+  return lum > 170;
+};
+
 /** Split text into lines of at most `max` characters (word-wrapped). */
 const wrap = (text: string, max: number) => {
   const lines: string[] = [];
@@ -108,7 +116,8 @@ type P<K extends GenericVisual["kind"]> = {
 // ───────────────────────────── hero ─────────────────────────────
 export const Hero: React.FC<P<"hero">> = ({ v, accent }) => {
   const { frame, dur, pop } = useTiming();
-  const s = pop(0);
+  // Frame 1 already shows the object (hook rule): grow from 60%, never from nothing.
+  const s = 0.6 + 0.4 * pop(0);
   const color = colorOf(v.color, 0, accent);
   const motion = v.motion ?? "float";
   // Hooks open mid-movement: punch in from 1.2x.
@@ -153,7 +162,15 @@ export const Layers: React.FC<P<"layers">> = ({ v, accent }) => {
         return (
           <g key={i} opacity={Math.min(1, s)} transform={`translate(0 ${(1 - s) * -60})`}>
             <Extruded x={x} y={y} w={w} h={h} fill={color} depth={18} radius={10} />
-            <T x={x + w / 2} y={y + h / 2} text={it.label} size={Math.min(44, h * 0.42)} max={26} center />
+            <T
+              x={x + w / 2}
+              y={y + h / 2}
+              text={it.label}
+              size={Math.min(44, h * 0.42)}
+              max={26}
+              color={isLight(color) ? theme.bg : theme.text}
+              center
+            />
           </g>
         );
       })}
