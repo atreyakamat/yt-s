@@ -7,10 +7,16 @@ const ROWS = 6;
 const TOTAL = 7776; // 5 pins x 6 depths = 6^5
 
 // Deterministic pseudo-random cut depths so every render is identical.
-const depth = (k: number, pin: number) => ((k * 7 + pin * 13 + ((k * pin) % 5)) % 6) * 8;
+const depth = (k: number, pin: number) =>
+  ((k * 7 + pin * 13 + ((k * pin) % 5)) % 6) * 8;
 
 const MiniKey: React.FC<{ k: number; color: string }> = ({ k, color }) => {
-  const top = [0, 1, 2, 3, 4].map((p) => `${40 + p * 30},${20 + depth(k, p)} ${60 + p * 30},${20 + depth(k, p)}`).join(" ");
+  const top = [0, 1, 2, 3, 4]
+    .map(
+      (p) =>
+        `${40 + p * 30},${20 + depth(k, p)} ${60 + p * 30},${20 + depth(k, p)}`,
+    )
+    .join(" ");
   return (
     <g>
       <circle cx={18} cy={45} r={22} fill={color} />
@@ -23,14 +29,23 @@ const MiniKey: React.FC<{ k: number; color: string }> = ({ k, color }) => {
 export const KeyGrid: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const count = Math.round(interpolate(frame, [20, 110], [0, TOTAL], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
+  const count = Math.round(
+    interpolate(frame, [20, 110], [0, TOTAL], {
+      extrapolateLeft: "clamp",
+      extrapolateRight: "clamp",
+    }),
+  );
 
   return (
     <svg viewBox="0 0 1080 1920" style={{ position: "absolute", inset: 0 }}>
       {Array.from({ length: COLS * ROWS }).map((_, k) => {
         const col = k % COLS;
         const row = Math.floor(k / COLS);
-        const s = spring({ frame: frame - k * 2, fps, config: { damping: 12, stiffness: 160 } });
+        const s = spring({
+          frame: frame - k * 2,
+          fps,
+          config: { damping: 12, stiffness: 160 },
+        });
         const x = 120 + col * 220;
         const y = 470 + row * 100;
         return (
@@ -39,10 +54,26 @@ export const KeyGrid: React.FC = () => {
           </g>
         );
       })}
-      <text x={540} y={1170} textAnchor="middle" fontFamily={theme.font} fontWeight={900} fontSize={110} fill={theme.accent}>
+      <text
+        x={540}
+        y={1170}
+        textAnchor="middle"
+        fontFamily={theme.font}
+        fontWeight={900}
+        fontSize={110}
+        fill={theme.accent}
+      >
         {count.toLocaleString("en-US")}
       </text>
-      <text x={540} y={1225} textAnchor="middle" fontFamily={theme.font} fontWeight={600} fontSize={40} fill={theme.muted}>
+      <text
+        x={540}
+        y={1225}
+        textAnchor="middle"
+        fontFamily={theme.font}
+        fontWeight={600}
+        fontSize={40}
+        fill={theme.muted}
+      >
         5 pins × 6 depths
       </text>
     </svg>

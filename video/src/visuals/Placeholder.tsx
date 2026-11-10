@@ -2,7 +2,10 @@ import React from "react";
 import { theme } from "../theme";
 
 /** Shown for a visual kind that hasn't been built yet, so drafts still render end to end. */
-export const Placeholder: React.FC<{ label?: string; note?: string }> = ({ label, note }) => (
+export const Placeholder: React.FC<{ label?: string; note?: string }> = ({
+  label,
+  note,
+}) => (
   <div
     style={{
       position: "absolute",
@@ -22,7 +25,9 @@ export const Placeholder: React.FC<{ label?: string; note?: string }> = ({ label
       textAlign: "center",
     }}
   >
-    <div style={{ fontSize: 56, fontWeight: 800, color: theme.text }}>VISUAL: {label ?? "todo"}</div>
+    <div style={{ fontSize: 56, fontWeight: 800, color: theme.text }}>
+      VISUAL: {label ?? "todo"}
+    </div>
     <div style={{ fontSize: 34, marginTop: 24 }}>{note}</div>
   </div>
 );

@@ -3,7 +3,22 @@ export type LockState = "closed" | "cutaway" | "springs" | "wrong-key" | "right-
 export type Visual =
   | { kind: "lock"; state: LockState; keyIn?: number; camera?: "punch-in" | "pull-to-start" }
   | { kind: "key-grid" }
-  | { kind: "placeholder"; label?: string; note?: string };
+  | { kind: "placeholder"; label?: string; note?: string }
+  | { kind: Exclude<VisualKind, "lock" | "key-grid" | "placeholder">; state: string };
+
+export type VisualKind =
+  | "lock"
+  | "key-grid"
+  | "placeholder"
+  | "zipper"
+  | "pen-cap"
+  | "airbag"
+  | "microwave"
+  | "checkout"
+  | "manhole"
+  | "click-pen"
+  | "touchscreen"
+  | "fridge";
 
 export type Scene = {
   at: number;
