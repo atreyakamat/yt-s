@@ -27,6 +27,10 @@ const VISUALS = {
   touchscreen: ["glove", "layers", "field", "finger", "xy", "glove-block"],
   fridge: ["ship", "lake", "icehouse", "map", "fridge", "coils"],
 };
+const LAYOUTS = ["hero", "pair", "flow", "grid", "num", "bars", "timeline"];
+const ICON_NAMES = new Set(
+  [...fs.readFileSync(path.join(videoDir, "src/visuals/icons.tsx"), "utf8").matchAll(/^  "?([a-z][a-z0-9-]*)"?: \(\) =>/gm)].map((m) => m[1]),
+);
 const errors = [];
 const warn = (m) => console.warn(`  ! ${m}`);
 
@@ -47,6 +51,19 @@ function parseReel(file) {
     if (Math.abs(s.at - cursor) > 0.001) throw new Error(`${where}: starts at ${s.at}s but previous scene ends at ${cursor}s`);
     cursor = s.at + s.dur;
     s.visual ??= { kind: "placeholder" };
+    if (s.visual.kind === "explainer") {
+      const v = s.visual;
+      if (!LAYOUTS.includes(v.layout)) throw new Error(`${where}: explainer layout '${v.layout}' unknown (use: ${LAYOUTS.join(", ")})`);
+      for (const it of v.items ?? []) {
+        if (it.icon && !ICON_NAMES.has(it.icon)) throw new Error(`${where}: unknown icon '${it.icon}'`);
+      }
+      if (v.layout === "num" && !v.value) throw new Error(`${where}: layout num needs a value`);
+      if (v.layout === "pair" && (v.items?.length ?? 0) !== 2) throw new Error(`${where}: layout pair needs exactly 2 items`);
+      if (["hero", "flow", "grid", "bars", "timeline"].includes(v.layout) && !(v.items?.length)) throw new Error(`${where}: layout ${v.layout} needs items`);
+      s.text ??= "";
+      s.vo ??= "";
+      continue;
+    }
     const states = VISUALS[s.visual.kind];
     if (!states) {
       warn(`${meta.id} ${where}: visual '${s.visual.kind}' not built yet, using placeholder`);

@@ -1,15 +1,19 @@
+import type { ExplainerProps } from "./visuals/Explainer";
+
 export type LockState = "closed" | "cutaway" | "springs" | "wrong-key" | "right-key" | "unlocked";
 
 export type Visual =
   | { kind: "lock"; state: LockState; keyIn?: number; camera?: "punch-in" | "pull-to-start" }
   | { kind: "key-grid" }
   | { kind: "placeholder"; label?: string; note?: string }
-  | { kind: Exclude<VisualKind, "lock" | "key-grid" | "placeholder">; state: string };
+  | ({ kind: "explainer" } & ExplainerProps)
+  | { kind: Exclude<VisualKind, "lock" | "key-grid" | "placeholder" | "explainer">; state: string };
 
 export type VisualKind =
   | "lock"
   | "key-grid"
   | "placeholder"
+  | "explainer"
   | "zipper"
   | "pen-cap"
   | "airbag"
