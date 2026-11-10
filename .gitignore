@@ -1,0 +1,11 @@
+# Rendered videos: offload to the pendrive, never commit
+out/
+# Downloaded music: stays local / on the pendrive
+music/files/
+# Recorded voiceover and sound effects: large, keep on the pendrive (or chunk them via tools/chunk.sh)
+assets/vo/*
+assets/sfx/*
+!assets/vo/.gitkeep
+!assets/sfx/.gitkeep
+.DS_Store
+.env
