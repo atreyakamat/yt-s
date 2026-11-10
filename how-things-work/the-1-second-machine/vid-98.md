@@ -16,7 +16,7 @@ pinned: "What else happens in under a second?"
 
 ## Hook
 
-- **Chosen (0-3s):** "Your watch has a crystal vibrating 32,768 times a second." Big text: 32,768 TIMES A SECOND
+- **Chosen (0-3s):** "Your watch: 32,768 vibrations a second." Big text: 32,768 TIMES A SECOND
 - **Backup hooks:**
     1. "There's a tiny tuning fork inside your watch."
     2. "Your watch counts to 32,768 every second."
@@ -28,7 +28,7 @@ pinned: "What else happens in under a second?"
 scenes:
   - at: 0
     dur: 3
-    vo: "Your watch has a crystal vibrating 32,768 times a second."
+    vo: "Your watch: 32,768 vibrations a second."
     text: "32,768 TIMES A SECOND"
     highlight: "32,768"
     visual: { kind: hero, icon: clock, label: "Quartz watch", color: accent, motion: shake }
@@ -48,7 +48,7 @@ scenes:
     visual: { kind: compare, mode: versus, left: { label: "Squeeze it", icon: wrench, color: grey, tag: "MAKES VOLTAGE" }, right: { label: "Add voltage", icon: battery, color: accent, tag: "IT BENDS" } }
   - at: 14
     dur: 5
-    vo: "The battery keeps nudging it, so it rings at exactly 32,768 times a second."
+    vo: "The battery keeps nudging it; it rings at exactly 32,768 times a second."
     text: "IT RINGS"
     highlight: "RINGS"
     visual: { kind: wave, waves: [{ label: "Quartz ringing", freq: 10, color: accent }] }

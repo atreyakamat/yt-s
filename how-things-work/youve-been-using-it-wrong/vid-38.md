@@ -35,7 +35,7 @@ scenes:
     sfx: whoosh
   - at: 3
     dur: 5
-    vo: "In the late 1800s, workers wore jeans, and many carried pocket watches on a chain."
+    vo: "In the late 1800s, workers in jeans often carried pocket watches on a chain."
     text: "THE 1800S"
     highlight: "1800S"
     visual: { kind: timeline, events: [{ year: "1800s", label: "Workers wear denim jeans" }, { year: "Late 1800s", label: "A tiny extra pocket appears" }, { year: "Today", label: "Still there, mostly empty" }] }
