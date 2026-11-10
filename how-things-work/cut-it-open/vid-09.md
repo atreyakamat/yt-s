@@ -4,7 +4,7 @@ title: Your phone feels your electricity
 series: cut-it-open
 topic: Touchscreen
 status: ready-to-build
-duration: 40
+duration: 41
 music: cipher
 musicVolume: 0.12
 accent: "#FFD60A"
@@ -14,7 +14,7 @@ accent: "#FFD60A"
 
 ## Hook
 
-- **Chosen (0-2s):** "Your phone isn't feeling your touch. It's feeling you."
+- **Chosen (0-3s):** "Your phone isn't feeling your touch. It's feeling you."
 - **Backup hooks:**
     1. "Your phone can't feel gloves. Here's why."
     2. "Your touchscreen feels your electricity."
@@ -27,43 +27,50 @@ The build reads this block. `note` is the exact visual to draw for that scene.
 ```yaml
 scenes:
   - at: 0
-    dur: 2
+    dur: 3
+    sfx: buzz
     vo: "Your phone isn't feeling your touch. It's feeling you."
     text: "IT FEELS YOU"
     visual: { kind: touchscreen, state: glove }
     note: "Gloved finger tapping a phone, nothing happens"
-  - at: 2
+  - at: 3
     dur: 7
+    sfx: slice
     vo: "Under the glass is a grid of see-through wires."
     text: "INVISIBLE GRID"
     visual: { kind: touchscreen, state: layers }
     note: "Screen peels apart in layers; an invisible grid glows"
-  - at: 9
+  - at: 10
     dur: 8
+    sfx: pop
     vo: "That grid holds a tiny, steady electric charge."
     text: "ELECTRIC FIELD"
     visual: { kind: touchscreen, state: field }
     note: "Grid holds a steady electric field, shown as soft glow"
-  - at: 17
+  - at: 18
     dur: 8
+    sfx: click
     vo: "Your body conducts electricity. When your finger gets close, it pulls some of that charge away."
     text: "YOU CONDUCT"
     visual: { kind: touchscreen, state: finger }
     note: "Bare finger approaches; charge drains toward it at one crossing"
-  - at: 25
+  - at: 26
     dur: 7
+    sfx: pop
     vo: "The phone measures which crossing changed, and that's exactly where you touched."
     text: "X + Y"
     visual: { kind: touchscreen, state: xy }
     note: "Chip pinpoints the crossing, cursor dot appears"
-  - at: 32
+  - at: 33
     dur: 4
+    sfx: buzz
     vo: "A normal glove doesn't conduct, so the grid can't feel you."
     text: ""
     visual: { kind: touchscreen, state: glove-block }
     note: "Glove blocks the charge"
-  - at: 36
+  - at: 37
     dur: 4
+    sfx: whoosh
     vo: "Which is why this..."
     text: ""
     visual: { kind: touchscreen, state: glove }
