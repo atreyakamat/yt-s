@@ -94,3 +94,10 @@ Reels 1-10 use hand-built visuals in `video/src/visuals/`; the rest use the reus
 This repo is public, so music files are blocked from chunking. Keep them on the pendrive.
 
 Remotion is free for individuals and teams of up to 3 people.
+
+## Scripts at scale (generator)
+
+Hand-write only the compact sources in `scripts-src/`; `cd video && npm run gen` expands them into
+`how-things-work/<series>/<group>/vid-NNN.md` (full timed scenes, voiceover, fact-check, upload text) and `SCRIPTS.md`.
+The generator rejects hooks over 8 words, scenes with unknown icons/layouts, missing fact-check lines and runtimes outside 18-55 s.
+Scenes use the generic `explainer` visual (layouts: hero, pair, flow, grid, num, bars, timeline) and the icon library in `video/src/visuals/icons.tsx`, so no per-reel code is needed.

@@ -28,6 +28,10 @@ const BESPOKE = {
 const src = (f) => fs.readFileSync(path.join(videoDir, "src/visuals/generic", f), "utf8");
 const GLYPHS = new Set([...src("Glyph.tsx").matchAll(/^ {2}([a-z]+): \(/gm)].map((m) => m[1]));
 const COLORS = new Set([...src("palette.ts").matchAll(/^ {2}([a-z]+): /gm)].map((m) => m[1]));
+const ICONS = new Set(
+  [...fs.readFileSync(path.join(videoDir, "src/visuals/icons.tsx"), "utf8").matchAll(/^  "?([a-z][a-z0-9-]*)"?: \(\) =>/gm)].map((m) => m[1]),
+);
+const EXPLAINER_LAYOUTS = ["hero", "pair", "flow", "grid", "num", "bars", "timeline"];
 const SFX = new Set(["whoosh", "slice", "thunk", "buzz", "click", "unlock", "pop"]);
 const SERIES = new Set([
   "cut-it-open",
@@ -35,6 +39,7 @@ const SERIES = new Set([
   "why-is-it-shaped-like-that",
   "the-1-second-machine",
   "before-it-existed",
+  "new-year", // seasonal set: how-things-work/new-year/<group>/vid-N.md, drawn with the "explainer" visual
 ]);
 const MUSIC = new Set(
   fs
@@ -175,7 +180,7 @@ export function parseReel(file, parseYaml) {
   if (meta.id !== base) fail(`id '${meta.id}' does not match file name '${base}'`);
   str(meta.title, "title", 100);
   if (!SERIES.has(meta.series)) fail(`series '${meta.series}' unknown`);
-  if (path.basename(path.dirname(file)) !== meta.series) fail(`file is in the wrong folder for series '${meta.series}'`);
+  if (path.relative(contentDir, file).split(path.sep)[0] !== meta.series) fail(`file is in the wrong folder for series '${meta.series}'`);
   if (meta.music && !MUSIC.has(meta.music)) fail(`music '${meta.music}' is not in music/tracks.tsv`);
   if (meta.accent && !/^#[0-9A-Fa-f]{6}$/.test(meta.accent)) fail(`accent must be a #RRGGBB colour`);
 
@@ -204,7 +209,14 @@ export function parseReel(file, parseYaml) {
 
       s.visual ??= { kind: "placeholder" };
       const kind = s.visual.kind;
-      if (GENERIC[kind]) {
+      if (kind === "explainer") {
+        const v = s.visual;
+        if (!EXPLAINER_LAYOUTS.includes(v.layout)) fail(`explainer layout '${v.layout}' unknown (use: ${EXPLAINER_LAYOUTS.join(", ")})`);
+        for (const it of v.items ?? []) if (it.icon && !ICONS.has(it.icon)) fail(`unknown explainer icon '${it.icon}'`);
+        if (v.layout === "num" && !v.value) fail("explainer num needs a value");
+        if (v.layout === "pair" && (v.items?.length ?? 0) !== 2) fail("explainer pair needs exactly 2 items");
+        if (v.layout !== "num" && !v.items?.length) fail(`explainer ${v.layout} needs items`);
+      } else if (GENERIC[kind]) {
         GENERIC[kind](s.visual);
       } else if (BESPOKE[kind]) {
         const states = BESPOKE[kind];

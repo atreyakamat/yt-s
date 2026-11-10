@@ -1,3 +1,5 @@
+import type { ExplainerProps } from "./visuals/Explainer";
+
 export type LockState = "closed" | "cutaway" | "springs" | "wrong-key" | "right-key" | "unlocked";
 
 /** Reusable data-driven visuals (src/visuals/generic). Field rules live in tools/sync.mjs. */
@@ -39,6 +41,7 @@ export type Visual =
   | { kind: "key-grid" }
   | { kind: "placeholder"; label?: string; note?: string }
   | GenericVisual
+  | ({ kind: "explainer" } & ExplainerProps)
   | { kind: BespokeKind; state: string };
 
 export type BespokeKind =

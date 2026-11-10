@@ -29,6 +29,7 @@ const PINNED = {
   "why-is-it-shaped-like-that": "What shape should we explain next?",
   "the-1-second-machine": "What else happens in under a second?",
   "before-it-existed": "What should we go back in time for next?",
+  "new-year": "What should we explain for the new year?",
 };
 
 const { reels, errors } = validateAll((t) => YAML.parse(t));
@@ -37,9 +38,12 @@ if (errors.length) {
   console.warn(`  ! ${errors.length} script(s) have errors and will be skipped:\n` + errors.map((e) => `    ${e}`).join("\n"));
 }
 const ready = reels.filter((r) => r.status === "ready-to-build");
-const picks = redo
-  ? ready.filter((r) => r.id === redo)
-  : ready.filter((r) => !state.done[r.id]).slice(0, count);
+// The "new-year" set is seasonal: it jumps the queue from 1 Dec to 5 Jan, and waits otherwise (set DAILY_SEASON=1 to force it).
+const now = new Date();
+const newYearSeason = process.env.DAILY_SEASON === "1" || now.getMonth() === 11 || (now.getMonth() === 0 && now.getDate() <= 5);
+const todo = ready.filter((r) => !state.done[r.id] && (r.series !== "new-year" || newYearSeason));
+if (newYearSeason) todo.sort((a, b) => Number(b.series === "new-year") - Number(a.series === "new-year"));
+const picks = redo ? ready.filter((r) => r.id === redo) : todo.slice(0, count);
 
 const doneCount = Object.keys(state.done).length;
 console.log(`Cutaway daily: ${doneCount} of ${ready.length} reels done, ${ready.length - doneCount} left.`);

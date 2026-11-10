@@ -16,6 +16,7 @@ import { Placeholder } from "./visuals/Placeholder";
 import { Airbag, type AirbagState } from "./visuals/Airbag";
 import { Checkout, type CheckoutState } from "./visuals/Checkout";
 import { ClickPen, type ClickPenState } from "./visuals/ClickPen";
+import { Explainer } from "./visuals/Explainer";
 import { Fridge, type FridgeState } from "./visuals/Fridge";
 import { Manhole, type ManholeState } from "./visuals/Manhole";
 import { Microwave, type MicrowaveState } from "./visuals/Microwave";
@@ -56,6 +57,8 @@ const SceneVisual: React.FC<{ scene: Scene; accent: string }> = ({
       return <Touchscreen state={v.state as TouchscreenState} />;
     case "fridge":
       return <Fridge state={v.state as FridgeState} />;
+    case "explainer":
+      return <Explainer layout={v.layout} items={v.items} value={v.value} unit={v.unit} vs={v.vs} />;
     case "placeholder":
       return <Placeholder label={v.label} note={v.note} />;
     case "hero":
