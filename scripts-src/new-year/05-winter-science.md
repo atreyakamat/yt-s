@@ -39,7 +39,7 @@ tags: snow, chemistry, physics
 ## 1549 | Why ice floats on water
 hook: Ice floats, and that's quite unusual. | ICE *FLOATS* | hero: glass Ice in water
 - Most solids are denser than their liquids. | USUALLY *SINKS* | hero: arrow-right Sinks
-- Water is different: ice is about nine percent less dense. | ICE: *9%* LESS DENSE | num: 9% | less dense | percent
+- Water is different: ice is about nine percent less dense. | ICE: *9%* LESS DENSE | meter: 9 | % less dense | percent
 - Freezing locks water into an open hexagonal lattice. | AN *OPEN* LATTICE | hero: snowflake Lattice
 - So ice floats and lakes freeze from the top. | LAKES FREEZE *FROM THE TOP* | hero: drop Lake
 - The water underneath stays liquid, so fish survive. | FISH *SURVIVE* | hero: wave Liquid below
@@ -186,7 +186,7 @@ hook: A QR code works even when it's scratched. | QR CODES *SURVIVE DAMAGE* | he
 - The code stores your data as small black and white squares. | DATA IN *SQUARES* | grid: box Black; box White; box Black; box White
 - It also adds error-correcting extra data. | EXTRA *REPAIR DATA* | hero: gear Error correction
 - That lets a scanner rebuild missing parts. | REBUILDS *THE GAPS* | hero: check Rebuilt
-- At the highest level it can lose up to about thirty percent. | UP TO *30%* LOST | num: 30% | can be damaged | percent
+- At the highest level it can lose up to about thirty percent. | UP TO *30%* LOST | meter: 30 | % can be damaged | percent
 fact: QR codes use Reed-Solomon error correction with four levels (L ~7%, M ~15%, Q ~25%, H ~30% of codewords recoverable); three finder patterns indicate orientation.
 alt: Why a logo can sit in the middle of a QR code.
 alt: The trick that makes QR codes tough.

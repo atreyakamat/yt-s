@@ -1,7 +1,7 @@
 # series: new-year | group: fireworks | accent: #FF9F0A | music: investigations
 
 ## 1501 | Why every firework colour is a different metal
-hook: Every firework colour is a different metal. | EVERY COLOUR = *A METAL* | grid: burst Fireworks; atom Metal salts; flame Heat; star Colour
+hook: Every firework colour is a different metal. | EVERY COLOUR = *A METAL* | ring: burst Fireworks; atom Metal salts; flame Heat; star Colour
 - Pyrotechnicians pack metal salts into little pellets called stars. | PELLETS CALLED *STARS* | hero: star Stars
 - Heat excites the metal's electrons, and they release that energy as light. | HEAT → *LIGHT* | flow: flame Heat; atom Electrons; sparkle Light
 - Strontium burns red. Barium burns green. Sodium burns yellow. | RED · GREEN · YELLOW | grid: flame Strontium red; plant Barium green; sun Sodium yellow
@@ -54,7 +54,7 @@ hook: Every firework shell explodes twice. | EXPLODES *TWICE* | num: 2 | explosi
 - A slow-burning fuse ticks while it climbs. | THE *FUSE* TICKS | hero: hourglass Fuse
 - At the top, the fuse reaches the main charge. | MAIN *CHARGE* | hero: burst Burst charge
 - That blast throws the colour stars outward in every direction. | STARS FLY *OUTWARD* | hero: fireworks Stars out
-- The timing is set so it bursts just as it stops rising. | BURST AT THE *PEAK* | timeline: rocket Launch; hourglass Climb; burst Burst
+- The timing is set so it bursts just as it stops rising. | BURST AT THE *PEAK* | ladder: rocket Launch; hourglass Climb; burst Burst
 fact: Aerial shells use a lift charge at the base and a time fuse leading to a bursting charge at the centre.
 alt: A firework is two bombs in one.
 alt: Why the burst happens at the top.

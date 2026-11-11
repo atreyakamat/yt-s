@@ -98,7 +98,7 @@ tags: calendar, history, newyear
 
 ## 1515 | Why a week has seven days
 hook: Nothing in nature makes a seven-day week. | NATURE *HAS NO WEEK* | hero: calendar 7 days
-- A day, a month and a year all come from astronomy. | DAY · MONTH · *YEAR* | grid: sun Day; moon Month; orbit Year
+- A day, a month and a year all come from astronomy. | DAY · MONTH · *YEAR* | ring: globe Time; sun Day; moon Month; orbit Year
 - A week doesn't match any cycle in the sky. | MATCHES *NOTHING* | hero: question Week
 - The seven-day week traces back to ancient Babylon. | BACK TO *BABYLON* | hero: calendar Babylon
 - Seven visible bodies moved across the sky, so the number stuck. | *SEVEN* WANDERERS | hero: star Sun, Moon, five planets

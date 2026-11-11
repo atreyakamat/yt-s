@@ -169,11 +169,11 @@ alt: How to cut without crying.
 tags: food, chemistry, body
 
 ## 1708 | Why we get thirsty after salty food
-hook: Salty food makes you thirsty. | SALT *MAKES* THIRST | hero: glass Thirst
+hook: Salty food makes you thirsty. | SALT *MAKES* THIRST | hero: waterglass Thirst
 - Salt raises sodium in your blood. | *SODIUM* RISES | hero: chart-up Sodium
 - Cells shrink as water moves out. | CELLS *SHRINK* | hero: drop Water out
 - Sensors in your brain detect the change. | BRAIN *SENSES* IT | hero: brain Sensor
-- You feel thirst and want to drink. | *THIRST* SIGNAL | hero: glass Drink
+- You feel thirst and want to drink. | *THIRST* SIGNAL | hero: waterglass Drink
 - Drinking restores the balance. | BALANCE *RESTORED* | hero: scale Balance
 fact: Osmoreceptors in the hypothalamus (OVLT/SFO) detect increased plasma osmolality and trigger thirst and ADH release. Basic physiology.
 alt: Why chips make you thirsty.
@@ -185,7 +185,7 @@ hook: Winter hides your thirst signal. | WINTER *HIDES THIRST* | hero: snowflake
 - Cold narrows blood vessels and lowers thirst. | COLD *DULLS* THIRST | hero: thermometer Cold
 - Heated air is very dry. | DRY *INDOOR AIR* | hero: cloud Dry air
 - Layers make you sweat more than you notice. | HIDDEN *SWEAT* | hero: drop Sweat
-- Warm drinks count as water too. | WARM *DRINKS COUNT* | hero: glass Warm drink
+- Warm drinks count as water too. | WARM *DRINKS COUNT* | hero: cup Warm drink
 - Check your urine colour for a clue. | PALE *IS GOOD* | hero: check Pale
 fact: Studies (Kenefick et al.) show cold exposure blunts thirst sensation and can cause 'voluntary dehydration'; heated indoor air lowers humidity; urine colour is a rough hydration check. Not medical advice.
 alt: Cold weather dulls thirst.
@@ -218,7 +218,7 @@ tags: body, skin, healing
 
 ## 1712 | Why sunburn hurts a day later
 hook: Sunburn hurts hours after the sun. | SUNBURN *COMES LATE* | hero: sun Sunburn
-- UV light damages skin cell DNA. | UV *DAMAGES* DNA | hero: atom DNA
+- UV light damages skin cell DNA. | UV *DAMAGES* DNA | hero: dna DNA
 - Your body sends blood and immune cells to repair. | BLOOD *RUSHES IN* | hero: drop Blood
 - That inflammation takes hours to build. | *HOURS* TO PEAK | hero: hourglass Hours
 - Pain and redness peak after about a day. | PEAKS *~24 HOURS* | num: 24 | hours | clock

@@ -604,6 +604,128 @@ export const ICONS: Record<string, () => React.ReactElement> = {
       {person(100, 100, 1, B)}
     </g>
   ),
+  waterglass: () => (
+    <g>
+      <path d="M56 36 L144 36 L130 170 Q128 178 120 178 L80 178 Q72 178 70 170 Z" fill={shade(B, 0.5)} opacity={0.35} />
+      <path d="M62 84 L138 84 L130 170 Q128 178 120 178 L80 178 Q72 178 70 170 Z" fill={B} />
+      <ellipse cx={100} cy={84} rx={38} ry={7} fill={shade(B, 0.3)} />
+      <path d="M56 36 L144 36" stroke={W} strokeWidth={6} strokeLinecap="round" />
+    </g>
+  ),
+  book: () => (
+    <g>
+      <path d="M100 52 Q70 36 30 44 L30 150 Q70 142 100 160 Z" fill={B} />
+      <path d="M100 52 Q130 36 170 44 L170 150 Q130 142 100 160 Z" fill={shade(B, 0.25)} />
+      <path d="M100 52 L100 160" stroke={D} strokeWidth={5} />
+      {[70, 90, 110].map((y) => (
+        <line key={y} x1={46} y1={y} x2={88} y2={y + 4} stroke={W} strokeWidth={5} strokeLinecap="round" />
+      ))}
+    </g>
+  ),
+  mail: () => (
+    <g>
+      <rect x={22} y={50} width={156} height={104} rx={14} fill={W} />
+      <path d="M26 58 L100 112 L174 58" fill="none" stroke={S} strokeWidth={8} strokeLinejoin="round" />
+      <circle cx={158} cy={56} r={18} fill={R} />
+    </g>
+  ),
+  trophy: () => (
+    <g>
+      <path d="M58 30 L142 30 L134 96 Q126 122 100 124 Q74 122 66 96 Z" fill={Y} />
+      <path d="M58 44 Q22 44 30 80 Q38 100 64 96" fill="none" stroke={O} strokeWidth={9} strokeLinecap="round" />
+      <path d="M142 44 Q178 44 170 80 Q162 100 136 96" fill="none" stroke={O} strokeWidth={9} strokeLinecap="round" />
+      <rect x={90} y={124} width={20} height={28} fill={O} />
+      <rect x={64} y={152} width={72} height={20} rx={6} fill={D} />
+    </g>
+  ),
+  pin: () => (
+    <g>
+      <path d="M100 18 Q154 18 154 72 Q154 108 100 182 Q46 108 46 72 Q46 18 100 18 Z" fill={R} />
+      <circle cx={100} cy={72} r={24} fill={W} />
+    </g>
+  ),
+  pencil: () => (
+    <g transform="rotate(40 100 100)">
+      <rect x={78} y={20} width={44} height={110} rx={6} fill={Y} />
+      <rect x={78} y={20} width={44} height={22} rx={6} fill={R} />
+      <polygon points="78,130 122,130 100,176" fill="#F2D4A8" />
+      <polygon points="92,160 108,160 100,176" fill={D} />
+    </g>
+  ),
+  cup: () => (
+    <g>
+      <path d="M44 70 L140 70 L132 148 Q130 164 112 164 L72 164 Q54 164 52 148 Z" fill={W} />
+      <path d="M138 84 Q176 84 170 114 Q164 138 130 134" fill="none" stroke={W} strokeWidth={12} strokeLinecap="round" />
+      <path d="M56 78 L130 78 L127 100 L59 100 Z" fill="#7A4A2B" />
+      {[72, 96, 120].map((x) => (
+        <path key={x} d={`M${x} 52 Q${x - 10} 40 ${x} 28`} fill="none" stroke={S} strokeWidth={6} strokeLinecap="round" />
+      ))}
+    </g>
+  ),
+  car: () => (
+    <g>
+      <path d="M26 112 L40 80 Q46 66 62 66 L138 66 Q154 66 160 80 L176 112 L176 140 L26 140 Z" fill={R} />
+      <path d="M52 78 L148 78 L158 108 L42 108 Z" fill={shade(B, 0.4)} />
+      <circle cx={60} cy={142} r={20} fill={K} />
+      <circle cx={140} cy={142} r={20} fill={K} />
+      <circle cx={60} cy={142} r={8} fill={S} />
+      <circle cx={140} cy={142} r={8} fill={S} />
+    </g>
+  ),
+  pill: () => (
+    <g transform="rotate(-35 100 100)">
+      <rect x={28} y={68} width={144} height={64} rx={32} fill={W} />
+      <path d="M100 68 L140 68 Q172 68 172 100 Q172 132 140 132 L100 132 Z" fill={R} />
+    </g>
+  ),
+  document: () => (
+    <g>
+      <path d="M52 20 L124 20 L156 52 L156 180 L52 180 Z" fill={W} />
+      <path d="M124 20 L124 52 L156 52 Z" fill={S} />
+      {[84, 106, 128, 150].map((y) => (
+        <line key={y} x1={70} y1={y} x2={138} y2={y} stroke={B} strokeWidth={7} strokeLinecap="round" />
+      ))}
+    </g>
+  ),
+  ear: () => (
+    <g>
+      <path d="M100 24 Q158 24 158 84 Q158 116 132 138 Q120 150 118 166 Q112 182 96 178 Q84 174 88 160" fill="none" stroke="#F2C9A0" strokeWidth={26} strokeLinecap="round" />
+      <path d="M100 58 Q128 58 128 86 Q128 104 112 116" fill="none" stroke="#D9A074" strokeWidth={10} strokeLinecap="round" />
+    </g>
+  ),
+  dna: () => (
+    <g>
+      <path d="M60 20 Q150 60 60 100 Q-10 140 60 180" fill="none" stroke={B} strokeWidth={12} strokeLinecap="round" />
+      <path d="M140 20 Q50 60 140 100 Q210 140 140 180" fill="none" stroke={P} strokeWidth={12} strokeLinecap="round" />
+      {[44, 76, 124, 156].map((y) => (
+        <line key={y} x1={72} y1={y} x2={128} y2={y} stroke={W} strokeWidth={6} strokeLinecap="round" />
+      ))}
+    </g>
+  ),
+  fish: () => (
+    <g>
+      <path d="M26 100 Q70 38 132 70 Q160 84 176 66 L168 100 L176 134 Q160 116 132 130 Q70 162 26 100 Z" fill={O} />
+      <circle cx={62} cy={92} r={8} fill={W} />
+      <circle cx={60} cy={92} r={4} fill={K} />
+    </g>
+  ),
+  paw: () => (
+    <g fill={shade(O, -0.1)}>
+      <ellipse cx={100} cy={128} rx={40} ry={34} />
+      <ellipse cx={52} cy={86} rx={14} ry={20} />
+      <ellipse cx={82} cy={56} rx={14} ry={22} />
+      <ellipse cx={118} cy={56} rx={14} ry={22} />
+      <ellipse cx={148} cy={86} rx={14} ry={20} />
+    </g>
+  ),
+  bike: () => (
+    <g fill="none" stroke={W} strokeWidth={9} strokeLinecap="round" strokeLinejoin="round">
+      <circle cx={46} cy={128} r={34} stroke={S} />
+      <circle cx={154} cy={128} r={34} stroke={S} />
+      <path d="M46 128 L82 70 L132 70 L154 128 M82 70 L100 128 L46 128 M100 128 L132 70" stroke={Y} />
+      <path d="M126 56 L142 56 M76 56 L92 56" stroke={W} />
+    </g>
+  ),
 };
 
 export const ICON_NAMES = Object.keys(ICONS);

@@ -243,7 +243,7 @@ tags: career, work, tech
 ## 1664 | Why your first hour of work should be your best
 hook: Protect your first work hour. | PROTECT *HOUR ONE* | hero: sunrise First hour
 - Many people feel most alert a few hours after waking. | ALERT *AFTER WAKING* | hero: sun Alert
-- Email and chats pull you into other people's tasks. | EMAIL *DERAILS* YOU | hero: box Email
+- Email and chats pull you into other people's tasks. | EMAIL *DERAILS* YOU | hero: mail Email
 - Start with your most important task. | *MOST* IMPORTANT FIRST | hero: target Priority
 - Silence notifications for the hour. | *SILENCE* PINGS | hero: cross Mute
 - Then check messages in a batch. | *BATCH* MESSAGES | hero: list Batch

@@ -1,7 +1,7 @@
 # series: new-year | group: tech-internet-money | accent: #0A84FF | music: investigations
 
 ## 1721 | How the internet finds a website
-hook: Websites are found through a phone book. | THE *DNS* PHONE BOOK | hero: globe DNS
+hook: Websites are found through a phone book. | THE *DNS* PHONE BOOK | hero: book Phone book
 - You type a name like example dot com. | YOU TYPE *A NAME* | hero: list Name
 - DNS turns it into a numeric address. | DNS GIVES *A NUMBER* | hero: key Address
 - Your browser connects to that address. | BROWSER *CONNECTS* | hero: arrow-right Connect
@@ -241,7 +241,7 @@ alt: Why a photo doesn't open it.
 tags: tech, security, biometrics
 
 ## 1741 | How self-driving cars see the road
-hook: Self-driving cars sense with many tools. | CARS *SEE* WITH SENSORS | hero: camera Self-driving
+hook: Self-driving cars sense with many tools. | CARS *SEE* WITH SENSORS | hero: car Self-driving
 - Cameras read signs and lane lines. | *CAMERAS* READ SIGNS | hero: camera Camera
 - Radar tracks distance and speed. | *RADAR* TRACKS SPEED | hero: wave Radar
 - Lidar builds a 3D map with lasers. | *LIDAR* MAKES 3D MAPS | hero: bolt Lidar

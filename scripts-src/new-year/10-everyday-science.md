@@ -50,7 +50,7 @@ tags: sound, physics, echo
 
 ## 1673 | Why your voice sounds different on recordings
 hook: You hate your voice on recordings. | YOUR *RECORDED* VOICE | hero: speaker Recording
-- You hear yourself through air and bone. | AIR *AND BONE* | hero: person Hearing
+- You hear yourself through air and bone. | AIR *AND BONE* | hero: ear Hearing
 - Bone conduction adds low, rich tones. | *DEEPER* TONES | hero: wave Low tones
 - Recordings capture only the air-borne sound. | AIR ONLY | hero: speaker Air
 - Others hear the recording version of you. | OTHERS HEAR *IT* | hero: people Others
@@ -157,7 +157,7 @@ alt: The social glue of laughter.
 tags: psychology, laughter, brain
 
 ## 1682 | Why dogs tilt their heads
-hook: Dogs tilt their heads when you talk. | WHY *DOGS TILT* | hero: person Dog head tilt
+hook: Dogs tilt their heads when you talk. | WHY *DOGS TILT* | hero: paw Dog head tilt
 - It may help them hear where a sound comes from. | HEAR *DIRECTION* | hero: speaker Direction
 - It may also help them see your face better. | SEE *YOUR FACE* | hero: eye Seeing
 - Their muzzles block part of their view. | *MUZZLE* BLOCKS VIEW | hero: box Muzzle
@@ -169,7 +169,7 @@ alt: Why dogs tilt when you speak.
 tags: animals, dogs, behaviour
 
 ## 1683 | Why cats purr
-hook: Cats purr for more than happiness. | CATS PURR *FOR MORE* | hero: heart Cat purr
+hook: Cats purr for more than happiness. | CATS PURR *FOR MORE* | hero: paw Cat purr
 - Purring comes from rapid muscle twitches in the larynx. | LARYNX *TWITCHES* | hero: pulse Larynx
 - It happens as the cat breathes in and out. | *IN AND OUT* | hero: loop-arrow Breath
 - Cats purr when content, but also when stressed or hurt. | ALSO *WHEN HURT* | hero: shield Stress
@@ -257,7 +257,7 @@ hook: Jellyfish live without a brain. | NO *BRAIN* | hero: bubble Jellyfish
 - They have a net of nerves instead. | A *NERVE NET* | hero: pulse Nerve net
 - It lets them sense touch, light and chemicals. | SENSES *TOUCH*, LIGHT | hero: eye Senses
 - They have no heart, bones or blood either. | NO *HEART*, BONES | hero: cross Missing
-- Their bodies are about ninety-five percent water. | *95%* WATER | num: 95 | % water | drop
+- Their bodies are about ninety-five percent water. | *95%* WATER | meter: 95 | % water | drop
 - Some species are nearly immortal in the lab. | *IMMORTAL* JELLYFISH | hero: loop-arrow Cycle
 fact: Cnidarians have decentralised nerve nets; medusae are ~95% water; Turritopsis dohrnii can revert to a polyp stage (biological 'immortality' in lab conditions, not in the wild). Good.
 alt: A nerve net instead of a brain.

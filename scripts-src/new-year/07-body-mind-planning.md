@@ -97,7 +97,7 @@ alt: Why athletes' hearts beat slower.
 tags: fitness, heart, health
 
 ## 1602 | Why drinking water doesn't need eight glasses
-hook: The eight glasses rule has no strong evidence. | EIGHT GLASSES *RULE* | hero: glass Eight glasses
+hook: The eight glasses rule has no strong evidence. | EIGHT GLASSES *RULE* | hero: waterglass Eight glasses
 - Your water needs depend on size, weather and activity. | NEEDS *VARY* | hero: thermometer Weather
 - Food and other drinks also count toward it. | FOOD *COUNTS* TOO | hero: bottle Other drinks
 - Thirst is a reliable guide for most healthy people. | LISTEN TO *THIRST* | hero: drop Thirst
@@ -293,7 +293,7 @@ hook: Split your take-home pay three ways. | SPLIT PAY *THREE WAYS* | hero: coin
 - Fifty percent goes to needs like rent and food. | *50%* NEEDS | bars: house Needs=50; heart Wants=30; coin Savings=20
 - Thirty percent goes to wants like fun and travel. | *30%* WANTS | hero: heart Wants
 - Twenty percent goes to savings and debt repayment. | *20%* SAVINGS | hero: coin Savings
-- Elizabeth Warren popularised the rule in a 2005 book. | WARREN, *2005* | hero: list Book
+- Elizabeth Warren popularised the rule in a 2005 book. | WARREN, *2005* | hero: book Book
 - Adjust the split to fit your own income. | ADJUST *TO YOU* | hero: gear Adjust
 fact: 50/30/20 rule popularised by Elizabeth Warren and Amelia Warren Tyagi in 'All Your Worth' (2005). It's a rule of thumb; high-cost areas may make 50% for needs unrealistic. Not financial advice.
 alt: A three-bucket budget.
