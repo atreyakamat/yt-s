@@ -1,6 +1,6 @@
 # Script index
 
-143 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
+168 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
 
 | ID | Series / group | Hook | Length | Title |
 |---|---|---|---|---|
@@ -147,3 +147,28 @@
 | 1641 | new-year / sky-nature-tech | Why do we count down from ten? | 24.3s | Why we count down from ten |
 | 1642 | new-year / sky-nature-tech | Clean your inbox with one daily habit. | 21.9s | Why you should unsubscribe from marketing emails |
 | 1643 | new-year / sky-nature-tech | Smart speakers listen for one word only. | 24.4s | How a smart speaker hears its wake word |
+| 1644 | new-year / food-history-work | Celebration cakes are older than birthdays. | 24s | Why we eat cake on special days |
+| 1645 | new-year / food-history-work | Doughnuts have holes so they cook evenly. | 27s | Why doughnuts have holes |
+| 1646 | new-year / food-history-work | Chocolate melts just below body temperature. | 21.9s | Why chocolate melts in your mouth but not your hand |
+| 1647 | new-year / food-history-work | Coffee beans are really seeds. | 20.6s | How coffee beans become coffee |
+| 1648 | new-year / food-history-work | Different teas need different water temperatures. | 22.7s | Why tea needs water just off the boil |
+| 1649 | new-year / food-history-work | Spicy food tricks your nerves into feeling heat. | 21.8s | Why spicy food burns |
+| 1650 | new-year / food-history-work | Clinking glasses may be a trust test. | 21.9s | Why we clink glasses |
+| 1651 | new-year / food-history-work | Where does the word cheers come from? | 24.3s | Why we say cheers |
+| 1652 | new-year / food-history-work | The Roman year started in March. | 21.5s | Why the Roman calendar started in March |
+| 1653 | new-year / food-history-work | Two months are named after Roman rulers. | 20.9s | Why July and August are named after emperors |
+| 1654 | new-year / food-history-work | Leap day is added to February. | 24.5s | Why leap day is February 29 |
+| 1655 | new-year / food-history-work | Why do we split days into twenty-four hours? | 20.2s | Why a day has twenty-four hours |
+| 1656 | new-year / food-history-work | There is no year zero. | 25.6s | Why the year zero doesn't exist |
+| 1657 | new-year / food-history-work | Old computers feared the new millennium. | 23.2s | Why Y2K worried the world |
+| 1658 | new-year / food-history-work | Another date bug is due in 2038. | 27.1s | Why 2038 is the next big date bug |
+| 1659 | new-year / food-history-work | Give your year a theme, not a list. | 23.6s | How to pick a year theme |
+| 1660 | new-year / food-history-work | Review last year in twenty minutes. | 20.7s | How to run a quick year review |
+| 1661 | new-year / food-history-work | A Sunday plan makes Monday easier. | 20.2s | Why you should plan your week on Sunday |
+| 1662 | new-year / food-history-work | January suits asking for a raise. | 21.5s | Why you should ask for a raise in January |
+| 1663 | new-year / food-history-work | A yearly profile refresh pays off. | 20.2s | Why LinkedIn profiles need a yearly refresh |
+| 1664 | new-year / food-history-work | Protect your first work hour. | 21.1s | Why your first hour of work should be your best |
+| 1665 | new-year / food-history-work | Twenty percent of effort drives eighty percent. | 23.9s | How the 80/20 rule works |
+| 1666 | new-year / food-history-work | Experiences tend to bring more lasting happiness. | 19.4s | Why you should spend money on experiences |
+| 1667 | new-year / food-history-work | Automate your savings and forget them. | 21.2s | Why you should automate your savings |
+| 1668 | new-year / food-history-work | Investing is ownership, not gambling. | 21s | How to start investing in simple terms |
