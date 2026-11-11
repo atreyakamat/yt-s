@@ -2258,8 +2258,8 @@ vid-663	H-pattern gear stick	scene 4 visual	"label":"Grab the rod" "label":"Push
 vid-663	H-pattern gear stick	scene 6 visual	"value":50 "low":"1, 3, 5" "high":"2, 4, 6" "label":"Neutral sits in the middle"
 vid-663	H-pattern gear stick	scene 7 visual	"label":"Rod 1: moving" "label":"Interlock bar" "label":"Rod 2: held still"
 vid-665	Cooling tower shape	scene 4 visual	"value":80 "low":"Still" "high":"Strong draft" "label":"Warm air rises"
-vid-665	Cooling tower shape	scene 7 vo	The first ones went up in the Netherlands in 1918. And ever since...
-vid-665	Cooling tower shape	scene 7 visual	"year":"1918" "label":"First curved tower, Netherlands" "year":"Today" "label":"At power stations worldwide"
+vid-665	Cooling tower shape	scene 7 vo	The first ones went up in the Netherlands around 1918. And ever since...
+vid-665	Cooling tower shape	scene 7 visual	"year":"1917-18" "label":"First curved tower, Netherlands" "year":"Today" "label":"At power stations worldwide"
 vid-666	Bank card size	scene 2 vo	It's a standard: about 85.6 by 54 millimetres.
 vid-666	Bank card size	scene 2 text	85.6 × 54 MM
 vid-666	Bank card size	scene 2 visual	"label":"Width" "value":85.6 "label":"Height" "value":54
@@ -2274,9 +2274,9 @@ vid-669	Dice opposite faces	scene 2 text	ALWAYS ADDS TO 7
 vid-669	Dice opposite faces	scene 4 text	1, 2, 3 SHARE A CORNER
 vid-669	Dice opposite faces	scene 4 visual	"label":"A die" "label":"One corner" "label":"1, 2 and 3 meet"
 vid-669	Dice opposite faces	scene 5 vo	And that corner comes in only two mirror-image versions, like a left and right hand.
-vid-669	Dice opposite faces	scene 6 vo	The rule is very old. Many dice from ancient times already follow it.
+vid-669	Dice opposite faces	scene 6 vo	The rule is very old. Some dice from ancient times already follow it.
 vid-669	Dice opposite faces	scene 6 text	AN ANCIENT RULE
-vid-669	Dice opposite faces	scene 6 visual	"year":"Ancient" "label":"Many dice already add to 7" "year":"Today" "label":"Standard dice all do"
+vid-669	Dice opposite faces	scene 6 visual	"year":"Ancient" "label":"Some dice already add to 7" "year":"Today" "label":"Standard dice all do"
 vid-669	Dice opposite faces	scene 7 visual	"label":"Top shows 4" "label":"7 minus 4" "label":"Bottom is 3"
 vid-669	Dice opposite faces	scene 8 visual	"label":"The rule of 7"
 vid-670	Hi-vis stripes	scene 6 visual	"label":"Vest only" "value":50 "label":"Limbs marked too" "value":85
@@ -2312,7 +2312,7 @@ vid-684	Music box	scene 6 visual	"value":50 "low":"Too slow" "high":"Racing" "la
 vid-685	Foam earplugs	scene 6 text	AROUND 30 DECIBELS
 vid-685	Foam earplugs	scene 6 visual	"to":30 "prefix":"-" "suffix":" dB" "label":"about, when fitted well"
 vid-685	Foam earplugs	scene 7 vo	And the seal only works because...
-vid-686	Rice cooker	description	In a simple rice cooker, a magnet that loses its pull above about 103°C trips the switch the moment the water has all been absorbed.
+vid-686	Rice cooker	description	In a simple rice cooker, a magnet that loses its pull a little above 100°C trips the switch the moment the water has all been absorbed.
 vid-686	Rice cooker	scene 3 vo	While there's water in the pot, it can't get much hotter than 100 degrees.
 vid-686	Rice cooker	scene 3 text	STUCK AT 100°C
 vid-686	Rice cooker	scene 3 visual	"value":50 "low":"0°C" "high":"200°C" "label":"With water: about 100°C"
@@ -2365,7 +2365,7 @@ vid-700	Click heat pack	scene 3 visual	"value":90 "low":"Stable" "high":"Ready t
 vid-700	Click heat pack	scene 4 vo	Bending the metal disc creates tiny starting points for the first crystals.
 vid-700	Click heat pack	scene 4 visual	"label":"Metal disc" "label":"Tiny cracks" "label":"First crystal"
 vid-700	Click heat pack	scene 5 visual	"label":"First crystal" "label":"Neighbours join" "label":"Whole pack solid"
-vid-700	Click heat pack	scene 6 visual	"label":"Before click" "value":20 "label":"After click" "value":54
+vid-700	Click heat pack	scene 6 visual	"label":"Before click" "value":20 "label":"After click, about" "value":50
 vid-701	Warping baking tray	scene 5 visual	"value":95 "low":"Flat" "high":"Twisted" "label":"Stress in the metal"
 vid-702	Homogenised milk	scene 6 visual	"value":95 "low":"Separated" "high":"Mixed" "label":"Fat stays spread out"
 vid-703	Pumice stone	scene 6 visual	"year":"2019" "label":"Huge pumice raft near Tonga" "year":"2021" "label":"Pumice washes up in Okinawa"
@@ -2424,7 +2424,7 @@ vid-720	Tinderbox	description	Flint, steel, charred cloth and sulfur splints: th
 vid-720	Tinderbox	scene 6 vo	In 1826, an English chemist invented the friction match.
 vid-720	Tinderbox	scene 6 text	1826: MATCHES
 vid-720	Tinderbox	scene 6 visual	"year":"Before 1826" "label":"Flint, steel and tinder" "year":"1826" "label":"Friction match invented" "year":"1850s" "label":"Safety matches spread"
-vid-721	First camera phone	title	The first phone camera took photos smaller than a stamp 📱
+vid-721	First camera phone	title	The first phone camera shot just 0.1 megapixels 📱
 vid-721	First camera phone	description	Around 2000, phones in Japan gained cameras with about 0.1 megapixels. Before that, photos meant film.
 vid-721	First camera phone	scene 1 vo	The first camera phones shot about 0.1 megapixels.
 vid-721	First camera phone	scene 1 text	0.1 MEGAPIXELS
@@ -2436,20 +2436,19 @@ vid-721	First camera phone	scene 4 visual	"label":"1 early photo vs today"
 vid-721	First camera phone	scene 6 visual	"label":"Early camera phone" "value":0.1 "label":"Typical phone today" "value":12
 vid-721	First camera phone	scene 7 visual	"label":"0.1 MP"
 vid-722	Computer password	title	The first computer password was stolen almost immediately 🔑
-vid-722	Computer password	description	Computer passwords began in the early 1960s, when many people started sharing one machine. Within a year someone printed them all.
+vid-722	Computer password	description	Computer passwords began in the early 1960s, when many people started sharing one machine. Soon after, someone printed them all.
 vid-722	Computer password	scene 1 vo	The first computer passwords leaked almost immediately.
 vid-722	Computer password	scene 1 visual	"label":"First passwords"
 vid-722	Computer password	scene 3 vo	Around 1961, a university system let many people share one computer at once.
-vid-722	Computer password	scene 3 visual	"year":"1950s" "label":"One job at a time" "year":"About 1961" "label":"Shared computer, passwords" "year":"1962" "label":"Password file printed"
-vid-722	Computer password	scene 5 vo	In 1962, one researcher wanted more computer time than his allowance.
+vid-722	Computer password	scene 3 visual	"year":"1950s" "label":"One job at a time" "year":"About 1961" "label":"Shared computer, passwords" "year":"Soon after" "label":"Password file printed"
 vid-722	Computer password	scene 5 visual	"value":95 "low":"Allowance" "high":"Wanted" "label":"Computer time"
 vid-722	Computer password	scene 7 visual	"label":"Your password" "label":"One-way scramble" "label":"Only that is stored"
 vid-722	Computer password	scene 8 visual	"label":"Since 1961"
 vid-723	Car headlights	title	The first car headlights were flames, not bulbs 🔦
 vid-723	Car headlights	scene 1 vo	The first car headlights were flames, not bulbs.
 vid-723	Car headlights	scene 2 visual	"value":10 "low":"Dim" "high":"Bright" "label":"Oil lamp brightness"
-vid-723	Car headlights	scene 5 vo	Electric headlights arrived in the 1910s, once cars carried batteries and generators.
-vid-723	Car headlights	scene 5 visual	"year":"1900s" "label":"Acetylene lamps" "year":"1910s" "label":"Electric headlights" "year":"1960s" "label":"Halogen bulbs" "year":"2000s" "label":"LED headlights"
+vid-723	Car headlights	scene 5 vo	Electric headlights became common in the 1910s, once cars carried batteries and generators.
+vid-723	Car headlights	scene 5 visual	"year":"1900s" "label":"Acetylene lamps" "year":"1910s" "label":"Electric headlights common" "year":"1960s" "label":"Halogen bulbs" "year":"2000s" "label":"LED headlights"
 vid-723	Car headlights	scene 7 visual	"label":"Halogen bulb, about" "value":55 "label":"LED unit, roughly" "value":20
 vid-724	Marine chronometer	scene 3 vo	Ships guessed, and some wrecked. In 1714, Britain offered a huge prize for an answer.
 vid-724	Marine chronometer	scene 3 text	1714: A HUGE PRIZE
@@ -2685,7 +2684,7 @@ vid-795	Dryer sheet	scene 7 visual	"value":40 "low":"Repels" "high":"Soaks up" "
 vid-796	SD card flash memory	scene 6 vo	Each forced trip wears the wall slightly, so cells survive only a limited number of rewrites.
 vid-796	SD card flash memory	scene 6 visual	"value":30 "low":"New" "high":"Worn" "label":"Each rewrite adds wear"
 vid-797	Spam filter	description	Close to half of all email is spam. Filters score each message on many clues, and anything over the line goes to junk.
-vid-797	Spam filter	scene 2 vo	Close to half of all email sent worldwide is spam.
+vid-797	Spam filter	scene 2 vo	By many estimates, close to half of all email is spam.
 vid-797	Spam filter	scene 2 text	NEARLY HALF IS SPAM
 vid-797	Spam filter	scene 2 visual	"label":"About 9 in 20 emails"
 vid-797	Spam filter	scene 5 visual	"label":"Faked sender" "value":5 "label":"Link to a new site" "value":3 "label":"Known contact" "value":1
@@ -2702,8 +2701,6 @@ vid-803	Iron-on patch	scene 6 visual	"label":"Glue only" "label":"Glue + stitche
 vid-804	Water filter straw	scene 3 visual	"to":0.1 "suffix":" µm" "label":"pore size, about"
 vid-804	Water filter straw	scene 5 visual	"label":"Filter pore" "value":0.1 "label":"Typical bacterium" "value":1 "label":"Parasite cyst" "value":5
 vid-804	Water filter straw	scene 6 vo	But most viruses are smaller, and chemicals and salt pass straight through.
-vid-805	Foil emergency blanket	title	This 50-gram foil sheet bounces your body heat back 🥶
-vid-805	Foil emergency blanket	scene 1 text	50 GRAMS OF WARMTH
 vid-805	Foil emergency blanket	scene 3 vo	Your body loses heat partly by glowing in infrared. A bare metal mirror bounces most of that back.
 vid-805	Foil emergency blanket	scene 3 visual	"label":"Body glows infrared" "label":"Hits the foil" "label":"Most bounces back"
 vid-805	Foil emergency blanket	scene 4 visual	"label":"Radiation" "value":60 "label":"Wind" "value":50 "label":"Evaporation" "value":40
@@ -2716,7 +2713,7 @@ vid-807	Cola and mint geyser	scene 6 visual	"label":"Bottle" "value":0.3 "label"
 vid-808	Jet blade hand dryer	scene 4 vo	That sheet of air moves at several hundred kilometres per hour.
 vid-808	Jet blade hand dryer	scene 4 visual	"value":92 "low":"Breeze" "high":"Gale" "label":"Hundreds of km per hour"
 vid-808	Jet blade hand dryer	scene 6 vo	Most of the water is pushed off in a few passes, so drying takes seconds, not most of a minute.
-vid-808	Jet blade hand dryer	scene 6 visual	"label":"Jet dryer" "value":12 "label":"Warm-air dryer" "value":40
+vid-808	Jet blade hand dryer	scene 6 visual	"label":"Jet dryer" "value":10 "label":"Warm-air dryer" "value":47
 vid-809	Door alarm reed switch	scene 5 visual	"to":1 "suffix":" ms" "label":"about a thousandth of a second"
 vid-810	Candle smoke	scene 6 visual	"value":30 "low":"Too cool" "high":"Hot wick" "label":"Seconds after blowing out"
 vid-811	Battery protection circuit	scene 2 visual	"value":85 "low":"Calm" "high":"Danger" "label":"Short circuit risk"
@@ -2727,7 +2724,7 @@ vid-813	Regenerative braking	scene 5 visual	"value":60 "low":"Coasting" "high":"
 vid-814	Plane oxygen masks	scene 2 vo	If the cabin loses pressure up high, you have maybe half a minute of clear thinking.
 vid-814	Plane oxygen masks	scene 2 visual	"to":30 "prefix":"~" "suffix":" s" "label":"of clear thinking at cruise"
 vid-814	Plane oxygen masks	scene 6 visual	"value":85 "low":"Cool" "high":"Hot" "label":"Canister while working"
-vid-814	Plane oxygen masks	scene 7 visual	"year":"0 s" "label":"Masks drop" "year":"Minutes" "label":"Pilots dive lower" "year":"~15 min" "label":"Breathable air reached"
+vid-814	Plane oxygen masks	scene 7 visual	"year":"0 s" "label":"Masks drop" "year":"Minutes" "label":"Pilots dive lower" "year":"10,000 ft" "label":"Breathable air reached"
 vid-815	Pole fuse	scene 3 visual	"value":95 "low":"Normal" "high":"Overload" "label":"Fuse wire melts"
 vid-817	Impact driver	title	Your impact driver hammers sideways, 3,000 times a minute
 vid-817	Impact driver	scene 5 vo	That happens a couple of times per turn, about three thousand blows a minute.
@@ -2759,7 +2756,7 @@ vid-823	Water flosser	scene 4 visual	"to":1200 "label":"Pulses a minute"
 vid-823	Water flosser	scene 6 visual	"value":60 "low":"Gentle" "high":"Strong" "label":"Pressure dial"
 vid-824	Earth wire	scene 3 visual	"value":2 "low":"Nothing" "high":"Huge" "label":"Current in the earth wire"
 vid-825	Oxygen stain remover	scene 7 visual	"value":35 "low":"Gentle" "high":"Harsh" "label":"Oxygen bleach on colours"
-vid-826	Optical mouse sensor	scene 3 visual	"to":6000 "label":"frames a second, often"
+vid-826	Optical mouse sensor	scene 3 visual	"to":1000 "label":"frames a second, or more"
 vid-826	Optical mouse sensor	scene 6 visual	"year":"1960s" "label":"First mouse, with wheels" "year":"1970s-90s" "label":"Ball mouse" "year":"1999 onward" "label":"Optical mice spread"
 vid-827	Authenticator app codes	title	Your 6-digit login code is made from the time of day ⏱️
 vid-827	Authenticator app codes	scene 4 text	MIXED EVERY 30 S
@@ -2787,7 +2784,7 @@ vid-836	Kitchen scale	scene 6 visual	"to":250 "suffix":" g" "label":"grams on th
 vid-837	Bubble wrap	title	Bubble wrap was invented as wallpaper 🫧
 vid-837	Bubble wrap	description	In 1957 two engineers sealed two plastic sheets together to make textured wallpaper. It flopped, then became the world's favourite packing material.
 vid-837	Bubble wrap	scene 1 vo	Bubble wrap was invented as wallpaper.
-vid-837	Bubble wrap	scene 3 vo	In 1957, two American engineers sealed two plastic shower curtains together, trapping air bubbles.
+vid-837	Bubble wrap	scene 3 vo	In 1957, two American engineers sealed two plastic sheets together, trapping air bubbles.
 vid-837	Bubble wrap	scene 5 visual	"year":"1957" "label":"Wallpaper idea" "year":"1960" "label":"Company founded" "year":"1960s" "label":"Used to ship computers"
 vid-838	Before showers	title	Before showers, most people washed from a bowl 🫗
 vid-838	Before showers	description	A wash used to mean a basin and a cloth. The first patented home shower in 1767 pumped the same dirty water over you again.
@@ -2837,7 +2834,7 @@ vid-845	Road centre lines	description	Early roads had no lines at all. A Michiga
 vid-845	Road centre lines	scene 3 visual	"value":90 "low":"Safe" "high":"Head-on" "label":"Bends with no lines"
 vid-845	Road centre lines	scene 5 vo	In 1911 his team painted a centre line on a Michigan road, one of the first anywhere.
 vid-845	Road centre lines	scene 5 text	MICHIGAN, 1911
-vid-845	Road centre lines	scene 5 visual	"year":"1911" "label":"Michigan: early centre line" "year":"1917" "label":"A California doctor paints one" "year":"1924" "label":"California makes lines official"
+vid-845	Road centre lines	scene 5 visual	"year":"1911" "label":"Michigan: early centre line" "year":"1917" "label":"A California woman paints one" "year":"1924" "label":"California makes lines official"
 vid-846	Before coins	description	People bartered, then used things like grain, cattle and shells as money, until the first coins appeared around 600 BC.
 vid-846	Before coins	scene 6 vo	Around 600 BC, the kingdom of Lydia stamped lumps of gold-silver metal into the first coins.
 vid-846	Before coins	scene 6 text	THE FIRST COINS
@@ -2853,9 +2850,9 @@ vid-847	Hammer	scene 6 text	ROMAN CLAWS
 vid-848	Synthetic dye	title	Before 1856, purple clothes were for kings and queens 💜
 vid-848	Synthetic dye	description	Ancient purple took thousands of sea snails per gram. Then an 18-year-old chemist's failed experiment made mauve.
 vid-848	Synthetic dye	scene 1 vo	Before 1856, purple was for royalty.
-vid-848	Synthetic dye	scene 3 vo	Around ten thousand sea snails were crushed for roughly one gram of ancient purple.
-vid-848	Synthetic dye	scene 3 text	10,000 SNAILS
-vid-848	Synthetic dye	scene 3 visual	"to":10000 "label":"snails for about 1 gram"
+vid-848	Synthetic dye	scene 3 vo	Roughly eight thousand sea snails were crushed for roughly one gram of ancient purple.
+vid-848	Synthetic dye	scene 3 text	8,000 SNAILS
+vid-848	Synthetic dye	scene 3 visual	"to":8000 "label":"snails for about 1 gram"
 vid-848	Synthetic dye	scene 4 vo	Then in 1856, an 18-year-old chemist was trying to make a malaria medicine from coal tar.
 vid-848	Synthetic dye	scene 4 text	AGE 18, 1856
 vid-848	Synthetic dye	scene 4 visual	"year":"Ancient" "label":"Purple from sea snails" "year":"1856" "label":"Mauve made from coal tar" "year":"1860s" "label":"Mauve craze in fashion"
@@ -2868,7 +2865,7 @@ vid-850	Hand washing in hospitals	title	Before 1847, doctors didn't wash their h
 vid-850	Hand washing in hospitals	description	In 1840s Vienna, a doctor noticed one maternity ward was far deadlier than another. Hand washing fixed it, though few believed him at first.
 vid-850	Hand washing in hospitals	scene 1 vo	Before 1847, doctors didn't wash between patients.
 vid-850	Hand washing in hospitals	scene 4 vo	In 1847 he made them wash in a chlorine solution. Deaths in his ward dropped sharply.
-vid-850	Hand washing in hospitals	scene 4 visual	"label":"Before washing" "value":12 "label":"After washing" "value":2
+vid-850	Hand washing in hospitals	scene 4 visual	"label":"Before washing" "value":18 "label":"After washing" "value":2
 vid-850	Hand washing in hospitals	scene 5 visual	"value":15 "low":"Ignored" "high":"Accepted" "label":"Belief at the time"
 vid-850	Hand washing in hospitals	scene 6 vo	Only years later did germ theory and antiseptics prove him right.
 vid-850	Hand washing in hospitals	scene 6 visual	"year":"1847" "label":"Semmelweis: wash hands" "year":"1860s" "label":"Pasteur's germ research" "year":"1867" "label":"Lister's antiseptic surgery"
@@ -2880,9 +2877,9 @@ vid-851	History of the kitchen stove	scene 3 visual	"value":90 "low":"Clean" "hi
 vid-851	History of the kitchen stove	scene 4 vo	In the 1700s and 1800s, closed cast-iron ranges boxed the fire in.
 vid-851	History of the kitchen stove	scene 5 vo	A flue carried the smoke away, and the hot iron top became the first hob.
 vid-851	History of the kitchen stove	scene 5 text	THE FIRST HOB
-vid-851	History of the kitchen stove	scene 6 vo	Gas stoves spread in the late 1800s, so no more hauling wood or coal.
-vid-851	History of the kitchen stove	scene 7 vo	Electric cookers caught on in the 1920s and 30s, as homes got wired.
-vid-851	History of the kitchen stove	scene 7 visual	"year":"Ancient" "label":"Open hearth fires" "year":"1700s-1800s" "label":"Cast-iron closed ranges" "year":"Late 1800s" "label":"Gas stoves spread" "year":"1920s-30s" "label":"Electric cookers catch on"
+vid-851	History of the kitchen stove	scene 6 vo	Gas stoves began to spread in the late 1800s, so no more hauling wood or coal.
+vid-851	History of the kitchen stove	scene 7 vo	Electric cookers caught on in the early 1900s, as homes got wired.
+vid-851	History of the kitchen stove	scene 7 visual	"year":"Ancient" "label":"Open hearth fires" "year":"1700s-1800s" "label":"Cast-iron closed ranges" "year":"Late 1800s" "label":"Gas stoves spread" "year":"1900s" "label":"Electric cookers catch on"
 vid-852	Mayonnaise emulsion	scene 6 visual	"label":"Oil" "value":75 "label":"Water, yolk, vinegar" "value":25
 vid-853	Suction-cup bath mat	description	Pressing the mat squeezes air out of its suction cups. The room's air, about 10 tonnes per square metre, holds it down.
 vid-853	Suction-cup bath mat	scene 5 text	10 TONNES PER M²
@@ -2908,8 +2905,7 @@ vid-859	Wing de-icing	scene 3 text	HOT SPRAY FIRST
 vid-860	Traffic signal cabinet	scene 6 visual	"value":50 "low":"Normal" "high":"Fault" "label":"Fail-safe mode"
 vid-861	Envelope security pattern	scene 5 visual	"value":10 "low":"Hidden" "high":"Readable" "label":"Text through the paper"
 vid-862	Electrical tape	title	Electrical tape only works if you stretch it
-vid-862	Electrical tape	scene 5 vo	Vinyl barely conducts electricity, so it insulates. Common tapes are rated to about six hundred volts.
-vid-862	Electrical tape	scene 5 visual	"value":90 "low":"Conducts" "high":"Insulates" "label":"Rated to about 600 V"
+vid-862	Electrical tape	scene 5 visual	"value":90 "low":"Conducts" "high":"Insulates" "label":"Rated for hundreds of volts"
 vid-862	Electrical tape	scene 7 vo	Overlap each turn by about half, and let the last turn go on relaxed.
 vid-862	Electrical tape	scene 7 text	OVERLAP BY HALF
 vid-862	Electrical tape	scene 7 visual	"label":"Overlap by half" "label":"Keep it stretched" "label":"Last turn relaxed"
@@ -2932,7 +2928,7 @@ vid-867	Silica gel packet	scene 6 vo	Most people bin them right away. But they s
 vid-869	Thermostatic radiator valve	description	A thermostatic radiator valve's numbers are target temperatures. Turning it to 5 doesn't heat faster, it just lets the room get hotter.
 vid-869	Thermostatic radiator valve	scene 4 vo	So each number is a target room temperature. On many valves, 3 is around 20 degrees.
 vid-869	Thermostatic radiator valve	scene 4 text	3 IS ABOUT 20°C
-vid-869	Thermostatic radiator valve	scene 4 visual	"label":"Setting 1, about" "value":12 "label":"Setting 3, about" "value":20 "label":"Setting 5, about" "value":28
+vid-869	Thermostatic radiator valve	scene 4 visual	"label":"Setting 2, about" "value":16 "label":"Setting 3, about" "value":20 "label":"Setting 5, about" "value":28
 vid-869	Thermostatic radiator valve	scene 5 vo	Turning it to 5 won't heat the room faster. While it's cold, the valve is already wide open.
 vid-869	Thermostatic radiator valve	scene 5 text	5 ISN'T FASTER
 vid-869	Thermostatic radiator valve	scene 5 visual	"value":100 "low":"Closed" "high":"Open" "label":"Cold room: fully open"
@@ -2994,7 +2990,7 @@ vid-890	Orange sodium street lights	scene 4 text	ONE COLOUR ONLY
 vid-890	Orange sodium street lights	scene 5 vo	With only one colour, red, blue and green objects can't show their own colour. They all look grey.
 vid-890	Orange sodium street lights	scene 6 vo	They were used because they made lots of light per watt, among the most efficient lamps of their time.
 vid-890	Orange sodium street lights	scene 6 visual	"value":90 "low":"Wasteful" "high":"Efficient" "label":"Light per watt"
-vid-890	Orange sodium street lights	scene 7 visual	"year":"1930s" "label":"Sodium street lamps appear" "year":"Today" "label":"White LEDs take over"
+vid-890	Orange sodium street lights	scene 7 visual	"year":"1900s" "label":"Sodium street lamps spread" "year":"Today" "label":"White LEDs take over"
 vid-891	Laminator	scene 3 vo	The inside of each sheet is coated with a glue that only melts when it's hot.
 vid-891	Laminator	scene 6 visual	"value":75 "low":"Cool" "high":"Hot" "label":"Rollers while laminating"
 vid-892	Nut and bolt	description	Tightening a nut stretches the bolt slightly, and that stretch clamps the parts together. Most of your effort goes into fighting friction.
@@ -3022,9 +3018,9 @@ vid-895	Eye chart	scene 6 vo	Each line down is smaller, and only letters that ar
 vid-895	Eye chart	scene 6 visual	"label":"Top line" "value":100 "label":"Middle line" "value":40 "label":"Bottom line" "value":10
 vid-897	Bendy straw	description	In the 1930s a dad watched his daughter struggle with a straight straw. He used a screw and dental floss to make ridges, and the bendy straw was born.
 vid-897	Bendy straw	scene 2 vo	In the 1930s, an inventor watched his daughter struggle to reach the top of a straight straw.
-vid-897	Bendy straw	scene 7 vo	He patented it in 1937. Hospitals loved it for patients lying in bed.
+vid-897	Bendy straw	scene 7 vo	He patented it in 1937. It was perfect for anyone drinking lying down.
 vid-897	Bendy straw	scene 7 text	PATENT 1937
-vid-897	Bendy straw	scene 7 visual	"year":"1930s" "label":"Daughter's milkshake" "year":"1937" "label":"Bendy straw patent" "year":"1950s" "label":"Hospitals adopt it"
+vid-897	Bendy straw	scene 7 visual	"year":"1930s" "label":"Daughter's milkshake" "year":"1937" "label":"Bendy straw patent" "year":"1940s+" "label":"Bendy straws spread"
 vid-898	Concave magnifying mirror	scene 4 text	5X OR 10X
 vid-898	Concave magnifying mirror	scene 4 visual	"label":"Flat mirror" "value":1 "label":"Magnifier" "value":5 "label":"Strong magnifier" "value":10
 vid-898	Concave magnifying mirror	scene 6 vo	That's why it only works up close, and why many have a flat side too.
@@ -3140,9 +3136,9 @@ vid-936	Paper shredder	scene 7 visual	"value":85 "low":"Easy" "high":"Jammed" "l
 vid-937	Jigsaw	title	A jigsaw blade stabs up and down 50 times a second
 vid-937	Jigsaw	description	A jigsaw turns its motor's spin into up-and-down strokes with an off-centre pin, up to about 3,000 strokes a minute.
 vid-937	Jigsaw	scene 1 text	50 STROKES A SECOND
-vid-937	Jigsaw	scene 4 vo	Flat out, that's about three thousand strokes a minute.
+vid-937	Jigsaw	scene 4 vo	Flat out, many run up to about three thousand strokes a minute.
 vid-937	Jigsaw	scene 4 text	3,000 A MINUTE
-vid-937	Jigsaw	scene 4 visual	"to":3000 "label":"strokes a minute, flat out"
+vid-937	Jigsaw	scene 4 visual	"to":3000 "label":"strokes a minute, at most"
 vid-937	Jigsaw	scene 5 vo	Most blades cut on the upstroke, pulling up into the base. So the top face can splinter.
 vid-937	Jigsaw	scene 6 visual	"value":75 "low":"Clean" "high":"Fast" "label":"Orbital setting"
 vid-938	Shoelace knot failure	scene 3 text	7G STOMP
@@ -3156,11 +3152,11 @@ vid-940	Blood glucose meter	scene 4 vo	Inside sits an enzyme that reacts only wi
 vid-940	Blood glucose meter	scene 6 visual	"value":60 "low":"Low" "high":"High" "label":"Current tracks glucose"
 vid-941	Fridge light switch	scene 7 visual	"value":5 "low":"Off" "high":"On" "label":"Button pressed: light off"
 vid-942	Apple browning	scene 6 visual	"value":25 "low":"Slow" "high":"Fast" "label":"Browning with lemon"
-vid-943	Bathroom shaver socket	description	UK shaver sockets contain a small isolating transformer. Its output has no path to earth through you, and it only supplies about 20 watts.
+vid-943	Bathroom shaver socket	description	UK shaver sockets contain a small isolating transformer. Its output has no path to earth through you, and it only supplies a few tens of watts.
 vid-943	Bathroom shaver socket	scene 2 text	THE ONLY SOCKET
-vid-943	Bathroom shaver socket	scene 6 vo	The transformer is tiny, so it only supplies about twenty watts: fine for shavers, useless for dryers.
-vid-943	Bathroom shaver socket	scene 6 text	ABOUT 20 WATTS
-vid-943	Bathroom shaver socket	scene 6 visual	"label":"Shaver socket" "value":20 "label":"Hair dryer" "value":2000
+vid-943	Bathroom shaver socket	scene 6 vo	The transformer is tiny, so it only supplies twenty to fifty watts: fine for shavers, useless for dryers.
+vid-943	Bathroom shaver socket	scene 6 text	20 TO 50 WATTS
+vid-943	Bathroom shaver socket	scene 6 visual	"label":"Shaver socket" "value":50 "label":"Hair dryer" "value":2000
 vid-945	Spin mop	scene 6 visual	"value":30 "low":"Damp" "high":"Soaking" "label":"After a few pumps"
 vid-946	Phone battery swelling	scene 4 visual	"value":70 "low":"Flat" "high":"Puffed" "label":"Pouch pressure"
 vid-947	Deleted files	scene 3 vo	Delete a file, and usually only its catalogue entry is removed.
@@ -3190,13 +3186,13 @@ vid-957	Ice cream cone	scene 6 text	1904 WORLD'S FAIR
 vid-957	Ice cream cone	scene 6 visual	"year":"1800s" "label":"Penny licks" "year":"Late 1800s" "label":"Edible cones in Europe" "year":"1904" "label":"Cones go mainstream"
 vid-958	Before hair dryers	description	Hair dried by the fire or in the sun, then on gas-stove bonnets and vacuum cleaner exhausts. Handheld dryers came around 1920.
 vid-958	Before hair dryers	scene 2 vo	For most of history, hair dried in the open air, by the fire, or in the sun.
-vid-958	Before hair dryers	scene 3 vo	In 1890, a French salon made a dryer: a bonnet fed by a gas stove.
-vid-958	Before hair dryers	scene 3 text	1890: GAS POWERED
+vid-958	Before hair dryers	scene 3 vo	In the late 1880s, a French salon made a dryer: a bonnet fed by a gas stove.
+vid-958	Before hair dryers	scene 3 text	1880S: GAS POWERED
 vid-958	Before hair dryers	scene 5 vo	Handheld dryers arrived around 1920, heavy and weak, with only about a hundred watts.
 vid-958	Before hair dryers	scene 5 text	100 WATTS, THEN
 vid-958	Before hair dryers	scene 5 visual	"label":"1920s dryer" "value":100 "label":"Modern dryer" "value":2000
 vid-958	Before hair dryers	scene 6 text	20X THE POWER
-vid-958	Before hair dryers	scene 6 visual	"year":"1890" "label":"Salon dryer on a gas stove" "year":"1920s" "label":"First handheld dryers" "year":"Today" "label":"About 2,000 watts"
+vid-958	Before hair dryers	scene 6 visual	"year":"1880s" "label":"Salon dryer on a gas stove" "year":"1920s" "label":"First handheld dryers" "year":"Today" "label":"About 2,000 watts"
 vid-959	Before circuit breakers	scene 2 visual	"value":90 "low":"Cool" "high":"Glowing" "label":"Overloaded wire"
 vid-959	Before circuit breakers	scene 3 vo	Edison's systems used a simple fix, patented in 1890: a fuse, a deliberately weak link.
 vid-959	Before circuit breakers	scene 3 visual	"year":"1880s" "label":"Early wiring, fire a real risk" "year":"1890" "label":"Edison patents a fuse" "year":"1924" "label":"Circuit breaker invented"
@@ -3263,7 +3259,7 @@ vid-969	Flying disc	description	College students spun empty tins from the Frisbi
 vid-969	Flying disc	scene 4 vo	In 1948, Walter Morrison made a plastic version that flew better and didn't dent.
 vid-969	Flying disc	scene 5 text	NAMED AFTER PIES
 vid-969	Flying disc	scene 6 visual	"value":85 "low":"Wobbly" "high":"Steady" "label":"Spin keeps it level"
-vid-969	Flying disc	scene 7 visual	"year":"1871" "label":"Frisbie Pie Company opens" "year":"1948" "label":"First plastic flying disc" "year":"1958" "label":"The pie name goes on the toy"
+vid-969	Flying disc	scene 7 visual	"year":"1871" "label":"Frisbie Pie Company opens" "year":"1948" "label":"First plastic flying disc" "year":"1957" "label":"The pie name goes on the toy"
 vid-970	Cork life jacket	scene 3 visual	"label":"Water" "value":1 "label":"Cork" "value":0.2
 vid-970	Cork life jacket	scene 4 vo	In the 1850s, British lifeboat crews wore vests of cork blocks stitched onto canvas.
 vid-970	Cork life jacket	scene 4 text	1850S LIFEBOAT CREWS
@@ -3486,7 +3482,7 @@ vid-1049	Lightning rod	scene 1 text	30,000 AMPS
 vid-1049	Lightning rod	scene 4 vo	Typical strikes carry around 30,000 amps. Brick and stone resist it, heat up, and can burst.
 vid-1049	Lightning rod	scene 4 visual	"to":30000 "label":"amps in a typical strike"
 vid-1049	Lightning rod	scene 6 visual	"value":98 "low":"Calm" "high":"Strike" "label":"Under a thousandth of a second"
-vid-1049	Lightning rod	scene 7 vo	Benjamin Franklin came up with the idea in the 1750s, and it still works the same way.
+vid-1049	Lightning rod	scene 7 vo	Benjamin Franklin came up with the idea around 1750, and it still works the same way.
 vid-1049	Lightning rod	scene 7 visual	"year":"1752" "label":"Franklin's kite experiment" "year":"1750s" "label":"First lightning rods" "year":"Today" "label":"Same idea, still working"
 vid-1050	Blown light bulb	scene 2 visual	"label":"Cold filament resistance" "value":1 "label":"Hot filament resistance" "value":10
 vid-1050	Blown light bulb	scene 3 visual	"value":95 "low":"Normal" "high":"Surge" "label":"First instant of current"
@@ -3579,17 +3575,17 @@ vid-1076	Milk steam wand	scene 7 text	STOP AT ABOUT 65°C
 vid-1076	Milk steam wand	scene 7 visual	"value":65 "low":"Cold" "high":"Boiling" "label":"About 60 to 65°C"
 vid-1076	Milk steam wand	scene 8 vo	Air in first, then heat. That's how...
 vid-1077	Sugar cube	title	Sugar cubes were invented because someone cut their finger 🍬
-vid-1077	Sugar cube	description	Sugar used to come as giant hard cones you hacked at with special nippers. In the 1840s a factory manager in Bohemia invented the cube.
+vid-1077	Sugar cube	description	Sugar used to come as giant hard cones you hacked at with special nippers. In the 1840s a factory manager in Moravia invented the cube.
 vid-1077	Sugar cube	scene 1 vo	Sugar cubes were invented because someone cut a finger.
-vid-1077	Sugar cube	scene 4 vo	In the 1840s, the manager of a sugar factory in Bohemia heard his wife had cut herself chopping sugar.
-vid-1077	Sugar cube	scene 4 text	BOHEMIA, 1840s
+vid-1077	Sugar cube	scene 4 vo	In the 1840s, the manager of a sugar factory in Moravia heard his wife had cut herself chopping sugar.
+vid-1077	Sugar cube	scene 4 text	MORAVIA, 1840s
 vid-1077	Sugar cube	scene 6 vo	He got a patent in 1843. Neat, even, no chopping.
 vid-1077	Sugar cube	scene 6 text	PATENT 1843
 vid-1077	Sugar cube	scene 6 visual	"year":"1600s-1800s" "label":"Sugarloaf cones" "year":"1843" "label":"Sugar cube patent" "year":"Today" "label":"Cubes everywhere"
 vid-1077	Sugar cube	scene 7 visual	"label":"Since 1843"
 vid-1078	Before shampoo	scene 4 vo	In 1814, Sake Dean Mahomed opened a shampooing bath house in Brighton, England.
 vid-1078	Before shampoo	scene 4 text	1814: BRIGHTON
-vid-1078	Before shampoo	scene 4 visual	"year":"1814" "label":"Shampooing baths in Brighton" "year":"1903" "label":"Shampoo powder sold in Germany" "year":"1930s" "label":"Detergent shampoos arrive"
+vid-1078	Before shampoo	scene 4 visual	"year":"1814" "label":"Shampooing baths in Brighton" "year":"Early 1900s" "label":"Shampoo powder sold in Germany" "year":"1930s" "label":"Detergent shampoos arrive"
 vid-1078	Before shampoo	scene 5 visual	"label":"1800s shampoo" "label":"Today's shampoo"
 vid-1078	Before shampoo	scene 6 vo	Detergent shampoos arrived in the 1930s and rinse clean, even in hard water.
 vid-1079	Before water heaters	scene 5 vo	Victorian kitchen ranges added a back boiler, a tank behind the fire that warmed water all day.
@@ -3632,7 +3628,6 @@ vid-1086	Before ballpoint pens	description	For centuries people wrote with quill
 vid-1086	Before ballpoint pens	scene 4 vo	In the 1800s, steel nibs took over. Still dipping, but no more cutting.
 vid-1086	Before ballpoint pens	scene 4 visual	"year":"Middle Ages" "label":"Quill pens and inkwells" "year":"1800s" "label":"Steel dip nibs" "year":"1938" "label":"Ballpoint patented"
 vid-1087	Nails	scene 3 visual	"value":90 "low":"Cheap" "high":"Precious" "label":"Value of a hand-made nail"
-vid-1087	Nails	scene 4 vo	In 1645, colonial Virginia passed a law to stop it, giving settlers nails instead.
 vid-1087	Nails	scene 5 vo	Then machines took over: first nails cut from iron sheets, then nails snipped from wire.
 vid-1087	Nails	scene 5 visual	"year":"Before 1800" "label":"Hand-forged by blacksmiths" "year":"About 1800" "label":"Machine-cut nails from iron plate" "year":"Late 1800s" "label":"Cheap wire nails take over"
 vid-1088	Left and right shoes	title	Before the 1800s, many shoes had no left or right 👞
@@ -3663,12 +3658,11 @@ vid-1091	History of the table fork	description	For centuries Europeans ate with 
 vid-1091	History of the table fork	scene 2 vo	For most of history, Europeans ate with knives, spoons and their fingers.
 vid-1091	History of the table fork	scene 3 vo	Big two-pronged forks existed, but only for carving and serving meat in the kitchen.
 vid-1091	History of the table fork	scene 3 text	KITCHEN FORKS ONLY
-vid-1091	History of the table fork	scene 4 vo	Small table forks spread from the Byzantine Empire into Italy around a thousand years ago.
-vid-1091	History of the table fork	scene 4 visual	"year":"About 1000" "label":"Table forks reach Italy" "year":"1608" "label":"Forks reach England" "year":"1700s" "label":"Curved four-tine forks"
+vid-1091	History of the table fork	scene 4 visual	"year":"Middle Ages" "label":"Table forks reach Italy" "year":"1608" "label":"Forks reach England" "year":"1700s" "label":"Curved four-tine forks"
 vid-1091	History of the table fork	scene 5 visual	"value":90 "low":"Normal" "high":"Scandalous" "label":"Early opinion of forks"
 vid-1091	History of the table fork	scene 6 vo	In 1608, an English traveller brought the habit home from Italy and was mocked for it.
 vid-1092	Corrugated cardboard	scene 6 vo	Corrugated paper was first patented in 1856, to line tall hats. Boxes came later.
-vid-1092	Corrugated cardboard	scene 6 visual	"year":"1856" "label":"Patent for hat linings" "year":"1871" "label":"Used to wrap bottles" "year":"1890s" "label":"The first boxes"
+vid-1092	Corrugated cardboard	scene 6 visual	"year":"1856" "label":"Patent for hat linings" "year":"1871" "label":"Used to wrap bottles" "year":"Early 1900s" "label":"The first boxes"
 vid-1093	Nose hair trimmer	scene 6 vo	Unlike plucking, it only trims, leaving the hair root alone.
 vid-1094	Mechanical heating timer	description	A mechanical heating timer is a 24-hour dial ringed with push-in tabs. A motor locked to the mains turns it once a day.
 vid-1094	Mechanical heating timer	scene 2 vo	The dial is a 24-hour clock, ringed with little tabs, often one for every fifteen minutes.
@@ -3707,7 +3701,7 @@ vid-1105	Nebuliser	scene 6 text	ONLY THE FINEST
 vid-1105	Nebuliser	scene 6 visual	"label":"Big droplets" "value":20 "label":"Fine mist out" "value":80
 vid-1106	Electric hand mixer	scene 2 visual	"value":95 "low":"Slow" "high":"Fast" "label":"Motor speed"
 vid-1107	Ketchup bottle pouring	scene 2 visual	"value":90 "low":"Runny" "high":"Solid" "label":"Ketchup at rest"
-vid-1108	Thermostatic shower safety button	description	Thermostatic showers stop at about 38°C. You have to press a button to go hotter, so nobody gets scalded by accident.
+vid-1108	Thermostatic shower safety button	description	Thermostatic showers often stop at about 38°C. You have to press a button to go hotter, so nobody gets scalded by accident.
 vid-1108	Thermostatic shower safety button	scene 2 text	IT STOPS AT 38°C
 vid-1108	Thermostatic shower safety button	scene 2 visual	"to":38 "suffix":"°C" "label":"Where the dial stops"
 vid-1108	Thermostatic shower safety button	scene 3 visual	"label":"Body" "value":37 "label":"Dial stop" "value":38 "label":"Scalds in seconds" "value":60
@@ -3734,14 +3728,13 @@ vid-1115	Bagged recycling	scene 5 visual	"value":0 "low":"Stopped" "high":"Runni
 vid-1116	Holding a contactless card	scene 4 vo	The field only reaches a few centimetres, so distance matters.
 vid-1116	Holding a contactless card	scene 4 visual	"value":15 "low":"Touching" "high":"Too far" "label":"Working range: a few cm"
 vid-1116	Holding a contactless card	scene 5 vo	A coil catches the most field when it's flat, facing the reader.
-vid-1117	Screwdriver	scene 5 vo	Most household cross screws take a size two tip. Check the number on the shaft.
-vid-1117	Screwdriver	scene 5 text	SIZE 2 IS KING
+vid-1117	Screwdriver	scene 5 text	SIZE 2 IS COMMON
 vid-1117	Screwdriver	scene 6 vo	Keep the shaft straight in line with the screw. Tilted, only part of the tip grips.
 vid-1117	Screwdriver	scene 6 visual	"value":90 "low":"Tilted" "high":"In line" "label":"Tip contact"
 vid-1118	Wool felting in the wash	scene 3 visual	"value":85 "low":"Cool" "high":"Hot" "label":"Scales open up"
 vid-1119	Ball pump needle	scene 7 visual	"value":60 "low":"Soft" "high":"Rock hard" "label":"Printed pressure range"
 vid-1120	Hard hat date clock	description	Inside most hard hats is a small moulded dial. It isn't decoration: it shows when the shell was made, because plastic ages.
-vid-1120	Hard hat date clock	scene 6 visual	"label":"Strap cradle" "value":1 "label":"Shell, typical" "value":5
+vid-1120	Hard hat date clock	scene 6 visual	"label":"Strap cradle" "value":1 "label":"Shell, often" "value":3
 vid-1121	Box grater	scene 7 vo	Grate in one direction, pushing away. The teeth only cut one way.
 vid-1121	Box grater	scene 7 text	ONE WAY ONLY
 vid-1121	Box grater	scene 7 visual	"value":80 "low":"Back stroke" "high":"Forward" "label":"Where the teeth cut"
@@ -3766,7 +3759,7 @@ vid-1128	Timing belt	scene 7 visual	"value":80 "low":"New" "high":"Due" "label":
 vid-1129	Detachable chairlift grip	scene 5 visual	"label":"Cable speed" "value":5 "label":"Boarding speed" "value":1
 vid-1130	Crash barriers	scene 5 visual	"value":90 "low":"Safe" "high":"Deadly" "label":"Blunt rail end"
 vid-1131	Coin minting	scene 6 visual	"value":95 "low":"Gentle" "high":"Massive" "label":"Striking force"
-vid-1131	Coin minting	scene 7 visual	"to":750 "label":"coins a minute, fast presses"
+vid-1131	Coin minting	scene 7 visual	"to":300 "label":"coins a minute, roughly"
 vid-1132	Digital caliper	scene 5 text	0.01 MM STEPS
 vid-1132	Digital caliper	scene 5 visual	"to":1 "suffix":"/100 mm" "label":"smallest step shown"
 vid-1133	Sapphire watch glass	description	Sapphire watch crystals are grown from molten aluminium oxide and cut with diamond. Only diamond scores higher on the hardness scale.
@@ -3911,14 +3904,13 @@ vid-1189	Trolleybus poles	scene 2 vo	Electricity only flows in a loop: out from 
 vid-1191	Thumbtack	scene 4 visual	"value":10 "low":"Gentle" "high":"Painful" "label":"Pressure on your thumb"
 vid-1191	Thumbtack	scene 6 vo	The head can be a few thousand times bigger, so the point gets a few thousand times the pressure.
 vid-1191	Thumbtack	scene 6 visual	"label":"Pressure on thumb" "value":1 "label":"Pressure at the point" "value":1000
-vid-1192	Heat gun	title	A heat gun is a hairdryer that hits 600 degrees
-vid-1192	Heat gun	scene 1 vo	A heat gun is a hairdryer hitting six hundred degrees.
-vid-1192	Heat gun	scene 1 text	600°C OF AIR
-vid-1192	Heat gun	scene 4 vo	A hairdryer blows around fifty or sixty degrees. A heat gun can reach five or six hundred.
-vid-1192	Heat gun	scene 4 text	10X A HAIRDRYER
-vid-1192	Heat gun	scene 4 visual	"label":"Hairdryer" "value":60 "label":"Heat gun, low" "value":100 "label":"Heat gun, high" "value":600
+vid-1192	Heat gun	title	A heat gun is a hairdryer that hits 500 degrees
+vid-1192	Heat gun	scene 1 vo	A heat gun is a hairdryer hitting five hundred degrees.
+vid-1192	Heat gun	scene 1 text	500°C OF AIR
+vid-1192	Heat gun	scene 4 vo	A hairdryer blows warm air. A heat gun can reach around five hundred degrees.
+vid-1192	Heat gun	scene 4 visual	"label":"Hairdryer, warm" "value":60 "label":"Heat gun, low" "value":100 "label":"Heat gun, high" "value":500
 vid-1192	Heat gun	scene 7 visual	"value":80 "low":"Cool" "high":"Burning hot" "label":"Nozzle after switch-off"
-vid-1192	Heat gun	scene 8 visual	"label":"600°C of air"
+vid-1192	Heat gun	scene 8 visual	"label":"500°C of air"
 vid-1193	Woolly hat	title	You don't lose half your heat through your head 🧢
 vid-1193	Woolly hat	description	The 'most heat escapes from your head' idea came from tests where only the head was uncovered. Your head loses roughly its fair share.
 vid-1193	Woolly hat	scene 1 vo	You don't lose half your heat through your head.
@@ -3938,9 +3930,9 @@ vid-1197	Bottle crown cap	scene 1 text	21 TEETH
 vid-1197	Bottle crown cap	scene 2 vo	Before 1892, fizzy bottles used corks or wire-and-rubber stoppers.
 vid-1197	Bottle crown cap	scene 4 vo	In 1892, a Baltimore inventor patented a metal cap with a cork liner, crimped around the lip.
 vid-1197	Bottle crown cap	scene 4 text	PATENTED 1892
-vid-1197	Bottle crown cap	scene 6 text	24 TO 21
+vid-1197	Bottle crown cap	scene 6 text	21 BECAME STANDARD
 vid-1197	Bottle crown cap	scene 6 visual	"year":"1892" "label":"Crown cap patent" "year":"1894" "label":"Bottle opener patent" "year":"Later" "label":"21 teeth standard"
-vid-1197	Bottle crown cap	scene 7 vo	His travelling salesman later invented the safety razor. And to this day...
+vid-1197	Bottle crown cap	scene 7 vo	His firm's salesman later invented the safety razor. And to this day...
 vid-1197	Bottle crown cap	scene 7 visual	"label":"21 teeth"
 vid-1198	Before mirrors	description	From still water to polished obsidian, copper, mercury-backed glass and finally silver: the 8,000-year story of the mirror.
 vid-1198	Before mirrors	scene 2 vo	The first mirror was a still pool of water, gone with a single ripple.
@@ -3952,8 +3944,8 @@ vid-1198	Before mirrors	scene 5 vo	In the 1500s, Venice made glass mirrors backe
 vid-1198	Before mirrors	scene 5 visual	"year":"6000 BC" "label":"Obsidian mirrors" "year":"1500s" "label":"Venetian tin-mercury mirrors" "year":"1835" "label":"Silver-backed glass"
 vid-1198	Before mirrors	scene 6 vo	In 1835, a German chemist coated glass with pure silver, and cheap clear mirrors followed.
 vid-1199	Before double glazing	scene 5 vo	Some fitted a second window inside the first, an early form of secondary glazing.
-vid-1199	Before double glazing	scene 6 vo	Sealed double panes were invented in the 1930s; many homes only got them from the 1970s on.
-vid-1199	Before double glazing	scene 6 visual	"year":"1800s" "label":"Single glass and shutters" "year":"1930s" "label":"Sealed double panes invented" "year":"1970s" "label":"Double glazing spreads in homes"
+vid-1199	Before double glazing	scene 6 vo	Sealed double panes were invented in the 1930s; many homes only got them much later.
+vid-1199	Before double glazing	scene 6 visual	"year":"1800s" "label":"Single glass and shutters" "year":"1930s" "label":"Sealed double panes invented" "year":"Later" "label":"Double glazing spreads in homes"
 vid-1200	Roman laundry	title	Ancient Romans washed their clothes in urine 🏛️
 vid-1200	Roman laundry	description	Roman laundries used stale urine because it turns into ammonia, which cuts grease. The emperor even taxed it.
 vid-1200	Roman laundry	scene 1 vo	Ancient Romans washed their clothes in urine.
@@ -3967,9 +3959,8 @@ vid-1202	Emoticon	description	In 1982, after a joke on an online message board w
 vid-1202	Emoticon	scene 1 vo	The sideways smiley was invented to explain a joke.
 vid-1202	Emoticon	scene 2 vo	In 1982, a university had an online message board for computer scientists.
 vid-1202	Emoticon	scene 2 text	A 1982 MESSAGE BOARD
-vid-1202	Emoticon	scene 2 visual	"year":"1982" "label":"Sideways smiley proposed" "year":"1990s" "label":"Smileys spread online" "year":"1999" "label":"First emoji set in Japan"
-vid-1203	Car heaters	scene 6 vo	Heaters like this spread through the 1930s, and your car still warms you the same way.
-vid-1203	Car heaters	scene 6 visual	"year":"1900s" "label":"Coats and blankets" "year":"1920s" "label":"Early heaters appear" "year":"1930s" "label":"Coolant heaters spread"
+vid-1202	Emoticon	scene 2 visual	"year":"1982" "label":"Sideways smiley proposed" "year":"1990s" "label":"Smileys spread online" "year":"Late 1990s" "label":"Emoji sets appear in Japan"
+vid-1203	Car heaters	scene 6 visual	"year":"1900s" "label":"Coats and blankets" "year":"Early days" "label":"Early heaters appear" "year":"Later" "label":"Coolant heaters spread"
 vid-1204	Shipping container	description	Cargo used to be loaded piece by piece by gangs of dockworkers. In 1956 a steel box changed world trade.
 vid-1204	Shipping container	scene 3 visual	"value":80 "low":"At sea" "high":"In port" "label":"Where ships spent time"
 vid-1204	Shipping container	scene 4 vo	In 1956, a trucking businessman sent a tanker out with fifty-eight metal boxes on deck.
@@ -4007,13 +3998,12 @@ vid-1207	Standard screw threads	scene 6 visual	"label":"An M6 bolt" "label":"6 m
 vid-1208	Buttonholes	description	Buttons are over 4,000 years old, but for most of that time they were decoration. The buttonhole, from 1200s Europe, changed clothing.
 vid-1208	Buttonholes	scene 2 vo	Some of the oldest buttons, carved from shell, are over four thousand years old.
 vid-1208	Buttonholes	scene 2 text	4,000 YEARS OLD
-vid-1208	Buttonholes	scene 2 visual	"year":"2000 BC" "label":"Shell buttons, decoration" "year":"1200s" "label":"Buttonholes in Europe" "year":"1300s" "label":"A button craze"
+vid-1208	Buttonholes	scene 2 visual	"year":"2000 BC" "label":"Shell buttons, decoration" "year":"1200s" "label":"Buttonholes in Europe" "year":"Later" "label":"Buttons grow fashionable"
 vid-1208	Buttonholes	scene 4 vo	Then in the 1200s, Europeans started cutting slits with stitched edges: the buttonhole.
 vid-1209	Party balloons	description	People once blew up dried animal bladders for fun. The first rubber balloon was a lab tool, made by Michael Faraday in 1824.
 vid-1209	Party balloons	scene 3 vo	In 1824, scientist Michael Faraday made the first rubber balloon, for experiments with hydrogen.
 vid-1209	Party balloons	scene 3 text	A LAB TOOL FIRST
-vid-1209	Party balloons	scene 6 vo	In the 1930s, molds dipped in liquid latex made cheap balloons by the thousands.
-vid-1209	Party balloons	scene 7 visual	"year":"Long ago" "label":"Animal bladders" "year":"1824" "label":"Faraday's rubber balloon" "year":"1930s" "label":"Mass-made latex balloons"
+vid-1209	Party balloons	scene 7 visual	"year":"Long ago" "label":"Animal bladders" "year":"1824" "label":"Faraday's rubber balloon" "year":"Later" "label":"Mass-made latex balloons"
 vid-1210	Surgical mask history	title	Surgeons only started wearing masks in 1897 😷
 vid-1210	Surgical mask history	description	For most of history surgeons operated bare-faced. In the 1890s scientists showed talking sprays droplets, and a surgeon tied on a gauze mask.
 vid-1210	Surgical mask history	scene 1 vo	Surgeons only started wearing masks in 1897.
@@ -4024,14 +4014,13 @@ vid-1210	Surgical mask history	scene 4 visual	"year":"1867" "label":"Lister's an
 vid-1210	Surgical mask history	scene 6 vo	From the 1960s, disposable masks of non-woven plastic fibres took over.
 vid-1211	History of the electric kettle	title	The first electric kettles were slower than the stove ⚡
 vid-1211	History of the electric kettle	description	1890s electric kettles heated water through a separate chamber and were slow. In 1922 the element went inside the water, and in 1955 the steam switch-off arrived.
-vid-1211	History of the electric kettle	scene 1 visual	"label":"First electric kettle"
 vid-1211	History of the electric kettle	scene 3 vo	Electric kettles appeared in the 1890s, with the heater in a separate chamber under the water.
 vid-1211	History of the electric kettle	scene 3 text	FIRST ELECTRIC KETTLES
 vid-1211	History of the electric kettle	scene 4 visual	"value":25 "low":"Slow" "high":"Fast" "label":"1890s heating speed"
 vid-1211	History of the electric kettle	scene 5 vo	In 1922, the element was sealed in a tube and put right inside the water.
 vid-1211	History of the electric kettle	scene 6 vo	Then, in 1955, came the automatic switch-off, tripped by the kettle's own steam.
 vid-1211	History of the electric kettle	scene 6 text	1955: AUTO OFF
-vid-1211	History of the electric kettle	scene 7 visual	"year":"1890s" "label":"First electric kettles" "year":"1922" "label":"Element inside the water" "year":"1955" "label":"Automatic switch-off"
+vid-1211	History of the electric kettle	scene 7 visual	"year":"1890s" "label":"Early electric kettles" "year":"1922" "label":"Element inside the water" "year":"1955" "label":"Automatic switch-off"
 vid-1211	History of the electric kettle	scene 8 visual	"label":"1890s"
 vid-1212	Wine cork	scene 3 text	EVERY ~9 YEARS
 vid-1212	Wine cork	scene 3 visual	"to":9 "prefix":"~" "label":"years between harvests"
@@ -4068,10 +4057,10 @@ vid-1220	Fatbergs	scene 7 vo	Let fat cool and bin it, and only flush the three P
 vid-1222	Air compressor	scene 4 visual	"value":90 "low":"Empty" "high":"Cut-out" "label":"About 8 bar, then off"
 vid-1223	Yellow armpit stains	scene 5 visual	"value":75 "low":"White" "high":"Yellow" "label":"After many washes"
 vid-1223	Yellow armpit stains	scene 6 visual	"label":"Dress straight away" "label":"Let it dry first"
-vid-1224	Pogo stick	description	A classic pogo stick is a thick steel spring inside a tube. Extreme ones swap it for compressed air and send riders over 3 meters up.
+vid-1224	Pogo stick	description	A classic pogo stick is a thick steel spring inside a tube. Extreme ones swap it for compressed air or rubber bands and can send riders about 3 meters up.
 vid-1224	Pogo stick	scene 5 visual	"value":70 "low":"Small hops" "high":"Big jumps" "label":"Push at the bottom"
 vid-1224	Pogo stick	scene 7 text	3+ METERS
-vid-1224	Pogo stick	scene 7 visual	"to":3 "suffix":"+ m" "label":"extreme pogo jumps"
+vid-1224	Pogo stick	scene 7 visual	"to":3 "suffix":" m" "label":"extreme pogo, potential"
 vid-1225	Pill coating	scene 2 vo	Under the shine, most tablets have a thin film of polymer and colour.
 vid-1225	Pill coating	scene 5 visual	"label":"Stomach: very acidic" "value":90 "label":"Small gut: much less" "value":25
 vid-1225	Pill coating	scene 6 vo	The coat is made of polymers that only dissolve once things get much less acidic.
@@ -4119,9 +4108,9 @@ vid-1242	Champagne cork cage	scene 1 vo	A champagne cage takes six half-turns to
 vid-1242	Champagne cork cage	scene 1 text	6 HALF-TURNS
 vid-1242	Champagne cork cage	scene 2 text	6X PRESSURE
 vid-1242	Champagne cork cage	scene 2 visual	"value":85 "low":"Air" "high":"Sparkling" "label":"Pushing on the cork"
-vid-1242	Champagne cork cage	scene 6 vo	The cage was patented in 1844. Before that, corks were tied down with string.
+vid-1242	Champagne cork cage	scene 6 vo	The cage was invented in 1844. Before that, corks were tied down with string.
 vid-1242	Champagne cork cage	scene 6 text	1844
-vid-1242	Champagne cork cage	scene 6 visual	"year":"Before 1844" "label":"Corks tied with string" "year":"1844" "label":"Wire cage patented" "year":"Today" "label":"6 half-turns"
+vid-1242	Champagne cork cage	scene 6 visual	"year":"Before 1844" "label":"Corks tied with string" "year":"1844" "label":"Wire cage invented" "year":"Today" "label":"6 half-turns"
 vid-1243	Pull-cord light switch	scene 5 visual	"label":"First pull" "label":"Light on" "label":"Second pull: off"
 vid-1243	Pull-cord light switch	scene 6 visual	"label":"Bathroom" "label":"Bath and shower zones" "label":"Pull-cord only"
 vid-1245	Mothballs	scene 3 visual	"value":40 "low":"Gone" "high":"New" "label":"Mothball size over months"
@@ -4203,7 +4192,7 @@ vid-1280	Hydrant pentagon nut	description	A five-sided nut has no parallel sides
 vid-1280	Hydrant pentagon nut	scene 2 vo	Most nuts have six sides, and pairs of sides are parallel. That's what a normal wrench grips.
 vid-1280	Hydrant pentagon nut	scene 3 visual	"value":90 "low":"Grips" "high":"Slips" "label":"Normal wrench on 5 sides"
 vid-1281	Recycled paper de-inking	scene 6 vo	Each round, the fibres get a bit shorter, so paper can only be recycled a few times.
-vid-1281	Recycled paper de-inking	scene 6 visual	"to":7 "prefix":"~" "label":"times fibres can be reused"
+vid-1281	Recycled paper de-inking	scene 6 visual	"to":7 "prefix":"~" "label":"times at most, roughly"
 vid-1282	Magnetic screwdriver	scene 7 visual	"value":35 "low":"None" "high":"Strong" "label":"Tip magnetism"
 vid-1284	Table tennis ball	description	An official table tennis ball is a 40 mm hollow plastic shell weighing 2.7 grams. It grew bigger in 2000 and switched plastics in 2014.
 vid-1284	Table tennis ball	scene 1 text	UNDER 3 GRAMS
@@ -4331,18 +4320,17 @@ vid-1315	Ear defenders	scene 5 visual	"value":35 "low":"Leaky" "high":"Sealed" "
 vid-1315	Ear defenders	scene 6 visual	"label":"Low rumble cut" "value":15 "label":"Mid sounds cut" "value":28 "label":"High pitch cut" "value":35
 vid-1316	Dishwasher detergent door	scene 4 visual	"value":70 "low":"Solid" "high":"Melted" "label":"Wax warming up"
 vid-1317	Chewing gum	title	People have chewed gum for at least 5,000 years 🌳
-vid-1317	Chewing gum	description	Long before shops sold it, people chewed birch bark tar and tree sap. Modern gum started with tree sap from Mexico in the 1870s.
+vid-1317	Chewing gum	description	Long before shops sold it, people chewed birch bark tar and tree sap. Modern gum started with tree sap from Mexico in the 1800s.
 vid-1317	Chewing gum	scene 1 vo	People have chewed gum for at least five thousand years.
 vid-1317	Chewing gum	scene 1 text	5,000+ YEARS
 vid-1317	Chewing gum	scene 1 visual	"label":"Ancient gum"
-vid-1317	Chewing gum	scene 4 vo	In the 1870s, a New York inventor tried turning chicle into rubber. It failed, so he sold it as gum.
+vid-1317	Chewing gum	scene 4 vo	A New York inventor tried turning chicle into rubber. It failed, so in 1871 he sold it as gum.
 vid-1317	Chewing gum	scene 5 visual	"year":"~3000 BC" "label":"Birch tar chewed" "year":"Maya era" "label":"Chicle sap" "year":"1870s" "label":"Gum sold in shops" "year":"1900s" "label":"Synthetic gum base"
-vid-1317	Chewing gum	scene 6 vo	Today most gum base is made from food-safe synthetic polymers, not sap.
 vid-1317	Chewing gum	scene 7 vo	Five thousand years later, we're still chewing. Remember...
-vid-1318	Before electric shavers	description	Shaving used to mean hot water, lather and a blade. The first successful electric dry shaver went on sale in 1931.
-vid-1318	Before electric shavers	scene 4 vo	In 1931, a retired US Army colonel sold the first successful electric dry shaver.
+vid-1318	Before electric shavers	description	Shaving used to mean hot water, lather and a blade. An electric dry shaver from Jacob Schick went on sale in 1931.
+vid-1318	Before electric shavers	scene 4 vo	In 1931, a former US Army colonel, Jacob Schick, put an electric dry shaver on sale.
 vid-1318	Before electric shavers	scene 4 text	1931: DRY SHAVING
-vid-1318	Before electric shavers	scene 4 visual	"year":"1928" "label":"Dry shaver patent filed" "year":"1931" "label":"First ones go on sale" "year":"1939" "label":"Rotary heads appear"
+vid-1318	Before electric shavers	scene 4 visual	"year":"1930" "label":"Dry shaver patented" "year":"1931" "label":"First ones go on sale" "year":"1939" "label":"Rotary heads appear"
 vid-1319	Before plastic pipes	scene 2 vo	Roman water pipes were often made of lead, plumbum in Latin. Lead workers became plumbers.
 vid-1319	Before plastic pipes	scene 4 visual	"value":70 "low":"Safe" "high":"Toxic" "label":"Lead in drinking water"
 vid-1319	Before plastic pipes	scene 5 vo	Still, lead pipes were used for centuries, until rules in places like the UK stopped new ones around 1970.
@@ -4376,9 +4364,8 @@ vid-1322	Punch cards	scene 5 visual	"to":80 "label":"columns per card"
 vid-1322	Punch cards	scene 8 visual	"label":"80 columns"
 vid-1323	Rear-view mirrors	description	Drivers once turned around or had a passenger watch behind. A hand-mirror tip and a 1911 race win helped change that.
 vid-1323	Rear-view mirrors	scene 4 vo	In 1909, driver Dorothy Levitt suggested carrying a small hand mirror to see behind.
-vid-1323	Rear-view mirrors	scene 4 visual	"year":"1909" "label":"Hand mirror tip" "year":"1911" "label":"Mirror on a race car" "year":"1920s" "label":"Mirrors fitted to cars"
+vid-1323	Rear-view mirrors	scene 4 visual	"year":"1909" "label":"Hand mirror tip" "year":"1911" "label":"Mirror on a race car" "year":"1920s" "label":"Mirrors spread to road cars"
 vid-1323	Rear-view mirrors	scene 5 vo	In 1911, Ray Harroun won the first Indy 500 solo, a mirror replacing his mechanic.
-vid-1323	Rear-view mirrors	scene 6 vo	Within a decade or so, mirrors became normal kit on road cars.
 vid-1323	Rear-view mirrors	scene 6 visual	"value":85 "low":"Rare" "high":"Standard" "label":"Mirrors on cars"
 vid-1324	First underground railway	title	The first underground trains were steam trains in tunnels
 vid-1324	First underground railway	description	In 1863 the world's first underground railway opened in London, with steam engines puffing through tunnels under the streets.
@@ -4389,7 +4376,7 @@ vid-1324	First underground railway	scene 3 text	1863: WORLD FIRST
 vid-1324	First underground railway	scene 3 visual	"year":"1863" "label":"First underground, steam" "year":"1890" "label":"First deep electric tube" "year":"1900s" "label":"Metros spread worldwide"
 vid-1324	First underground railway	scene 5 visual	"value":80 "low":"Fresh" "high":"Smoky" "label":"Tunnel air"
 vid-1325	Thames Tunnel	title	The first river tunnel was copied from a worm 🪱
-vid-1325	Thames Tunnel	description	Marc Brunel studied the shipworm to invent the tunnelling shield, and in 1843 the Thames Tunnel opened under the river.
+vid-1325	Thames Tunnel	description	Marc Brunel is said to have studied the shipworm to invent the tunnelling shield, and in 1843 the Thames Tunnel opened under the river.
 vid-1325	Thames Tunnel	scene 1 vo	The first river tunnel was copied from a worm.
 vid-1325	Thames Tunnel	scene 3 visual	"value":95 "low":"Solid" "high":"Collapse" "label":"Soft river mud"
 vid-1325	Thames Tunnel	scene 6 vo	The river burst in more than once, but in 1843 the Thames Tunnel finally opened.
@@ -4451,7 +4438,7 @@ vid-1341	Raised banknote ink	scene 2 vo	Parts of most notes are printed with a m
 vid-1342	Grease gun	scene 3 vo	The spring only feeds grease to the head. The lever does the real pushing.
 vid-1342	Grease gun	scene 5 vo	It can top several thousand psi. A car tyre runs around thirty.
 vid-1342	Grease gun	scene 5 text	ABOUT 200X A TYRE
-vid-1342	Grease gun	scene 5 visual	"label":"Car tyre" "value":32 "label":"Grease gun, typical max" "value":6000
+vid-1342	Grease gun	scene 5 visual	"label":"Car tyre" "value":32 "label":"Grease gun, can reach" "value":6000
 vid-1343	Shoe shank	scene 6 vo	It matters most in high heels, and in work boots that stand on ladder rungs.
 vid-1344	Kazoo	scene 6 visual	"value":70 "low":"Low hum" "high":"High hum" "label":"Pitch follows your voice"
 vid-1346	Pull-through knife sharpener	scene 7 visual	"value":40 "low":"Narrow" "high":"Wide" "label":"Fixed sharpening angle"
@@ -4486,7 +4473,7 @@ vid-1360	Pill score line	scene 4 vo	On tablets designed for it, the halves come 
 vid-1360	Pill score line	scene 4 visual	"label":"Scored for splitting" "value":50 "label":"Other half" "value":50
 vid-1360	Pill score line	scene 5 vo	But not every line is for splitting. Some only help you swallow it or identify it.
 vid-1361	Baking paper	scene 3 visual	"value":80 "low":"Cool" "high":"Hot" "label":"Handles normal oven heat"
-vid-1361	Baking paper	scene 6 vo	Even baking paper has a limit, often around 220 to 230 degrees. Check the box.
+vid-1361	Baking paper	scene 6 vo	Even baking paper has a limit, often around 200 to 220 degrees. Check the box.
 vid-1361	Baking paper	scene 6 visual	"label":"Typical bake" "value":180 "label":"Box limit, often" "value":220
 vid-1362	Gummy sweets gelatine	scene 6 visual	"value":70 "low":"Jelly" "high":"Chewy" "label":"Drying time"
 vid-1363	Toothpaste ingredients	scene 6 vo	And fluoride, usually around fourteen hundred parts per million, which helps harden enamel.
@@ -4636,9 +4623,9 @@ vid-1411	Camera shutter	scene 3 vo	Press the button. The first curtain drops, un
 vid-1411	Camera shutter	scene 3 visual	"label":"First curtain drops" "label":"Sensor sees light" "label":"Second curtain covers"
 vid-1411	Camera shutter	scene 5 visual	"label":"Blink" "value":150 "label":"Fast shutter" "value":0.25
 vid-1411	Camera shutter	scene 7 visual	"label":"1/4000"
-vid-1412	Spell check	scene 3 vo	That list can hold a few hundred thousand words.
-vid-1412	Spell check	scene 3 text	100,000S OF WORDS
-vid-1412	Spell check	scene 3 visual	"to":300000 "suffix":"+" "label":"words in the list"
+vid-1412	Spell check	scene 3 vo	That list can hold a hundred thousand words or more.
+vid-1412	Spell check	scene 3 text	100,000+ WORDS
+vid-1412	Spell check	scene 3 visual	"to":100000 "suffix":"+" "label":"words in the list"
 vid-1412	Spell check	scene 4 visual	"value":2 "low":"Instant" "high":"1 second" "label":"Lookup time"
 vid-1412	Spell check	scene 7 vo	Most real typos are one small slip, so the right word is usually near the top.
 vid-1412	Spell check	scene 7 visual	"label":"Most typos: one slip"
@@ -4693,7 +4680,7 @@ vid-1430	Puffin crossing sensors	scene 4 visual	"value":20 "low":"Few stops" "hi
 vid-1431	How scissors cut	scene 7 visual	"value":30 "low":"Chews" "high":"Clean" "label":"Loose blades"
 vid-1432	Stepladder	scene 5 visual	"value":80 "low":"Outside" "high":"Inside" "label":"Your weight vs the feet"
 vid-1434	Pump water gun	scene 3 visual	"value":80 "low":"Loose" "high":"Squeezed" "label":"Air pressure in the chamber"
-vid-1434	Pump water gun	scene 7 visual	"year":"1982" "label":"Idea from a lab experiment" "year":"1990" "label":"Pump water blaster on sale"
+vid-1434	Pump water gun	scene 7 visual	"year":"1980s" "label":"Idea from a lab experiment" "year":"1990" "label":"Pump water blaster on sale"
 vid-1435	Firefighter turnout gear	scene 5 visual	"value":70 "low":"Seconds" "high":"Minutes" "label":"Protection time"
 vid-1436	Vacuum flask	scene 6 vo	The walls only touch at the neck, so that's where most heat escapes. Close the lid.
 vid-1436	Vacuum flask	scene 7 visual	"value":85 "low":"Leaky" "high":"Sealed" "label":"Heat kept in or out"
@@ -4701,7 +4688,7 @@ vid-1437	Ice lolly	title	The ice lolly was invented by an 11-year-old by acciden
 vid-1437	Ice lolly	description	The story goes that in 1905 a boy left a cup of fizzy drink with a stirring stick outside on a cold night. By morning it was frozen solid.
 vid-1437	Ice lolly	scene 1 vo	The ice lolly was invented by an eleven-year-old.
 vid-1437	Ice lolly	scene 1 text	AGED 11
-vid-1437	Ice lolly	scene 3 vo	The story goes: in 1905, a San Francisco boy mixed a fizzy drink and left it outside, stick and all.
+vid-1437	Ice lolly	scene 3 vo	The story goes: in 1905, an Oakland boy mixed a fizzy drink and left it outside, stick and all.
 vid-1437	Ice lolly	scene 4 visual	"value":5 "low":"Freezing" "high":"Warm" "label":"That night"
 vid-1437	Ice lolly	scene 6 vo	About eighteen years later, as a grown man, he patented it.
 vid-1437	Ice lolly	scene 6 text	PATENTED 1924
@@ -4717,9 +4704,9 @@ vid-1439	Before roof tiles	scene 4 vo	Only the outer layer gets wet. The rest st
 vid-1439	Before roof tiles	scene 5 visual	"value":95 "low":"Safe" "high":"Ablaze" "label":"Fire risk"
 vid-1439	Before roof tiles	scene 6 vo	After fires, London restricted new thatched roofs as early as 1212. Tiles slowly took over in towns.
 vid-1439	Before roof tiles	scene 6 visual	"year":"Ancient" "label":"Thatch almost everywhere" "year":"1212" "label":"London restricts new thatch" "year":"Later" "label":"Clay tiles and slate in towns" "year":"Today" "label":"Thatch on some cottages"
-vid-1440	Washing line	description	Washing lines used wind to carry damp air away and sunlight to brighten whites. The rotary line came from 1940s Australia.
-vid-1440	Washing line	scene 6 vo	The spinning rotary washing line arrived in Australia in the 1940s.
-vid-1440	Washing line	scene 6 visual	"year":"1800s" "label":"Lines and indoor racks" "year":"1940s" "label":"Rotary washing line" "year":"1960s+" "label":"Home tumble dryers spread"
+vid-1440	Washing line	description	Washing lines used wind to carry damp air away and sunlight to brighten whites. The Hills Hoist rotary line came from 1940s Australia.
+vid-1440	Washing line	scene 6 vo	The spinning Hills Hoist washing line arrived in Australia in 1945.
+vid-1440	Washing line	scene 6 visual	"year":"1800s" "label":"Lines and indoor racks" "year":"1940s" "label":"Hills Hoist rotary line" "year":"1960s+" "label":"Home tumble dryers spread"
 vid-1441	First text message	title	The first text message was sent from a computer 💬
 vid-1441	First text message	description	In 1992 an engineer sent 'Merry Christmas' from a computer to a phone. The phone couldn't even reply.
 vid-1441	First text message	scene 1 vo	The first text message was sent from a computer.
@@ -4751,7 +4738,7 @@ vid-1443	Petrol stations	scene 2 text	THE FIRST ROAD TRIP
 vid-1443	Petrol stations	scene 2 visual	"year":"1888" "label":"Bertha Benz's road trip" "year":"1905" "label":"Early filling station" "year":"1910s" "label":"Petrol stations spread"
 vid-1444	Airmail concrete arrows	description	In the 1920s, US airmail pilots flew at night by following a chain of lit beacons and huge arrows built on the ground.
 vid-1444	Airmail concrete arrows	scene 4 vo	So in the 1920s, the US built a chain of light beacons on towers across the country.
-vid-1444	Airmail concrete arrows	scene 4 visual	"year":"1918" "label":"US airmail begins" "year":"1921" "label":"Bonfire night flight" "year":"1924" "label":"Lit airway across the US"
+vid-1444	Airmail concrete arrows	scene 4 visual	"year":"1918" "label":"US airmail begins" "year":"1924" "label":"First night airmail flights" "year":"1925" "label":"Lit airway across the US"
 vid-1445	City water supply	title	London's first water pipes were hollow tree trunks 🌳
 vid-1445	City water supply	scene 1 vo	London's first water pipes were hollow tree trunks.
 vid-1445	City water supply	scene 3 vo	In 1613, London opened the New River, a man-made channel bringing fresh water from the countryside.
@@ -4900,8 +4887,8 @@ vid-1489	Airplane APU	scene 6 visual	"value":20 "low":"Off" "high":"Running" "la
 vid-1490	Thames Barrier	scene 3 vo	The Thames Barrier has ten steel gates stretching across about 520 metres of river.
 vid-1490	Thames Barrier	scene 3 text	10 GATES
 vid-1490	Thames Barrier	scene 3 visual	"to":10 "label":"steel gates across the river"
-vid-1490	Thames Barrier	scene 6 vo	The biggest gates are 61 metres wide and weigh around 3,300 tonnes each.
-vid-1490	Thames Barrier	scene 6 text	3,300 TONNES
+vid-1490	Thames Barrier	scene 6 vo	The biggest gates are 61 metres wide and weigh over three thousand tonnes each.
+vid-1490	Thames Barrier	scene 6 text	3,000+ TONNES
 vid-1490	Thames Barrier	scene 6 visual	"label":"Blue whale, roughly" "value":150 "label":"One main gate" "value":3300
 vid-1490	Thames Barrier	scene 7 vo	It has closed more than 200 times since 1982. And every time...
 vid-1490	Thames Barrier	scene 7 visual	"year":"1982" "label":"First used" "year":"1984" "label":"Officially opened" "year":"Today" "label":"200+ closures"
@@ -5018,9 +5005,9 @@ vid-1514	Why January 1 is the start of the year	scene 1 vo	January 1 is a choice
 vid-1514	Why January 1 is the start of the year	scene 1 visual	"label":"Jan 1"
 vid-1514	Why January 1 is the start of the year	scene 2 vo	Nothing in space marks January 1 as special.
 vid-1514	Why January 1 is the start of the year	scene 3 vo	Early Roman years began in March.
-vid-1514	Why January 1 is the start of the year	scene 4 vo	In 46 BC, Julius Caesar's calendar set January 1 as the start.
-vid-1514	Why January 1 is the start of the year	scene 4 text	46 BC: JANUARY
-vid-1514	Why January 1 is the start of the year	scene 4 visual	"value":"46 BC"
+vid-1514	Why January 1 is the start of the year	scene 4 vo	In 45 BC, Julius Caesar's calendar made January 1 the official start.
+vid-1514	Why January 1 is the start of the year	scene 4 text	45 BC: JANUARY
+vid-1514	Why January 1 is the start of the year	scene 4 visual	"value":"45 BC"
 vid-1514	Why January 1 is the start of the year	scene 5 vo	January was named after Janus, the two-faced god of doors.
 vid-1515	Why a week has seven days	scene 1 visual	"label":"7 days"
 vid-1515	Why a week has seven days	scene 4 vo	The seven-day week traces back to ancient Babylon.
@@ -5092,9 +5079,9 @@ vid-1522	Why your sleep comes in 90-minute cycles	scene 5 text	7+ HOURS
 vid-1522	Why your sleep comes in 90-minute cycles	scene 5 visual	"value":"7+"
 vid-1523	Why we sing Auld Lang Syne at midnight	scene 2 vo	The poem was written down by Scottish poet Robert Burns in 1788.
 vid-1523	Why we sing Auld Lang Syne at midnight	scene 2 text	BURNS, 1788
-vid-1524	Why champagne corks fly out so fast	scene 2 text	ABOUT 6 ATMOSPHERES
-vid-1524	Why champagne corks fly out so fast	scene 2 visual	"value":"6"
-vid-1524	Why champagne corks fly out so fast	scene 4 text	50 KM/H CORK
+vid-1524	Why champagne corks fly out so fast	scene 2 text	5-6 ATMOSPHERES
+vid-1524	Why champagne corks fly out so fast	scene 2 visual	"value":"5-6"
+vid-1524	Why champagne corks fly out so fast	scene 4 text	UP TO 50 KM/H
 vid-1524	Why champagne corks fly out so fast	scene 4 visual	"value":"50"
 vid-1525	Where champagne bubbles come from	scene 2 visual	"label":"CO2"
 vid-1526	Why sparklers burn so hot	scene 1 vo	A sparkler burns above 1,000 degrees.
@@ -5111,9 +5098,9 @@ vid-1528	Why January 3 puts Earth closest to the Sun	scene 2 vo	Around January 3
 vid-1528	Why January 3 puts Earth closest to the Sun	scene 2 text	AROUND JAN 3
 vid-1528	Why January 3 puts Earth closest to the Sun	scene 4 vo	Seasons come from Earth's 23-degree tilt, not distance.
 vid-1528	Why January 3 puts Earth closest to the Sun	scene 4 visual	"value":"23"
-vid-1528	Why January 3 puts Earth closest to the Sun	scene 6 vo	Distance changes our energy by only a few percent.
-vid-1528	Why January 3 puts Earth closest to the Sun	scene 6 text	JUST A FEW PERCENT
-vid-1528	Why January 3 puts Earth closest to the Sun	scene 6 visual	"label":"Few percent"
+vid-1528	Why January 3 puts Earth closest to the Sun	scene 6 vo	Distance changes our energy by only about seven percent.
+vid-1528	Why January 3 puts Earth closest to the Sun	scene 6 text	ONLY ABOUT 7%
+vid-1528	Why January 3 puts Earth closest to the Sun	scene 6 visual	"label":"About 7%"
 vid-1529	Why September means seven	scene 2 vo	The old Roman year began in March.
 vid-1529	Why September means seven	scene 3 text	THE 7TH MONTH
 vid-1529	Why September means seven	scene 3 visual	"value":"7"
@@ -5129,7 +5116,7 @@ vid-1531	Why time zones were invented	scene 4 vo	Britain's railways adopted a si
 vid-1531	Why time zones were invented	scene 4 text	ONE TIME, 1840s
 vid-1531	Why time zones were invented	scene 5 vo	In 1884, delegates chose Greenwich as the world's zero meridian.
 vid-1531	Why time zones were invented	scene 5 text	GREENWICH, 1884
-vid-1532	Why we change the clocks	scene 2 vo	Germany first used it in 1916, to save fuel in World War One.
+vid-1532	Why we change the clocks	scene 2 vo	Germany adopted it nationwide in 1916, to save fuel in World War One.
 vid-1532	Why we change the clocks	scene 2 text	GERMANY, 1916
 vid-1532	Why we change the clocks	scene 5 vo	Modern studies show only small energy savings.
 vid-1533	The clocks that keep GPS honest	scene 4 text	38 µs A DAY
@@ -5140,8 +5127,8 @@ vid-1534	Why if-then plans beat willpower	scene 3 visual	"label":"7 am" "label":
 vid-1535	Where 10,000 steps came from	title	Where 10,000 steps came from
 vid-1535	Where 10,000 steps came from	scene 1 vo	Ten thousand steps was a marketing slogan.
 vid-1535	Where 10,000 steps came from	scene 1 visual	"value":"10000"
-vid-1535	Where 10,000 steps came from	scene 2 vo	In 1964, a Japanese company sold a step counter.
-vid-1535	Where 10,000 steps came from	scene 2 text	JAPAN, 1964
+vid-1535	Where 10,000 steps came from	scene 2 vo	In the 1960s, a Japanese company sold a step counter.
+vid-1535	Where 10,000 steps came from	scene 2 text	JAPAN, 1960s
 vid-1535	Where 10,000 steps came from	scene 3 vo	It was called Manpo-kei, meaning ten-thousand-step meter.
 vid-1535	Where 10,000 steps came from	scene 3 visual	"label":"Ten-thousand-step meter"
 vid-1535	Where 10,000 steps came from	scene 5 visual	"value":2 "label":"2000 steps" "value":4 "label":"4000 steps" "value":7.5 "label":"7500 steps"
@@ -5153,7 +5140,7 @@ vid-1536	How much exercise health experts suggest	scene 3 visual	"label":"30 min
 vid-1536	How much exercise health experts suggest	scene 4 text	HARD = 75 MIN
 vid-1536	How much exercise health experts suggest	scene 5 text	STRENGTH 2 DAYS
 vid-1537	Why muscles are sore two days later	scene 4 visual	"label":"Workout" "label":"24 hours" "label":"48 hours"
-vid-1537	Why muscles are sore two days later	scene 5 text	GONE IN 3-5 DAYS
+vid-1537	Why muscles are sore two days later	scene 5 text	GONE IN 3-7 DAYS
 vid-1538	How caffeine keeps you awake	scene 5 vo	But it lasts: its half-life is about five hours.
 vid-1538	How caffeine keeps you awake	scene 5 text	HALF-LIFE ~5 HOURS
 vid-1538	How caffeine keeps you awake	scene 5 visual	"value":"5"
@@ -5256,15 +5243,13 @@ vid-1571	Why Scotland has Hogmanay and first-footing	scene 2 text	FIRST-FOOTING
 vid-1571	Why Scotland has Hogmanay and first-footing	scene 2 visual	"label":"First foot"
 vid-1571	Why Scotland has Hogmanay and first-footing	scene 3 vo	The first person through the door after midnight matters.
 vid-1571	Why Scotland has Hogmanay and first-footing	scene 3 text	FIRST AFTER MIDNIGHT
-vid-1574	Why we make New Year's resolutions	scene 1 vo	Resolutions are over four thousand years old.
+vid-1574	Why we make New Year's resolutions	scene 1 vo	Resolutions are about four thousand years old.
 vid-1574	Why we make New Year's resolutions	scene 1 text	4,000 YEARS OF RESOLUTIONS
 vid-1574	Why we make New Year's resolutions	scene 2 vo	Ancient Babylonians promised gods to repay debts.
 vid-1574	Why we make New Year's resolutions	scene 5 vo	January is named after Janus, a two-faced god.
-vid-1575	Why most resolutions fail by February	title	Why most resolutions fail by February
-vid-1575	Why most resolutions fail by February	scene 1 vo	Most resolutions don't last until February.
-vid-1575	Why most resolutions fail by February	scene 2 vo	Studies often find only a minority keep them all year.
-vid-1575	Why most resolutions fail by February	scene 2 text	ONLY A MINORITY
-vid-1575	Why most resolutions fail by February	scene 3 vo	Big vague goals give your brain no clear first step.
+vid-1575	Why many resolutions fail by February	scene 2 vo	Studies often find only a minority keep them all year.
+vid-1575	Why many resolutions fail by February	scene 2 text	ONLY A MINORITY
+vid-1575	Why many resolutions fail by February	scene 3 vo	Big vague goals give your brain no clear first step.
 vid-1577	Where the new year arrives first	title	Where the new year arrives first
 vid-1577	Where the new year arrives first	scene 2 vo	New Year starts first in Kiribati's Line Islands.
 vid-1577	Where the new year arrives first	scene 2 text	FIRST IN KIRIBATI
@@ -5291,8 +5276,6 @@ vid-1584	Why Chinese New Year changes date	scene 4 visual	"label":"Jan 21" "labe
 vid-1584	Why Chinese New Year changes date	scene 5 text	12-YEAR ANIMAL CYCLE
 vid-1584	Why Chinese New Year changes date	scene 6 vo	Families gather and spring clean first.
 vid-1587	Why Nowruz starts on the spring equinox	scene 1 vo	Nowruz begins on the first day of spring.
-vid-1587	Why Nowruz starts on the spring equinox	scene 4 vo	It's celebrated by over three hundred million people.
-vid-1587	Why Nowruz starts on the spring equinox	scene 4 text	300M+ CELEBRATE
 vid-1589	Why Ethiopia celebrates New Year in September	scene 1 text	ETHIOPIA IS 7 YEARS BEHIND
 vid-1589	Why Ethiopia celebrates New Year in September	scene 2 text	13 MONTHS
 vid-1589	Why Ethiopia celebrates New Year in September	scene 2 visual	"value":"13"
@@ -5370,7 +5353,6 @@ vid-1610	Why decluttering makes you feel calmer	scene 3 vo	A 2011 study found cl
 vid-1610	Why decluttering makes you feel calmer	scene 3 text	2011 STUDY
 vid-1612	Why gratitude journaling can lift your mood	scene 1 text	WRITE 3 GOOD THINGS
 vid-1612	Why gratitude journaling can lift your mood	scene 1 visual	"value":"3"
-vid-1612	Why gratitude journaling can lift your mood	scene 4 text	10 WEEKS
 vid-1616	Why a budget app beats a spreadsheet for some people	scene 6 text	CHECK PRIVACY FIRST
 vid-1617	Why an emergency fund matters	scene 4 text	3–6 MONTHS
 vid-1617	Why an emergency fund matters	scene 4 visual	"value":"6"
@@ -5391,8 +5373,8 @@ vid-1619	Why the Quadrantid meteor shower peaks in January	scene 3 vo	The peak l
 vid-1619	Why the Quadrantid meteor shower peaks in January	scene 4 vo	The dust comes from an asteroid called 2003 EH1.
 vid-1619	Why the Quadrantid meteor shower peaks in January	scene 4 text	ASTEROID 2003 EH1
 vid-1619	Why the Quadrantid meteor shower peaks in January	scene 4 visual	"label":"2003 EH1"
-vid-1619	Why the Quadrantid meteor shower peaks in January	scene 6 vo	Rates can reach about a hundred an hour in the best years.
-vid-1619	Why the Quadrantid meteor shower peaks in January	scene 6 text	UP TO ~100/HR
+vid-1619	Why the Quadrantid meteor shower peaks in January	scene 6 vo	Rates can top a hundred an hour in good years.
+vid-1619	Why the Quadrantid meteor shower peaks in January	scene 6 text	100+ PER HOUR
 vid-1619	Why the Quadrantid meteor shower peaks in January	scene 6 visual	"value":"100"
 vid-1620	Why the Sun rises in the east	scene 4 vo	Rotation speed at the equator is about 1,670 km/h.
 vid-1620	Why the Sun rises in the east	scene 4 text	1,670 KM/H
@@ -5453,7 +5435,7 @@ vid-1643	How a smart speaker hears its wake word	scene 1 vo	Smart speakers liste
 vid-1643	How a smart speaker hears its wake word	scene 3 vo	It only matches the wake word's sound pattern.
 vid-1643	How a smart speaker hears its wake word	scene 4 vo	Only after it hears it does audio go to the cloud.
 vid-1643	How a smart speaker hears its wake word	scene 6 vo	Most have a mute button to cut the mic.
-vid-1644	Why we eat cake on special days	scene 2 vo	Ancient Greeks made round cakes for the moon goddess.
+vid-1644	Why we eat cake on special days	scene 2 vo	Some say ancient Greeks made round cakes for the moon goddess.
 vid-1644	Why we eat cake on special days	scene 4 vo	Germans popularised birthday cakes for children in the 1700s.
 vid-1644	Why we eat cake on special days	scene 4 text	1700s GERMANY
 vid-1644	Why we eat cake on special days	scene 4 visual	"label":"1700s"
@@ -5564,21 +5546,13 @@ vid-1672	Why echoes happen	scene 5 visual	"value":"17"
 vid-1673	Why your voice sounds different on recordings	scene 4 vo	Recordings capture only the air-borne sound.
 vid-1673	Why your voice sounds different on recordings	scene 4 text	AIR ONLY
 vid-1675	Why we get hiccups	scene 6 vo	Most pass within minutes.
-vid-1677	Why we get goosebumps from music	scene 2 vo	About half to two thirds of people feel them.
-vid-1677	Why we get goosebumps from music	scene 2 text	HALF FEEL CHILLS
-vid-1677	Why we get goosebumps from music	scene 2 visual	"value":60 "label":"Feel chills" "value":40 "label":"Don't"
-vid-1678	Why songs get stuck in your head	scene 4 vo	Most people get them weekly or more.
-vid-1678	Why songs get stuck in your head	scene 4 text	MOST EVERY WEEK
-vid-1683	Why cats purr	scene 6 vo	Frequencies near 25 to 150 hertz may aid healing.
-vid-1683	Why cats purr	scene 6 text	25–150 HZ
-vid-1683	Why cats purr	scene 6 visual	"value":"150"
 vid-1684	Why owls can turn their heads so far	scene 2 vo	Owls can rotate their heads about 270 degrees.
 vid-1684	Why owls can turn their heads so far	scene 2 text	ABOUT 270°
 vid-1684	Why owls can turn their heads so far	scene 2 visual	"value":"270"
 vid-1684	Why owls can turn their heads so far	scene 3 vo	They have fourteen neck bones, twice ours.
 vid-1684	Why owls can turn their heads so far	scene 3 text	14 NECK BONES
 vid-1684	Why owls can turn their heads so far	scene 3 visual	"value":"14"
-vid-1686	Why flamingos stand on one leg	scene 6 vo	A 2018 study found it's actually less tiring.
+vid-1686	Why flamingos stand on one leg	scene 6 vo	A 2017 study found it's actually less tiring.
 vid-1688	Why camels have humps	scene 6 vo	They can drink around a hundred litres in minutes.
 vid-1688	Why camels have humps	scene 6 text	~100 L IN MINUTES
 vid-1688	Why camels have humps	scene 6 visual	"value":"100"
@@ -5596,9 +5570,7 @@ vid-1695	Why handwashing works so well	scene 6 visual	"value":"20"
 vid-1699	Why hot water can freeze faster	scene 3 vo	It was named after a Tanzanian student in 1963.
 vid-1699	Why hot water can freeze faster	scene 3 text	MPEMBA, 1963
 vid-1701	Why we dream	scene 2 vo	Most vivid dreams happen in REM sleep.
-vid-1704	Why we have fingerprints	scene 5 vo	A 2009 study suggested they help grip on surfaces.
-vid-1707	Why onions make you cry	scene 6 vo	Chilling the onion first slows the reaction.
-vid-1707	Why onions make you cry	scene 6 text	CHILL FIRST
+vid-1704	Why we have fingerprints	scene 5 vo	A 2009 study doubted they help grip smooth surfaces.
 vid-1710	Why bruises change colour	scene 6 vo	Most fade away in two weeks.
 vid-1710	Why bruises change colour	scene 6 text	~2 WEEKS
 vid-1710	Why bruises change colour	scene 6 visual	"value":"2"
@@ -5620,8 +5592,8 @@ vid-1723	Why public Wi-Fi can be risky	scene 4 vo	Most sites now encrypt traffic
 vid-1730	How a mortgage works	scene 2 text	DEPOSIT FIRST
 vid-1732	Why subscriptions quietly drain money	scene 2 vo	Ten dollars a month is a hundred twenty a year.
 vid-1732	Why subscriptions quietly drain money	scene 2 text	10 × 12 = 120
-vid-1734	Why index funds are popular	scene 5 vo	Most active managers fail to beat it long term.
-vid-1734	Why index funds are popular	scene 5 text	MOST MISS THE INDEX
+vid-1734	Why index funds are popular	scene 5 vo	Most active managers trail it over the long run.
+vid-1734	Why index funds are popular	scene 5 text	MOST TRAIL THE INDEX
 vid-1735	Why diversification protects you	scene 6 vo	Harry Markowitz formalised it in the 1950s.
 vid-1735	Why diversification protects you	scene 6 text	MARKOWITZ, 1950s
 vid-1736	What a bear and bull market mean	scene 3 vo	A bear market is a fall of twenty percent or more.
@@ -5631,7 +5603,6 @@ vid-1741	How self-driving cars see the road	scene 4 text	LIDAR MAKES 3D MAPS
 vid-1742	How a 3D printer works	title	How a 3D printer works
 vid-1742	How a 3D printer works	scene 1 vo	A 3D printer builds objects layer by layer.
 vid-1742	How a 3D printer works	scene 1 visual	"label":"3D printer"
-vid-1743	Why phone screens crack	scene 5 text	CORNERS HIT FIRST
 vid-1748	Why the sky is blue	scene 3 vo	Air molecules scatter short wavelengths most.
 vid-1748	Why the sky is blue	scene 3 text	BLUE SCATTERS MOST
 vid-1750	Why rainbows are curved	scene 4 vo	You see them at about 42 degrees from the sun's shadow.
@@ -5639,7 +5610,8 @@ vid-1750	Why rainbows are curved	scene 4 text	42° FROM THE SHADOW
 vid-1750	Why rainbows are curved	scene 4 visual	"value":"42"
 vid-1750	Why rainbows are curved	scene 5 vo	From the ground the ground hides the lower half.
 vid-1750	Why rainbows are curved	scene 5 text	GROUND HIDES HALF
-vid-1751	Why clouds float	scene 3 text	ABOUT 500 TONNES
+vid-1751	Why clouds float	scene 3 vo	A big cloud can weigh over five hundred tonnes.
+vid-1751	Why clouds float	scene 3 text	500+ TONNES
 vid-1751	Why clouds float	scene 3 visual	"value":"500"
 vid-1757	Why the ocean is salty	scene 6 vo	Seawater is about three and a half percent salt.
 vid-1757	Why the ocean is salty	scene 6 text	3.5% SALT
@@ -5654,9 +5626,9 @@ vid-1763	Why the Sahara was once green	scene 2 vo	About ten thousand years ago i
 vid-1763	Why the Sahara was once green	scene 2 text	10,000 YEARS AGO
 vid-1763	Why the Sahara was once green	scene 2 visual	"value":"10000"
 vid-1763	Why the Sahara was once green	scene 5 vo	It dried out over a few thousand years.
-vid-1765	Why deserts get so cold at night	scene 6 vo	Daily swings can top 25 degrees.
-vid-1765	Why deserts get so cold at night	scene 6 text	25 °C SWINGS
-vid-1765	Why deserts get so cold at night	scene 6 visual	"value":"25"
+vid-1765	Why deserts get so cold at night	scene 6 vo	Daily swings can top 20 degrees.
+vid-1765	Why deserts get so cold at night	scene 6 text	20 °C SWINGS
+vid-1765	Why deserts get so cold at night	scene 6 visual	"value":"20"
 vid-1766	Why the Arctic is warming faster	scene 1 text	ARCTIC WARMS FASTEST
 vid-1766	Why the Arctic is warming faster	scene 2 vo	Bright ice reflects most sunlight.
 vid-1766	Why the Arctic is warming faster	scene 6 text	~4× FASTER
@@ -5665,9 +5637,9 @@ vid-1767	How trees help the climate	scene 2 text	LEAVES TAKE CO2
 vid-1767	How trees help the climate	scene 2 visual	"label":"CO2"
 vid-1767	How trees help the climate	scene 6 vo	Protecting old forests matters most.
 vid-1768	Why the ozone layer matters	scene 3 vo	It absorbs most dangerous ultraviolet rays.
-vid-1768	Why the ozone layer matters	scene 5 vo	The 1987 Montreal Protocol banned them.
+vid-1768	Why the ozone layer matters	scene 5 vo	The 1987 Montreal Protocol phased them out.
 vid-1768	Why the ozone layer matters	scene 5 text	MONTREAL, 1987
-vid-1769	Which other planets have auroras	scene 2 vo	Jupiter has the most powerful auroras in the solar system.
+vid-1769	Which other planets have auroras	scene 2 vo	Jupiter has some of the solar system's most spectacular auroras.
 vid-1772	How big the universe is	scene 2 text	SUN: 8 MINUTES
 vid-1772	How big the universe is	scene 3 text	NEXT STAR: 4+ YEARS
 vid-1772	How big the universe is	scene 3 visual	"value":"4"
@@ -5683,7 +5655,7 @@ vid-1774	What a black hole really is	scene 6 text	FIRST IMAGE IN 2019
 vid-1775	Why the Olympic rings have five colours	scene 2 vo	Pierre de Coubertin designed them in 1913.
 vid-1775	Why the Olympic rings have five colours	scene 2 text	COUBERTIN, 1913
 vid-1775	Why the Olympic rings have five colours	scene 3 visual	"value":"5"
-vid-1775	Why the Olympic rings have five colours	scene 5 vo	Every national flag contains at least one.
+vid-1775	Why the Olympic rings have five colours	scene 5 vo	Every flag back then had at least one.
 vid-1775	Why the Olympic rings have five colours	scene 6 vo	The rings debuted at the 1920 Games.
 vid-1775	Why the Olympic rings have five colours	scene 6 text	1920 DEBUT
 vid-1775	Why the Olympic rings have five colours	scene 6 visual	"label":"1920"
@@ -5705,9 +5677,9 @@ vid-1777	Why the football has pentagons	scene 5 text	1970 WORLD CUP
 vid-1777	Why the football has pentagons	scene 5 visual	"label":"1970"
 vid-1779	Why chess has sixty-four squares	scene 1 text	64 SQUARES
 vid-1779	Why chess has sixty-four squares	scene 1 visual	"value":"64"
-vid-1779	Why chess has sixty-four squares	scene 2 vo	The game began in India around the sixth century.
-vid-1779	Why chess has sixty-four squares	scene 2 text	INDIA, 6TH CENTURY
-vid-1779	Why chess has sixty-four squares	scene 2 visual	"label":"6th century"
+vid-1779	Why chess has sixty-four squares	scene 2 vo	The game began in India about 1,500 years ago.
+vid-1779	Why chess has sixty-four squares	scene 2 text	INDIA, ~1,500 YEARS AGO
+vid-1779	Why chess has sixty-four squares	scene 2 visual	"label":"~1,500 years ago"
 vid-1779	Why chess has sixty-four squares	scene 4 text	8 × 8 GRID
 vid-1780	Why dice have opposite sides adding to seven	scene 2 text	1 AND 6
 vid-1780	Why dice have opposite sides adding to seven	scene 3 text	2 AND 5
@@ -5800,7 +5772,7 @@ vid-1796	Why the Titanic sank so fast	scene 2 text	APRIL 14, 1912
 vid-1796	Why the Titanic sank so fast	scene 2 visual	"label":"1912"
 vid-1796	Why the Titanic sank so fast	scene 3 text	4 COMPARTMENTS MAX
 vid-1796	Why the Titanic sank so fast	scene 3 visual	"value":"4"
-vid-1796	Why the Titanic sank so fast	scene 4 text	5 WERE BREACHED
+vid-1796	Why the Titanic sank so fast	scene 4 text	5+ BREACHED
 vid-1796	Why the Titanic sank so fast	scene 4 visual	"value":"5"
 vid-1796	Why the Titanic sank so fast	scene 6 text	2 H 40 MIN
 vid-1796	Why the Titanic sank so fast	scene 6 visual	"value":"160"
@@ -5810,5 +5782,5 @@ vid-1797	Why we say OK	scene 2 text	1839 BOSTON JOKE
 vid-1797	Why we say OK	scene 2 visual	"label":"1839"
 vid-1797	Why we say OK	scene 4 vo	It spread through newspapers and the 1840 election.
 vid-1797	Why we say OK	scene 4 text	1840 ELECTION
-vid-1799	Why we say bless you after a sneeze	scene 3 vo	Pope Gregory I is said to have urged blessings in 590.
-vid-1799	Why we say bless you after a sneeze	scene 3 text	POPE GREGORY, 590
+vid-1799	Why we say bless you after a sneeze	scene 3 vo	A legend says Pope Gregory I urged blessings in 590.
+vid-1799	Why we say bless you after a sneeze	scene 3 text	GREGORY LEGEND, 590

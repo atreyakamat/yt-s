@@ -2,12 +2,12 @@
 
 ## 1644 | Why we eat cake on special days
 hook: Celebration cakes are older than birthdays. | CAKE *PREDATES* BIRTHDAYS | hero: candle Cake
-- Ancient Greeks made round cakes for the moon goddess. | CAKES FOR *ARTEMIS* | hero: moon Moon goddess
+- Some say ancient Greeks made round cakes for the moon goddess. | CAKES FOR *ARTEMIS* | hero: moon Moon goddess
 - Candles may have stood for the moon's glow. | CANDLES = *MOONLIGHT* | hero: candle Candles
 - Germans popularised birthday cakes for children in the 1700s. | *1700s* GERMANY | hero: calendar 1700s
 - Sugar became cheap, so cake went mainstream. | CHEAP SUGAR, *CAKE FOR ALL* | hero: coin Cheap sugar
 - Now cake marks nearly every big moment. | EVERY *BIG MOMENT* | hero: gift Celebration
-fact: Round cakes with candles for Artemis is a popular but weakly-sourced claim; German 'Kinderfest' birthday cake with candles recorded from the 18th century. Treat the Greek link as 'said to'.
+fact: Round cakes with candles for Artemis is a popular but weakly-sourced claim; German 'Kinderfest' birthday cake with candles recorded from the 18th century. Treat the Greek link as 'said to'. Verified: Round cakes are Roman in the source; Greek link not established, now 'Some say'; German Kinderfest 18th C: SOFTENED. Source: https://en.wikipedia.org/wiki/Birthday_cake
 alt: The moon goddess cake story.
 alt: Why every party has cake.
 tags: food, history, celebration
@@ -19,7 +19,7 @@ hook: Doughnuts have holes so they cook evenly. | HOLES *FIX* RAW CENTRES | hero
 - Hanson Gregory claimed the invention in 1847. | GREGORY, *1847* | hero: person Hanson Gregory
 - His story says he pierced a fried cake with a lid. | PIERCED *A CAKE* | hero: ball Pierced
 - The claim is disputed, but the idea stuck. | DISPUTED, *BUT TRUE* | hero: question Disputed
-fact: Hanson Crockett Gregory claimed (reported 1916) to have invented the ring shape around 1847; competing stories exist. The cooking rationale (even frying of thick dough) is widely accepted. Hedge.
+fact: Hanson Crockett Gregory claimed (reported 1916) to have invented the ring shape around 1847; competing stories exist. The cooking rationale (even frying of thick dough) is widely accepted. Hedge. Verified: Hanson Gregory claimed it in 1847 (a claim, hole origin debated): OK. Source: https://en.wikipedia.org/wiki/Doughnut
 alt: The sea captain and the raw centre.
 alt: Why the hole exists.
 tags: food, history, cooking
@@ -31,7 +31,7 @@ hook: Chocolate melts just below body temperature. | CHOCOLATE *MELTS* AT BODY H
 - So chocolate melts quickly once it's in. | MELTS *FAST* | hero: drop Melting
 - Tempering sets the crystals so it snaps cleanly. | TEMPERING *= SNAP* | hero: check Snap
 - Well-tempered chocolate is shiny and firm. | *SHINY* AND FIRM | hero: sparkle Shiny
-fact: Cocoa butter's stable form V melts ~34 °C (range 32-36 °C by form); body temp ~37 °C, mouth slightly lower. Tempering encourages stable crystal forms producing gloss and snap. Good.
+fact: Cocoa butter's stable form V melts ~34 °C (range 32-36 °C by form); body temp ~37 °C, mouth slightly lower. Tempering encourages stable crystal forms producing gloss and snap. Good. Verified: Cocoa butter melts ~34-36 C (up to 38), just below body temperature: OK. Source: https://en.wikipedia.org/wiki/Cocoa_butter
 alt: Why chocolate disappears on your tongue.
 alt: A food built to melt at body heat.
 tags: food, science, chocolate
@@ -43,7 +43,7 @@ hook: Coffee beans are really seeds. | COFFEE BEANS ARE *SEEDS* | hero: plant Co
 - Roasting turns green seeds brown and brings out flavour. | BROWN *+ FLAVOUR* | hero: flame Roast
 - Hundreds of compounds form during roasting. | *800+* AROMAS | num: 800 | aromas | bottle
 - That's why fresh-ground coffee smells so strong. | *FRESH-GROUND* SMELL | hero: bottle Aroma
-fact: Coffee 'beans' are seeds of Coffea fruit (cherries). Roasting triggers Maillard reactions; over 800 volatile compounds identified in roasted coffee (commonly cited 800-1000). Fine.
+fact: Coffee 'beans' are seeds of Coffea fruit (cherries). Roasting triggers Maillard reactions; over 800 volatile compounds identified in roasted coffee (commonly cited 800-1000). Fine. Verified: Over 850 aroma compounds after roasting: OK for 800+. Source: https://en.wikipedia.org/wiki/List_of_chemical_compounds_in_coffee
 alt: The fruit behind your coffee.
 alt: How a seed becomes a cup.
 tags: food, coffee, science
@@ -55,7 +55,7 @@ hook: Different teas need different water temperatures. | TEA HAS *TEMPERATURES*
 - Hot water can make green tea taste bitter. | TOO HOT = *BITTER* | hero: flame Bitter
 - Cooler water extracts less of the bitter compounds. | COOLER = *SMOOTHER* | hero: drop Smooth
 - Steep for the time the packet suggests. | FOLLOW *THE TIMER* | hero: clock Timer
-fact: General brewing guidance: black/herbal ~95-100 °C, green/white ~70-85 °C; hotter water extracts more catechins/tannins (bitterness/astringency). Preferences vary; times vary by tea.
+fact: General brewing guidance: black/herbal ~95-100 °C, green/white ~70-85 °C; hotter water extracts more catechins/tannins (bitterness/astringency). Preferences vary; times vary by tea. Verified: Black tea near boiling; green steeped ~61-87 C: OK. Source: https://en.wikipedia.org/wiki/Green_tea ; https://en.wikipedia.org/wiki/Tea
 alt: Why your green tea tastes bitter.
 alt: The right heat for each tea.
 tags: food, tea, science
@@ -91,7 +91,7 @@ hook: Where does the word cheers come from? | WHERE *CHEERS* COMES FROM | hero: 
 - In English it came to mean encouragement. | *ENCOURAGE* | hero: sparkle Encourage
 - By the 1800s it was a shout of good cheer. | *1800s* SHOUT | hero: calendar 1800s
 - Later it became a toast across many countries. | A *TOAST* | hero: glass Toast
-fact: 'Cheer' from Old French 'chiere' (face, expression), via Latin cara/Greek kara 'head'; sense shifted to mood, then encouragement; 'cheers' as a toast attested in the 20th century (OED earliest toast uses ~1900s). Reasonable; adjust date if needed.
+fact: 'Cheer' from Old French 'chiere' (face, expression), via Latin cara/Greek kara 'head'; sense shifted to mood, then encouragement; 'cheers' as a toast attested in the 20th century (OED earliest toast uses ~1900s). Reasonable; adjust date if needed. Verified: Cheers origin from Old French chiere; 1800s date not verified by fetched sources (OED not accessible): left hedged. Source: https://en.wikipedia.org/wiki/Cheers
 alt: A word that started as a face.
 alt: The history of a toast.
 tags: language, history, drink
@@ -103,7 +103,7 @@ hook: The Roman year started in March. | ROME STARTED *IN MARCH* | hero: calenda
 - September to December meant seventh to tenth. | *SEPT* = SEVENTH | hero: calendar September
 - January and February were added later. | *JAN + FEB* ADDED | hero: calendar Added
 - January 1 became New Year in 153 BCE. | *153 BCE* | hero: calendar 153 BCE
-fact: Traditional account: Romulus' ten-month, 304-day calendar starting in March; Numa added Jan and Feb; consuls began their term on 1 Jan from 153 BCE. Scholars debate details of the early calendar. September/October etc. names still reflect that.
+fact: Traditional account: Romulus' ten-month, 304-day calendar starting in March; Numa added Jan and Feb; consuls began their term on 1 Jan from 153 BCE. Scholars debate details of the early calendar. September/October etc. names still reflect that. Verified: Ten-month March calendar; consuls start Jan 1 in 153 BC: OK. Source: https://en.wikipedia.org/wiki/Roman_calendar
 alt: Why October means eighth.
 alt: The Roman year that began in spring.
 tags: calendars, history, rome
@@ -115,7 +115,7 @@ hook: Two months are named after Roman rulers. | MONTHS NAMED *AFTER EMPERORS* |
 - The month was originally called Sextilis. | FORMERLY *SEXTILIS* | hero: calendar Sextilis
 - Caesar's reform gave us the Julian calendar. | *JULIAN* CALENDAR | hero: calendar Julian
 - The old story says August got extra days; it's a myth. | THE *EXTRA DAY* MYTH | hero: cross Myth
-fact: Quintilis renamed Julius (44 BCE) after Caesar; Sextilis renamed Augustus (8 BCE). The story that Augustus stole a day from February to make August as long as July is a medieval myth (Sacrobosco); August already had 31 days under Caesar's reform.
+fact: Quintilis renamed Julius (44 BCE) after Caesar; Sextilis renamed Augustus (8 BCE). The story that Augustus stole a day from February to make August as long as July is a medieval myth (Sacrobosco); August already had 31 days under Caesar's reform. Verified: July named 44 BC for Julius Caesar; August renamed 8 BC for Augustus: OK. Source: https://en.wikipedia.org/wiki/July ; https://en.wikipedia.org/wiki/August
 alt: Caesar and Augustus left their names.
 alt: The myth of August's stolen day.
 tags: calendars, history, myth
@@ -127,7 +127,7 @@ hook: Leap day is added to February. | LEAP DAY *IN FEBRUARY* | hero: calendar F
 - Later the year start moved to January. | START *MOVED* | hero: calendar January
 - February kept the odd day by tradition. | *TRADITION* STUCK | hero: loop-arrow Tradition
 - Leap day lands on February 29 every fourth year. | FEB *29* | hero: calendar February 29
-fact: In the pre-Julian Roman calendar February was the final month and intercalary days were inserted after it; Caesar's reform placed the leap day by doubling the sixth day before March Kalends (24 Feb). Today's 29 Feb dates from that tradition. Simplified.
+fact: In the pre-Julian Roman calendar February was the final month and intercalary days were inserted after it; Caesar's reform placed the leap day by doubling the sixth day before March Kalends (24 Feb). Today's 29 Feb dates from that tradition. Simplified. Verified: Feb 29: shortest Roman month, leap day every four years in Julian calendar: OK. Source: https://en.wikipedia.org/wiki/Leap_year
 alt: Why the extra day lands in February.
 alt: Once February ended the year.
 tags: calendars, history, leapyear
@@ -139,7 +139,7 @@ hook: Why do we split days into twenty-four hours? | WHY *24 HOURS?* | num: 24 |
 - That made twenty-four parts in total. | 12 + 12 = *24* | hero: clock Twenty-four
 - Babylonians favoured sixty, giving minutes and seconds. | BABYLON: *BASE 60* | num: 60 | base | list
 - Sixty divides evenly by many numbers. | *MANY* DIVISORS | hero: list Divisors
-fact: Egyptian decans/hours (12 night, 12 day hours of variable length) influenced the 24-hour day; Hellenistic astronomers (Hipparchus) fixed equal hours; base-60 from Mesopotamia; 60 has 12 divisors. 'Twelve from finger joints' is a folk explanation, omitted.
+fact: Egyptian decans/hours (12 night, 12 day hours of variable length) influenced the 24-hour day; Hellenistic astronomers (Hipparchus) fixed equal hours; base-60 from Mesopotamia; 60 has 12 divisors. 'Twelve from finger joints' is a folk explanation, omitted. Verified: Egyptians 12 divisions, Babylonian base 60: OK. Source: https://en.wikipedia.org/wiki/Hour
 alt: A day split by Egypt, then Babylon.
 alt: Why minutes have sixty seconds.
 tags: time, history, math
@@ -151,7 +151,7 @@ hook: There is no year zero. | NO *YEAR ZERO* | hero: calendar Year zero
 - So 1 BC is followed straight by 1 AD. | *1 BC → 1 AD* | flow: calendar 1 BC; calendar 1 AD
 - Astronomers add year zero to simplify maths. | ASTRONOMERS *ADD IT* | hero: orbit Astronomy
 - That's why the 21st century began in 2001. | 21ST CENTURY: *2001* | hero: calendar 2001
-fact: Dionysius Exiguus (525) devised Anno Domini counting without zero; Bede later used it; astronomers use astronomical year numbering with year 0 = 1 BC; 21st century and third millennium technically began 1 Jan 2001. Strictly correct.
+fact: Dionysius Exiguus (525) devised Anno Domini counting without zero; Bede later used it; astronomers use astronomical year numbering with year 0 = 1 BC; 21st century and third millennium technically began 1 Jan 2001. Strictly correct. Verified: No year zero, Dionysius Exiguus 525; 21st century began 2001 (arithmetic): OK. Source: https://en.wikipedia.org/wiki/Year_zero
 alt: 1 BC went straight to 1 AD.
 alt: The century that began in 2001.
 tags: calendars, history, math
@@ -163,7 +163,7 @@ hook: Old computers feared the new millennium. | THE *Y2K* PANIC | hero: chip Y2
 - So 00 could mean 1900 instead of 2000. | 00 = *1900?* | hero: question Ambiguity
 - Companies spent billions fixing code. | *BILLIONS* SPENT | hero: coin Cost
 - Few failures happened, partly because of the work. | FEW *FAILURES* | hero: shield Prevented
-fact: Y2K bug: two-digit year fields; remediation spending estimates range from roughly $100-300+ billion worldwide (widely cited, varies); only minor incidents occurred; debate whether success was due to remediation or overestimated risk.
+fact: Y2K bug: two-digit year fields; remediation spending estimates range from roughly $100-300+ billion worldwide (widely cited, varies); only minor incidents occurred; debate whether success was due to remediation or overestimated risk. Verified: Two-digit years made 2000 indistinguishable from 1900: OK. Source: https://en.wikipedia.org/wiki/Year_2000_problem
 alt: The bug that made headlines.
 alt: Did Y2K get fixed or was it hype?
 tags: tech, history, y2k
@@ -175,7 +175,7 @@ hook: Another date bug is due in 2038. | THE *2038* BUG | hero: calendar 2038
 - It runs out on January 19, 2038. | *JAN 19, 2038* | hero: calendar 2038
 - Then the number wraps around to negative. | WRAPS *NEGATIVE* | hero: cross Wrap
 - Modern 64-bit systems fix it for billions of years. | *64-BIT* FIXES IT | hero: check Fix
-fact: Unix time stored as signed 32-bit integer overflows at 03:14:07 UTC on 19 Jan 2038; 64-bit time_t lasts ~292 billion years. Many systems already migrated; legacy and embedded devices remain at risk.
+fact: Unix time stored as signed 32-bit integer overflows at 03:14:07 UTC on 19 Jan 2038; 64-bit time_t lasts ~292 billion years. Many systems already migrated; legacy and embedded devices remain at risk. Verified: 32-bit overflow 19 Jan 2038 03:14:07 UTC; 64-bit lasts 292 billion years: OK. Source: https://en.wikipedia.org/wiki/Year_2038_problem
 alt: The next Y2K.
 alt: When the clock hits 2038.
 tags: tech, time, bugs
@@ -259,7 +259,7 @@ hook: Twenty percent of effort drives eighty percent. | THE *80/20* RULE | bars:
 - It's a pattern, not an exact law. | A *PATTERN* | hero: question Approximate
 - Find the vital few tasks that drive results. | VITAL *FEW* | hero: target Few tasks
 - Do those first and drop the rest. | DO *THOSE* FIRST | hero: check Priorities
-fact: Pareto principle named by Joseph Juran after Vilfredo Pareto's observation (~1896-1906) that ~80% of Italian land was owned by ~20% of the population; ratios are approximate and vary. Good.
+fact: Pareto principle named by Joseph Juran after Vilfredo Pareto's observation (~1896-1906) that ~80% of Italian land was owned by ~20% of the population; ratios are approximate and vary. Good. Verified: Pareto, ~80% of Italian land owned by 20% (Cours d'economie politique 1896-97): OK. Source: https://en.wikipedia.org/wiki/Pareto_principle
 alt: The rule behind prioritising.
 alt: Find the 20% that matters.
 tags: productivity, math, planning
