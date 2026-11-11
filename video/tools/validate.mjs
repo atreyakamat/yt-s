@@ -31,7 +31,7 @@ const COLORS = new Set([...src("palette.ts").matchAll(/^ {2}([a-z]+): /gm)].map(
 const ICONS = new Set(
   [...fs.readFileSync(path.join(videoDir, "src/visuals/icons.tsx"), "utf8").matchAll(/^  "?([a-z][a-z0-9-]*)"?: \(\) =>/gm)].map((m) => m[1]),
 );
-const EXPLAINER_LAYOUTS = ["hero", "pair", "flow", "grid", "num", "bars", "timeline"];
+const EXPLAINER_LAYOUTS = ["hero", "pair", "flow", "grid", "num", "bars", "timeline", "ring", "ladder", "meter"];
 const SFX = new Set(["whoosh", "slice", "thunk", "buzz", "click", "unlock", "pop"]);
 const SERIES = new Set([
   "cut-it-open",
@@ -217,9 +217,10 @@ export function parseReel(file, parseYaml) {
         const v = s.visual;
         if (!EXPLAINER_LAYOUTS.includes(v.layout)) fail(`explainer layout '${v.layout}' unknown (use: ${EXPLAINER_LAYOUTS.join(", ")})`);
         for (const it of v.items ?? []) if (it.icon && !ICONS.has(it.icon)) fail(`unknown explainer icon '${it.icon}'`);
-        if (v.layout === "num" && !v.value) fail("explainer num needs a value");
+        if ((v.layout === "num" || v.layout === "meter") && !v.value) fail(`explainer ${v.layout} needs a value`);
+        if (v.layout === "meter" && !(Number(v.value) >= 0 && Number(v.value) <= 100)) fail("explainer meter value must be a number from 0 to 100");
         if (v.layout === "pair" && (v.items?.length ?? 0) !== 2) fail("explainer pair needs exactly 2 items");
-        if (v.layout !== "num" && !v.items?.length) fail(`explainer ${v.layout} needs items`);
+        if (v.layout !== "num" && v.layout !== "meter" && !v.items?.length) fail(`explainer ${v.layout} needs items`);
       } else if (GENERIC[kind]) {
         GENERIC[kind](s.visual);
       } else if (BESPOKE[kind]) {

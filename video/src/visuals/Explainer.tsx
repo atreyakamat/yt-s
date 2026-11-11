@@ -4,7 +4,7 @@ import { Arrow, Glow, Svg, lerp, ramp } from "../components/Shapes";
 import { theme } from "../theme";
 import { Icon } from "./icons";
 
-export type ExplainerLayout = "hero" | "pair" | "flow" | "grid" | "num" | "bars" | "timeline";
+export type ExplainerLayout = "hero" | "pair" | "flow" | "grid" | "num" | "bars" | "timeline" | "ring" | "ladder" | "meter";
 export type ExplainerItem = { icon?: string; label?: string; value?: number };
 export type ExplainerProps = {
   layout: ExplainerLayout;
@@ -14,7 +14,7 @@ export type ExplainerProps = {
   vs?: string;
 };
 
-export const EXPLAINER_LAYOUTS: ExplainerLayout[] = ["hero", "pair", "flow", "grid", "num", "bars", "timeline"];
+export const EXPLAINER_LAYOUTS: ExplainerLayout[] = ["hero", "pair", "flow", "grid", "num", "bars", "timeline", "ring", "ladder", "meter"];
 
 const CY = 880; // visual centre, clear of captions and the Shorts UI
 
@@ -162,6 +162,69 @@ export const Explainer: React.FC<ExplainerProps> = ({ layout, items = [], value,
                 </g>
               );
             })}
+          </g>
+        );
+      }
+      case "ring": {
+        // First item sits in the centre; the rest orbit it and pop in one by one.
+        const [centre, ...rest] = items;
+        const k = Math.min(rest.length, 5);
+        const R = 300;
+        return (
+          <g>
+            {k > 0 && <circle cx={540} cy={CY} r={R} fill="none" stroke="#2C2F3A" strokeWidth={6} strokeDasharray="4 18" strokeLinecap="round" />}
+            {centre && <Tile item={centre} x={540} y={CY} size={260} i={0} />}
+            {rest.slice(0, k).map((it, i) => {
+              const a = -Math.PI / 2 + (i / k) * Math.PI * 2;
+              const drift = frame * 0.004;
+              return <Tile key={i} item={it} i={i + 1} size={150} x={540 + Math.cos(a + drift) * R} y={CY + Math.sin(a + drift) * R} />;
+            })}
+          </g>
+        );
+      }
+      case "ladder": {
+        // Rising steps, left to right: for levels, stages and "gets bigger" ideas.
+        const k = Math.min(n, 5);
+        const stepW = 800 / k;
+        return (
+          <g>
+            {items.slice(0, k).map((it, i) => {
+              const p = Math.min(1, pop(frame, fps, i));
+              const h = (180 + i * (360 / Math.max(1, k - 1 || 1))) * p;
+              const x = 140 + i * stepW;
+              const yBase = CY + 300;
+              return (
+                <g key={i}>
+                  <rect x={x} y={yBase - h} width={stepW - 14} height={h} rx={16} fill={i === k - 1 ? theme.accent : "#2C2F3A"} />
+                  {it.icon && <Icon name={it.icon} x={x + (stepW - 14) / 2} y={yBase - h - 70} size={110} opacity={p} />}
+                  <text x={x + (stepW - 14) / 2} y={yBase - 24} textAnchor="middle" fontFamily={theme.font} fontWeight={800} fontSize={k > 4 ? 28 : 34} fill={theme.text} opacity={p}>
+                    {it.label}
+                  </text>
+                </g>
+              );
+            })}
+          </g>
+        );
+      }
+      case "meter": {
+        // Percentage arc: value is a number 0-100 (shown with its unit).
+        const pct = Math.max(0, Math.min(100, parseFloat(value ?? "0") || 0));
+        const t = ramp(frame, 4, 44);
+        const r = 300;
+        const cx = 540;
+        const cy = CY + 40;
+        const end = Math.PI * (1 + (pct / 100) * t);
+        const pt = (a: number) => `${cx + Math.cos(a) * r} ${cy + Math.sin(a) * r}`;
+        const icon = items[0];
+        return (
+          <g>
+            <path d={`M ${pt(Math.PI)} A ${r} ${r} 0 0 1 ${pt(2 * Math.PI)}`} fill="none" stroke="#2C2F3A" strokeWidth={56} strokeLinecap="round" />
+            {pct > 0 && <path d={`M ${pt(Math.PI)} A ${r} ${r} 0 0 1 ${pt(end)}`} fill="none" stroke={theme.accent} strokeWidth={56} strokeLinecap="round" />}
+            {icon?.icon && <Icon name={icon.icon} x={cx} y={cy - 150} size={200} opacity={Math.min(1, t * 2)} />}
+            <text x={cx} y={cy + 150} textAnchor="middle" fontFamily={theme.font} fontWeight={900} fontSize={170} fill={theme.accent}>
+              {Math.round(pct * t)}%
+            </text>
+            <Caption x={cx} y={cy + 240} text={unit?.replace(/^%\s*/, "")} size={54} opacity={ramp(frame, 12, 24)} />
           </g>
         );
       }

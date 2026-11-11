@@ -39,7 +39,7 @@ tags: champagne, science, party
 ## 1526 | Why sparklers burn so hot
 hook: A sparkler burns above 1,000 degrees. | OVER *1,000°C* | num: 1000 | degrees Celsius | sparkler
 - The tip burns above a thousand degrees Celsius. | OVER *1000°C* | num: 1000 | degrees Celsius | thermometer
-- It's a coating of fuel, oxidiser and metal powder on a wire. | FUEL + *METAL POWDER* | grid: flame Fuel; atom Oxidiser; sparkle Metal powder
+- It's a coating of fuel, oxidiser and metal powder on a wire. | FUEL + *METAL POWDER* | ring: flame Fuel; atom Oxidiser; sparkle Metal powder
 - The sparks are bits of burning metal flying off. | BURNING *METAL* | hero: sparkle Sparks
 - The wire stays hot long after the sparks stop. | STILL *HOT* | hero: thermometer Hot wire
 - So drop it in water, never on the ground. | DROP IT IN *WATER* | hero: drop Water bucket
@@ -172,7 +172,7 @@ tags: fitness, health, resolutions
 hook: Your sore muscles peak two days later. | SORENESS PEAKS *LATER* | hero: dumbbell Sore muscles
 - Hard or unfamiliar exercise causes tiny damage in muscle fibres. | TINY *MUSCLE DAMAGE* | hero: spring Muscle fibres
 - Your body sends repair signals, and inflammation follows. | *REPAIR* MODE | hero: pulse Repair
-- That takes time, so soreness builds over a day or two. | BUILDS *OVER DAYS* | timeline: dumbbell Workout; hourglass 24 hours; bed 48 hours
+- That takes time, so soreness builds over a day or two. | BUILDS *OVER DAYS* | ladder: dumbbell Workout; hourglass 24 hours; bed 48 hours
 - It usually fades within three to five days. | GONE IN *3-5 DAYS* | hero: check Fades
 - Light movement can help it feel better. | MOVE *GENTLY* | hero: person Gentle walk
 fact: Delayed-onset muscle soreness typically peaks 24-72 h after exercise and resolves within ~5-7 days; lactic acid is NOT the cause (myth). Light movement may ease symptoms.

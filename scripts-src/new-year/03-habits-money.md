@@ -18,7 +18,7 @@ hook: January 1 really does change your behaviour. | A *FRESH START* | hero: sun
 - Dates like New Year, birthdays and Mondays feel like a clean slate. | NEW YEAR · BIRTHDAY · *MONDAY* | grid: calendar New Year; gift Birthday; calendar Monday
 - That feeling makes people more likely to chase their goals. | MORE *GOAL-CHASING* | hero: target Goals
 - Google searches for dieting jump at those moments. | SEARCHES *SPIKE* | hero: chart-up Searches
-- So use the date, but keep going after the first week. | KEEP GOING AFTER *WEEK 1* | timeline: calendar Day 1; calendar Week 1; calendar Week 6
+- So use the date, but keep going after the first week. | KEEP GOING AFTER *WEEK 1* | ladder: calendar Day 1; calendar Week 1; calendar Week 6
 fact: Dai, Milkman & Riis (2014, Management Science): temporal landmarks increase aspirational behaviour (gym visits, goal commitments, 'diet' Google searches).
 alt: Why Monday and January feel magical.
 alt: The science of a clean slate.

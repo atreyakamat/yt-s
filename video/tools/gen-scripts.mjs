@@ -14,6 +14,9 @@
 //
 // Layout specs (icons are names from src/visuals/icons.tsx):
 //   hero: icon Label           pair: iconA Label; iconB Label        flow/grid/timeline: icon Label; icon Label; ...
+//   ring: centreIcon Label; icon Label; ...   (first item in the middle, up to 5 orbiting)
+//   ladder: icon Label; icon Label; ...       (rising steps, last one highlighted)
+//   meter: 0-100 | unit | icon                (percentage arc)
 //   num: 1,000 | unit | icon   bars: icon Label=value; icon Label=value
 import fs from "node:fs";
 import path from "node:path";
@@ -27,7 +30,7 @@ const outRoot = path.join(repo, "how-things-work");
 const ICONS = new Set(
   [...fs.readFileSync(path.join(videoDir, "src/visuals/icons.tsx"), "utf8").matchAll(/^  "?([a-z][a-z0-9-]*)"?: \(\) =>/gm)].map((m) => m[1]),
 );
-const LAYOUTS = ["hero", "pair", "flow", "grid", "num", "bars", "timeline"];
+const LAYOUTS = ["hero", "pair", "flow", "grid", "num", "bars", "timeline", "ring", "ladder", "meter"];
 const SFX = ["pop", "click", "thunk", "pop"];
 const errors = [];
 const seen = new Map();
@@ -47,9 +50,10 @@ function parseLayout(spec, where) {
     if (!ICONS.has(name)) throw new Error(`${where}: unknown icon '${name}'`);
     return name;
   };
-  if (layout === "num") {
+  if (layout === "num" || layout === "meter") {
     const [value, unit, ic] = rest.split("|").map((x) => x.trim());
-    if (!value) throw new Error(`${where}: num needs a value`);
+    if (!value) throw new Error(`${where}: ${layout} needs a value`);
+    if (layout === "meter" && !(Number(value) >= 0 && Number(value) <= 100)) throw new Error(`${where}: meter value must be 0-100`);
     visual.value = value;
     if (unit) visual.unit = unit;
     if (ic) visual.items = [{ icon: icon(ic) }];
