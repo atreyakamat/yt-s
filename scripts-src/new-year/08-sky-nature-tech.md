@@ -39,11 +39,11 @@ tags: moon, illusion, space
 ## 1622 | Why Betelgeuse could explode
 hook: Orion's shoulder is a dying star. | ORION'S *DYING STAR* | hero: star Betelgeuse
 - Betelgeuse is a red supergiant in Orion. | *RED SUPERGIANT* | hero: star Red supergiant
-- It's hundreds of times wider than the Sun. | *~700×* SUN'S WIDTH | num: 700 | x Sun | sun
+- It's roughly 1,500 times wider than the Sun. | *~1,500×* SUN'S WIDTH | num: 1500 | x Sun | sun
 - Someday it will end as a supernova. | ENDS AS *SUPERNOVA* | hero: burst Supernova
 - That could be anywhere in the next 100,000 years. | *WITHIN* 100,000 YEARS | hero: hourglass Timeline
 - It's far too distant to hurt us. | *SAFE* DISTANCE | hero: shield Safe
-fact: Betelgeuse radius roughly 700-900 solar radii, about 550-700 light-years away; expected to go supernova within ~100,000 years; at that distance it's harmless to Earth (it would be as bright as the Moon for months). 2019-20 'Great Dimming' was dust, not imminent explosion.
+fact: Betelgeuse radius ~750 solar radii (EarthSky; Sci.News ~764), so diameter ~1,500x the Sun; ~530-550 light-years away; expected to go supernova within ~100,000 years; at that distance it's harmless to Earth (it would be as bright as the Moon for months). 2019-20 'Great Dimming' was dust, not imminent explosion.
 alt: A star that will one day go bang.
 alt: The winter sky's red giant.
 tags: space, stars, orion

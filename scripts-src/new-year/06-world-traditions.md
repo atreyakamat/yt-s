@@ -108,13 +108,13 @@ alt: Where the year starts first.
 tags: timezones, geography, newyear
 
 ## 1578 | How the Times Square ball drops
-hook: The Times Square ball weighs nearly six tonnes. | BALL WEIGHS *6 TONNES* | hero: ball Times Square ball
+hook: The Times Square ball weighs over five tonnes. | BALL WEIGHS *5+ TONNES* | hero: ball Times Square ball
 - It's covered in thousands of crystal triangles. | THOUSANDS *OF CRYSTALS* | hero: sparkle Crystals
 - Thousands of LEDs light up in millions of colours. | *LED* LIGHTS | hero: lightbulb LEDs
 - It starts dropping at 11:59 and 0 seconds. | DROPS AT *11:59* | hero: clock 11:59
-- The fall takes exactly sixty seconds. | *60 SECONDS* DOWN | num: 60 | seconds | clock
+- The fall takes about sixty seconds. | *60 SECONDS* DOWN | num: 60 | seconds | clock
 - The tradition began in 1907. | BEGAN *1907* | hero: calendar 1907
-fact: Times Square Ball (2008-present design): ~11,875 lb (about 5.4 tonnes), 2,688 Waterford crystal triangles, 32,256 LEDs; descends a 77-foot pole in 60 seconds starting 11:59 pm. First dropped 1907. 'Nearly six tonnes' ~5.4 t; adjust hook if you want strict.
+fact: Ball weighs 11,875 lb (5,386 kg), 12 ft across (TIME, verified). Crystal triangle count, LED count and 60 s descent not confirmed by that source - script keeps them vague. Tradition tied to 1907 fireworks ban (TIME, implicit).
 alt: A 60-second fall watched by a billion.
 alt: The ball is mostly crystal and LEDs.
 tags: traditions, usa, timessquare
