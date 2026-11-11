@@ -140,7 +140,13 @@ def main():
     args = ap.parse_args()
 
     # Only the requested reels must be valid: one broken script elsewhere must not silence today's voice.
-    sync = ["node", "tools/sync.mjs"] + (["--only", ",".join(args.reels)] if args.reels else [])
+    # The ids passed on come from the scripts folder itself (never straight from the command line).
+    known = {f.stem for f in (ROOT / "how-things-work").rglob("vid-*.md")}
+    wanted = sorted(known.intersection(args.reels))
+    missing = [r for r in args.reels if r not in known]
+    if missing:
+        sys.exit("No such reel: " + ", ".join(missing))
+    sync = ["node", "tools/sync.mjs"] + (["--only", ",".join(wanted)] if wanted else [])
     result = subprocess.run(sync, cwd=ROOT / "video", capture_output=True, text=True, encoding="utf-8")
     if result.returncode != 0:
         sys.exit("Script check failed:\n" + (result.stderr or result.stdout))
