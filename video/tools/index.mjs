@@ -41,4 +41,5 @@ for (const b of batches) {
 }
 if (errors.length) lines.push("", `${errors.length} script(s) currently fail the checker and are not listed.`);
 fs.writeFileSync(path.join(contentDir, "INDEX.md"), lines.join("\n") + "\n");
-console.log(`Wrote how-things-work/INDEX.md (${reels.length} reels in ${batches.length} batches${errors.length ? `, ${errors.length} with errors` : ""}).`);
+const errNote = errors.length ? `, ${errors.length} with errors` : "";
+console.log(`Wrote how-things-work/INDEX.md (${reels.length} reels in ${batches.length} batches${errNote}).`);
