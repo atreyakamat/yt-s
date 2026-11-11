@@ -30,8 +30,9 @@ const stateFile = path.join(repo, ".cutaway-progress.json");
 const done = fs.existsSync(stateFile) ? Object.keys(JSON.parse(fs.readFileSync(stateFile, "utf8")).done ?? {}).length : 0;
 console.log(`\n  Progress: ${done} of ${reels.length} reels rendered so far.`);
 
-const g = spawnSync("git", ["-C", repo, "status", "-sb"], { encoding: "utf8" });
-if (g.status === 0) console.log(`  Git: ${g.stdout.split("\n")[0]}   (run "git pull origin main" first if behind)`);
+const gitExe = findExe("git");
+const g = gitExe ? spawnSync(gitExe, ["-C", repo, "status", "-sb"], { encoding: "utf8" }) : null;
+if (g && g.status === 0) console.log(`  Git: ${g.stdout.split("\n")[0]}   (run "git pull origin main" first if behind)`);
 
 console.log(bad ? `\n${bad} problem(s). Fix the FAIL lines, then run again.` : "\nReady: run  npm run daily");
 process.exit(bad ? 1 : 0);
