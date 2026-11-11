@@ -83,7 +83,5 @@ scenes:
 
 ## Fact check
 
-- Petrol engines use one spark plug per cylinder (some designs use two); diesels have none.
-- Car electrical systems are 12 V; the ignition coil is a step-up transformer producing roughly 20,000-40,000 V, so 'tens of thousands' and a bar of about 30,000 V are fair.
-- Typical plug gaps are about 0.7-1.1 mm; a bank card is about 0.76 mm thick, hence 'about as thin as a credit card'.
-- Around twenty sparks a second per plug: in a four-stroke engine each plug fires once every two revolutions, so at about 2,400 rpm that is 20 per second.
+- Coil steps 12 V up to tens of thousands of volts (spark plugs need about 12 to 25 kV, up to 45 kV). OK. Source: https://en.wikipedia.org/wiki/Spark_plug
+- 20 sparks a second per plug is arithmetic for about 2,400 rpm (one spark every two revolutions); script says "sparks per second" loosely.

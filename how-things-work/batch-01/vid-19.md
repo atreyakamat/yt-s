@@ -77,9 +77,4 @@ scenes:
 
 ## Fact check
 
-- Flight recorders are painted bright orange with reflective tape so they can be found; 'black box' is a nickname.
-- Airliners carry a cockpit voice recorder and a flight data recorder (some newer designs combine them).
-- The crash-survivable memory unit is protected by a metal shell, insulation and a thermal block.
-- Certification requires surviving a high-intensity fire of about 1,100 °C for 60 minutes and a very large impact.
-- An underwater locator beacon activates on contact with water and pings for at least 30 days (90 on newer units).
-- Recorders are usually mounted in the rear of the aircraft, which tends to suffer less damage in a crash.
+- Crash-protected recorders must survive 1100 C for one hour (EUROCAE ED-112). OK. Source: https://bst-tsb.gc.ca/eng/medias-media/fiches-facts/a20f0002/enregistreurs-recorders/20200309.html

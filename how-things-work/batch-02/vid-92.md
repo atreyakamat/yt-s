@@ -80,7 +80,4 @@ scenes:
 
 ## Fact check
 
-- Classic Bluetooth (BR/EDR) uses 79 channels of 1 MHz in the 2.4 GHz ISM band and hops 1,600 times per second (625 µs slots).
-- The 2.4 GHz band is shared with Wi-Fi and microwave ovens.
-- The hop sequence is derived from the central device's address and clock, which both devices know.
-- Adaptive frequency hopping can avoid busy channels. Bluetooth Low Energy uses 40 channels; the script says 'classic Bluetooth' for the 79 figure.
+- Classic Bluetooth: 79 channels, about 1,600 hops per second, 625 microsecond slots. OK. Source: https://en.wikipedia.org/wiki/Bluetooth

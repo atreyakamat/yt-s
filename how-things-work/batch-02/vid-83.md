@@ -75,8 +75,4 @@ scenes:
 
 ## Fact check
 
-- Elastic waistbands use rubber or elastane (spandex) threads, usually covered or woven into a fabric band and sewn into a casing.
-- Elastane fibres can stretch to around 5 or more times their length before breaking (elongation of roughly 500%+), so 'about five times' is fair.
-- Rubber and elastane elasticity comes from long coiled polymer chains that straighten when stretched and recoil when released.
-- Elastane is a segmented polyurethane: soft flexible segments plus hard segments that act as anchor points.
-- High heat (hot washes, tumble dryers) degrades elastane and rubber over time: care guidance from fibre makers.
+- Spandex stretches up to about five times its length. OK. Source: https://en.wikipedia.org/wiki/Spandex

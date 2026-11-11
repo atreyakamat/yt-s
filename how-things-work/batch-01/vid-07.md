@@ -76,3 +76,7 @@ scenes:
 **Fact check:** "never" is an overstatement; some square and triangular covers exist with a lip. Change to "almost never" in the hook if you want no pushback.
 
 Visual style, safe areas and audio rules: same as [vid-01](../cut-it-open/vid-01.md).
+
+## Fact check
+
+- A square can fall diagonally through its hole; a round cover cannot, can be rolled and needs no alignment. OK. Source: https://en.wikipedia.org/wiki/Manhole_cover

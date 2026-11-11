@@ -77,6 +77,5 @@ scenes:
 
 ## Fact check
 
-- The USB Type-C connector is rotationally symmetric with 24 pins, 12 on each side.
-- Configuration Channel (CC) pins detect plug orientation and the attached device, and the system switches signal paths accordingly.
-- USB-C supports USB data, alternate modes such as DisplayPort video, and USB Power Delivery at much higher wattage than classic USB-A ports. A classic USB 2.0 port supplies 5 V x 0.5 A = 2.5 W; USB Power Delivery 3.1 allows up to 240 W over USB-C.
+- USB-C connector has 24 pins (12 per side, mirrored). OK. Source: https://www.wevolver.com/article/usb-c-pinout-in-depth-a-comprehensive-technical-guide-for-engineers
+- USB-C power up to 240 W (USB PD 3.1 EPR); USB 2.0 is 5 V x 500 mA = 2.5 W. OK. Source: https://www.wikiwand.com/en/USB_Type-C

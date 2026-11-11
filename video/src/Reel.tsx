@@ -106,7 +106,7 @@ export const Reel: React.FC<{ reel: ReelData }> = ({ reel }) => {
             highlight={scene.highlight}
             accent={accent}
           />
-          <Captions vo={scene.vo} accent={accent} />
+          <Captions vo={scene.vo} accent={accent} voDur={scene.voDur} />
           {scene.sfx && reel.assets.sfx.includes(scene.sfx) && (
             <Audio src={staticFile(`sfx/${scene.sfx}.mp3`)} volume={0.6} />
           )}

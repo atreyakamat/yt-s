@@ -80,7 +80,4 @@ scenes:
 
 ## Fact check
 
-- Carbon monoxide is colourless and odourless and is produced by incomplete combustion of fuels.
-- Haemoglobin binds CO roughly 200-250 times more strongly than oxygen, so 'over two hundred times' is fair.
-- Most home CO alarms use an electrochemical sensor where CO is oxidised at an electrode, producing a current proportional to concentration.
-- CO alarm standards set alarm times based on both concentration and exposure time, and sensors have a limited life with an end-of-life warning. Bars are illustrative.
+- Carbon monoxide binds haemoglobin about 200 to 240 times more strongly than oxygen. OK. Source: https://en.wikipedia.org/wiki/Carbon_monoxide_poisoning

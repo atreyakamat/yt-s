@@ -77,7 +77,4 @@ scenes:
 
 ## Fact check
 
-- Structured-light face unlock (used on some phones) uses a dot projector, an infrared camera and a flood illuminator.
-- The best-known system projects over 30,000 infrared dots, per its maker's published description; so 'about thirty thousand'.
-- Near-infrared light (around 940 nm) is invisible to human eyes.
-- The distortion of a known dot pattern reveals surface depth (structured light), producing a 3D map that a flat photo cannot match; the IR flood light lets it work in darkness.
+- Face ID projects more than 30,000 invisible infrared dots to build a depth map. OK. Source: https://en.wikipedia.org/wiki/Face_ID

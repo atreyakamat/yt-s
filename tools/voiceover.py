@@ -91,6 +91,7 @@ def speak(engine, text, wav):
 def build_reel(reel, engine, tmp):
     inputs, filters, labels = [], [], []
     warnings = []
+    timing = {}  # scene index -> seconds the line is actually spoken (captions follow this)
     k = 0
     for i, scene in enumerate(reel["scenes"]):
         text = scene.get("vo", "").strip()
@@ -106,6 +107,7 @@ def build_reel(reel, engine, tmp):
             tempo = min(need, MAX_TEMPO)
             if need > MAX_TEMPO:
                 warnings.append(f"  ! scene {i + 1}: line is {length:.1f}s but the slot is {slot:.1f}s even at {MAX_TEMPO}x; shorten it: \"{text}\"")
+        timing[str(i)] = round(length / tempo, 3)
         inputs += ["-i", str(wav)]
         delay = int(scene["at"] * 1000)
         chain = f"[{k}:a]aresample=44100,atempo={tempo:.3f},adelay={delay}|{delay}[a{k}]"
@@ -118,6 +120,8 @@ def build_reel(reel, engine, tmp):
     out.parent.mkdir(parents=True, exist_ok=True)
     mix = "".join(labels) + f"amix=inputs={len(labels)}:normalize=0,apad=whole_dur={reel['duration']},atrim=0:{reel['duration']}[out]"
     run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(filters + [mix]), "-map", "[out]", "-b:a", "192k", str(out)])
+    # Per-scene spoken length, so captions can follow the real voice (read by video/tools/sync.mjs).
+    out.with_suffix(".timing.json").write_text(json.dumps({"scenes": timing}), encoding="utf-8")
     return out, warnings
 
 

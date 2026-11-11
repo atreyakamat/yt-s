@@ -82,6 +82,4 @@ scenes:
 
 ## Fact check
 
-- A spring clothes peg is two class-1 levers pivoting on a coiled steel spring; long handles give leverage over short jaws.
-- The spring clothespin was patented in the USA in 1853 (David M. Smith); earlier pegs were one-piece split wood.
-- Many pegs have a curved notch in the jaws that sits around the line, helping them grip the line itself.
+- David M. Smith's spring clothespin patent US 10,163 was issued in 1853. OK. Source: https://www.openscience.fr/David-M-Smith-and-the-invention-of-the-clothespin-in-mid-19th-century-America

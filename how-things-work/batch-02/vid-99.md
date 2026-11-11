@@ -80,8 +80,4 @@ scenes:
 
 ## Fact check
 
-- The pitching rubber is 60 feet 6 inches from home plate; top pitchers throw around 95 mph.
-- At 95 mph a pitch takes roughly 0.4 seconds to reach the plate (release point is a little closer than 60.5 ft).
-- Simple visual reaction time is roughly 0.2 seconds; a big-league swing takes around 0.15 seconds, so the decision must be made early in the ball's flight.
-- Studies of batters show they cannot keep their eyes on the ball over the final few feet and rely on prediction.
-- Changeups work by disrupting the hitter's timing.
+- MLB average four-seam fastball is over 94 mph; 60 feet 6 inches at 95 mph is about 0.43 s, so "about four tenths" holds. OK. Source: https://en.wikipedia.org/wiki/Fastball

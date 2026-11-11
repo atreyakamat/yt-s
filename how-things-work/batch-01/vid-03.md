@@ -69,3 +69,7 @@ scenes:
 **Fact check:** cite ISO 11540 (caps for writing instruments, safety requirements). Avoid medical advice; no real child footage.
 
 Visual style, safe areas and audio rules: same as [vid-01](../cut-it-open/vid-01.md).
+
+## Fact check
+
+- Pen cap holes exist as an airway safety feature under ISO 11540 (airflow requirement for caps); the script hedges with "many". Wikipedia's pen page does not cover it and the search budget ran out, so this was not independently re-verified. Source: https://www.iso.org/standard/54428.html

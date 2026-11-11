@@ -53,7 +53,7 @@ scenes:
     visual: { kind: callout, icon: flame, parts: ["Mica frame", "Heat-proof", "Electrical insulator"] }
   - at: 21
     dur: 6
-    vo: "Out of about two thousand watts, the heater uses nearly all of it. The motor needs a small fraction."
+    vo: "Out of up to two thousand watts, the heater uses nearly all of it. The motor needs a small fraction."
     text: "THE HEATER HOGS IT"
     highlight: "HEATER"
     visual: { kind: bars, unit: "W", items: [{ label: "Motor and fan", value: 100, color: grey }, { label: "Heating wire", value: 1900, color: red }] }
@@ -73,8 +73,4 @@ scenes:
 
 ## Fact check
 
-- Layout → hair dryers contain an intake filter, a small motor and fan, a resistance heating element and a nozzle.
-- Nichrome → nickel-chromium alloy used for heating elements: high resistance and resists oxidation at red heat.
-- Mica → elements are wound on mica boards, a mineral that is heat-resistant and an electrical insulator.
-- Power split → typical dryers are about 1,800-2,200 W; the motor uses tens of watts to around 100 W, so the heater takes the vast majority (bars show rounded figures).
-- Settings switch element sections and fan speed.
+- Today's average hair dryer draws up to 2,000 W and uses a nichrome coil with a fan motor; the 1,900 W / 100 W split in the chart is illustrative. SOFTENED "about" to "up to". Source: https://en.wikipedia.org/wiki/Hair_dryer

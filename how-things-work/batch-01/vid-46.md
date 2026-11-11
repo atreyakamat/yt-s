@@ -77,7 +77,4 @@ scenes:
 
 ## Fact check
 
-- Digital camera sensors (CMOS) are arrays of photosites that convert photons into electrons via the photoelectric effect; the charge is read out as brightness.
-- A colour filter array (usually the Bayer pattern) sits over the photosites: 50% green, 25% red, 25% blue, because human vision is most sensitive to green.
-- Demosaicing algorithms interpolate the two missing colour values at each pixel from neighbouring pixels.
-- Microlenses sit above the filters to focus light into each photosite.
+- Bayer filter: 50% green, 25% red, 25% blue, because the eye is most sensitive to green. OK. Source: https://en.wikipedia.org/wiki/Bayer_filter

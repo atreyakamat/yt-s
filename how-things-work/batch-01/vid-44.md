@@ -82,6 +82,4 @@ scenes:
 
 ## Fact check
 
-- An RCD (residual current device, GFCI in North America) passes live and neutral through a toroidal core; any imbalance induces a current in a sense coil which trips the device.
-- Domestic RCDs for personal protection are typically rated at 30 mA and must trip within 300 ms at rated current, much faster at higher leakage: 'a fraction of a second'.
-- The test (T) button connects a resistor that bypasses the core, creating a deliberate imbalance.
+- Domestic RCDs are most commonly rated 30 mA and about 40 ms (usually under 30 to 40 ms). OK. Source: https://en.wikipedia.org/wiki/Residual-current_device

@@ -75,7 +75,5 @@ scenes:
 
 ## Fact check
 
-- Laser-lit flush filmed in 2022 → University of Colorado Boulder study (Crimaldi et al., Scientific Reports, 2022) used green lasers to show the aerosol plume.
-- More than 1.3 m in about 7.5-8 s → Crimaldi et al., Scientific Reports 2022 (CU Boulder): plume rose above 1.3 m in about 7.5 s above a lid-less commercial toilet. Source: https://physicstoday.aip.org/news/public-toilets-eject-energetic-aerosol-plumes
-- Small droplets linger and settle → aerosol droplets that size can stay airborne for a while before settling; the study noted droplets drift and spread.
-- Lid down reduces escape → other flush-aerosol studies found closing the lid cuts the number of droplets released into the room (it reduces, not eliminates, hence 'far fewer').
+- 2022 University of Colorado Boulder laser study: plume rose over 1.3 m in about 7.5 to 8 s (press reports say 1.5 m in 8 s). OK as "more than 1.3 metres in about eight seconds". Source: https://www.colorado.edu/today/2022/12/08/cu-scientists-shine-light-what-comes-when-you-flush
+- Lid-down flushing reduces droplets escaping; script says "far fewer"; the study itself tested lidless toilets, so this is a reasonable inference, not a measured result.

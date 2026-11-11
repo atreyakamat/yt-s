@@ -58,7 +58,7 @@ scenes:
     vo: "Many bumps per turn adds up to tens of thousands of blows a minute."
     text: "TENS OF THOUSANDS"
     highlight: "THOUSANDS"
-    visual: { kind: counter, to: 40000, label: "blows a minute, roughly", icon: bolt }
+    visual: { kind: counter, to: 25000, label: "blows a minute, roughly", icon: bolt }
     sfx: buzz
   - at: 27
     dur: 5
@@ -83,7 +83,4 @@ scenes:
 
 ## Fact check
 
-- Consumer hammer drills use two ratcheting (ridged) discs or cams; as one rotates against the other the chuck is pushed forward and back many times per turn.
-- Typical blow rates are quoted around 20,000 to 50,000 blows per minute; 40,000 per minute is about 670 per second, so 'hundreds per second' holds. The counter is labelled 'roughly'.
-- Masonry bits have hard (usually carbide) tips; the spiral flutes carry dust out.
-- The mode selector disengages the hammer action for wood and metal.
+- A Makita hammer drill is rated up to 25,500 blows a minute; other models are higher, so the counter now shows 25,000 ("roughly") instead of 40,000. "Tens of thousands" holds. SOFTENED. Source: https://en.wikipedia.org/wiki/Hammer_drill

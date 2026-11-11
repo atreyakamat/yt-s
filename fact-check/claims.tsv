@@ -12,8 +12,8 @@ vid-06	Self-checkout scale	scene 3 text	EXPECTED: 1,035g
 vid-08	Retractable pen click	scene 2 text	4 PARTS
 vid-10	Before fridges	scene 1 vo	In 1833, ice sailed to India.
 vid-11	Pop-up toaster	description	Most toasters don't have a clock inside. A strip of two metals bends as it heats and lets the bread go.
-vid-11	Pop-up toaster	scene 3 vo	Current runs through thin nichrome wires. They glow red hot, around six hundred degrees.
-vid-11	Pop-up toaster	scene 3 visual	"label":"Boiling water" "value":100 "label":"Oven" "value":220 "label":"Toaster wire" "value":600
+vid-11	Pop-up toaster	scene 3 vo	Current runs through thin nichrome wires. They glow red hot, at several hundred degrees.
+vid-11	Pop-up toaster	scene 3 visual	"label":"Boiling water" "value":100 "label":"Oven" "value":220 "label":"Toaster wire, roughly" "value":600
 vid-11	Pop-up toaster	scene 5 visual	"value":80 "low":"Cold" "high":"Hot" "label":"The strip bends"
 vid-12	Stay-on can tab	scene 3 vo	Around the opening is a score line, a groove cut only part way through the aluminium.
 vid-12	Stay-on can tab	scene 3 text	A HALF-CUT GROOVE
@@ -104,7 +104,7 @@ vid-35	Crosswalk button	scene 7 visual	"value":100 "low":"No press" "high":"One 
 vid-36	Stapler anvil twist	scene 6 visual	"value":20 "low":"Easy out" "high":"Locked in" "label":"Effort to remove"
 vid-37	Adjustable spanner	scene 6 vo	And roll the screw snug first. Any gap is room to slip.
 vid-37	Adjustable spanner	scene 6 visual	"value":95 "low":"Loose" "high":"Snug" "label":"Jaw fit on the nut"
-vid-38	Tiny jeans pocket	description	The little pocket above your right front pocket was made for pocket watches in the 1800s. Wristwatches made it redundant, but it stayed.
+vid-38	Tiny jeans pocket	description	The little pocket above your right front pocket is widely said to have been made for pocket watches in the 1800s. Wristwatches made it redundant, but it stayed.
 vid-38	Tiny jeans pocket	scene 2 vo	In the late 1800s, workers in jeans often carried pocket watches on a chain.
 vid-38	Tiny jeans pocket	scene 2 text	THE 1800S
 vid-38	Tiny jeans pocket	scene 2 visual	"year":"1800s" "label":"Workers wear denim jeans" "year":"Late 1800s" "label":"A tiny extra pocket appears" "year":"Today" "label":"Still there, mostly empty"
@@ -119,10 +119,10 @@ vid-40	Smoke alarm test button	scene 6 visual	"to":10 "suffix":" yrs" "label":"T
 vid-41	Kitchen scissors	scene 5 visual	"value":85 "low":"At the tip" "high":"Near pivot" "label":"Squeeze force near the pivot"
 vid-42	Drink carton layers	scene 1 text	6 LAYERS
 vid-42	Drink carton layers	scene 3 vo	The paperboard is most of the weight. It gives the box its stiff shape.
-vid-42	Drink carton layers	scene 3 visual	"label":"Paperboard" "value":75 "label":"Plastic" "value":20 "label":"Aluminium" "value":5
+vid-42	Drink carton layers	scene 3 visual	"label":"Paperboard" "value":70 "label":"Plastic" "value":25 "label":"Aluminium" "value":5
 vid-43	Hair dryer heating element	title	Most of your hair dryer's power goes into a glowing wire 🔥
 vid-43	Hair dryer heating element	scene 1 vo	Most of your hair dryer's power goes into a wire.
-vid-43	Hair dryer heating element	scene 5 vo	Out of about two thousand watts, the heater uses nearly all of it. The motor needs a small fraction.
+vid-43	Hair dryer heating element	scene 5 vo	Out of up to two thousand watts, the heater uses nearly all of it. The motor needs a small fraction.
 vid-43	Hair dryer heating element	scene 5 visual	"label":"Motor and fan" "value":100 "label":"Heating wire" "value":1900
 vid-43	Hair dryer heating element	scene 6 visual	"value":60 "low":"Low" "high":"High" "label":"Heat setting"
 vid-43	Hair dryer heating element	scene 7 vo	Think of it as a fan behind a toaster. Most of your hair dryer's power...
@@ -186,23 +186,23 @@ vid-61	USB-C plug shape	scene 4 vo	That's 24 pins in total, 12 on each side, mir
 vid-61	USB-C plug shape	scene 4 text	24 PINS
 vid-61	USB-C plug shape	scene 4 visual	"to":24 "label":"pins, 12 per side"
 vid-61	USB-C plug shape	scene 6 visual	"label":"Old USB port" "value":2.5 "label":"USB-C, up to" "value":240
-vid-62	QWERTY layout	description	QWERTY comes from 1870s typewriters, where the order of the letters helped stop the metal arms from jamming.
+vid-62	QWERTY layout	description	QWERTY comes from 1870s typewriters, where the order of the letters is commonly said to have helped stop the metal arms from jamming.
 vid-62	QWERTY layout	scene 5 vo	It was tuned on typewriters in the 1870s and sold to the world.
 vid-62	QWERTY layout	scene 5 text	1870S
 vid-62	QWERTY layout	scene 5 visual	"year":"1868" "label":"Early typewriter patent" "year":"1870s" "label":"Letters shuffled to QWERTY" "year":"1874" "label":"First QWERTY typewriters sold"
 vid-62	QWERTY layout	scene 7 visual	"label":"Jams today" "value":0 "label":"People trained on it" "value":100
 vid-62	QWERTY layout	scene 8 visual	"label":"1870s layout"
-vid-64	Oval plane windows	scene 3 visual	"to":50000 "suffix":"+" "label":"flights in an airliner life"
+vid-64	Oval plane windows	scene 3 visual	"to":40000 "suffix":"+" "label":"flights in an airliner life"
 vid-64	Oval plane windows	scene 5 vo	In the 1950s, early jet airliners broke up in flight. Metal fatigue at square-cornered openings was blamed.
 vid-64	Oval plane windows	scene 5 text	1954: JETS BROKE UP
 vid-64	Oval plane windows	scene 5 visual	"year":"1952" "label":"First jet airliner flies passengers" "year":"1954" "label":"Two break up in mid-air" "year":"After" "label":"Rounded windows everywhere"
 vid-64	Oval plane windows	scene 6 visual	"value":25 "low":"Safe" "high":"Crack" "label":"Stress at a rounded corner"
 vid-65	Stop sign octagon	scene 1 text	WHY 8 SIDES?
-vid-65	Stop sign octagon	scene 2 vo	In the 1920s, US road planners gave signs more sides the more dangerous the spot.
+vid-65	Stop sign octagon	scene 2 vo	In the 1920s, US road planners proposed more sides for more dangerous spots.
 vid-65	Stop sign octagon	scene 2 visual	"label":"Diamond: warning" "value":4 "label":"Octagon: stop" "value":8
 vid-65	Stop sign octagon	scene 3 vo	The octagon is a shape almost no other sign uses, so it can only mean one thing.
 vid-65	Stop sign octagon	scene 3 visual	"label":"Only one octagon"
-vid-65	Stop sign octagon	scene 6 vo	Early stop signs were yellow, because red paint faded too fast. They turned red in 1954.
+vid-65	Stop sign octagon	scene 6 vo	Early stop signs were yellow, because fade-proof red wasn't available. They turned red in 1954.
 vid-65	Stop sign octagon	scene 6 visual	"year":"1920s" "label":"Octagon chosen for stop" "year":"1954" "label":"US stop signs turn red" "year":"1968" "label":"In the Vienna road sign treaty"
 vid-66	Hexagonal pencil shape	scene 1 vo	This is why most pencils are never round.
 vid-66	Hexagonal pencil shape	scene 3 visual	"value":80 "low":"Rolls easily" "high":"Stays put" "label":"Hexagon on a slope"
@@ -226,7 +226,7 @@ vid-69	Golf ball dimples	scene 7 visual	"to":2 "suffix":"x" "label":"the distanc
 vid-69	Golf ball dimples	scene 8 vo	Golfers first noticed it with scuffed old balls. And that's why golf balls...
 vid-70	Ceiling smoke alarm	scene 2 vo	Fire heats the air, and hot air is lighter, so smoke rises first.
 vid-72	Crisp packet nitrogen	scene 2 visual	"label":"Nitrogen in air" "value":78 "label":"Oxygen in air" "value":21
-vid-73	Ceramic disc tap cartridge	scene 6 visual	"label":"Limescale" "value":3 "label":"Steel" "value":5.5 "label":"Alumina ceramic" "value":9
+vid-73	Ceramic disc tap cartridge	scene 6 visual	"label":"Limescale" "value":3 "label":"Steel" "value":4.5 "label":"Alumina ceramic" "value":9
 vid-74	Dimmer switch	title	Your dimmer turns the light off 100 times a second 💡
 vid-74	Dimmer switch	description	A modern dimmer doesn't turn power down. It chops the start off every pulse of mains power, about 100 times a second.
 vid-74	Dimmer switch	scene 1 vo	Your dimmer cuts power 100 times a second.
@@ -307,19 +307,13 @@ vid-93	Anti-lock brakes	scene 1 text	15 PUMPS A SECOND
 vid-93	Anti-lock brakes	scene 2 visual	"value":100 "low":"Rolling" "high":"Locked" "label":"Wheel locks up"
 vid-94	Contrails	scene 3 text	-40°C OUTSIDE
 vid-94	Contrails	scene 3 visual	"to":-40 "suffix":"°C" "label":"ground vs cruise height"
-vid-95	Contactless payment	title	Your card pays in about half a second 💳
-vid-95	Contactless payment	description	A contactless card has no battery. The reader powers it by radio, and the chip makes a one-time code in about half a second.
-vid-95	Contactless payment	scene 1 vo	Your card pays in about half a second.
-vid-95	Contactless payment	scene 1 text	HALF A SECOND
-vid-95	Contactless payment	scene 5 vo	All of that has to finish in about half a second, so you barely pause your hand.
-vid-95	Contactless payment	scene 5 text	500 MILLISECONDS
-vid-95	Contactless payment	scene 5 visual	"to":500 "label":"milliseconds, card to reader" "prefix":"~" "suffix":" ms"
+vid-95	Contactless payment	scene 5 visual	"to":1 "label":"seconds, card to reader" "prefix":"<" "suffix":" s"
 vid-95	Contactless payment	scene 7 vo	The range is only a few centimetres, on purpose. And still...
 vid-95	Contactless payment	scene 7 visual	"value":10 "low":"Touching" "high":"Far away" "label":"Works within a few cm"
 vid-96	Inkjet printer nozzles	scene 3 visual	"value":95 "low":"Room temp" "high":"Boiling" "label":"Heater in microseconds"
-vid-96	Inkjet printer nozzles	scene 6 visual	"to":10000 "suffix":"/s" "label":"firings per nozzle, roughly"
+vid-96	Inkjet printer nozzles	scene 6 visual	"to":10000 "suffix":"/s" "label":"firings per nozzle, up to"
 vid-97	Hammer drill	scene 2 vo	A plain drill bit only scrapes. On brick and concrete, it barely bites.
-vid-97	Hammer drill	scene 5 visual	"to":40000 "label":"blows a minute, roughly"
+vid-97	Hammer drill	scene 5 visual	"to":25000 "label":"blows a minute, roughly"
 vid-98	Quartz watch	title	Your watch has a crystal vibrating 32,768 times a second ⌚
 vid-98	Quartz watch	description	A quartz watch holds a tiny tuning fork of quartz that rings 32,768 times a second. A chip halves that 15 times to get exactly one tick.
 vid-98	Quartz watch	scene 1 vo	Your watch: 32,768 vibrations a second.
@@ -407,7 +401,6 @@ vid-120	Washboard	scene 5 visual	"year":"1800s" "label":"Washboards in most home
 vid-121	Before TV remotes	title	Before TV remotes, the first 'clicker' hit metal rods 📺
 vid-121	Before TV remotes	scene 3 vo	Around 1950 came a remote on a long cable. People kept tripping over it.
 vid-121	Before TV remotes	scene 3 visual	"year":"1950" "label":"Wired remote, trip hazard" "year":"1955" "label":"Light-beam remote" "year":"1956" "label":"Ultrasound clicker"
-vid-121	Before TV remotes	scene 7 vo	Infrared took over in the 1980s. But before that...
 vid-122	Computer mouse	description	The first computer mouse was a wooden box with two metal wheels, built in the 1960s. Before it, you typed every command.
 vid-122	Computer mouse	scene 1 vo	The first computer mouse was a wooden box.
 vid-122	Computer mouse	scene 1 visual	"label":"First mouse"
@@ -445,9 +438,9 @@ vid-126	Before postage stamps	scene 7 vo	Being first, Britain's stamps still car
 vid-127	Duct tape	scene 6 visual	"year":"1940s" "label":"Army green tape for ammo boxes" "year":"Postwar" "label":"Silver tape for heating ducts" "year":"1990s" "label":"Lab tests: poor at sealing ducts"
 vid-127	Duct tape	scene 7 visual	"value":15 "low":"Fails" "high":"Holds" "label":"Sealing hot ducts"
 vid-128	Velcro	description	In 1941 a Swiss engineer found burrs stuck to his dog and saw tiny hooks under a microscope. He turned the idea into hook and loop fastening.
-vid-128	Velcro	scene 2 vo	In 1941, a Swiss engineer took his dog for a walk in the Alps.
-vid-128	Velcro	scene 2 text	1941, THE ALPS
-vid-128	Velcro	scene 2 visual	"year":"1941" "label":"A walk in the Alps" "year":"1950s" "label":"Nylon hooks and loops" "year":"1955" "label":"Patent granted"
+vid-128	Velcro	scene 2 vo	In 1941, a Swiss engineer walked his dog in the Swiss mountains.
+vid-128	Velcro	scene 2 text	1941, SWISS HILLS
+vid-128	Velcro	scene 2 visual	"year":"1941" "label":"A walk in the mountains" "year":"1950s" "label":"Nylon hooks and loops" "year":"1955" "label":"Patent granted"
 vid-129	Basketball hoop	description	In 1891 James Naismith nailed two peach baskets to a balcony. After every score, someone had to climb up and fetch the ball.
 vid-129	Basketball hoop	scene 2 vo	In 1891, a teacher named James Naismith needed an indoor game to get a class through winter.
 vid-129	Basketball hoop	scene 3 visual	"to":10 "suffix":" ft" "label":"hoop height, then and now"
@@ -459,7 +452,7 @@ vid-129	Basketball hoop	scene 7 visual	"year":"1891" "label":"Peach baskets with
 vid-129	Basketball hoop	scene 8 visual	"label":"Ten feet, since 1891"
 vid-130	Before fire extinguishers	scene 4 vo	In 1818, an English inventor named George Manby made a portable copper can of liquid under pressure.
 vid-130	Before fire extinguishers	scene 4 text	1818: A COPPER CAN
-vid-130	Before fire extinguishers	scene 4 visual	"year":"1600s" "label":"Hand pumps on wheels" "year":"1818" "label":"Manby's pressurised can" "year":"1870s" "label":"Glass fire grenades" "year":"1900s" "label":"Modern extinguishers"
+vid-130	Before fire extinguishers	scene 4 visual	"year":"1600s" "label":"Hand pumps on wheels" "year":"1818" "label":"Manby's pressurised can" "year":"Late 1800s" "label":"Glass fire grenades" "year":"1900s" "label":"Modern extinguishers"
 vid-130	Before fire extinguishers	scene 6 visual	"value":80 "low":"Calm" "high":"Fire" "label":"Heat breaks the glass"
 vid-131	History of the can opener	description	The tin can was patented in 1810, but the first dedicated can openers came in the 1850s. Before that, a chisel and hammer did the job.
 vid-131	History of the can opener	scene 1 vo	Cans were invented decades before can openers.
@@ -478,7 +471,7 @@ vid-134	Boiler condensate pipe	scene 5 visual	"value":90 "low":"Old boiler" "hig
 vid-135	Disposable lighter	description	The liquid sloshing in a lighter is butane, kept liquid only by pressure. Press the button and it boils straight into gas.
 vid-135	Disposable lighter	scene 2 vo	Cut it open. The tank holds butane, kept liquid only by pressure.
 vid-135	Disposable lighter	scene 3 visual	"to":-1 "suffix":"°C" "label":"butane boils at about"
-vid-137	RAM	title	Your computer's memory has to be refilled 15 times a second
+vid-137	RAM	title	Your computer's memory has to be refilled at least 15 times a second
 vid-137	RAM	scene 4 text	FULL = 1, EMPTY = 0
 vid-137	RAM	scene 5 vo	But the buckets leak, so every cell is read and refilled about every 64 milliseconds.
 vid-137	RAM	scene 5 text	REFILL EVERY 64 MS
@@ -510,7 +503,7 @@ vid-145	CO2 fire extinguisher	description	A CO2 extinguisher holds carbon dioxid
 vid-145	CO2 fire extinguisher	scene 1 text	SNOW AT -78°C
 vid-145	CO2 fire extinguisher	scene 2 vo	A CO2 extinguisher is packed so tight the gas inside turns into a liquid.
 vid-145	CO2 fire extinguisher	scene 2 visual	"label":"Valve and handle" "label":"CO2 gas on top" "label":"Liquid CO2" "label":"Thick steel bottle"
-vid-145	CO2 fire extinguisher	scene 3 visual	"to":50 "prefix":"~" "suffix":" bar" "label":"inside at room temperature"
+vid-145	CO2 fire extinguisher	scene 3 visual	"to":57 "prefix":"~" "suffix":" bar" "label":"inside at room temperature"
 vid-145	CO2 fire extinguisher	scene 5 vo	CO2 pushes oxygen away from the flames and leaves no mess, so it's used on electrics.
 vid-145	CO2 fire extinguisher	scene 5 visual	"label":"Powder" "label":"CO2"
 vid-145	CO2 fire extinguisher	scene 6 visual	"label":"Full" "value":2 "label":"Half used" "value":1
@@ -521,7 +514,7 @@ vid-146	Induction hob	scene 7 text	WARM GLASS ONLY
 vid-146	Induction hob	scene 7 visual	"value":30 "low":"Cool" "high":"Hot" "label":"Glass: warm from the pan"
 vid-147	Coffee cup lid bumps	scene 6 vo	Most of us just wiggle it, or wonder what it's for.
 vid-148	Dual flush buttons	description	The small button on a dual flush toilet gives a short flush. Using it for most visits saves thousands of litres a year.
-vid-148	Dual flush buttons	scene 3 vo	A full flush on most modern toilets is about six litres. Half is three or four.
+vid-148	Dual flush buttons	scene 3 vo	A full flush on many modern toilets is about six litres. Half is three or four.
 vid-148	Dual flush buttons	scene 3 text	FULL 6 L, HALF ABOUT 4
 vid-148	Dual flush buttons	scene 3 visual	"label":"Half flush" "value":4 "label":"Full flush" "value":6 "label":"Older single flush" "value":9
 vid-148	Dual flush buttons	scene 4 vo	Most visits only need the small one. Pressing big every time wastes water.
@@ -568,7 +561,7 @@ vid-160	Extinguisher pressure gauge	scene 4 visual	"value":50 "low":"Recharge" "
 vid-160	Extinguisher pressure gauge	scene 5 visual	"label":"Too low" "value":20 "label":"Just right" "value":60 "label":"Too high" "value":95
 vid-160	Extinguisher pressure gauge	scene 7 vo	Some kinds, like CO2, are weighed instead. Otherwise, that's why it has...
 vid-161	Pan handle hole	scene 2 vo	Most people think it's only for hanging the pan on a hook.
-vid-162	Microwave popcorn bag	scene 5 visual	"label":"Boiling water" "value":100 "label":"Popping point" "value":180 "label":"Susceptor patch" "value":200
+vid-162	Microwave popcorn bag	scene 5 visual	"label":"Boiling water" "value":100 "label":"Popping point" "value":190 "label":"Susceptor patch" "value":230
 vid-163	Shampoo surfactants	scene 2 vo	Most shampoo is water. The cleaning comes from molecules called surfactants.
 vid-163	Shampoo surfactants	scene 2 visual	"label":"Water" "value":75 "label":"Surfactants" "value":15 "label":"Everything else" "value":10
 vid-164	Smart thermostat	scene 3 visual	"value":45 "low":"Cold" "high":"Hot" "label":"Room temperature"
@@ -584,7 +577,7 @@ vid-167	Wi-Fi router	scene 3 text	2. A SWITCH
 vid-167	Wi-Fi router	scene 4 text	3. ADDRESS HANDER
 vid-167	Wi-Fi router	scene 5 text	4. TRAFFIC DIRECTOR
 vid-168	Disc brakes	scene 5 vo	After hard stops, discs can pass several hundred degrees. Racing discs glow red hot.
-vid-168	Disc brakes	scene 5 visual	"label":"Boiling water" "value":100 "label":"Hard road stops, up to" "value":500 "label":"Race car discs, around" "value":1000
+vid-168	Disc brakes	scene 5 visual	"label":"Boiling water" "value":100 "label":"Hard braking, up to" "value":500 "label":"Race car discs, around" "value":1000
 vid-168	Disc brakes	scene 7 text	PADS WEAR FIRST
 vid-169	Airport baggage X-ray	scene 3 visual	"value":90 "low":"Clothes" "high":"Steel" "label":"How much X-ray is blocked"
 vid-169	Airport baggage X-ray	scene 6 vo	That's why a laptop or a big bottle can make an officer look twice.
@@ -593,14 +586,14 @@ vid-171	Dry erase marker	scene 7 visual	"value":35 "low":"Ghosting" "high":"Wipe
 vid-172	Soldering iron	description	A soldering iron heats a copper core to around 350 degrees. A thin iron skin stops the molten solder eating the copper away.
 vid-172	Soldering iron	scene 3 vo	The tip often runs around three hundred and fifty degrees. Lead-free solder melts near two twenty.
 vid-172	Soldering iron	scene 3 visual	"label":"Boiling water" "value":100 "label":"Lead-free solder melts" "value":220 "label":"Iron tip" "value":350
-vid-173	Thermal base layer	scene 5 vo	But wet fabric ruins it. Water carries heat away about 25 times faster than air.
+vid-173	Thermal base layer	scene 5 vo	But wet fabric ruins it. Water carries heat away up to 25 times faster than air.
 vid-173	Thermal base layer	scene 5 visual	"label":"Still air" "value":1 "label":"Water" "value":25
 vid-174	Dynamic microphone	scene 7 visual	"value":90 "low":"Fragile" "high":"Tough" "label":"No power needed"
 vid-175	Digital thermometer	scene 3 visual	"label":"Cool: high resistance" "value":90 "label":"Warm: lower resistance" "value":50 "label":"Hot: lowest" "value":20
 vid-175	Digital thermometer	scene 6 visual	"value":75 "low":"Rising" "high":"Steady" "label":"Reading settles"
 vid-176	Can opener	title	Your can opener has two wheels and only one of them cuts 🥫
 vid-176	Can opener	scene 1 vo	Your can opener has two wheels, and only one cuts.
-vid-177	Wine bottle punt	scene 5 text	6X AIR PRESSURE
+vid-177	Wine bottle punt	scene 5 text	UP TO 6X AIR PRESSURE
 vid-177	Wine bottle punt	scene 5 visual	"value":85 "low":"Air" "high":"Fizz" "label":"Sparkling wine inside"
 vid-178	Toilet bowl rim holes	description	Under the rim of most toilets is a hollow channel with holes that pour water all around the bowl on every flush.
 vid-179	Longer earth pin	description	On a UK plug, the earth pin is longer so it goes in first and opens the shutters that cover the live holes.
@@ -737,7 +730,7 @@ vid-213	Seatbelt pretensioner	scene 5 visual	"label":"A blink, roughly" "value":
 vid-213	Seatbelt pretensioner	scene 7 vo	Most pretensioners only fire once, so they're replaced after a crash.
 vid-213	Seatbelt pretensioner	scene 7 text	ONE SHOT ONLY
 vid-214	Sonic boom	scene 2 vo	Sound travels at about twelve hundred kilometres an hour near the ground.
-vid-214	Sonic boom	scene 2 text	1,235 KM/H
+vid-214	Sonic boom	scene 2 text	1,225 KM/H
 vid-214	Sonic boom	scene 2 visual	"to":1225 "suffix":" km/h" "label":"speed of sound at sea level"
 vid-214	Sonic boom	scene 5 visual	"value":95 "low":"Calm" "high":"Shock" "label":"Pressure as the cone hits"
 vid-214	Sonic boom	scene 7 visual	"label":"Mach 1+"
@@ -751,9 +744,9 @@ vid-216	Card payment approval	scene 7 visual	"to":2 "suffix":" s" "label":"typic
 vid-217	Nail gun	scene 3 vo	The hose feeds it air at about a hundred psi, several times normal air pressure.
 vid-217	Nail gun	scene 3 visual	"value":75 "low":"Room air" "high":"Hose air" "label":"About 100 psi"
 vid-218	Automatic umbrella	scene 4 visual	"value":95 "low":"Squashed" "high":"Released" "label":"Spring fires up"
-vid-219	Golf drive impact	title	Your golf ball touches the club for half a millisecond ⛳
+vid-219	Golf drive impact	title	Your golf ball touches the club for about half a millisecond ⛳
 vid-219	Golf drive impact	description	A driver is in contact with the ball for about half a thousandth of a second. In that moment the ball squashes, springs back and gets its speed and spin.
-vid-219	Golf drive impact	scene 1 vo	Your golf ball touches the club for half a millisecond.
+vid-219	Golf drive impact	scene 1 vo	Golf ball and club touch for about half a millisecond.
 vid-219	Golf drive impact	scene 1 text	HALF A MILLISECOND
 vid-219	Golf drive impact	scene 2 visual	"to":0.5 "suffix":" ms" "label":"club and ball touching"
 vid-219	Golf drive impact	scene 5 vo	A pro's clubhead moves about 110 miles an hour. The ball? About 165.
@@ -861,13 +854,13 @@ vid-244	Safety elevator	scene 1 vo	Before 1854, lifts could kill you.
 vid-244	Safety elevator	scene 1 text	1854
 vid-244	Safety elevator	scene 3 visual	"value":15 "low":"Low-rise" "high":"Skyscraper" "label":"How tall cities could build"
 vid-244	Safety elevator	scene 4 vo	In 1854, at a New York fair, a mechanic stood on a raised platform and had the rope cut.
-vid-244	Safety elevator	scene 4 visual	"year":"1853" "label":"Safety brake built" "year":"1854" "label":"Rope cut in public" "year":"1857" "label":"First passenger safety lift"
+vid-244	Safety elevator	scene 4 visual	"year":"c. 1853" "label":"Safety brake built" "year":"1854" "label":"Rope cut in public" "year":"1857" "label":"First passenger safety lift"
 vid-244	Safety elevator	scene 7 vo	And that tiny brake is why, before 1854...
 vid-245	Gas street lamps	description	Link boys lit people home with torches until gas lamps arrived on Pall Mall in 1807, lit each evening by a lamplighter.
 vid-245	Gas street lamps	scene 3 vo	In 1807, Pall Mall in London lit up with gas lamps, one of the first streets ever.
 vid-245	Gas street lamps	scene 3 visual	"year":"1807" "label":"Gas lamps on Pall Mall" "year":"Late 1800s" "label":"Electric street lights" "year":"Today" "label":"LED street lamps"
-vid-245	Gas street lamps	scene 7 vo	London still has around 1,500 gas lamps today. Before that...
-vid-245	Gas street lamps	scene 7 visual	"to":1500 "label":"gas lamps still in London" "prefix":"~"
+vid-245	Gas street lamps	scene 7 vo	London still has over a thousand gas lamps today. Before that...
+vid-245	Gas street lamps	scene 7 visual	"to":1000 "label":"gas lamps still in London" "prefix":"over "
 vid-246	Before envelopes	scene 2 visual	"label":"Folded letter" "value":1 "label":"Letter + envelope" "value":2
 vid-246	Before envelopes	scene 7 vo	Cheap paper and stamps made envelopes normal in the 1840s.
 vid-246	Before envelopes	scene 7 visual	"year":"1500s-1800s" "label":"Letters folded and sealed shut" "year":"1840s" "label":"Cheap post makes envelopes normal"
@@ -939,13 +932,13 @@ vid-266	Fridge door seal	scene 6 visual	"year":"1956" "label":"US law: doors mus
 vid-266	Fridge door seal	scene 7 visual	"value":30 "low":"Low" "high":"High" "label":"Warm air leaking in"
 vid-267	Takeaway noodle box	scene 4 vo	Most people dig into it and fight the tall narrow sides.
 vid-267	Takeaway noodle box	scene 7 vo	The folded paper pail design dates back to the 1890s. And all along, your noodle box...
-vid-268	Toilet roll over or under	title	The inventor of toilet roll says it goes OVER 🧻
-vid-268	Toilet roll over or under	description	The 1891 patent for the perforated toilet roll shows the paper hanging over the top. Here's why that way works better.
-vid-268	Toilet roll over or under	scene 2 vo	The man who patented the perforated roll drew it hanging over.
-vid-268	Toilet roll over or under	scene 2 text	THE PATENT SAYS OVER
-vid-268	Toilet roll over or under	scene 2 visual	"year":"1891" "label":"Seth Wheeler patents the roll" "year":"Figure 1" "label":"The paper hangs over the top"
+vid-268	Toilet roll over or under	title	A famous 1891 patent drawing shows toilet roll OVER 🧻
+vid-268	Toilet roll over or under	description	A famous drawing in the 1891 perforated toilet roll patent shows the paper hanging over the top. Here's why that way works well.
+vid-268	Toilet roll over or under	scene 2 vo	A famous drawing in the 1891 roll patent shows it hanging over.
+vid-268	Toilet roll over or under	scene 2 text	THE PATENT DRAWING: OVER
+vid-268	Toilet roll over or under	scene 2 visual	"year":"1891" "label":"Seth Wheeler patents the roll" "year":"Figure 1" "label":"Drawing: paper over the top"
 vid-268	Toilet roll over or under	scene 4 visual	"label":"Reach for the end" "label":"Grab paper only" "label":"Tear at the dotted line"
-vid-268	Toilet roll over or under	scene 7 vo	The inventor's drawing says over. So yes, your toilet roll...
+vid-268	Toilet roll over or under	scene 7 vo	That patent drawing says over. So yes, your toilet roll...
 vid-269	Room thermostat	scene 3 visual	"value":100 "low":"Off" "high":"Full" "label":"Boiler working flat out"
 vid-269	Room thermostat	scene 4 vo	Set it to 30 instead of 20, and the room still warms at the same speed.
 vid-269	Room thermostat	scene 4 visual	"label":"Set to 20" "value":20 "label":"Set to 30" "value":30
@@ -991,7 +984,6 @@ vid-279	Compass declination	scene 5 visual	"to":270 "suffix":" m" "label":"off p
 vid-280	Low battery chirp	title	There's a reason your smoke alarm chirps at 3 a.m. 😴
 vid-280	Low battery chirp	scene 1 text	THE 3 A.M. CHIRP
 vid-280	Low battery chirp	scene 3 visual	"value":20 "low":"Empty" "high":"Full" "label":"Battery voltage"
-vid-280	Low battery chirp	scene 4 vo	Batteries give a bit less voltage when they're cold, and homes cool down most in the early hours.
 vid-280	Low battery chirp	scene 6 visual	"to":10 "suffix":" years" "label":"Sealed alarm lifespan"
 vid-281	Fridge crisper drawer	scene 3 visual	"value":85 "low":"Dry" "high":"Humid" "label":"Vent closed: humid"
 vid-281	Fridge crisper drawer	scene 7 visual	"label":"Drawer 1: humid, veg" "label":"Drawer 2: dry, fruit"
@@ -999,7 +991,7 @@ vid-281	Fridge crisper drawer	scene 8 vo	Most people never touch it. But now you
 vid-282	Induction foil seal	scene 5 vo	Only the metal heats. The plastic cap and the food barely warm up.
 vid-282	Induction foil seal	scene 5 text	ONLY THE METAL
 vid-282	Induction foil seal	scene 7 vo	It takes a second or two, keeps air out, and shows if anyone opened it first.
-vid-284	Water meter	scene 5 vo	One cubic metre is a thousand litres. That's about seven full bathtubs.
+vid-284	Water meter	scene 5 vo	One cubic metre is a thousand litres. That's roughly six full bathtubs.
 vid-284	Water meter	scene 5 text	1 CUBIC METRE
 vid-284	Water meter	scene 5 visual	"to":1000 "label":"litres in one cubic metre"
 vid-285	Sticky tape	scene 3 visual	"value":50 "low":"Liquid" "high":"Solid" "label":"Adhesive: in between"
@@ -1012,8 +1004,8 @@ vid-288	Catalytic converter	scene 6 visual	"value":20 "low":"Cold start" "high":
 vid-289	Bicycle derailleur	scene 2 visual	"label":"Smallest cog" "value":11 "label":"Middle cog" "value":21 "label":"Biggest cog" "value":34
 vid-289	Bicycle derailleur	scene 6 visual	"value":70 "low":"Slack" "high":"Tight" "label":"Chain tension"
 vid-289	Bicycle derailleur	scene 7 vo	It only works while pedalling, because...
-vid-290	Electricity substation	title	Big fenced yards: 400,000 volts ⚡
-vid-290	Electricity substation	scene 1 vo	Big fenced yards: 400,000 volts.
+vid-290	Electricity substation	title	Some fenced yards: 400,000 volts ⚡
+vid-290	Electricity substation	scene 1 vo	Some fenced yards: 400,000 volts.
 vid-290	Electricity substation	scene 1 text	400,000 VOLTS
 vid-290	Electricity substation	scene 3 visual	"label":"Long-distance line" "value":400 "label":"Local network" "value":11 "label":"Your street" "value":0.4
 vid-290	Electricity substation	scene 5 visual	"value":95 "low":"Normal" "high":"Fault!" "label":"Breaker trips"
@@ -1025,13 +1017,15 @@ vid-294	Binocular prisms	description	The front lens of each half of your binocul
 vid-294	Binocular prisms	scene 7 vo	Numbers like eight by forty-two mean eight times closer, with 42 millimeter front lenses.
 vid-294	Binocular prisms	scene 7 text	8X42 DECODED
 vid-295	Instant ice pack	scene 5 visual	"value":15 "low":"Cold" "high":"Warm" "label":"Temperature drops fast"
-vid-295	Instant ice pack	scene 6 text	ABOUT 15-20 MINUTES
+vid-295	Instant ice pack	scene 6 text	UP TO ~20 MINUTES
 vid-295	Instant ice pack	scene 6 visual	"to":20 "prefix":"~" "suffix":" min" "label":"of cold"
 vid-296	Fridge cooling cycle	scene 4 visual	"value":85 "low":"Cool" "high":"Hot" "label":"Gas after the compressor"
+vid-297	Fizzy bottle petal base	title	This is why most fizzy drink bottles stand on five little feet 🍾
+vid-297	Fizzy bottle petal base	scene 1 vo	Most fizzy drink bottles stand on five little feet.
 vid-297	Fizzy bottle petal base	scene 1 text	5 LITTLE FEET
 vid-297	Fizzy bottle petal base	scene 2 visual	"value":75 "low":"Still" "high":"Fizzy" "label":"Gas pressure inside"
-vid-297	Fizzy bottle petal base	scene 6 visual	"label":"Fizzy bottle feet" "value":5 "label":"Still water feet" "value":0
-vid-298	Open-front toilet seat	description	US plumbing codes require open-front seats in public toilets. The gap removes the part of the seat most likely to get wet.
+vid-297	Fizzy bottle petal base	scene 6 visual	"label":"Typical fizzy bottle feet" "value":5 "label":"Still water feet" "value":0
+vid-298	Open-front toilet seat	description	Many US plumbing codes require open-front seats in public toilets. The gap removes the part of the seat most likely to get wet.
 vid-298	Open-front toilet seat	scene 3 vo	The gap removes the part of the seat most likely to get splashed or dribbled on.
 vid-299	Overlapping roof tiles	description	Roof tiles aren't glued or sealed. They overlap like fish scales and every row is shifted half a tile, so rain always lands on another tile.
 vid-299	Overlapping roof tiles	scene 4 vo	The rows are also shifted half a tile sideways, so the gaps never line up.
@@ -1057,7 +1051,7 @@ vid-310	Running man exit sign	description	The green running man was designed in 
 vid-310	Running man exit sign	scene 2 vo	A word like EXIT only works if you read that language. A picture doesn't need one.
 vid-310	Running man exit sign	scene 3 vo	In the 1970s, after deadly building fires, Japan held a contest for a clearer sign.
 vid-310	Running man exit sign	scene 3 text	A 1970S CONTEST
-vid-310	Running man exit sign	scene 3 visual	"year":"1970s" "label":"Japan runs a design contest" "year":"1982" "label":"Japan adopts the running man" "year":"1980s" "label":"It becomes an ISO standard"
+vid-310	Running man exit sign	scene 3 visual	"year":"1970s" "label":"Japan runs a design contest" "year":"1980" "label":"Japan submits it to ISO" "year":"1980s" "label":"It becomes an ISO standard"
 vid-310	Running man exit sign	scene 5 visual	"label":"Red: stop or fire kit" "value":60 "label":"Yellow: warning" "value":60 "label":"Green: safe way" "value":60
 vid-311	Bundt pan	scene 5 visual	"value":50 "low":"Raw" "high":"Burnt" "label":"Just right, all through"
 vid-311	Bundt pan	scene 7 visual	"year":"Centuries" "label":"Ring cakes in Central Europe" "year":"1950" "label":"Modern bundt pan made in the US"
@@ -1106,8 +1100,8 @@ vid-333	Crumple zones	scene 2 visual	"to":0.1 "suffix":" s" "label":"A typical c
 vid-333	Crumple zones	scene 5 visual	"value":35 "low":"Gentle" "high":"Brutal" "label":"Peak force on you"
 vid-333	Crumple zones	scene 7 vo	An engineer patented the idea in the 1950s. Before that, stiffer cars seemed safer.
 vid-333	Crumple zones	scene 7 visual	"year":"1952" "label":"Crumple zone patented" "year":"1959" "label":"First cars built with them" "year":"Today" "label":"In almost every car"
-vid-334	Evacuation slide	title	A plane's escape slide inflates in about 6 seconds
-vid-334	Evacuation slide	scene 1 text	6 SECONDS
+vid-334	Evacuation slide	title	A plane's escape slide inflates in under 10 seconds
+vid-334	Evacuation slide	scene 1 text	UNDER 10 SECONDS
 vid-334	Evacuation slide	scene 5 vo	Most of what fills the slide is just outside air, so a small bottle does the job.
 vid-334	Evacuation slide	scene 5 visual	"value":75 "low":"Bottle gas" "high":"Outside air" "label":"What fills the slide"
 vid-334	Evacuation slide	scene 6 vo	Planes are designed so everyone can get out in ninety seconds with half the exits.
@@ -1124,7 +1118,7 @@ vid-337	Laser distance measure	scene 6 visual	"value":95 "low":"Rough" "high":"P
 vid-338	Press studs	scene 5 visual	"value":95 "low":"Open" "high":"Shut" "label":"Ring springs back"
 vid-339	Sprint false start	scene 3 text	UNDER 0.1 SECONDS
 vid-339	Sprint false start	scene 3 visual	"to":0.1 "suffix":" s" "label":"fastest allowed reaction"
-vid-339	Sprint false start	scene 5 vo	Top sprinters usually react in 0.12 to 0.18 seconds.
+vid-339	Sprint false start	scene 5 vo	Top sprinters usually react in about 0.15 seconds.
 vid-339	Sprint false start	scene 5 visual	"label":"Below this: false start" "value":0.1 "label":"Top sprinters, typical" "value":0.15
 vid-340	X-ray machine	scene 4 vo	As they crash and brake, they throw off X-rays. Most of the energy just becomes heat.
 vid-340	X-ray machine	scene 4 visual	"label":"Heat" "value":99 "label":"X-rays" "value":1
@@ -1184,8 +1178,8 @@ vid-359	Before running water	scene 5 vo	Shared pumps could spread disease. In 18
 vid-359	Before running water	scene 5 visual	"label":"London, 1854" "label":"Broad Street" "label":"One water pump"
 vid-359	Before running water	scene 6 visual	"year":"Roman era" "label":"Aqueducts feed public fountains" "year":"1800s" "label":"Street pumps and water carriers" "year":"1854" "label":"Cholera traced to a pump" "year":"1900s" "label":"Taps inside most homes"
 vid-360	Sad iron	scene 5 visual	"value":60 "low":"Too cool" "high":"Scorching" "label":"Judged by the sizzle"
-vid-360	Sad iron	scene 6 vo	A detachable handle came in 1870. The first electric iron was patented in 1882.
-vid-360	Sad iron	scene 6 visual	"year":"1870" "label":"Detachable handle patented" "year":"1882" "label":"Electric iron patented" "year":"1900s" "label":"Electric irons spread"
+vid-360	Sad iron	scene 6 vo	A detachable handle came in 1871. The first electric iron was patented in 1882.
+vid-360	Sad iron	scene 6 visual	"year":"1871" "label":"Detachable handle patented" "year":"1882" "label":"Electric iron patented" "year":"1900s" "label":"Electric irons spread"
 vid-361	First digital camera	title	The first digital camera took 23 seconds per photo 📸
 vid-361	First digital camera	description	In 1975 the first digital camera weighed about as much as a bowling ball and saved each photo to a cassette tape.
 vid-361	First digital camera	scene 1 vo	The first digital camera took 23 seconds per photo.
@@ -1202,7 +1196,7 @@ vid-361	First digital camera	scene 6 vo	It saved the image to a cassette tape, w
 vid-361	First digital camera	scene 6 visual	"label":"1975 save" "label":"Your phone"
 vid-361	First digital camera	scene 7 visual	"label":"1975"
 vid-362	Email @ sign	description	In 1971 a programmer needed a symbol to split a person's name from their computer's name. He picked a little-used key: @.
-vid-362	Email @ sign	scene 2 visual	"year":"1536" "label":"Merchant letter uses @" "year":"1880s" "label":"Lands on typewriters" "year":"1971" "label":"Picked for email"
+vid-362	Email @ sign	scene 2 visual	"year":"1536" "label":"Merchant letter uses @" "year":"1800s" "label":"Lands on typewriters" "year":"1971" "label":"Picked for email"
 vid-362	Email @ sign	scene 3 visual	"value":5 "low":"Never" "high":"Always" "label":"How often @ was used"
 vid-362	Email @ sign	scene 4 vo	In 1971, Ray Tomlinson sent a message between two computers on an early network.
 vid-362	Email @ sign	scene 4 text	THE FIRST NETWORK EMAIL
@@ -1531,7 +1525,7 @@ vid-454	Landing tyre smoke	scene 4 visual	"value":100 "low":"Still" "high":"Full
 vid-454	Landing tyre smoke	scene 7 vo	Spinning wheels up first has been tried, but extra weight and parts made it not worth it.
 vid-455	Optical recycling sorter	scene 2 visual	"to":3 "label":"metres per second, roughly" "prefix":"~" "suffix":" m/s"
 vid-455	Optical recycling sorter	scene 8 visual	"value":95 "low":"Mixed" "high":"Sorted" "label":"Purity after sorting"
-vid-456	Barcodes on letters	title	Mail machines read your handwriting 10 letters a second ✉️
+vid-456	Barcodes on letters	title	Mail machines sort about 10 letters a second ✉️
 vid-456	Barcodes on letters	scene 6 text	10 LETTERS A SECOND
 vid-456	Barcodes on letters	scene 6 visual	"to":36000 "label":"letters an hour, roughly"
 vid-457	Staple gun	scene 3 visual	"value":85 "low":"Relaxed" "high":"Loaded" "label":"Spring tension"
@@ -1599,7 +1593,7 @@ vid-479	Before light switches	scene 6 text	THE FIRST CLICK
 vid-479	Before light switches	scene 6 visual	"year":"Ancient" "label":"Oil lamps and candles" "year":"Early 1800s" "label":"Gas lighting in cities" "year":"1880s" "label":"Electric bulbs and wall switches" "year":"1900s" "label":"Switches spread to most homes"
 vid-480	Carpet beater	scene 6 vo	Hand-pushed carpet sweepers came in the 1800s, then electric vacuums in the early 1900s.
 vid-480	Carpet beater	scene 6 visual	"year":"Long ago" "label":"Beaters and tea leaves" "year":"1870s" "label":"Hand-pushed carpet sweepers" "year":"Early 1900s" "label":"Electric vacuum cleaners"
-vid-481	First headphones	title	The first headphones were built in a kitchen 🎧
+vid-481	First headphones	title	The first modern headphones were built in a kitchen 🎧
 vid-481	First headphones	description	In 1910 an inventor built headphones at his kitchen table and sold them to the US Navy.
 vid-481	First headphones	scene 1 vo	The first modern headphones were built in a kitchen.
 vid-481	First headphones	scene 3 vo	In 1910, an inventor in Utah built a sensitive two-ear headset at his kitchen table.
@@ -1798,7 +1792,7 @@ vid-526	Phone compass	scene 5 visual	"label":"Earth's field" "value":50 "label":
 vid-527	Laptop hinge	scene 4 visual	"value":60 "low":"Closed" "high":"Flat open" "label":"Any angle holds"
 vid-528	Car radiator	scene 2 visual	"label":"Moves the car, roughly" "value":30 "label":"Into the coolant, roughly" "value":30 "label":"Out the exhaust, roughly" "value":35
 vid-529	Cabin pressurisation	scene 2 visual	"value":25 "low":"Thin" "high":"Normal" "label":"Air outside at cruise"
-vid-529	Cabin pressurisation	scene 5 vo	The cabin isn't at sea level. It feels like being up a mountain, around two thousand metres.
+vid-529	Cabin pressurisation	scene 5 vo	The cabin isn't at sea level. It feels like being up a mountain, up to about twenty-four hundred metres.
 vid-529	Cabin pressurisation	scene 5 visual	"label":"Sea level" "value":0 "label":"Your cabin feels like" "value":2400 "label":"Plane's real height" "value":11000
 vid-530	Water treatment plant	scene 3 vo	First a chemical is added that makes tiny dirt particles stick together into clumps.
 vid-530	Water treatment plant	scene 4 vo	The heavy clumps sink in big calm tanks, taking most of the dirt with them.
@@ -1843,13 +1837,13 @@ vid-544	Flexing plane wings	scene 3 visual	"value":60 "low":"Parked" "high":"Max
 vid-544	Flexing plane wings	scene 6 vo	Before flying, test wings are bent far beyond anything they'll meet, with a safety margin of fifty percent.
 vid-544	Flexing plane wings	scene 6 text	TESTED TO 150%
 vid-544	Flexing plane wings	scene 6 visual	"label":"Worst load expected" "value":100 "label":"Test load" "value":150
-vid-545	Power line insulators	scene 6 vo	Higher voltage needs a longer stack. A few discs for local lines, dozens for the biggest.
+vid-545	Power line insulators	scene 6 vo	Higher voltage needs a longer stack. A few discs for local lines, twenty or more for the biggest.
 vid-545	Power line insulators	scene 6 visual	"label":"Local line" "value":3 "label":"Big transmission line" "value":20
 vid-545	Power line insulators	scene 7 visual	"value":90 "low":"Few discs" "high":"Many discs" "label":"Higher voltage"
 vid-546	Paper clip shape	scene 4 visual	"value":60 "low":"Loose" "high":"Tight" "label":"Grip on a few pages"
-vid-546	Paper clip shape	scene 7 vo	This double loop design was being made in Britain by the 1890s, and it's barely changed.
+vid-546	Paper clip shape	scene 7 vo	This double loop design was being made by the 1890s, and it's barely changed.
 vid-546	Paper clip shape	scene 7 text	1890s DESIGN
-vid-546	Paper clip shape	scene 7 visual	"year":"1890s" "label":"Double loop clip made in Britain" "year":"Today" "label":"Almost exactly the same"
+vid-546	Paper clip shape	scene 7 visual	"year":"1890s" "label":"Double loop clip in production" "year":"Today" "label":"Almost exactly the same"
 vid-547	Combination pliers	scene 4 visual	"label":"Your squeeze" "value":1 "label":"At the tips" "value":2 "label":"At the cutters" "value":5
 vid-547	Combination pliers	scene 5 vo	Cutting wire needs the most force, so the cutters sit where the force is highest.
 vid-547	Combination pliers	scene 5 text	MOST FORCE NEEDED
@@ -1942,7 +1936,7 @@ vid-575	Grid frequency	scene 2 vo	Mains power wiggles back and forth 50 times a 
 vid-575	Grid frequency	scene 2 text	50 TIMES A SECOND
 vid-575	Grid frequency	scene 2 visual	"label":"50 Hz: Britain" "label":"60 Hz: North America"
 vid-575	Grid frequency	scene 4 visual	"value":35 "low":"49.5 Hz" "high":"50.5 Hz" "label":"Demand beats supply"
-vid-575	Grid frequency	scene 5 vo	In Britain, it must stay within half a hertz of 50, or things start to go wrong.
+vid-575	Grid frequency	scene 5 vo	In Britain, it is kept within about half a hertz of 50, or things start to go wrong.
 vid-575	Grid frequency	scene 8 visual	"to":50 "label":"cycles every second" "suffix":" Hz"
 vid-576	Banknote counting machine	title	Bank counting machines flick through 1,000 notes a minute 💸
 vid-576	Banknote counting machine	scene 1 vo	A cash counter can count a thousand notes a minute.
@@ -2020,7 +2014,7 @@ vid-594	Kaleidoscope	scene 1 text	3 MIRRORS, SOME BEADS
 vid-594	Kaleidoscope	scene 6 visual	"to":6 "suffix":"x" "label":"repeats around the center"
 vid-594	Kaleidoscope	scene 7 vo	Turn the tube, the beads shift, and you'll almost never see the same pattern twice.
 vid-594	Kaleidoscope	scene 7 text	NEVER THE SAME TWICE
-vid-594	Kaleidoscope	scene 8 vo	A Scot invented it in 1816. Your kaleidoscope...
+vid-594	Kaleidoscope	scene 8 vo	A Scot patented it in 1817. Your kaleidoscope...
 vid-595	Fire blanket	scene 5 visual	"label":"Water on oil: flare-up" "value":95 "label":"Blanket: smothered" "value":10
 vid-596	Cooker hood	scene 4 vo	First it hits the metal filter: layers of mesh or zig-zag baffles.
 vid-597	Flash-frozen food	description	Slow freezing made mushy food. In the 1910s an American naturalist saw fish freeze instantly in the Arctic, and quick freezing was born.
@@ -2030,7 +2024,7 @@ vid-597	Flash-frozen food	scene 7 text	IN SHOPS BY 1930
 vid-597	Flash-frozen food	scene 7 visual	"year":"1910s" "label":"Arctic fishing trip" "year":"1924" "label":"Freezing company set up" "year":"1930" "label":"Frozen food in shops"
 vid-598	Before safety razors	description	For centuries shaving meant a straight razor or a trip to the barber. A guard over the blade changed that in 1880.
 vid-598	Before safety razors	scene 2 vo	Ancient people scraped hair off with sharp flint, shells and, later, bronze blades.
-vid-598	Before safety razors	scene 5 vo	In 1880, a blade guard made the safety razor. Disposable blades followed around 1904.
+vid-598	Before safety razors	scene 5 vo	In 1880, the Kampfe brothers patented the safety razor. Disposable blades followed around 1904.
 vid-598	Before safety razors	scene 5 text	1880: THE GUARD
 vid-598	Before safety razors	scene 5 visual	"year":"1880" "label":"Safety razor with a guard" "year":"1904" "label":"Disposable blade patented" "year":"1970s" "label":"Cartridge razors arrive"
 vid-598	Before safety razors	scene 6 vo	The guard lets only a sliver of edge touch skin, so a slip can't slice deep.

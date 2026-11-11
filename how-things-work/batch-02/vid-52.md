@@ -77,7 +77,4 @@ scenes:
 
 ## Fact check
 
-- Typical resettable 4-dial combination padlocks (luggage, bike and gym style) work this way: each dial drives a sleeve or disc with a notch, and a locking bar or shackle tab can only pass when all notches align.
-- 4 dials x 10 digits = 10^4 = 10,000 combinations.
-- Resettable models have a reset lever or button, used while open, that disengages the dials from the notched sleeves so a new code can be set.
-- Rotary single-dial padlocks use a different (wheel pack) design; the script talks about the four-wheel type, as the hook says.
+- Four dials of ten digits gives 10 x 10 x 10 x 10 = 10,000 codes (arithmetic).

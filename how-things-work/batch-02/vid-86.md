@@ -81,7 +81,4 @@ scenes:
 
 ## Fact check
 
-- Water boils at about 100 °C at sea-level air pressure.
-- Stovetop pressure cookers typically run at about 15 psi (about 1 bar) above atmospheric, roughly double normal air pressure in absolute terms.
-- At that pressure water boils at about 120-121 °C, which is why cooking times drop sharply.
-- Pressure cookers have a regulating valve (weight or spring) plus secondary safety devices such as a release plug or gasket vent.
+- Pressure cooker at about 15 psi gauge (about 2x atmospheric) boils water near 121 C. OK as "around 120". Source: https://en.wikipedia.org/wiki/Pressure_cooking

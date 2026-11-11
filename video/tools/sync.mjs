@@ -52,6 +52,18 @@ function copyIfExists(from, dest) {
 
 const warnings = [];
 for (const reel of out) {
+  // How long each line is really spoken (written by tools/voiceover.py) so captions follow the voice.
+  const timingFile = path.join(repo, "assets/vo", `${reel.id}.timing.json`);
+  if (fs.existsSync(timingFile)) {
+    try {
+      const { scenes = {} } = JSON.parse(fs.readFileSync(timingFile, "utf8"));
+      reel.scenes.forEach((s, i) => {
+        if (typeof scenes[i] === "number") s.voDur = scenes[i];
+      });
+    } catch {
+      // A bad timing file just means captions fall back to even spacing.
+    }
+  }
   reel.assets = {
     vo: copyIfExists(path.join(repo, "assets/vo", `${reel.id}.mp3`), path.join(publicDir, "vo", `${reel.id}.mp3`)),
     music: reel.music

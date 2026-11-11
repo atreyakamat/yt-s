@@ -75,8 +75,4 @@ scenes:
 
 ## Fact check
 
-- Dry air is about 78% nitrogen and 21% oxygen.
-- Oxygen causes fats to oxidise and go rancid; snack makers flush bags with nitrogen (modified atmosphere packaging) before sealing.
-- Nitrogen is inert in this use: no taste or smell, and it doesn't react with the food.
-- The gas cushion protects fragile crisps in transit.
-- Crisp bags are typically metallised plastic films (a thin aluminium coating) that block light, oxygen and moisture.
+- Dry air is about 78% nitrogen and 21% oxygen. OK. Source: https://en.wikipedia.org/wiki/Atmosphere_of_Earth

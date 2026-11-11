@@ -76,3 +76,8 @@ scenes:
 **Fact check:** many systems now also use cameras; keep claim to the scale's role, not "no cameras ever".
 
 Visual style, safe areas and audio rules: same as [vid-01](../cut-it-open/vid-01.md).
+
+## Fact check
+
+- Bagging-area scale compares measured weight with the stored weight of the scanned item. OK. Source: https://en.wikipedia.org/wiki/Self-checkout
+- "EXPECTED: 1,035g" is an illustrative example number, not a claim about a real product.

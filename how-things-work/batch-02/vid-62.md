@@ -8,7 +8,7 @@ duration: 42
 music: pixel-peeker-polka
 accent: "#64D2FF"
 hashtags: [keyboard, history, typewriter, howthingswork, shorts]
-description: "QWERTY comes from 1870s typewriters, where the order of the letters helped stop the metal arms from jamming."
+description: "QWERTY comes from 1870s typewriters, where the order of the letters is commonly said to have helped stop the metal arms from jamming."
 pinned: "What shape should we explain next?"
 ---
 
@@ -16,7 +16,7 @@ pinned: "What shape should we explain next?"
 
 ## Hook
 
-- **Chosen (0-3s):** "Your keyboard layout was built for a jamming machine." Big text: BUILT FOR JAMS
+- **Chosen (0-3s):** "Your keyboard layout comes from a jamming machine." Big text: BUILT FOR JAMS
 - **Backup hooks:**
     1. "Your keyboard layout was designed for a machine that jammed."
     2. "You can type TYPEWRITER on one row. That's no accident."
@@ -28,7 +28,7 @@ pinned: "What shape should we explain next?"
 scenes:
   - at: 0
     dur: 3
-    vo: "Your keyboard layout was built for a jamming machine."
+    vo: "Your keyboard layout comes from a jamming machine."
     text: "BUILT FOR JAMS"
     highlight: "JAMS"
     visual: { kind: hero, icon: key, motion: shake, color: accent, label: "QWERTY" }
@@ -76,13 +76,10 @@ scenes:
     vo: "So every time you type, you're using..."
     text: ""
     visual: { kind: hero, icon: key, motion: float, color: accent, label: "1870s layout" }
-    note: "Loops into: a layout built for a jamming machine."
+    note: "Loops into: a layout that comes from a jamming machine."
 ```
 
 ## Fact check
 
-- QWERTY was developed by Christopher Latham Sholes and partners for typewriters in the 1870s; the Sholes and Glidden typewriter was sold by Remington from 1874.
-- Early typebar typewriters could jam when adjacent bars were struck in quick succession; separating common letter pairs is the widely told reason for the layout (historians debate the details, hence 'the common story').
-- Sholes' first typewriter patent is from 1868.
-- 'TYPEWRITER' uses only letters from the top row (Q W E R T Y U I O P).
-- Bars are illustrative, not measured data.
+- Sholes patent 1868, sold to Remington 1873, on sale 1874. OK. Source: https://www.ebsco.com/research-starters/biography/christopher-latham-sholes
+- Anti-jam purpose is contested by historians, so "built for" SOFTENED to "comes from" and the description now says "commonly said"; the voiceover already says "the common story". Source: https://hackaday.com/2016/03/15/the-origin-of-qwerty

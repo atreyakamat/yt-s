@@ -82,7 +82,4 @@ scenes:
 
 ## Fact check
 
-- Concrete counterweights: most front-loading washing machines have concrete (or similar) blocks bolted to the outer tub to damp vibration during spin.
-- The tub hangs on springs and sits on friction dampers or shock absorbers; this is standard washer suspension.
-- Uneven wet loads cause wobble at high speed, which is why counterweights and out-of-balance detection exist.
-- Spin speed: common machines spin at 1,200-1,600 rpm, so 'up to about fourteen hundred' is fair.
+- Front-loading washers commonly spin 900 to 1400 rpm (1400 is a common maximum, some 1600); script says "up to about". OK. Source: https://redmondelectric.ie/blogs/news/washing-machines-spin-speed-explained-do-you-really-need-1400rpm

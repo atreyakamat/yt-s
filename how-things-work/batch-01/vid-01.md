@@ -117,6 +117,11 @@ scenes:
 - **Music:** `investigations` from [music/tracks.md](../../music/tracks.md), at 12% volume under the voice and 30% when no voice.
 - **SFX:** `assets/sfx/<name>.mp3` (whoosh, slice, thunk, buzz, click, unlock, pop). Missing files are skipped.
 
+## Fact check
+
+- 5 pins: US residential pin tumbler locks typically use 5 pins (6 on some models), so "five" is the typical case. Source: https://lockwiki.com/index.php/Differs
+- Thousands of keys: 5 pins with 6 to 10 depths gives roughly 6,000 to 100,000 theoretical codes, fewer once manufacturer rules apply. OK. Source: https://www.locksmithledger.com/locks/article/11319927/our-commodity-market-residential-locks
+
 ## Upload checklist
 
 - Title: Your house key is hiding 5 passwords 🔑

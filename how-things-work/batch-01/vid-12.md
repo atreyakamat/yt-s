@@ -82,7 +82,4 @@ scenes:
 
 ## Fact check
 
-- The stay-on tab is a lever attached to the lid with a rivet formed from the lid metal: standard can end design.
-- The opening is defined by a score line cut partly through the lid, so it tears along a set path.
-- Lifting the tab first vents the pressure (the hiss), then pushes the scored panel into the can, where it stays hinged.
-- Removable pull tabs (1960s) were a well-known litter problem; the stay-on tab was introduced in the mid 1970s (Daniel Cudzik, 1975).
+- Stay-on tab: Daniel Cudzik, Reynolds Metals, first used on cans in 1975, so "mid 1970s" holds. OK. Source: https://www.smithsonianmag.com/innovation/how-popping-open-a-can-became-the-sound-of-summer-180982527/

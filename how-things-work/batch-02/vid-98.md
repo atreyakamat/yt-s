@@ -76,8 +76,4 @@ scenes:
 
 ## Fact check
 
-- Watch quartz crystals are cut as tiny tuning forks resonating at 32,768 Hz.
-- Quartz is piezoelectric: mechanical stress produces voltage and voltage produces deformation.
-- 32,768 = 2 to the 15th, so 15 divide-by-two stages give exactly 1 Hz.
-- Analogue quartz watches use a stepper (Lavet) motor that advances the second hand once per pulse.
-- Typical quartz accuracy is around plus or minus 15 seconds per month: 'seconds a month' is fair.
+- 32,768 Hz = 2^15, so a chain of 15 divide-by-two stages gives one pulse per second. OK. Source: https://en.wikipedia.org/wiki/Quartz_clock

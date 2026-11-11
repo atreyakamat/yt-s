@@ -81,7 +81,4 @@ scenes:
 
 ## Fact check
 
-- Official major league baseballs have a cork center ('pill') covered in rubber layers, then wound wool yarn and a finishing layer, then a leather cover.
-- The cover is two figure-eight shaped pieces of leather.
-- Professional baseballs are hand-stitched with 108 double stitches of red thread.
-- Spin plus raised seams changes the airflow around the ball (Magnus effect and seam effects), which lets pitchers make it move.
+- Baseball cover uses 108 double stitches (216 stitches) of red thread over a cork or rubber core wrapped in yarn. OK. Source: https://en.wikipedia.org/wiki/Baseball_(ball)

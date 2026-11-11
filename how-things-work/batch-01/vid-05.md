@@ -83,3 +83,8 @@ scenes:
 **Fact check:** 2.45 GHz, wavelength ~12.2 cm. "Friction" is a simplification of dielectric heating; acceptable for Shorts.
 
 Visual style, safe areas and audio rules: same as [vid-01](../cut-it-open/vid-01.md).
+
+## Fact check
+
+- Microwave ovens use 2.45 GHz (about 2.45 billion cycles a second), wavelength about 12.2 cm. OK. Source: https://hyperphysics.gsu.edu/hbase/waves/mwoven.html
+- Door mesh holes are far smaller than the wavelength, so waves cannot pass; light does. OK. Source: https://www.slashgear.com/1906854/microwaves-mesh-door-use-explained/

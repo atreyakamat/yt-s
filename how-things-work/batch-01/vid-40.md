@@ -74,6 +74,4 @@ scenes:
 
 ## Fact check
 
-- On most domestic smoke alarms the test button simulates an alarm condition electronically, checking the battery, electronics and sounder rather than introducing smoke to the sensor.
-- Manufacturers commonly recommend vacuuming the vents to keep dust out of the sensing chamber.
-- Most smoke alarms are rated for about 10 years and carry a manufacture or replace-by date.
+- Smoke alarm test button checks power, electronics and horn; NFPA has required replacing smoke alarms after 10 years since 1999. OK. Source: https://en.wikipedia.org/wiki/Smoke_detector

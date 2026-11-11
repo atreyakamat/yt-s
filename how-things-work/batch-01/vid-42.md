@@ -45,7 +45,7 @@ scenes:
     vo: "The paperboard is most of the weight. It gives the box its stiff shape."
     text: "PAPER = STRENGTH"
     highlight: "STRENGTH"
-    visual: { kind: bars, unit: "%", items: [{ label: "Paperboard", value: 75, color: brown }, { label: "Plastic", value: 20, color: cyan }, { label: "Aluminium", value: 5, color: steel }] }
+    visual: { kind: bars, unit: "%", items: [{ label: "Paperboard", value: 70, color: brown }, { label: "Plastic", value: 25, color: cyan }, { label: "Aluminium", value: 5, color: steel }] }
   - at: 13
     dur: 6
     vo: "The plastic layers keep the juice from soaking into the paper, and keep rain out too."
@@ -81,8 +81,5 @@ scenes:
 
 ## Fact check
 
-- Aseptic drink cartons are commonly described as six layers: polyethylene / paperboard / polyethylene / aluminium foil / two polyethylene layers.
-- Typical makeup by weight is roughly 75% paperboard, 20% polyethylene, 5% aluminium (industry figures), shown as rounded bars.
-- The aluminium layer is a few micrometres thick, thinner than a human hair (about 50-100 micrometres), and blocks light and oxygen.
-- Aseptic (sterile-filled) cartons let UHT milk and juice keep unopened for months without refrigeration.
-- Carton recycling pulps the paper fibres and separates the plastic/aluminium remainder.
+- FIXED composition: Tetra Pak cartons average about 70% paperboard, 25% plastic, 5% aluminium (was 75/20/5). Source: https://www.tetrapak.com/sustainability/carton-equity/food-protection
+- Six layers (polyethylene, paperboard, polyethylene, aluminium foil, polyethylene, polyethylene) matches Tetra Pak's description of its aseptic carton material. Source: https://www.tetrapak.com/en-gb/solutions/packaging/packaging-material
