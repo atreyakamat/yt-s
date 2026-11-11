@@ -272,9 +272,9 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-202](batch-05/vid-202.md) | cut-it-open | Clamp meter | This meter reads electric current without touching the wire | 37s |
 | [vid-203](batch-05/vid-203.md) | cut-it-open | Turn-lock handbag clasp | Your bag's clasp locks with one quarter turn 👜 | 37s |
 | [vid-204](batch-05/vid-204.md) | cut-it-open | Yo-yo | Your yo-yo's string isn't even tied on 🪀 | 38.5s |
-| [vid-205](batch-05/vid-205.md) | cut-it-open | Soft contact lens | Your contact lens is mostly water 💧 | 37s |
+| [vid-205](batch-05/vid-205.md) | cut-it-open | Soft contact lens | Your contact lens is a thin gel full of water 💧 | 37s |
 | [vid-206](batch-05/vid-206.md) | cut-it-open | Dishwasher | Your dishwasher never fills up. It recycles a small pool 🍽️ | 40s |
-| [vid-207](batch-05/vid-207.md) | the-1-second-machine | Champagne cork pop | A champagne cork leaves the bottle in a thousandth of a second 🍾 | 32s |
+| [vid-207](batch-05/vid-207.md) | the-1-second-machine | Champagne cork pop | A champagne cork leaves the bottle in a flash 🍾 | 32s |
 | [vid-208](batch-05/vid-208.md) | the-1-second-machine | Sonic toothbrush vibration | Your sonic toothbrush hums at the pitch of middle C 🎵 | 38s |
 | [vid-209](batch-05/vid-209.md) | the-1-second-machine | Garage door safety sensor | Your garage door is watching an invisible beam 👁️ | 37s |
 | [vid-210](batch-05/vid-210.md) | the-1-second-machine | Piezo lighter | Click. A crystal just made thousands of volts ⚡ | 41s |
@@ -294,7 +294,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-224](batch-05/vid-224.md) | cut-it-open | Hot water cylinder | Your hot water tank keeps hot water floating on cold 🔥 | 39s |
 | [vid-225](batch-05/vid-225.md) | cut-it-open | Candle | A candle doesn't burn wax. It burns wax gas 🕯️ | 41s |
 | [vid-226](batch-05/vid-226.md) | cut-it-open | Noise-cancelling headphones | Noise-cancelling headphones fight sound with more sound 🎧 | 38s |
-| [vid-227](batch-05/vid-227.md) | cut-it-open | QR code | You can rip a third off a QR code and it still works | 42s |
+| [vid-227](batch-05/vid-227.md) | cut-it-open | QR code | You can rip a chunk off a QR code and it still works | 42s |
 | [vid-228](batch-05/vid-228.md) | cut-it-open | Rain-sensing wipers | Your wipers see rain with invisible light | 42s |
 | [vid-229](batch-05/vid-229.md) | cut-it-open | Walk-through metal detector | The airport metal detector makes metal talk back | 36s |
 | [vid-230](batch-05/vid-230.md) | cut-it-open | Suspension bridge cables | This bridge cable is made of 27,572 wires 🌉 | 39s |
@@ -362,7 +362,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-287](batch-06/vid-287.md) | cut-it-open | Password hashing | Good websites don't know your password. Here's how they check it | 42s |
 | [vid-288](batch-06/vid-288.md) | cut-it-open | Catalytic converter | Your exhaust hides a honeycomb of precious metals | 43s |
 | [vid-289](batch-06/vid-289.md) | cut-it-open | Bicycle derailleur | Your bike's gear changer is just a spring and a cable | 38s |
-| [vid-290](batch-06/vid-290.md) | cut-it-open | Electricity substation | That fenced yard takes in up to 400,000 volts ⚡ | 38s |
+| [vid-290](batch-06/vid-290.md) | cut-it-open | Electricity substation | Big fenced yards: 400,000 volts ⚡ | 38s |
 | [vid-291](batch-06/vid-291.md) | cut-it-open | Colour-shifting ink | Tilt your money and the number changes colour | 36s |
 | [vid-292](batch-06/vid-292.md) | cut-it-open | Stud finder | Your stud finder feels wood through the wall | 42s |
 | [vid-293](batch-06/vid-293.md) | cut-it-open | Down jacket | Your puffer jacket is mostly air, not feathers 🧥 | 38s |

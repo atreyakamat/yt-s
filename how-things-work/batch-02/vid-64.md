@@ -45,7 +45,7 @@ scenes:
     vo: "That squeezes and stretches the metal skin like a balloon, thousands of times."
     text: "STRETCHED AGAIN AND AGAIN"
     highlight: "AGAIN"
-    visual: { kind: counter, to: 30000, suffix: "+", label: "flights in a jet's life", icon: plane }
+    visual: { kind: counter, to: 50000, suffix: "+", label: "flights in an airliner life", icon: plane }
   - at: 15
     dur: 6
     vo: "A sharp corner focuses that stress into one tiny point, and cracks start there."
@@ -79,4 +79,4 @@ scenes:
 - Pressurised cabins expand and relax on every flight, a load cycle that causes metal fatigue.
 - Sharp corners concentrate stress; rounded openings spread it (stress concentration is basic engineering).
 - The de Havilland Comet, the first jet airliner (in service 1952), suffered two in-flight break-ups in 1954; investigators found fatigue cracks starting at corners of openings in the fuselage.
-- Airliners are designed for tens of thousands of pressurisation cycles; '30,000+' is a fair round figure for narrow-body jets.
+- Airliners are designed for tens of thousands of pressurisation cycles (commonly 40,000-75,000 for narrow-bodies); 50,000+ is a fair round figure.
