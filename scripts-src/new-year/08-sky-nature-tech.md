@@ -103,7 +103,7 @@ hook: After December twenty-first, days grow longer. | DAYS *GROW* AGAIN | hero:
 - Daylight grows by a minute or two a day by spring. | *+2 MIN* A DAY | num: 2 | min per day | clock
 - Growth is slow at first, fastest near the equinox. | FASTEST *IN MARCH* | hero: chart-up Faster
 - By June you gain hours of daylight. | HOURS *GAINED* | hero: sun More light
-fact: Day length at mid-northern latitudes increases only seconds per day just after the winter solstice, reaching ~2-3 minutes per day near the March equinox (depends on latitude). 'A minute or two' is for spring; adjust text if needed.
+fact: Day length at mid-northern latitudes increases only seconds per day just after the winter solstice, reaching ~2-3 minutes per day near the March equinox (depends on latitude).
 alt: The slow return of the light.
 alt: When the days start winning.
 tags: seasons, sun, winter
