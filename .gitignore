@@ -10,3 +10,6 @@ assets/vo/*
 tools/voices/
 # Which reels the daily command has rendered (local to this PC)
 .cutaway-progress.json
+
+# Intermediate data for the publishing sheet (rebuilt by npm run sheet)
+publishing/reels.json

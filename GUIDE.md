@@ -114,6 +114,7 @@ remembers they're done).
 | Re-render a range or a list | `npm run daily -- --redo vid-1..vid-30` / `--redo vid-3,vid-9` |
 | Render a reel without touching progress | `npm run build:reel -- vid-26` (to `out\vid-26.mp4`) |
 | Check every script | `npm run check` |
+| Rebuild the publishing sheet (`publishing/Cutaway-reels.xlsx` + `.csv`) | `npm run sheet` (keeps what the owner typed in the yellow columns) |
 | Preview in the browser editor | `npm run dev` |
 | Use a different voice | set `KOKORO_VOICE=am_michael` (or `bm_george`, `af_bella`...) before `npm run daily` |
 | Get the latest scripts and fixes | `cd G:\cutaway` then `git pull` (on the branch the owner uses, normally `main`) |
@@ -150,6 +151,8 @@ problems: none (or: exact error text)
 | `how-things-work/batch-NN/vid-N.md` | The scripts, 50 per batch in posting order. Format: `how-things-work/SCRIPT_SPEC.md` |
 | `how-things-work/INDEX.md` | Every reel in posting order |
 | `fact-check/` | Fact-check reports and sources |
+| `publishing/Cutaway-reels.xlsx` | Every reel's title, description, hashtags, hooks, an optimisation check, and columns for post stats |
+| `BRAND.md`, `brand/` | Brand strategy, channel icon, banner, watermark |
 | `video/` | Render engine (Remotion). Tools in `video/tools/` |
 | `tools/voiceover.py` | Voice generation (Kokoro, falls back to Piper) |
 | `music/tracks.tsv` | The music list and credit lines |
