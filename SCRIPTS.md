@@ -1,6 +1,6 @@
 # Script index
 
-68 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
+93 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
 
 | ID | Series / group | Hook | Length | Title |
 |---|---|---|---|---|
@@ -72,3 +72,28 @@
 | 1566 | new-year / winter-science | Glow sticks make light with no battery. | 21.5s | How glow sticks glow without batteries |
 | 1567 | new-year / winter-science | Confetti falls slowly because air pushes back. | 22.4s | Why confetti flutters instead of falling |
 | 1568 | new-year / winter-science | Old bulbs wasted energy as heat. | 25s | Why LED bulbs run cooler than old bulbs |
+| 1569 | new-year / world-traditions | Spain eats twelve grapes in twelve seconds. | 22.7s | Why Spain eats twelve grapes at midnight |
+| 1570 | new-year / world-traditions | Japan rings temple bells one hundred eight times. | 24.9s | Why Japan rings temple bells 108 times |
+| 1571 | new-year / world-traditions | In Scotland, your first guest brings luck. | 23.3s | Why Scotland has Hogmanay and first-footing |
+| 1572 | new-year / world-traditions | Danes smash plates on friends' doors. | 23.7s | Why Denmark smashes plates on New Year's Eve |
+| 1573 | new-year / world-traditions | Brazil jumps seven waves at midnight. | 23.2s | Why Brazil wears white and jumps seven waves |
+| 1574 | new-year / world-traditions | Resolutions are over four thousand years old. | 21.8s | Why we make New Year's resolutions |
+| 1575 | new-year / world-traditions | Most resolutions don't last until February. | 23.2s | Why most resolutions fail by February |
+| 1576 | new-year / world-traditions | Fresh starts really do boost motivation. | 24.9s | Why a fresh start effect is real |
+| 1577 | new-year / world-traditions | Not every country sees the year start together. | 23.5s | Where the new year arrives first |
+| 1578 | new-year / world-traditions | The Times Square ball weighs nearly six tonnes. | 24s | How the Times Square ball drops |
+| 1579 | new-year / world-traditions | In the Philippines, round things mean money. | 24.5s | Why Philippines wears polka dots |
+| 1580 | new-year / world-traditions | Why do people kiss at midnight? | 22.7s | Why we kiss at midnight |
+| 1581 | new-year / world-traditions | Italians eat lentils for luck at midnight. | 20.6s | Why lentils bring luck in Italy |
+| 1582 | new-year / world-traditions | Southern Americans eat peas on New Year's Day. | 21.8s | Why black-eyed peas are lucky in the American South |
+| 1583 | new-year / world-traditions | Greeks hang an onion on the door. | 22.7s | Why Greece hangs an onion on the door |
+| 1584 | new-year / world-traditions | Chinese New Year lands on a different date. | 26.2s | Why Chinese New Year changes date |
+| 1585 | new-year / world-traditions | Red envelopes carry luck, not just cash. | 24.5s | Why red envelopes carry luck |
+| 1586 | new-year / world-traditions | Diwali is a New Year for many Indians. | 24.4s | Why Diwali is the Indian New Year of lights |
+| 1587 | new-year / world-traditions | Nowruz begins on the first day of spring. | 22.2s | Why Nowruz starts on the spring equinox |
+| 1588 | new-year / world-traditions | Rosh Hashanah is a sweet start. | 22.7s | Why Rosh Hashanah has apples and honey |
+| 1589 | new-year / world-traditions | Ethiopia is seven years behind the calendar. | 22.4s | Why Ethiopia celebrates New Year in September |
+| 1590 | new-year / world-traditions | Some Christians celebrate Christmas on January seventh. | 24.5s | Why Julian and Gregorian calendars disagree |
+| 1591 | new-year / world-traditions | Why isn't every fourth year a leap year? | 29.5s | Why not every fourth year is a leap year |
+| 1592 | new-year / world-traditions | Clocks occasionally add a leap second. | 25.3s | Why leap seconds are being scrapped |
+| 1593 | new-year / world-traditions | Fireworks get their colour from metal salts. | 18.4s | What gives fireworks their colours |
