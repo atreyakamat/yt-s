@@ -1,6 +1,6 @@
 # Script index
 
-118 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
+143 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
 
 | ID | Series / group | Hook | Length | Title |
 |---|---|---|---|---|
@@ -122,3 +122,28 @@
 | 1616 | new-year / body-mind-planning | The best budget is the one you'll keep. | 21.4s | Why a budget app beats a spreadsheet for some people |
 | 1617 | new-year / body-mind-planning | An emergency fund stops small shocks becoming debt. | 23.5s | Why an emergency fund matters |
 | 1618 | new-year / body-mind-planning | Split your take-home pay three ways. | 25.3s | How the 50/30/20 budget works |
+| 1619 | new-year / sky-nature-tech | The year's first meteor shower is brief. | 26.1s | Why the Quadrantid meteor shower peaks in January |
+| 1620 | new-year / sky-nature-tech | Earth's spin makes the Sun rise east. | 25.7s | Why the Sun rises in the east |
+| 1621 | new-year / sky-nature-tech | The Moon isn't actually bigger at the horizon. | 24.4s | Why the Moon looks bigger near the horizon |
+| 1622 | new-year / sky-nature-tech | Orion's shoulder is a dying star. | 23.9s | Why Betelgeuse could explode |
+| 1623 | new-year / sky-nature-tech | Find Polaris using the Big Dipper. | 22.7s | How to find the North Star |
+| 1624 | new-year / sky-nature-tech | Stars twinkle. Planets mostly don't. | 21.2s | Why stars twinkle but planets don't |
+| 1625 | new-year / sky-nature-tech | Auroras glow green for a reason. | 22.7s | Why the Northern Lights glow green |
+| 1626 | new-year / sky-nature-tech | Winter full moons ride high in the sky. | 24.9s | Why a full Moon in winter looks so bright |
+| 1627 | new-year / sky-nature-tech | After December twenty-first, days grow longer. | 25.4s | Why days get longer after the solstice |
+| 1628 | new-year / sky-nature-tech | A polar bear's fur isn't actually white. | 21.5s | Why polar bears aren't white |
+| 1629 | new-year / sky-nature-tech | Some animals sleep through the whole winter. | 23.6s | How animals survive winter without eating |
+| 1630 | new-year / sky-nature-tech | Birds fly thousands of miles for food. | 24.3s | Why birds migrate south |
+| 1631 | new-year / sky-nature-tech | Trees drop leaves to survive winter. | 22.5s | Why trees lose their leaves |
+| 1632 | new-year / sky-nature-tech | Your breath turns visible when it's cold. | 23.3s | Why your breath looks like smoke in the cold |
+| 1633 | new-year / sky-nature-tech | Frost draws feathers on your windows. | 21.9s | Why frost forms on windows |
+| 1634 | new-year / sky-nature-tech | One inch of snow can stop a city. | 23.5s | How a snow day works for a city |
+| 1635 | new-year / sky-nature-tech | Looking at space is looking back in time. | 24s | Why looking at space is looking at the past |
+| 1636 | new-year / sky-nature-tech | Astronauts see sixteen sunrises every day. | 22.7s | How the International Space Station sees sixteen sunrises a day |
+| 1637 | new-year / sky-nature-tech | GPS tells you where you are using time. | 24.4s | How GPS knows where you are |
+| 1638 | new-year / sky-nature-tech | A full phone slows down. | 21.8s | Why you should clear your phone's storage |
+| 1639 | new-year / sky-nature-tech | Software updates fix security holes. | 19.3s | Why updates keep nagging you |
+| 1640 | new-year / sky-nature-tech | A password manager remembers so you don't. | 20.2s | How a password manager works |
+| 1641 | new-year / sky-nature-tech | Why do we count down from ten? | 24.3s | Why we count down from ten |
+| 1642 | new-year / sky-nature-tech | Clean your inbox with one daily habit. | 21.9s | Why you should unsubscribe from marketing emails |
+| 1643 | new-year / sky-nature-tech | Smart speakers listen for one word only. | 24.4s | How a smart speaker hears its wake word |
