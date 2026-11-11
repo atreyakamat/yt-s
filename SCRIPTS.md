@@ -81,7 +81,7 @@
 | 1575 | new-year / world-traditions | Most resolutions don't last until February. | 23.2s | Why most resolutions fail by February |
 | 1576 | new-year / world-traditions | Fresh starts really do boost motivation. | 24.9s | Why a fresh start effect is real |
 | 1577 | new-year / world-traditions | Not every country sees the year start together. | 23.5s | Where the new year arrives first |
-| 1578 | new-year / world-traditions | The Times Square ball weighs nearly six tonnes. | 24s | How the Times Square ball drops |
+| 1578 | new-year / world-traditions | The Times Square ball weighs over five tonnes. | 24s | How the Times Square ball drops |
 | 1579 | new-year / world-traditions | In the Philippines, round things mean money. | 24.5s | Why Philippines wears polka dots |
 | 1580 | new-year / world-traditions | Why do people kiss at midnight? | 22.7s | Why we kiss at midnight |
 | 1581 | new-year / world-traditions | Italians eat lentils for luck at midnight. | 20.6s | Why lentils bring luck in Italy |
@@ -125,7 +125,7 @@
 | 1619 | new-year / sky-nature-tech | The year's first meteor shower is brief. | 26.1s | Why the Quadrantid meteor shower peaks in January |
 | 1620 | new-year / sky-nature-tech | Earth's spin makes the Sun rise east. | 25.7s | Why the Sun rises in the east |
 | 1621 | new-year / sky-nature-tech | The Moon isn't actually bigger at the horizon. | 24.4s | Why the Moon looks bigger near the horizon |
-| 1622 | new-year / sky-nature-tech | Orion's shoulder is a dying star. | 23.9s | Why Betelgeuse could explode |
+| 1622 | new-year / sky-nature-tech | Orion's shoulder is a dying star. | 25.2s | Why Betelgeuse could explode |
 | 1623 | new-year / sky-nature-tech | Find Polaris using the Big Dipper. | 22.7s | How to find the North Star |
 | 1624 | new-year / sky-nature-tech | Stars twinkle. Planets mostly don't. | 21.2s | Why stars twinkle but planets don't |
 | 1625 | new-year / sky-nature-tech | Auroras glow green for a reason. | 22.7s | Why the Northern Lights glow green |
