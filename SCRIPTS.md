@@ -157,10 +157,10 @@
 | 1651 | new-year / food-history-work | Where does the word cheers come from? | 24.3s | Why we say cheers |
 | 1652 | new-year / food-history-work | The Roman year started in March. | 21.5s | Why the Roman calendar started in March |
 | 1653 | new-year / food-history-work | Two months are named after Roman rulers. | 20.9s | Why July and August are named after emperors |
-| 1654 | new-year / food-history-work | Why does a week have seven days? | 21s | Why a week has seven days |
+| 1654 | new-year / food-history-work | Leap day is added to February. | 24.5s | Why leap day is February 29 |
 | 1655 | new-year / food-history-work | Why do we split days into twenty-four hours? | 20.2s | Why a day has twenty-four hours |
 | 1656 | new-year / food-history-work | There is no year zero. | 25.6s | Why the year zero doesn't exist |
-| 1657 | new-year / food-history-work | In 1999, computers might think it was 1900. | 26.5s | Why Y2K worried the world |
+| 1657 | new-year / food-history-work | Old computers feared the new millennium. | 23.2s | Why Y2K worried the world |
 | 1658 | new-year / food-history-work | Another date bug is due in 2038. | 27.1s | Why 2038 is the next big date bug |
 | 1659 | new-year / food-history-work | Give your year a theme, not a list. | 23.6s | How to pick a year theme |
 | 1660 | new-year / food-history-work | Review last year in twenty minutes. | 20.7s | How to run a quick year review |

@@ -120,17 +120,17 @@ alt: Caesar and Augustus left their names.
 alt: The myth of August's stolen day.
 tags: calendars, history, myth
 
-## 1654 | Why a week has seven days
-hook: Why does a week have seven days? | WHY *SEVEN* DAYS? | num: 7 | days | calendar
-- Ancient Babylonians tracked seven bright sky objects. | SEVEN *SKY OBJECTS* | hero: moon Sky objects
-- The Moon's phases change about every seven days. | MOON *QUARTERS* | hero: moon Moon phases
-- The Jewish seven-day week was influential. | HEBREW *WEEK* | hero: calendar Seven days
-- Romans spread a seven-day planetary week. | ROMAN *PLANET* WEEK | hero: orbit Planets
-- The week doesn't match any astronomical cycle exactly. | A *HUMAN* CHOICE | hero: person Human
-fact: Seven-day cycles appear in Babylonian/Jewish traditions; the planetary week (Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn) from Hellenistic astrology; lunar phase quarter ≈ 7.4 days. Origin is debated; the week doesn't map to an astronomical period.
-alt: The oldest unit that isn't astronomy.
-alt: A week with no natural reason.
-tags: calendars, history, time
+## 1654 | Why leap day is February 29
+hook: Leap day is added to February. | LEAP DAY *IN FEBRUARY* | hero: calendar February
+- February was the last month of the old Roman year. | *LAST MONTH* | hero: calendar Last month
+- Extra days were tacked onto the end of the year. | TACKED *ON THE END* | hero: arrow-right End
+- Later the year start moved to January. | START *MOVED* | hero: calendar January
+- February kept the odd day by tradition. | *TRADITION* STUCK | hero: loop-arrow Tradition
+- Leap day lands on February 29 every fourth year. | FEB *29* | hero: calendar February 29
+fact: In the pre-Julian Roman calendar February was the final month and intercalary days were inserted after it; Caesar's reform placed the leap day by doubling the sixth day before March Kalends (24 Feb). Today's 29 Feb dates from that tradition. Simplified.
+alt: Why the extra day lands in February.
+alt: Once February ended the year.
+tags: calendars, history, leapyear
 
 ## 1655 | Why a day has twenty-four hours
 hook: Why do we split days into twenty-four hours? | WHY *24 HOURS?* | num: 24 | hours | clock
@@ -157,7 +157,7 @@ alt: The century that began in 2001.
 tags: calendars, history, math
 
 ## 1657 | Why Y2K worried the world
-hook: In 1999, computers might think it was 1900. | *1900* INSTEAD OF *2000* | hero: chip Y2K
+hook: Old computers feared the new millennium. | THE *Y2K* PANIC | hero: chip Y2K
 - Old systems stored years as two digits. | *2 DIGITS* | hero: list Two digits
 - It saved scarce memory and storage. | SAVED *MEMORY* | hero: battery Memory
 - So 00 could mean 1900 instead of 2000. | 00 = *1900?* | hero: question Ambiguity
