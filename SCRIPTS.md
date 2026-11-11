@@ -1,6 +1,6 @@
 # Script index
 
-168 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
+300 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
 
 | ID | Series / group | Hook | Length | Title |
 |---|---|---|---|---|
@@ -172,3 +172,135 @@
 | 1666 | new-year / food-history-work | Experiences tend to bring more lasting happiness. | 19.4s | Why you should spend money on experiences |
 | 1667 | new-year / food-history-work | Automate your savings and forget them. | 21.2s | Why you should automate your savings |
 | 1668 | new-year / food-history-work | Investing is ownership, not gambling. | 21s | How to start investing in simple terms |
+| 1669 | new-year / everyday-science | Blowing out candles carries an old wish. | 24.4s | Why we make wishes on candles |
+| 1670 | new-year / everyday-science | Fireworks bang because of a burst of gas. | 21.5s | Why fireworks make so much noise |
+| 1671 | new-year / everyday-science | Count seconds to measure distance. | 20.6s | How to estimate distance with thunder and fireworks |
+| 1672 | new-year / everyday-science | An echo is sound bouncing back. | 23.7s | Why echoes happen |
+| 1673 | new-year / everyday-science | You hate your voice on recordings. | 20.2s | Why your voice sounds different on recordings |
+| 1674 | new-year / everyday-science | Nobody fully knows why we yawn. | 19.4s | Why we yawn |
+| 1675 | new-year / everyday-science | Hiccups are a tiny spasm in your chest. | 20.3s | Why we get hiccups |
+| 1676 | new-year / everyday-science | Your stomach growls even when it's full. | 21.8s | Why your stomach growls |
+| 1677 | new-year / everyday-science | Music can give you chills. | 21.5s | Why we get goosebumps from music |
+| 1678 | new-year / everyday-science | Songs get stuck in your head. | 18.4s | Why songs get stuck in your head |
+| 1679 | new-year / everyday-science | Scary things feel good when you're safe. | 20.6s | Why we love scary movies |
+| 1680 | new-year / everyday-science | Why do happy moments bring tears? | 22.4s | Why we cry when we're happy |
+| 1681 | new-year / everyday-science | Laughter spreads from person to person. | 22.5s | Why laughing is contagious |
+| 1682 | new-year / everyday-science | Dogs tilt their heads when you talk. | 24.5s | Why dogs tilt their heads |
+| 1683 | new-year / everyday-science | Cats purr for more than happiness. | 25.4s | Why cats purr |
+| 1684 | new-year / everyday-science | Owls can almost turn their heads backwards. | 24s | Why owls can turn their heads so far |
+| 1685 | new-year / everyday-science | Bats sleep upside down for a reason. | 21.8s | Why bats don't get dizzy hanging upside down |
+| 1686 | new-year / everyday-science | Flamingos rest on one leg. | 24.3s | Why flamingos stand on one leg |
+| 1687 | new-year / everyday-science | Zebra stripes confuse biting flies. | 20.9s | Why zebras have stripes |
+| 1688 | new-year / everyday-science | A camel's hump isn't full of water. | 23.3s | Why camels have humps |
+| 1689 | new-year / everyday-science | Octopuses have three hearts and blue blood. | 24s | Why octopuses have three hearts |
+| 1690 | new-year / everyday-science | Jellyfish live without a brain. | 21.7s | Why jellyfish have no brain |
+| 1691 | new-year / everyday-science | Bees tell each other where flowers are. | 24.5s | Why honeybees dance |
+| 1692 | new-year / everyday-science | Ants follow invisible trails. | 19.7s | Why ants always march in lines |
+| 1693 | new-year / everyday-science | Fireflies make light without heat. | 19.7s | Why fireflies glow |
+| 1694 | new-year / body-health | Flu shots take time to work. | 23.7s | Why you should get a flu shot in autumn |
+| 1695 | new-year / body-health | Soap breaks germs apart. | 20.4s | Why handwashing works so well |
+| 1696 | new-year / body-health | Your nose runs when it's cold. | 21.5s | Why your nose runs in the cold |
+| 1697 | new-year / body-health | Lips chap because they lack protection. | 20.1s | Why your lips get chapped |
+| 1698 | new-year / body-health | Winter air gives you static shocks. | 20.2s | Why static shocks happen more in winter |
+| 1699 | new-year / body-health | Hot water sometimes freezes faster. | 22.7s | Why hot water can freeze faster |
+| 1700 | new-year / body-health | Weighted blankets can feel calming. | 20.5s | Why a heavy blanket feels calming |
+| 1701 | new-year / body-health | Nobody agrees on why we dream. | 19s | Why we dream |
+| 1702 | new-year / body-health | You can't tickle yourself. | 19.3s | Why you can't tickle yourself |
+| 1703 | new-year / body-health | Fingers wrinkle in water for grip. | 20.6s | Why your fingers get wrinkly in water |
+| 1704 | new-year / body-health | Fingerprints may help you grip. | 21.4s | Why we have fingerprints |
+| 1705 | new-year / body-health | Your blood type depends on markers. | 24.1s | Why humans have different blood types |
+| 1706 | new-year / body-health | Cold treats can cause brain freeze. | 18.6s | Why you get brain freeze |
+| 1707 | new-year / body-health | Onions release a tear-making gas. | 20.9s | Why onions make you cry |
+| 1708 | new-year / body-health | Salty food makes you thirsty. | 18.7s | Why we get thirsty after salty food |
+| 1709 | new-year / body-health | Winter hides your thirst signal. | 19.7s | Why you shouldn't wait to feel thirsty in winter |
+| 1710 | new-year / body-health | Bruises change colour as they heal. | 20.6s | Why bruises change colour |
+| 1711 | new-year / body-health | Scars are rushed repairs. | 19.7s | Why scars look different from skin |
+| 1712 | new-year / body-health | Sunburn hurts hours after the sun. | 20.7s | Why sunburn hurts a day later |
+| 1713 | new-year / body-health | Mint tricks your cold sensors. | 20.5s | Why mint feels cold |
+| 1714 | new-year / body-health | Wasabi burns your nose, not your tongue. | 22s | Why wasabi burns your nose |
+| 1715 | new-year / body-health | Popcorn explodes from trapped steam. | 21.8s | Why popcorn pops |
+| 1716 | new-year / body-health | Yeast makes bread rise. | 20.6s | Why bread rises |
+| 1717 | new-year / body-health | Bananas brown when exposed to air. | 21.5s | Why bananas brown |
+| 1718 | new-year / body-health | Heat turns runny eggs solid. | 19.1s | Why eggs change when cooked |
+| 1719 | new-year / body-health | Oil and water refuse to mix. | 22.4s | Why oil and water don't mix |
+| 1720 | new-year / body-health | Ice cubes crack in warm drinks. | 18.4s | Why ice cubes crack in drinks |
+| 1721 | new-year / tech-internet-money | Websites are found through a phone book. | 21s | How the internet finds a website |
+| 1722 | new-year / tech-internet-money | A VPN hides your traffic in a tunnel. | 24.1s | How a VPN works |
+| 1723 | new-year / tech-internet-money | Public Wi-Fi isn't always safe. | 18.9s | Why public Wi-Fi can be risky |
+| 1724 | new-year / tech-internet-money | The padlock means the connection is encrypted. | 20.5s | Why the padlock in your browser matters |
+| 1725 | new-year / tech-internet-money | Phishing tricks you into handing over secrets. | 21.1s | How phishing works |
+| 1726 | new-year / tech-internet-money | A QR code can hide a bad link. | 21s | How a QR code scam works |
+| 1727 | new-year / tech-internet-money | Real banks never ask for your PIN. | 21.1s | Why banks never ask for your PIN |
+| 1728 | new-year / tech-internet-money | Tap to pay uses one-time codes. | 18.6s | How contactless payments stay safe |
+| 1729 | new-year / tech-internet-money | A credit score summarises your borrowing habits. | 20.2s | How credit scores work |
+| 1730 | new-year / tech-internet-money | A mortgage is a long home loan. | 18.2s | How a mortgage works |
+| 1731 | new-year / tech-internet-money | A small interest difference adds up. | 20.3s | Why a small rate difference matters |
+| 1732 | new-year / tech-internet-money | Small subscriptions add up fast. | 21s | Why subscriptions quietly drain money |
+| 1733 | new-year / tech-internet-money | Share prices come from buyers and sellers. | 19.9s | How the stock market is priced |
+| 1734 | new-year / tech-internet-money | An index fund buys the whole market. | 20.7s | Why index funds are popular |
+| 1735 | new-year / tech-internet-money | Don't put all your eggs together. | 21.1s | Why diversification protects you |
+| 1736 | new-year / tech-internet-money | Bulls charge up and bears swipe down. | 22.8s | What a bear and bull market mean |
+| 1737 | new-year / tech-internet-money | Gold holds value when fear rises. | 19.2s | Why gold is seen as a safe haven |
+| 1738 | new-year / tech-internet-money | Bitcoin is a shared digital ledger. | 19s | How bitcoin works in simple terms |
+| 1739 | new-year / tech-internet-money | Chatbots can state falsehoods confidently. | 19.9s | Why AI chatbots sometimes make things up |
+| 1740 | new-year / tech-internet-money | Your phone maps your face. | 19.7s | How facial recognition unlocks your phone |
+| 1741 | new-year / tech-internet-money | Self-driving cars sense with many tools. | 19s | How self-driving cars see the road |
+| 1742 | new-year / tech-internet-money | A 3D printer builds objects layer by layer. | 21.8s | How a 3D printer works |
+| 1743 | new-year / tech-internet-money | Phone glass is strong but brittle. | 18.2s | Why phone screens crack |
+| 1744 | new-year / tech-internet-money | Phones heat up when working hard. | 19.4s | Why phones heat up |
+| 1745 | new-year / tech-internet-money | Airplane mode saves battery. | 19.8s | Why airplane mode helps battery |
+| 1746 | new-year / tech-internet-money | Wireless charging uses magnetic fields. | 21.8s | How wireless charging works |
+| 1747 | new-year / tech-internet-money | Headphones turn current into sound. | 22.1s | How headphones play music |
+| 1748 | new-year / earth-weather-physics | The sky is blue because of scattering. | 19.7s | Why the sky is blue |
+| 1749 | new-year / earth-weather-physics | Sunsets glow red because light travels far. | 19.4s | Why sunsets are red |
+| 1750 | new-year / earth-weather-physics | Rainbows are really full circles. | 24s | Why rainbows are curved |
+| 1751 | new-year / earth-weather-physics | Clouds float even though they weigh a lot. | 22.2s | Why clouds float |
+| 1752 | new-year / earth-weather-physics | Rain has its own smell. | 20.8s | Why it smells like rain |
+| 1753 | new-year / earth-weather-physics | Lightning heats air in an instant. | 21.9s | Why thunder rumbles |
+| 1754 | new-year / earth-weather-physics | Hailstones are layered ice balls. | 18.5s | Why hail forms |
+| 1755 | new-year / earth-weather-physics | Tornadoes grow from spinning storms. | 20.1s | How a tornado forms |
+| 1756 | new-year / earth-weather-physics | Hurricanes spin because Earth spins. | 21.8s | Why hurricanes spin |
+| 1757 | new-year / earth-weather-physics | The ocean is salty because of rivers. | 19.9s | Why the ocean is salty |
+| 1758 | new-year / earth-weather-physics | Tides come from the Moon's pull. | 20.6s | Why tides happen |
+| 1759 | new-year / earth-weather-physics | Water absorbs red light first. | 19.7s | Why the ocean is deep blue |
+| 1760 | new-year / earth-weather-physics | Earthquakes release stored strain. | 20.9s | Why earthquakes happen |
+| 1761 | new-year / earth-weather-physics | Volcanoes erupt when pressure wins. | 19.7s | How volcanoes erupt |
+| 1762 | new-year / earth-weather-physics | The Dead Sea holds you up. | 21.4s | Why the Dead Sea lets you float |
+| 1763 | new-year / earth-weather-physics | The Sahara was once green. | 20.1s | Why the Sahara was once green |
+| 1764 | new-year / earth-weather-physics | Glaciers are slow rivers of ice. | 19.8s | How glaciers carve valleys |
+| 1765 | new-year / earth-weather-physics | Deserts freeze after dark. | 18.9s | Why deserts get so cold at night |
+| 1766 | new-year / earth-weather-physics | The Arctic warms faster than anywhere. | 20.5s | Why the Arctic is warming faster |
+| 1767 | new-year / earth-weather-physics | Trees pull carbon out of the air. | 19s | How trees help the climate |
+| 1768 | new-year / earth-weather-physics | The ozone layer blocks harmful sunlight. | 20.3s | Why the ozone layer matters |
+| 1769 | new-year / earth-weather-physics | Other planets have auroras too. | 21s | Which other planets have auroras |
+| 1770 | new-year / earth-weather-physics | Mars is red because it's rusty. | 20.3s | Why Mars is red |
+| 1771 | new-year / earth-weather-physics | Saturn's rings are made of ice. | 20.3s | Why Saturn has rings |
+| 1772 | new-year / earth-weather-physics | The universe is almost unimaginably big. | 25.8s | How big the universe is |
+| 1773 | new-year / earth-weather-physics | In space, no one can hear you. | 18.6s | Why we can't hear sound in space |
+| 1774 | new-year / earth-weather-physics | Black holes have a point of no return. | 24.4s | What a black hole really is |
+| 1775 | new-year / culture-math-history | The Olympic rings link five continents. | 23.2s | Why the Olympic rings have five colours |
+| 1776 | new-year / culture-math-history | A marathon is oddly long. | 27.8s | Why a marathon is 42 kilometres |
+| 1777 | new-year / culture-math-history | Soccer balls have patterns for a reason. | 22.4s | Why the football has pentagons |
+| 1778 | new-year / culture-math-history | Spin makes a ball curve. | 20.1s | Why curveball pitches curve |
+| 1779 | new-year / culture-math-history | Chess boards have sixty-four squares. | 22.7s | Why chess has sixty-four squares |
+| 1780 | new-year / culture-math-history | On a die, opposite faces add to seven. | 18s | Why dice have opposite sides adding to seven |
+| 1781 | new-year / culture-math-history | A Rubik's Cube has billions of states. | 24.1s | Why the Rubik's Cube has so many combinations |
+| 1782 | new-year / culture-math-history | Zero was one of maths' great inventions. | 21.5s | Why zero was a breakthrough |
+| 1783 | new-year / culture-math-history | Pi goes on forever without repeating. | 20.7s | Why pi never ends |
+| 1784 | new-year / culture-math-history | A Möbius strip has only one side. | 24.8s | Why a Möbius strip has one side |
+| 1785 | new-year / culture-math-history | Fibonacci numbers appear in plants. | 23.1s | Why the Fibonacci sequence appears in nature |
+| 1786 | new-year / culture-math-history | A simple formula counts handshakes. | 19.4s | How many handshakes in a room |
+| 1787 | new-year / culture-math-history | Shared birthdays happen sooner than you'd expect. | 23.6s | Why two people share a birthday sooner than you think |
+| 1788 | new-year / culture-math-history | Switching doors doubles your chance. | 20.1s | Why the Monty Hall problem is surprising |
+| 1789 | new-year / culture-math-history | Lottery odds are tiny. | 22.7s | Why lotteries are so hard to win |
+| 1790 | new-year / culture-math-history | The Great Wall is not visible from space. | 25.2s | Why the Great Wall isn't visible from space |
+| 1791 | new-year / culture-math-history | Vikings didn't wear horned helmets. | 21.9s | Why Vikings didn't wear horned helmets |
+| 1792 | new-year / culture-math-history | Educated people knew Earth was round. | 23.3s | Why medieval people didn't think the Earth was flat |
+| 1793 | new-year / culture-math-history | Napoleon wasn't actually short. | 23.6s | Why Napoleon wasn't short |
+| 1794 | new-year / culture-math-history | The great library declined over centuries. | 21.5s | Why the Library of Alexandria disappeared |
+| 1795 | new-year / culture-math-history | The printing press spread ideas fast. | 21.6s | How the printing press changed the world |
+| 1796 | new-year / culture-math-history | The Titanic couldn't survive that damage. | 23.5s | Why the Titanic sank so fast |
+| 1797 | new-year / culture-math-history | OK is one of the most used words. | 26.5s | Why we say OK |
+| 1798 | new-year / culture-math-history | English spelling doesn't follow rules. | 20s | Why English spelling is so weird |
+| 1799 | new-year / culture-math-history | People say bless you after sneezes. | 23.6s | Why we say bless you after a sneeze |
+| 1800 | new-year / culture-math-history | Small resets beat grand plans. | 19.7s | Why a New Year's reset works best when it's small |

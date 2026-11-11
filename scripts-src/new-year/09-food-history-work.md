@@ -235,7 +235,7 @@ hook: A yearly profile refresh pays off. | REFRESH *YEARLY* | hero: person Profi
 - Update your headline to say what you do. | CLEAR *HEADLINE* | hero: list Headline
 - Ask for a recommendation from a colleague. | GET *ENDORSED* | hero: people Recommendation
 - Check your privacy and contact settings. | CHECK *PRIVACY* | hero: lock Privacy
-fact: General career advice; recruiters do use keyword searches on professional networks (e.g. LinkedIn Recruiter), details vary. No numbers or quantified claims. Platform-neutral: swap name if you prefer.
+fact: General career advice; recruiters do use keyword searches on professional networks (e.g. LinkedIn Recruiter), details vary. No numbers or quantified claims.
 alt: Update it before you need it.
 alt: Five minutes for a stronger profile.
 tags: career, work, tech
