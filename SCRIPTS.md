@@ -1,6 +1,6 @@
 # Script index
 
-45 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
+68 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
 
 | ID | Series / group | Hook | Length | Title |
 |---|---|---|---|---|
@@ -49,3 +49,26 @@
 | 1543 | new-year / traditions-and-science | Lose your phone, keep your photos. | 23.1s | The 3-2-1 backup rule |
 | 1544 | new-year / traditions-and-science | Your phone battery ages even if unused. | 23.6s | Why your battery wears out |
 | 1545 | new-year / traditions-and-science | Your Wi-Fi has a fast lane. | 24s | Why your Wi-Fi is slow in one room |
+| 1546 | new-year / winter-science | The earliest sunset comes before the shortest day. | 25.6s | Why the earliest sunset isn't the shortest day |
+| 1547 | new-year / winter-science | Snow is made of clear ice. | 21s | Why snow looks white |
+| 1548 | new-year / winter-science | Every snowflake starts with six sides. | 22.8s | Why snowflakes have six sides |
+| 1549 | new-year / winter-science | Ice floats, and that's quite unusual. | 23.6s | Why ice floats on water |
+| 1550 | new-year / winter-science | Salt doesn't melt ice. It lowers freezing. | 23.2s | Why salt melts ice on roads |
+| 1551 | new-year / winter-science | Mittens keep your hands warmer than gloves. | 22.3s | Why mittens are warmer than gloves |
+| 1552 | new-year / winter-science | Shivering is your muscles making heat. | 21.1s | Why you shiver when you're cold |
+| 1553 | new-year / winter-science | Goosebumps are a leftover from fur. | 22s | Why you get goosebumps |
+| 1554 | new-year / winter-science | Cold weather doesn't give you a cold. | 24s | Does cold weather give you a cold |
+| 1555 | new-year / winter-science | Cold weather cuts electric car range. | 21s | Why electric cars lose range in the cold |
+| 1556 | new-year / winter-science | Pay off the costliest debt first. | 24.1s | Why paying off high-interest debt first saves money |
+| 1557 | new-year / winter-science | Cash in a drawer slowly shrinks. | 25.7s | Why inflation quietly shrinks your savings |
+| 1558 | new-year / winter-science | Save first, spend what's left. | 21.4s | Why paying yourself first works |
+| 1559 | new-year / winter-science | Cards hide the pain of paying. | 22.3s | Why paying by card makes you spend more |
+| 1560 | new-year / winter-science | Your login code changes every thirty seconds. | 24.1s | How your authenticator app codes work |
+| 1561 | new-year / winter-science | A QR code works even when it's scratched. | 26.1s | How QR codes survive damage |
+| 1562 | new-year / winter-science | Noise-cancelling headphones add sound to remove sound. | 24.1s | How noise-cancelling headphones work |
+| 1563 | new-year / winter-science | Bluetooth is named after a Viking king. | 21.8s | Why Bluetooth has that name |
+| 1564 | new-year / winter-science | Helium balloons float because they're lighter than air. | 25.3s | Why helium balloons float |
+| 1565 | new-year / winter-science | Balloons shrink when it gets cold. | 20.6s | Why balloons shrink in the cold |
+| 1566 | new-year / winter-science | Glow sticks make light with no battery. | 21.5s | How glow sticks glow without batteries |
+| 1567 | new-year / winter-science | Confetti falls slowly because air pushes back. | 22.4s | Why confetti flutters instead of falling |
+| 1568 | new-year / winter-science | Old bulbs wasted energy as heat. | 25s | Why LED bulbs run cooler than old bulbs |
