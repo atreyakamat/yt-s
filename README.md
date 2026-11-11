@@ -40,7 +40,7 @@ command uses them automatically once they're set up, and downloads each music tr
 ## Layout
 
 ```
-how-things-work/<series>/vid-N.md   one file per reel (1,500 of them): hook, backup hooks, scenes (YAML), fact check, upload text
+how-things-work/batch-NN/vid-N.md  one file per reel (1,800, 50 per batch folder in posting order): hook, backup hooks, scenes (YAML), fact check, upload text
 how-things-work/SCRIPT_SPEC.md      the script format and every visual you can use
 how-things-work/INDEX.md            every reel in posting order
 video/                              Remotion render engine (TypeScript)
@@ -98,7 +98,7 @@ Remotion is free for individuals and teams of up to 3 people.
 ## Scripts at scale (generator)
 
 Hand-write only the compact sources in `scripts-src/`; `cd video && npm run gen` expands them into
-`how-things-work/<series>/<group>/vid-NNN.md` (full timed scenes, voiceover, fact-check, upload text) and `SCRIPTS.md`.
+`how-things-work/batch-NN/vid-NNN.md` (full timed scenes, voiceover, fact-check, upload text) and `SCRIPTS.md`.
 The generator rejects hooks over 8 words, scenes with unknown icons/layouts, missing fact-check lines and runtimes outside 18-55 s.
 Scenes use the generic `explainer` visual (layouts: hero, pair, flow, grid, num, bars, timeline) and the icon library in `video/src/visuals/icons.tsx`, so no per-reel code is needed.
 

@@ -1,4 +1,4 @@
-// Validates every how-things-work/<series>/vid-N.md (rules: tools/validate.mjs) and writes
+// Validates every how-things-work/batch-NN/vid-N.md (rules: tools/validate.mjs) and writes
 // src/reels.generated.json for Remotion. Also copies the music/SFX/VO the reels need from
 // ../assets and ../music/files into public/ (gitignored).
 //

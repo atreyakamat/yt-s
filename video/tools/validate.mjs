@@ -39,7 +39,7 @@ const SERIES = new Set([
   "why-is-it-shaped-like-that",
   "the-1-second-machine",
   "before-it-existed",
-  "new-year", // seasonal set: how-things-work/new-year/<group>/vid-N.md, drawn with the "explainer" visual
+  "new-year", // seasonal set (source: scripts-src/new-year), drawn with the "explainer" visual
 ]);
 const MUSIC = new Set(
   fs
@@ -180,7 +180,8 @@ export function parseReel(file, parseYaml) {
   if (meta.id !== base) fail(`id '${meta.id}' does not match file name '${base}'`);
   str(meta.title, "title", 100);
   if (!SERIES.has(meta.series)) fail(`series '${meta.series}' unknown`);
-  if (path.relative(contentDir, file).split(path.sep)[0] !== meta.series) fail(`file is in the wrong folder for series '${meta.series}'`);
+  const folder = path.relative(contentDir, path.dirname(file)).split(path.sep).join("/");
+  if (folder !== batchDir(meta.id)) fail(`file belongs in how-things-work/${batchDir(meta.id)}/ (is in ${folder || "the top folder"})`);
   if (meta.music && !MUSIC.has(meta.music)) fail(`music '${meta.music}' is not in music/tracks.tsv`);
   if (meta.accent && !/^#[0-9A-Fa-f]{6}$/.test(meta.accent)) fail(`accent must be a #RRGGBB colour`);
 
@@ -243,6 +244,11 @@ export function parseReel(file, parseYaml) {
 
 /** Every script path, sorted by reel number. */
 export const idNum = (id) => Number(String(id).replace(/\D/g, ""));
+
+/** Scripts live in batches of 50 in posting order: vid-1..50 -> batch-01, vid-51..100 -> batch-02, ... */
+export const BATCH_SIZE = 50;
+export const batchOf = (id) => Math.ceil(idNum(id) / BATCH_SIZE);
+export const batchDir = (id) => `batch-${String(batchOf(id)).padStart(2, "0")}`;
 export const listScripts = () =>
   fs
     .readdirSync(contentDir, { recursive: true })

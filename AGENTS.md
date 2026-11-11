@@ -5,7 +5,7 @@ Do not write or edit scripts, templates or tools unless the owner asks.
 
 ## Machine
 
-Windows, Node 20.19+/22.13+/24, ffmpeg, Python 3 with `piper-tts`, yt-dlp. Repo at `G:\cutaway`, branch `cutaway-1500`.
+Windows, Node 20.19+/22.13+/24, ffmpeg, Python 3 with `piper-tts`, yt-dlp. Repo at `G:\cutaway`, branch `main`. Scripts: `how-things-work/batch-NN/vid-N.md` (50 per batch, in posting order).
 
 ## Render today's reels
 
