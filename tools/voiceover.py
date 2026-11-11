@@ -24,6 +24,7 @@ If a line still doesn't fit at 1.3x the script says so: shorten that `vo:` line.
 """
 import argparse
 import json
+import re
 import os
 import shutil
 import subprocess
@@ -125,9 +126,16 @@ def build_reel(reel, engine, tmp):
     return out, warnings
 
 
+def reel_id(value):
+    """Reel ids are passed on to another program, so accept only the plain vid-N form."""
+    if not re.fullmatch(r"vid-\d{1,5}", value):
+        raise argparse.ArgumentTypeError(f"'{value}' is not a reel id like vid-01")
+    return value
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("reels", nargs="*", help="e.g. vid-01 (default: all)")
+    ap.add_argument("reels", nargs="*", type=reel_id, help="e.g. vid-01 (default: all)")
     ap.add_argument("--engine", default=default_engine(), choices=["kokoro", "piper", "espeak", "test-tone"])
     args = ap.parse_args()
 
