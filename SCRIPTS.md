@@ -1,6 +1,6 @@
 # Script index
 
-93 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
+118 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
 
 | ID | Series / group | Hook | Length | Title |
 |---|---|---|---|---|
@@ -97,3 +97,28 @@
 | 1591 | new-year / world-traditions | Why isn't every fourth year a leap year? | 29.5s | Why not every fourth year is a leap year |
 | 1592 | new-year / world-traditions | Clocks occasionally add a leap second. | 25.3s | Why leap seconds are being scrapped |
 | 1593 | new-year / world-traditions | Fireworks get their colour from metal salts. | 18.4s | What gives fireworks their colours |
+| 1594 | new-year / body-mind-planning | Why does January feel endless? | 23.9s | Why the first week of January feels so long |
+| 1595 | new-year / body-mind-planning | Habits take longer than twenty-one days. | 25.7s | How long it takes to build a habit |
+| 1596 | new-year / body-mind-planning | Tiny habits win. Start absurdly small. | 21.9s | Why tiny habits beat big goals |
+| 1597 | new-year / body-mind-planning | Writing goals down makes them more likely. | 22.3s | Why writing goals down helps |
+| 1598 | new-year / body-mind-planning | SMART goals turn wishes into plans. | 20.6s | How SMART goals work |
+| 1599 | new-year / body-mind-planning | We always underestimate how long things take. | 21.9s | Why the planning fallacy makes plans fail |
+| 1600 | new-year / body-mind-planning | Muscles grow while you rest. | 23.1s | Why a rest day helps you get stronger |
+| 1601 | new-year / body-mind-planning | A lower resting heart rate often means fitter. | 25.7s | How your heart rate shows your fitness |
+| 1602 | new-year / body-mind-planning | The eight glasses rule has no strong evidence. | 24.5s | Why drinking water doesn't need eight glasses |
+| 1603 | new-year / body-mind-planning | You can't fully repay sleep debt on weekends. | 23.7s | Why sleeping in on weekends doesn't fix it |
+| 1604 | new-year / body-mind-planning | Screens at night can delay sleep. | 24.6s | How blue light affects sleep |
+| 1605 | new-year / body-mind-planning | Meditation can train attention like a muscle. | 22.8s | Why meditation changes your brain |
+| 1606 | new-year / body-mind-planning | Your brain forgets most of what it sees. | 19.8s | How the brain decides what to remember |
+| 1607 | new-year / body-mind-planning | The ten thousand hour rule is oversimplified. | 26s | Why learning a skill takes more than 10,000 hours |
+| 1608 | new-year / body-mind-planning | Your brain can't truly multitask. | 20.6s | Why you can't multitask |
+| 1609 | new-year / body-mind-planning | Work for twenty-five minutes, then break. | 21.1s | How the Pomodoro technique works |
+| 1610 | new-year / body-mind-planning | Clutter competes for your attention. | 24.7s | Why decluttering makes you feel calmer |
+| 1611 | new-year / body-mind-planning | Every yes is a no to something else. | 20.6s | Why saying no is good for you |
+| 1612 | new-year / body-mind-planning | Writing three good things can lift mood. | 22.3s | Why gratitude journaling can lift your mood |
+| 1613 | new-year / body-mind-planning | Walking can boost creative thinking. | 20.9s | Why walking boosts creativity |
+| 1614 | new-year / body-mind-planning | Cold showers wake you, not slim you. | 24.9s | Why cold showers are overhyped |
+| 1615 | new-year / body-mind-planning | Winter sun may not make enough vitamin D. | 23.5s | How a vitamin D gap shows up in winter |
+| 1616 | new-year / body-mind-planning | The best budget is the one you'll keep. | 21.4s | Why a budget app beats a spreadsheet for some people |
+| 1617 | new-year / body-mind-planning | An emergency fund stops small shocks becoming debt. | 23.5s | Why an emergency fund matters |
+| 1618 | new-year / body-mind-planning | Split your take-home pay three ways. | 25.3s | How the 50/30/20 budget works |
