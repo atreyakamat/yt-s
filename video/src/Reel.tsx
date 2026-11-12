@@ -98,7 +98,7 @@ export const Reel: React.FC<{ reel: ReelData }> = ({ reel }) => {
           durationInFrames={Math.round(scene.dur * fps)}
           name={`${i + 1}. ${scene.text || "loop"}`}
         >
-          <Stage first={i === 0} zoom={GENERIC_KINDS.has(scene.visual.kind) ? 1.08 : 1}>
+          <Stage first={i === 0} zoom={GENERIC_KINDS.has(scene.visual.kind) ? 1.05 : 1}>
             <SceneVisual scene={scene} accent={accent} />
           </Stage>
           <OnScreenText

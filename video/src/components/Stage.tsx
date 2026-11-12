@@ -17,7 +17,7 @@ export const Stage: React.FC<{ children: React.ReactNode; first: boolean; zoom?:
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const enter = first ? 1 : interpolate(frame, [0, 9], [0, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
-  const push = interpolate(frame, [0, Math.max(1, durationInFrames)], [1, 1.045]);
+  const push = interpolate(frame, [0, Math.max(1, durationInFrames)], [1, 1.035]);
   const scale = zoom * push * (0.94 + 0.06 * enter);
   const dy = (1 - enter) * 70;
   return (

@@ -38,7 +38,7 @@ export const Captions: React.FC<{ vo: string; accent: string; voDur?: number }> 
     <div
       style={{
         position: "absolute",
-        top: 1320,
+        top: 1345,
         left: 80,
         right: 140,
         display: "flex",

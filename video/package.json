@@ -35,6 +35,7 @@
     "daily": "node tools/daily.mjs",
     "doctor": "node tools/doctor.mjs",
     "sheet": "node tools/sheet.mjs && python ../tools/make_sheet.py",
+    "topics": "node tools/topics.mjs",
     "gen": "node tools/gen-scripts.mjs"
   },
   "allowScripts": {

@@ -170,6 +170,22 @@ const GENERIC = {
 // Speech budget: Piper speaks ~2.6 words/s and voiceover.py may speed a line up to 1.3x.
 const MAX_WORDS_PER_SEC = 3.4;
 
+/** Scripts must sit in their batch folder. */
+function checkBatchFolder(file, id) {
+  const folder = path.relative(contentDir, path.dirname(file)).split(path.sep).join("/");
+  if (folder !== batchDir(id)) fail(`file belongs in how-things-work/${batchDir(id)}/ (is in ${folder || "the top folder"})`);
+}
+
+/** Layout-specific rules for the "explainer" visual. */
+function checkExplainerShape(v) {
+  for (const it of v.items ?? []) if (it.icon && !ICONS.has(it.icon)) fail(`unknown explainer icon '${it.icon}'`);
+  const valueOnly = v.layout === "num" || v.layout === "meter";
+  if (valueOnly && !v.value) fail(`explainer ${v.layout} needs a value`);
+  if (v.layout === "meter" && !(Number(v.value) >= 0 && Number(v.value) <= 100)) fail("explainer meter value must be a number from 0 to 100");
+  if (v.layout === "pair" && (v.items?.length ?? 0) !== 2) fail("explainer pair needs exactly 2 items");
+  if (!valueOnly && !v.items?.length) fail(`explainer ${v.layout} needs items`);
+}
+
 /** Parse + validate one script. `parseYaml` is the YAML parser to use. Throws on the first error. */
 export function parseReel(file, parseYaml) {
   const raw = fs.readFileSync(file, "utf8").replace(/\r\n/g, "\n");
@@ -180,8 +196,7 @@ export function parseReel(file, parseYaml) {
   if (meta.id !== base) fail(`id '${meta.id}' does not match file name '${base}'`);
   str(meta.title, "title", 100);
   if (!SERIES.has(meta.series)) fail(`series '${meta.series}' unknown`);
-  const folder = path.relative(contentDir, path.dirname(file)).split(path.sep).join("/");
-  if (folder !== batchDir(meta.id)) fail(`file belongs in how-things-work/${batchDir(meta.id)}/ (is in ${folder || "the top folder"})`);
+  checkBatchFolder(file, meta.id);
   if (meta.music && !MUSIC.has(meta.music)) fail(`music '${meta.music}' is not in music/tracks.tsv`);
   if (meta.accent && !/^#[0-9A-Fa-f]{6}$/.test(meta.accent)) fail(`accent must be a #RRGGBB colour`);
 
@@ -217,11 +232,7 @@ export function parseReel(file, parseYaml) {
       if (kind === "explainer") {
         const v = s.visual;
         if (!EXPLAINER_LAYOUTS.includes(v.layout)) fail(`explainer layout '${v.layout}' unknown (use: ${EXPLAINER_LAYOUTS.join(", ")})`);
-        for (const it of v.items ?? []) if (it.icon && !ICONS.has(it.icon)) fail(`unknown explainer icon '${it.icon}'`);
-        if ((v.layout === "num" || v.layout === "meter") && !v.value) fail(`explainer ${v.layout} needs a value`);
-        if (v.layout === "meter" && !(Number(v.value) >= 0 && Number(v.value) <= 100)) fail("explainer meter value must be a number from 0 to 100");
-        if (v.layout === "pair" && (v.items?.length ?? 0) !== 2) fail("explainer pair needs exactly 2 items");
-        if (v.layout !== "num" && v.layout !== "meter" && !v.items?.length) fail(`explainer ${v.layout} needs items`);
+        checkExplainerShape(v);
       } else if (GENERIC[kind]) {
         GENERIC[kind](s.visual);
       } else if (BESPOKE[kind]) {
