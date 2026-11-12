@@ -65,6 +65,8 @@ export type Scene = {
   highlight?: string;
   visual: Visual;
   sfx?: string;
+  /** Seconds the voice actually speaks this line (from tools/voiceover.py); captions follow it. */
+  voDur?: number;
   note?: string;
 };
 

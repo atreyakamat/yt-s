@@ -6,8 +6,8 @@ hook: The year's first meteor shower is brief. | FIRST SHOWER *OF THE YEAR* | he
 - The peak lasts only a few hours. | PEAK IS *HOURS LONG* | hero: hourglass Few hours
 - The dust comes from an asteroid called 2003 EH1. | ASTEROID *2003 EH1* | hero: orbit 2003 EH1
 - Earth ploughs through its trail every year. | EARTH CROSSES *ITS TRAIL* | hero: globe Earth
-- Rates can reach about a hundred an hour in the best years. | UP TO *~100/HR* | num: 100 | per hour | star
-fact: Quadrantids peak around 3-4 Jan; parent body usually given as asteroid 2003 EH1 (possibly a dormant comet); ZHR roughly 80-120 under ideal conditions; peak is narrow (~6 hours). Visibility depends on location and Moon.
+- Rates can top a hundred an hour in good years. | *100+* PER HOUR | num: 100 | per hour | star
+fact: Quadrantids peak around 3-4 Jan; parent body usually given as asteroid 2003 EH1 (possibly a dormant comet); ZHR roughly 80-120 under ideal conditions; peak is narrow (~6 hours). Visibility depends on location and Moon. Verified: Peak Jan 3-4, ZHR 120 (yearly max 82-146), parent 2003 EH1, above half max only ~8 h: wording changed from about 100 to 100+. Source: https://en.wikipedia.org/wiki/Quadrantids
 alt: A meteor shower that lasts hours.
 alt: Catch a shower on January 3.
 tags: space, meteors, january
@@ -19,7 +19,7 @@ hook: Earth's spin makes the Sun rise east. | SUNRISE *COMES FROM SPIN* | hero: 
 - Rotation speed at the equator is about 1,670 km/h. | *1,670 KM/H* | num: 1670 | km/h | globe
 - You don't feel it because you move with it. | YOU MOVE *WITH IT* | hero: person You
 - Venus spins the other way, so its Sun rises in the west. | VENUS: *WEST* | hero: orbit Venus
-fact: Earth rotates west-to-east; equatorial speed ~1,670 km/h (~465 m/s); Venus rotates retrograde (about 243 Earth days), so the Sun rises in the west there (hidden by thick clouds).
+fact: Earth rotates west-to-east; equatorial speed ~1,670 km/h (~465 m/s); Venus rotates retrograde (about 243 Earth days), so the Sun rises in the west there (hidden by thick clouds). Verified: Equatorial speed about 1,674 km/h (1,670 ok): OK. Source: https://en.wikipedia.org/wiki/Earth%27s_rotation
 alt: Why the Sun always rises in the east.
 alt: On Venus it rises in the west.
 tags: space, earth, rotation
@@ -43,7 +43,7 @@ hook: Orion's shoulder is a dying star. | ORION'S *DYING STAR* | hero: star Bete
 - Someday it will end as a supernova. | ENDS AS *SUPERNOVA* | hero: burst Supernova
 - That could be anywhere in the next 100,000 years. | *WITHIN* 100,000 YEARS | hero: hourglass Timeline
 - It's far too distant to hurt us. | *SAFE* DISTANCE | hero: shield Safe
-fact: Betelgeuse radius ~750 solar radii (EarthSky; Sci.News ~764), so diameter ~1,500x the Sun; ~530-550 light-years away; expected to go supernova within ~100,000 years; at that distance it's harmless to Earth (it would be as bright as the Moon for months). 2019-20 'Great Dimming' was dust, not imminent explosion.
+fact: Betelgeuse radius ~750 solar radii (EarthSky; Sci.News ~764), so diameter ~1,500x the Sun; ~530-550 light-years away; expected to go supernova within ~100,000 years; at that distance it's harmless to Earth (it would be as bright as the Moon for months). 2019-20 'Great Dimming' was dust, not imminent explosion. Verified: Radius 640-764 Rsun so diameter ~1,300-1,500x Sun; supernova likely within 100,000 years: OK. Source: https://en.wikipedia.org/wiki/Betelgeuse
 alt: A star that will one day go bang.
 alt: The winter sky's red giant.
 tags: space, stars, orion
@@ -55,7 +55,7 @@ hook: Find Polaris using the Big Dipper. | FIND *POLARIS* | hero: star Polaris
 - Follow it about five times their gap. | *5×* THE GAP | num: 5 | times | star
 - The first bright star you meet is Polaris. | THAT'S *POLARIS* | hero: star Polaris
 - It sits almost exactly above Earth's north pole. | OVER THE *NORTH POLE* | hero: globe North
-fact: Polaris sits within about 0.7° of the north celestial pole; the pointer stars Dubhe and Merak point to it at roughly 5x their separation. Visible only from the northern hemisphere. It's not the brightest star in the sky.
+fact: Polaris sits within about 0.7° of the north celestial pole; the pointer stars Dubhe and Merak point to it at roughly 5x their separation. Visible only from the northern hemisphere. It's not the brightest star in the sky. Verified: Polaris is brightest in Ursa Minor, pointers Dubhe/Merak; 5x gap is standard guidance: OK. Source: https://en.wikipedia.org/wiki/Polaris
 alt: Two stars point to north.
 alt: The star that doesn't move.
 tags: space, navigation, stars
@@ -79,7 +79,7 @@ hook: Auroras glow green for a reason. | AURORAS GLOW *GREEN* | hero: wave Auror
 - Oxygen atoms about 100 km up give off green light. | OXYGEN = *GREEN* | hero: atom Oxygen
 - Higher up, oxygen can glow red. | HIGHER = *RED* | hero: flame Red
 - Nitrogen can add blue and purple. | NITROGEN = *BLUE* | hero: atom Nitrogen
-fact: Green (557.7 nm) emission from atomic oxygen at ~100-150 km; red (630 nm) from oxygen above ~200 km; nitrogen adds blue/purple at lower altitudes. Solar wind funnelled by Earth's magnetosphere.
+fact: Green (557.7 nm) emission from atomic oxygen at ~100-150 km; red (630 nm) from oxygen above ~200 km; nitrogen adds blue/purple at lower altitudes. Solar wind funnelled by Earth's magnetosphere. Verified: Green aurora from oxygen at ~100 km: OK. Source: https://en.wikipedia.org/wiki/Aurora
 alt: What colours a sky full of aurora.
 alt: Oxygen paints the sky green.
 tags: space, aurora, physics
@@ -103,7 +103,7 @@ hook: After December twenty-first, days grow longer. | DAYS *GROW* AGAIN | hero:
 - Daylight grows by a minute or two a day by spring. | *+2 MIN* A DAY | num: 2 | min per day | clock
 - Growth is slow at first, fastest near the equinox. | FASTEST *IN MARCH* | hero: chart-up Faster
 - By June you gain hours of daylight. | HOURS *GAINED* | hero: sun More light
-fact: Day length at mid-northern latitudes increases only seconds per day just after the winter solstice, reaching ~2-3 minutes per day near the March equinox (depends on latitude).
+fact: Day length at mid-northern latitudes increases only seconds per day just after the winter solstice, reaching ~2-3 minutes per day near the March equinox (depends on latitude). Verified: Day length gain: a minute or two/day average, hedged: OK. Source: https://en.wikipedia.org/wiki/Winter_solstice
 alt: The slow return of the light.
 alt: When the days start winning.
 tags: seasons, sun, winter
@@ -127,7 +127,7 @@ hook: Some animals sleep through the whole winter. | SLEEP *THROUGH* WINTER | he
 - They live off stored fat. | USE *STORED FAT* | hero: battery Stored fat
 - Bears enter a lighter state called torpor. | BEARS: *TORPOR* | hero: bed Torpor
 - Some wake now and then to move or use the toilet. | WAKE *SOMETIMES* | hero: sun Wake
-fact: Groundhog (woodchuck) hibernation heart rate can fall from ~100 to ~5-10 bpm and body temp near 3-5 C; bears enter a lighter torpor; frequency of arousals varies. 'A few beats' is simplified; check species.
+fact: Groundhog (woodchuck) hibernation heart rate can fall from ~100 to ~5-10 bpm and body temp near 3-5 C; bears enter a lighter torpor; frequency of arousals varies. 'A few beats' is simplified; check species. Verified: Groundhog hibernation heart rate 4-10 bpm: OK. Source: https://en.wikipedia.org/wiki/Groundhog
 alt: Months with almost no food.
 alt: Why a hibernating heart slows down.
 tags: animals, winter, biology
@@ -139,7 +139,7 @@ hook: Birds fly thousands of miles for food. | MIGRATE *FOR FOOD* | hero: flag M
 - Some use the Earth's magnetic field to navigate. | READ THE *MAGNETIC FIELD* | hero: magnet Magnetic
 - Others use stars, the Sun and landmarks. | STARS *AND SUN* | hero: star Navigation
 - The Arctic tern flies about 70,000 km a year. | TERN: *70,000 KM* | num: 70000 | km | globe
-fact: Arctic tern migratory distance often cited ~70,000 km/yr (round-trip; some tracks ~80,000 km); migratory restlessness (Zugunruhe) triggered by photoperiod; magnetic compass, star and sun compasses known. Good.
+fact: Arctic tern migratory distance often cited ~70,000 km/yr (round-trip; some tracks ~80,000 km); migratory restlessness (Zugunruhe) triggered by photoperiod; magnetic compass, star and sun compasses known. Good. Verified: Arctic tern ~70,900 km average annual trip: OK. Source: https://en.wikipedia.org/wiki/Arctic_tern
 alt: The 70,000 km commute.
 alt: How birds know where to go.
 tags: animals, migration, nature
@@ -199,7 +199,7 @@ hook: Looking at space is looking back in time. | SPACE IS *THE PAST* | hero: or
 - The Sun's light is about eight minutes old. | SUN: *8 MINUTES* | num: 8 | minutes | sun
 - Distant galaxies show us billions of years ago. | *BILLIONS* OF YEARS | num: 13 | billion years | globe
 - The farthest light we see started its journey long ago. | *OLDEST LIGHT* | hero: calendar Old light
-fact: Moon ~1.28 s; Sun ~8 min 20 s; JWST/Hubble see galaxies at redshift >10 (more than 13 billion years of lookback, CMB ~13.8 billion).
+fact: Moon ~1.28 s; Sun ~8 min 20 s; JWST/Hubble see galaxies at redshift >10 (more than 13 billion years of lookback, CMB ~13.8 billion). Verified: Moon light 1.3 s, Sun 8 min 19 s: OK. Source: https://en.wikipedia.org/wiki/Speed_of_light
 alt: Every star is a time machine.
 alt: The Sun you see is eight minutes old.
 tags: space, light, time
@@ -211,7 +211,7 @@ hook: Astronauts see sixteen sunrises every day. | *16 SUNRISES* A DAY | num: 16
 - Every lap passes through day and night. | DAY, *NIGHT*, REPEAT | pair: sun Day; moon Night
 - That's about sixteen laps in twenty-four hours. | *16* LAPS | hero: loop-arrow Laps
 - New Year's Eve gets sixteen midnights in space. | *16 MIDNIGHTS* | hero: clock Midnights
-fact: ISS: ~7.66 km/s (≈27,600 km/h), orbital period ~92-93 min, ~15.5 orbits/day; 'sixteen' is a rounded figure in popular accounts, 15-16. Crew use UTC for clocks and mark New Year at UTC midnight.
+fact: ISS: ~7.66 km/s (≈27,600 km/h), orbital period ~92-93 min, ~15.5 orbits/day; 'sixteen' is a rounded figure in popular accounts, 15-16. Crew use UTC for clocks and mark New Year at UTC midnight. Verified: ISS 27,600 km/h, period ~93 min, 15.5 orbits/day; sixteen is rounded popular figure: OK. Source: https://en.wikipedia.org/wiki/International_Space_Station
 alt: Sixteen sunrises before breakfast.
 alt: New Year's Eve in orbit.
 tags: space, iss, orbit
@@ -223,7 +223,7 @@ hook: GPS tells you where you are using time. | GPS RUNS ON *TIME* | hero: satel
 - Your phone measures how long signals took. | MEASURES *DELAY* | hero: hourglass Delay
 - Four satellites are enough to fix location and time. | *4 SATELLITES* | num: 4 | satellites | satellite
 - A time error of one microsecond means a 300 m mistake. | *1 µs* = 300 M | hero: clock Microsecond
-fact: GPS constellation 31-32 operational satellites (nominal 24); at least 4 needed to solve x, y, z and clock bias; light travels ~300 m per microsecond. Relativity corrections ~38 µs/day (see vid-1533).
+fact: GPS constellation 31-32 operational satellites (nominal 24); at least 4 needed to solve x, y, z and clock bias; light travels ~300 m per microsecond. Relativity corrections ~38 µs/day (see vid-1533). Verified: 24-31 satellites, at least 4 needed, 1 microsecond ~300 m is arithmetic (c x 1e-6): OK. Source: https://en.wikipedia.org/wiki/Global_Positioning_System
 alt: Satellites and stopwatches.
 alt: How four signals find you.
 tags: gps, space, tech
@@ -271,7 +271,7 @@ hook: Why do we count down from ten? | COUNTDOWN *FROM TEN* | hero: clock Countd
 - Real rocket launches later copied the idea. | REAL ROCKETS *COPIED* | hero: rocket Rocket
 - Counting down shows exactly how long is left. | SHOWS *TIME LEFT* | hero: hourglass Time left
 - Then it jumped to New Year's Eve parties. | NYE *TOOK IT* | hero: fireworks New Year
-fact: Fritz Lang's Frau im Mond (1929) is commonly credited with the dramatic countdown; its use in actual rocketry is often attributed to inspiration from the film (disputed).
+fact: Fritz Lang's Frau im Mond (1929) is commonly credited with the dramatic countdown; its use in actual rocketry is often attributed to inspiration from the film (disputed). Verified: Fritz Lang used countdown in 1929 film Woman in the Moon: OK. Source: https://en.wikipedia.org/wiki/Countdown
 alt: The movie that invented the countdown.
 alt: From silent film to Times Square.
 tags: history, countdown, film

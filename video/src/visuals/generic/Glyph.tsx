@@ -506,6 +506,16 @@ export const Glyph: React.FC<{
       transform={`translate(${x} ${y}) rotate(${rotate}) scale(${size / 200})`}
       opacity={opacity}
     >
+      {/* Soft contact shadow + a dark extruded back face give every icon some depth. */}
+      <defs>
+        <filter id="glyph-depth" x="-20%" y="-20%" width="140%" height="140%">
+          <feColorMatrix type="matrix" values="0 0 0 0 0.11  0 0 0 0 0.11  0 0 0 0 0.14  0 0 0 0.95 0" />
+        </filter>
+      </defs>
+      <ellipse cx={8} cy={104} rx={84} ry={12} fill="#000" opacity={0.35} />
+      <g transform="translate(9 9)" filter="url(#glyph-depth)">
+        {draw(color, color, color)}
+      </g>
       {draw(color, shade(color, -0.4), shade(color, 0.45))}
     </g>
   );

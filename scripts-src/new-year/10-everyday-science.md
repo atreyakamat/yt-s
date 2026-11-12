@@ -31,7 +31,7 @@ hook: Count seconds to measure distance. | COUNT *TO MEASURE* | hero: clock Coun
 - See the flash, then start counting. | FLASH, *THEN COUNT* | hero: lightbulb Flash
 - Stop when you hear the bang. | STOP *AT THE BANG* | hero: speaker Bang
 - Divide by three to get kilometres. | DIVIDE *BY THREE* | hero: list Divide
-fact: Speed of sound in air ~343 m/s at 20 °C (slower in cold). Rule: seconds / 3 = km; seconds / 5 = miles (approx). Works for thunder and fireworks (ignoring wind).
+fact: Speed of sound in air ~343 m/s at 20 °C (slower in cold). Rule: seconds / 3 = km; seconds / 5 = miles (approx). Works for thunder and fireworks (ignoring wind). Verified: Sound ~343 m/s at 20 C, so about 3 s per km: OK. Source: https://en.wikipedia.org/wiki/Speed_of_sound
 alt: How far away is that firework?
 alt: The three second rule.
 tags: sound, physics, tips
@@ -43,7 +43,7 @@ hook: An echo is sound bouncing back. | AN ECHO *BOUNCES* BACK | hero: speaker E
 - The gap must be about a tenth of a second. | ABOUT *0.1 SECONDS* | num: 0.1 | seconds | clock
 - So the wall must be at least seventeen metres away. | *17 METRES* AWAY | num: 17 | metres | house
 - Closer walls blur into reverb instead. | CLOSER *= REVERB* | hero: wave Reverb
-fact: Human ear perceives echo as distinct if delay ≥ ~50-100 ms (~0.1 s); round-trip 0.1 s × 343 m/s ≈ 34 m ⇒ ~17 m one-way. Good.
+fact: Human ear perceives echo as distinct if delay ≥ ~50-100 ms (~0.1 s); round-trip 0.1 s × 343 m/s ≈ 34 m ⇒ ~17 m one-way. Good. Verified: Echo needs ~0.1 s delay, reflector more than ~17 m away: OK. Source: https://en.wikipedia.org/wiki/Echo
 alt: Why a canyon answers back.
 alt: The 17 metre rule.
 tags: sound, physics, echo
@@ -98,12 +98,12 @@ tags: body, digestion, sound
 
 ## 1677 | Why we get goosebumps from music
 hook: Music can give you chills. | MUSIC GIVES *CHILLS* | hero: speaker Music
-- About half to two thirds of people feel them. | *HALF* FEEL CHILLS | bars: person Feel chills=60; person Don't=40
+- Many people feel them, though not everyone. | *MANY* FEEL CHILLS | hero: person Chills
 - They tend to come at surprising musical moments. | *SURPRISE* NOTES | hero: sparkle Surprise
 - Your brain releases dopamine in anticipation. | *DOPAMINE* RELEASED | hero: brain Dopamine
 - People who feel chills often score high on openness. | OPEN *PERSONALITY* | hero: person Openness
 - It's a harmless pleasure response. | PURE *PLEASURE* | hero: heart Pleasure
-fact: Estimates: ~50-65% of people report music-induced chills (frisson); Salimpoor et al. (2011): dopamine release in striatum during peak emotional moments and anticipation; link with Openness to Experience (Nusbaum & Silvia 2011). Bar values illustrative (~60%).
+fact: Estimates: ~50-65% of people report music-induced chills (frisson); Salimpoor et al. (2011): dopamine release in striatum during peak emotional moments and anticipation; link with Openness to Experience (Nusbaum & Silvia 2011). Bar values illustrative (~60%). Verified: Prevalence of music chills not in sources (50-65% estimate unsupported): SOFTENED to 'many people'. Source: https://en.wikipedia.org/wiki/Frisson ; https://en.wikipedia.org/wiki/Music_and_emotion
 alt: Why your skin reacts to a song.
 alt: The science of music chills.
 tags: music, brain, body
@@ -112,10 +112,10 @@ tags: music, brain, body
 hook: Songs get stuck in your head. | EARWORMS *STICK* | hero: speaker Earworm
 - Scientists call them earworms. | *EARWORMS* | hero: speaker Earworm
 - Simple, repetitive tunes are likeliest. | SIMPLE *AND REPEATING* | hero: loop-arrow Repeat
-- Most people get them weekly or more. | MOST *EVERY WEEK* | hero: calendar Weekly
+- Almost everyone gets them now and then. | ALMOST *EVERYONE* | hero: calendar Common
 - Mind-wandering and idle moments bring them on. | *IDLE* MOMENTS | hero: brain Idle
 - Chewing gum can help stop them. | TRY *CHEWING GUM* | hero: bubble Gum
-fact: Involuntary musical imagery; surveys (Beaman & Williams) show ~90% experience earworms at least weekly; Beaman et al. (2015): chewing gum reduced earworms in an experiment; Hyman et al. (2013) puzzle-solving reduced them. Fine.
+fact: Involuntary musical imagery; surveys (Beaman & Williams) show ~90% experience earworms at least weekly; Beaman et al. (2015): chewing gum reduced earworms in an experiment; Hyman et al. (2013) puzzle-solving reduced them. Fine. Verified: Kellaris: 98% experience earworms; weekly share not found: SOFTENED to 'almost everyone'. Source: https://en.wikipedia.org/wiki/Earworm
 alt: The word for a song stuck in your head.
 alt: How to evict an earworm.
 tags: music, brain, psychology
@@ -174,8 +174,8 @@ hook: Cats purr for more than happiness. | CATS PURR *FOR MORE* | hero: paw Cat 
 - It happens as the cat breathes in and out. | *IN AND OUT* | hero: loop-arrow Breath
 - Cats purr when content, but also when stressed or hurt. | ALSO *WHEN HURT* | hero: shield Stress
 - The vibration may help calm them. | *SELF-SOOTHING* | hero: sparkle Calm
-- Frequencies near 25 to 150 hertz may aid healing. | *25–150 HZ* | num: 150 | hertz | wave
-fact: Cats purr at ~25-150 Hz via rapid laryngeal muscle contractions; purring occurs in contentment, stress and injury (self-soothing hypothesis); the bone-healing claim is hypothetical and unproven. Phrase 'may'.
+- Some think the low rumble may aid healing. | *MAY AID* HEALING | hero: wave Low rumble
+fact: Cats purr at ~25-150 Hz via rapid laryngeal muscle contractions; purring occurs in contentment, stress and injury (self-soothing hypothesis); the bone-healing claim is hypothetical and unproven. Phrase 'may'. Verified: Purr fundamental ~25 Hz, 25-150 Hz range and healing unsupported: SOFTENED. Source: https://en.wikipedia.org/wiki/Purr ; https://en.wikipedia.org/wiki/Cat_communication
 alt: The sound cats make for comfort.
 alt: Purring isn't always happy.
 tags: animals, cats, sound
@@ -187,7 +187,7 @@ hook: Owls can almost turn their heads backwards. | OWL HEADS *TURN FAR* | hero:
 - Their eyes are fixed in place, so they must turn. | EYES *DON'T MOVE* | hero: eye Fixed eyes
 - Special blood vessels stop blood being cut off. | *BLOOD* FLOW SAFE | hero: drop Blood
 - That's how they watch behind without moving. | WATCH *BEHIND* | hero: eye Behind
-fact: Owls rotate ~270°; 14 cervical vertebrae vs 7 in humans; Johns Hopkins 2020 study (Krings et al.) found vertebral artery adaptations (e.g. enlarged canals, arterial 'reservoirs') prevent blood-flow damage. Good.
+fact: Owls rotate ~270°; 14 cervical vertebrae vs 7 in humans; Johns Hopkins 2020 study (Krings et al.) found vertebral artery adaptations (e.g. enlarged canals, arterial 'reservoirs') prevent blood-flow damage. Good. Verified: Owls rotate up to 270 degrees, 14 neck vertebrae vs 7: OK. Source: https://en.wikipedia.org/wiki/Owl
 alt: The bird that looks behind.
 alt: How owls avoid a stroke.
 tags: animals, owls, biology
@@ -210,8 +210,8 @@ hook: Flamingos rest on one leg. | *ONE-LEGGED* FLAMINGOS | hero: person Flaming
 - The tucked leg stays warm against the body. | TUCKED *LEG WARM* | hero: flame Warm
 - Flamingos can lock the leg joint without effort. | *LOCKED* JOINT | hero: lock Locked
 - Balance on one leg takes almost no muscle effort. | NO *EFFORT* NEEDED | hero: check Easy
-- A 2018 study found it's actually less tiring. | *LESS TIRING* | hero: battery Energy
-fact: Chang & Ting (2017, Proc. R. Soc. B) found flamingos passively lock their leg joint with minimal muscle effort and sway less on one leg; heat conservation is a widely cited hypothesis (Anderson & Williams 2010) but not conclusive. Don't present as a single proven reason.
+- A 2017 study found it's actually less tiring. | *LESS TIRING* | hero: battery Energy
+fact: Chang & Ting (2017, Proc. R. Soc. B) found flamingos passively lock their leg joint with minimal muscle effort and sway less on one leg; heat conservation is a widely cited hypothesis (Anderson & Williams 2010) but not conclusive. Don't present as a single proven reason. Verified: Chang & Ting 2017, Biology Letters; passive standing needs little muscle: OK. Source: https://en.wikipedia.org/wiki/Flamingo
 alt: Why flamingos balance so well.
 alt: A pose that costs no effort.
 tags: animals, birds, biology
@@ -235,7 +235,7 @@ hook: A camel's hump isn't full of water. | HUMPS *HOLD FAT* | hero: sun Camel
 - Storing fat in one spot helps the rest stay cool. | STAYS *COOL* | hero: thermometer Cool
 - Camels survive by tolerating dehydration. | TOLERATE *THIRST* | hero: drop Thirst
 - They can drink around a hundred litres in minutes. | *~100 L* IN MINUTES | num: 100 | litres | drop
-fact: Camel humps store fat (up to ~36 kg); metabolism of fat also yields metabolic water but the net water benefit is small; camels tolerate ~25-30% loss of body weight in water, and can drink ~100-150 L within minutes. Good.
+fact: Camel humps store fat (up to ~36 kg); metabolism of fat also yields metabolic water but the net water benefit is small; camels tolerate ~25-30% loss of body weight in water, and can drink ~100-150 L within minutes. Good. Verified: Camel can drink up to 140 L in a session; hump is fat: OK. Source: https://en.wikipedia.org/wiki/Camel
 alt: A fat store, not a water tank.
 alt: The desert survival trick.
 tags: animals, camel, desert
@@ -247,7 +247,7 @@ hook: Octopuses have three hearts and blue blood. | *THREE* HEARTS | num: 3 | he
 - The blood is blue because it uses copper, not iron. | *BLUE* BLOOD | hero: drop Copper blood
 - Copper carries oxygen well in cold, low-oxygen water. | *COPPER* WORKS COLD | hero: snowflake Cold water
 - The main heart stops when they swim. | HEART *PAUSES* SWIMMING | hero: pulse Pause
-fact: Octopuses have two branchial hearts and one systemic heart; haemocyanin (copper-based) makes blood blue; the systemic heart stops during swimming (making it tiring; they prefer crawling). Well documented.
+fact: Octopuses have two branchial hearts and one systemic heart; haemocyanin (copper-based) makes blood blue; the systemic heart stops during swimming (making it tiring; they prefer crawling). Well documented. Verified: Octopus has three hearts (one systemic, two branchial): OK. Source: https://en.wikipedia.org/wiki/Octopus
 alt: Three hearts, blue blood.
 alt: Why swimming tires an octopus.
 tags: animals, octopus, biology
@@ -259,7 +259,7 @@ hook: Jellyfish live without a brain. | NO *BRAIN* | hero: bubble Jellyfish
 - They have no heart, bones or blood either. | NO *HEART*, BONES | hero: cross Missing
 - Their bodies are about ninety-five percent water. | *95%* WATER | meter: 95 | % water | drop
 - Some species are nearly immortal in the lab. | *IMMORTAL* JELLYFISH | hero: loop-arrow Cycle
-fact: Cnidarians have decentralised nerve nets; medusae are ~95% water; Turritopsis dohrnii can revert to a polyp stage (biological 'immortality' in lab conditions, not in the wild). Good.
+fact: Cnidarians have decentralised nerve nets; medusae are ~95% water; Turritopsis dohrnii can revert to a polyp stage (biological 'immortality' in lab conditions, not in the wild). Good. Verified: Jellyfish no brain; mesoglea 95%+ water: OK. Source: https://en.wikipedia.org/wiki/Jellyfish
 alt: A nerve net instead of a brain.
 alt: Life without a heart.
 tags: animals, jellyfish, biology
@@ -271,7 +271,7 @@ hook: Bees tell each other where flowers are. | BEES *DANCE* DIRECTIONS | hero: 
 - Longer waggles mean the food is farther away. | LONGER = *FARTHER* | hero: hourglass Distance
 - Karl von Frisch won a Nobel for decoding it. | *VON FRISCH*, NOBEL | hero: person Von Frisch
 - He got the prize in 1973. | *1973* | hero: calendar 1973
-fact: Waggle dance decoded by Karl von Frisch (Nobel Prize in Physiology or Medicine 1973, shared with Lorenz and Tinbergen); angle relative to vertical = angle to the sun; waggle duration correlates with distance (~1 s ≈ 1 km, varies).
+fact: Waggle dance decoded by Karl von Frisch (Nobel Prize in Physiology or Medicine 1973, shared with Lorenz and Tinbergen); angle relative to vertical = angle to the sun; waggle duration correlates with distance (~1 s ≈ 1 km, varies). Verified: Karl von Frisch shared 1973 Nobel for waggle dance work: OK. Source: https://en.wikipedia.org/wiki/Karl_von_Frisch
 alt: How bees give directions.
 alt: A dance that earned a Nobel.
 tags: animals, bees, communication

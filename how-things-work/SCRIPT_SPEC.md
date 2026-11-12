@@ -1,6 +1,6 @@
 # How to write a Cutaway reel script
 
-Every reel is one file: `how-things-work/<series>/vid-N.md`. The build reads the frontmatter and the
+Every reel is one file: `how-things-work/batch-NN/vid-N.md`, in batches of 50 by number (vid-1..50 in `batch-01`, vid-51..100 in `batch-02`, ...). The build reads the frontmatter and the
 ` ```yaml ` scenes block; everything else is for humans. `npm run lint` (in `video/`) checks every
 script against the rules below. A script that passes always renders.
 
@@ -10,7 +10,7 @@ script against the rules below. A script that passes always renders.
 ---
 id: vid-123                       # must match the file name
 title: "Why your toaster never burns the bread twice"   # YouTube title, max 70 chars, max one emoji at the end
-series: cut-it-open               # folder name, see the series table
+series: cut-it-open               # see the series table
 topic: "Pop-up toaster"           # the object, unique across the channel
 status: ready-to-build
 duration: 38                      # = sum of scene durs, 25-45 is the sweet spot

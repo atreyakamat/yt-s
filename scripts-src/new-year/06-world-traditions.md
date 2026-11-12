@@ -6,7 +6,7 @@ hook: Spain eats twelve grapes in twelve seconds. | *12 GRAPES*, 12 SECONDS | he
 - The clock is in Madrid's Puerta del Sol square. | PUERTA DEL *SOL* | hero: flag Madrid
 - The custom spread in the early 1900s. | SPREAD IN THE *1900s* | hero: calendar Early 1900s
 - Each grape is said to bring a month of good luck. | LUCK FOR *EACH MONTH* | grid: calendar Jan; calendar Feb; calendar Mar; calendar Apr
-fact: Las doce uvas de la suerte: widely attributed to 1909 grape growers in Alicante with a surplus; origins disputed, popularised via Madrid's Puerta del Sol clock. Say 'early 1900s'.
+fact: Las doce uvas de la suerte: widely attributed to 1909 grape growers in Alicante with a surplus; origins disputed, popularised via Madrid's Puerta del Sol clock. Say 'early 1900s'. Source: https://en.wikipedia.org/wiki/Twelve_Grapes
 alt: Twelve grapes, twelve chimes, twelve months.
 alt: Spain's midnight snack challenge.
 tags: traditions, spain, food
@@ -16,9 +16,9 @@ hook: Japan rings temple bells one hundred eight times. | BELLS RING *108 TIMES*
 - It's called Joya no Kane, held on New Year's Eve. | *JOYA NO KANE* | hero: bell Joya no Kane
 - Many Buddhists link 108 to human worldly desires. | *108* DESIRES | hero: brain Desires
 - Each ring is said to clear one of them. | ONE RING, *ONE DESIRE* | hero: check One cleared
-- The last ring usually sounds after midnight. | LAST RING *AFTER MIDNIGHT* | hero: clock After midnight
+- Many temples save the last ring for the new year. | LAST RING: *NEW YEAR* | hero: clock After midnight
 - A fresh start with a clean slate. | A *CLEAN* SLATE | hero: sparkle Fresh start
-fact: Joya no Kane: Buddhist temples ring 108 times; 107 usually before midnight and the last after. 108 explained as bonno (earthly desires); interpretations vary by sect.
+fact: Joya no Kane: Buddhist temples ring 108 times; 107 usually before midnight and the last after. 108 explained as bonno (earthly desires); interpretations vary by sect. Source: https://en.wikipedia.org/wiki/Joya_no_Kane
 alt: 108 bell rings to start the year.
 alt: Japan's midnight reset ritual.
 tags: traditions, japan, bells
@@ -30,7 +30,7 @@ hook: In Scotland, your first guest brings luck. | FIRST GUEST *BRINGS LUCK* | h
 - Tradition says a tall, dark-haired man is luckiest. | TALL, *DARK-HAIRED* | hero: person Lucky guest
 - Guests bring gifts like coal, bread, salt and whisky. | COAL, BREAD, *WHISKY* | grid: flame Coal; box Bread; drop Salt; bottle Whisky
 - The gifts wish a warm, fed and happy house. | *WARM*, FED, HAPPY | hero: house Happy house
-fact: Hogmanay first-footing: traditional lucky first-footer is a tall dark-haired man bearing coal, shortbread/black bun, salt, whisky. Regional variations; the 'dark-haired' belief is often linked to avoiding fair-haired Viking raiders (folklore, unproven).
+fact: Hogmanay first-footing: traditional lucky first-footer is a tall dark-haired man bearing coal, shortbread/black bun, salt, whisky. Regional variations; the 'dark-haired' belief is often linked to avoiding fair-haired Viking raiders (folklore, unproven). Source: https://en.wikipedia.org/wiki/Hogmanay
 alt: Scotland's lucky first visitor.
 alt: Don't let a stranger in first.
 tags: traditions, scotland, luck
@@ -60,25 +60,25 @@ alt: Why Brazil's beaches turn white at midnight.
 tags: traditions, brazil, beach
 
 ## 1574 | Why we make New Year's resolutions
-hook: Resolutions are over four thousand years old. | *4,000 YEARS* OF RESOLUTIONS | hero: calendar Old tradition
+hook: Resolutions are about four thousand years old. | *4,000 YEARS* OF RESOLUTIONS | hero: calendar Old tradition
 - Ancient Babylonians promised gods to repay debts. | BABYLON, *DEBT* PROMISES | hero: scale Debts
 - They believed the gods rewarded the promise. | THE GODS *REWARDED* | hero: star Reward
 - Romans made promises to the god Janus. | ROMANS, *JANUS* | hero: door Janus
 - January is named after Janus, a two-faced god. | *JANUS* MONTH | hero: calendar January
 - Looking back and forward is the whole idea. | *BACK* AND FORWARD | pair: arrow-right Forward; loop-arrow Back
-fact: Babylonians' Akitu festival (c. 2000 BCE) pledges often paraphrased as repaying debts and returning borrowed items; Romans honoured Janus (two faces) with January. Popular history; sources are limited. Hedge 'often said'.
+fact: Babylonians' Akitu festival (c. 2000 BCE) pledges often paraphrased as repaying debts and returning borrowed items; Romans honoured Janus (two faces) with January. Popular history; sources are limited. Hedge 'often said'. Source: https://en.wikipedia.org/wiki/New_Year%27s_resolution
 alt: Babylon made the first resolutions.
 alt: Why January looks both ways.
 tags: resolutions, history, janus
 
-## 1575 | Why most resolutions fail by February
-hook: Most resolutions don't last until February. | RESOLUTIONS *FADE* BY FEB | hero: chart-down Resolve
+## 1575 | Why many resolutions fail by February
+hook: Many resolutions don't last until February. | RESOLUTIONS *FADE* BY FEB | hero: chart-down Resolve
 - Studies often find only a minority keep them all year. | ONLY A *MINORITY* | hero: person Few keep going
 - Big vague goals give your brain no clear first step. | VAGUE GOALS *STALL* | hero: question Vague goal
 - Small, specific actions are far easier to start. | *SMALL*, SPECIFIC | hero: target One step
 - Tracking a habit makes progress visible. | *TRACK* IT | grid: check Mon; check Tue; check Wed; check Thu
 - Aim for tiny wins you can repeat. | *TINY* WINS | hero: sparkle Tiny win
-fact: Often-cited statistics (e.g. ~8-9% success, ~80% abandon by mid-February) come from popular surveys and Strava/US news analyses; not a single rigorous study. Present as 'often found' and not a measured law..
+fact: Often-cited statistics (e.g. ~8-9% success, ~80% abandon by mid-February) come from popular surveys and Strava/US news analyses; not a single rigorous study. Present as 'often found' and not a measured law.. Source: https://en.wikipedia.org/wiki/New_Year%27s_resolution
 alt: Why January goals die in February.
 alt: Make your goal embarrassingly small.
 tags: resolutions, habits, psychology
@@ -102,7 +102,7 @@ hook: Not every country sees the year start together. | THE YEAR *STARTS* IN WAV
 - The last places celebrate about twenty-six hours later. | *26 HOURS* LATER | hero: hourglass 26 hours
 - It comes from the International Date Line zig-zag. | THE *DATE LINE* | hero: flag Date line
 - So New Year rolls around the planet all day. | ROLLS ROUND *THE GLOBE* | hero: globe Rolling
-fact: Kiribati's Line Islands (Kiritimati) UTC+14 are first; Baker/Howland Islands at UTC-12 are last, ~26 hours after.
+fact: Kiribati's Line Islands (Kiritimati) UTC+14 are first; Baker/Howland Islands at UTC-12 are last, ~26 hours after. Source: https://en.wikipedia.org/wiki/List_of_UTC_offsets
 alt: New Year takes 26 hours to circle Earth.
 alt: Where the year starts first.
 tags: timezones, geography, newyear
@@ -114,7 +114,7 @@ hook: The Times Square ball weighs over five tonnes. | BALL WEIGHS *5+ TONNES* |
 - It starts dropping at 11:59 and 0 seconds. | DROPS AT *11:59* | hero: clock 11:59
 - The fall takes about sixty seconds. | *60 SECONDS* DOWN | num: 60 | seconds | clock
 - The tradition began in 1907. | BEGAN *1907* | hero: calendar 1907
-fact: Ball weighs 11,875 lb (5,386 kg), 12 ft across (TIME, verified). Crystal triangle count, LED count and 60 s descent not confirmed by that source - script keeps them vague. Tradition tied to 1907 fireworks ban (TIME, implicit).
+fact: Ball weighs 11,875 lb (5,386 kg), 12 ft across (TIME, verified). Crystal triangle count, LED count and 60 s descent not confirmed by that source - script keeps them vague. Tradition tied to 1907 fireworks ban (TIME, implicit). Source: https://en.wikipedia.org/wiki/Times_Square_Ball
 alt: A 60-second fall watched by a billion.
 alt: The ball is mostly crystal and LEDs.
 tags: traditions, usa, timessquare
@@ -186,7 +186,7 @@ hook: Chinese New Year lands on a different date. | THE DATE *MOVES* | hero: moo
 - It falls between about January 21 and February 20. | *JAN 21* TO FEB 20 | timeline: calendar Jan 21; calendar Feb 20
 - Each year has an animal from a twelve-year cycle. | *12-YEAR* ANIMAL CYCLE | grid: ball Rat; ball Ox; ball Tiger; ball Rabbit
 - Families gather and spring clean first. | *CLEAN*, THEN CELEBRATE | hero: house Clean house
-fact: Lunar New Year falls on the new moon between 21 Jan and 20 Feb (typically the second new moon after the winter solstice).
+fact: Lunar New Year falls on the new moon between 21 Jan and 20 Feb (typically the second new moon after the winter solstice). Source: https://en.wikipedia.org/wiki/Chinese_New_Year
 alt: A New Year that follows the Moon.
 alt: Why the date always moves.
 tags: traditions, china, moon
@@ -195,10 +195,10 @@ tags: traditions, china, moon
 hook: Red envelopes carry luck, not just cash. | RED *ENVELOPES* | hero: gift Red envelope
 - Red stands for luck and chases away bad spirits. | RED *CHASES* BAD LUCK | hero: shield Protection
 - Adults give them to children and unmarried juniors. | FOR *CHILDREN* | hero: people Giving
-- The legend says they protect kids from a monster called Sui. | MONSTER *SUI* | hero: eye Monster
+- One legend says they protect kids from a demon called Sui. | DEMON *SUI* | hero: eye Monster
 - Even-numbered amounts are usually preferred. | *EVEN* NUMBERS | hero: coin Even amounts
 - The number four is avoided as it sounds like death. | AVOID *FOUR* | hero: cross Number four
-fact: Hongbao / ya sui qian: red envelopes of money given at Lunar New Year; legend of demon Sui; even amounts preferred; 4 avoided (homophone with 'death' in Mandarin/Cantonese). Legend is folklore.
+fact: Hongbao / ya sui qian: red envelopes of money given at Lunar New Year; legend of demon Sui; even amounts preferred; 4 avoided (homophone with 'death' in Mandarin/Cantonese). Legend is folklore. Source: https://en.wikipedia.org/wiki/Red_envelope
 alt: The legend of the lucky red envelope.
 alt: Why you never give four dollars.
 tags: traditions, china, money
@@ -219,10 +219,10 @@ tags: traditions, india, diwali
 hook: Nowruz begins on the first day of spring. | NOWRUZ *STARTS* WITH SPRING | hero: sunrise Nowruz
 - The word means new day in Persian. | *NEW DAY* | hero: sun New day
 - It begins at the March equinox. | AT THE *EQUINOX* | hero: sun March equinox
-- It's celebrated by over three hundred million people. | *300M+* CELEBRATE | hero: people Celebrants
+- It's celebrated by hundreds of millions of people. | HUNDREDS OF *MILLIONS* | hero: people Celebrants
 - A table called Haft-sin holds seven symbolic items. | *HAFT-SIN* TABLE | hero: box Haft-sin
 - Many items start with the Persian letter S. | ALL START *WITH S* | hero: list Letter S
-fact: Nowruz (Persian 'new day') begins at the March equinox; celebrated by Iranians and many Central/South Asian communities, UNESCO-listed. 'Over 300 million' is a commonly cited figure; verify. Haft-sin: seven items beginning with Persian letter sin (S).
+fact: Nowruz (Persian 'new day') begins at the March equinox; celebrated by Iranians and many Central/South Asian communities, UNESCO-listed. 'Over 300 million' is a commonly cited figure; verify. Haft-sin: seven items beginning with Persian letter sin (S). Source: https://en.wikipedia.org/wiki/Nowruz
 alt: A new year that starts with spring.
 alt: Seven S items on one table.
 tags: traditions, persia, spring
@@ -246,7 +246,7 @@ hook: Ethiopia is seven years behind the calendar. | ETHIOPIA IS *7 YEARS* BEHIN
 - The thirteenth month is just five or six days. | *5–6 DAY* MONTH | hero: hourglass Short month
 - New Year, Enkutatash, falls around September 11. | *SEPT 11* | hero: calendar Enkutatash
 - That's why Ethiopia says it's seven to eight years back. | *7–8 YEARS* BEHIND | hero: clock Behind
-fact: Ethiopian calendar: 13 months (12 x 30 days + Pagume with 5 or 6 days); new year (Enkutatash) usually 11 Sept (12 Sept in Gregorian leap-year-following years); about 7-8 years behind the Gregorian calendar due to a different Annunciation calculation.
+fact: Ethiopian calendar: 13 months (12 x 30 days + Pagume with 5 or 6 days); new year (Enkutatash) usually 11 Sept (12 Sept in Gregorian leap-year-following years); about 7-8 years behind the Gregorian calendar due to a different Annunciation calculation. Source: https://en.wikipedia.org/wiki/Enkutatash
 alt: A calendar with thirteen months.
 alt: Ethiopia's year is seven years behind.
 tags: calendars, ethiopia, history
@@ -258,7 +258,7 @@ hook: Some Christians celebrate Christmas on January seventh. | CHRISTMAS ON *JA
 - It drifts one day every 128 years. | 1 DAY EVERY *128 YEARS* | num: 128 | years | calendar
 - Today the gap is thirteen days. | *13 DAYS* APART | num: 13 | days | calendar
 - Orthodox churches that follow it date Christmas later. | CHRISTMAS *13 DAYS* LATER | hero: bell Christmas
-fact: Julian year 365.25 d vs mean tropical year ~365.2422 d → ~1 day per 128 years; gap is 13 days 1900-2100. Some Orthodox churches (Russian, Serbian, Georgian, Ethiopian/Coptic variations) observe Dec 25 Julian = Jan 7 Gregorian. Not all Orthodox churches (many use Revised Julian).
+fact: Julian year 365.25 d vs mean tropical year ~365.2422 d → ~1 day per 128 years; gap is 13 days 1900-2100. Some Orthodox churches (Russian, Serbian, Georgian, Ethiopian/Coptic variations) observe Dec 25 Julian = Jan 7 Gregorian. Not all Orthodox churches (many use Revised Julian). Source: https://en.wikipedia.org/wiki/Julian_calendar
 alt: Why Orthodox Christmas is on January 7.
 alt: The calendar that drifts 13 days.
 tags: calendars, history, christmas
@@ -270,7 +270,7 @@ hook: Why isn't every fourth year a leap year? | NOT EVERY *4TH YEAR* | hero: ca
 - But the extra time is slightly less than six hours. | A *LITTLE* LESS | hero: hourglass A little less
 - So years divisible by 100 skip it, unless also divisible by 400. | SKIP *CENTURIES* | grid: cross 1900; check 2000; cross 2100; check 2400
 - That keeps calendar and seasons in step. | IN STEP WITH *SEASONS* | hero: sun Seasons
-fact: Gregorian rule: leap if divisible by 4, except century years not divisible by 400 (1900 no; 2000 yes; 2100 no). Mean tropical year ~365.2422 days. 2028 is a leap year; 2025 is not.
+fact: Gregorian rule: leap if divisible by 4, except century years not divisible by 400 (1900 no; 2000 yes; 2100 no). Mean tropical year ~365.2422 days. 2028 is a leap year; 2025 is not. Source: https://en.wikipedia.org/wiki/Leap_year
 alt: The leap year rule most people don't know.
 alt: Why 1900 had no leap day but 2000 did.
 tags: calendars, math, leapyear
@@ -282,7 +282,7 @@ hook: Clocks occasionally add a leap second. | THE *LEAP SECOND* | hero: clock L
 - So an extra second is sometimes added to UTC. | *+1 SECOND* | hero: hourglass Extra second
 - Computers dislike it and some have crashed. | COMPUTERS *STUMBLE* | hero: chip Glitch
 - In 2022 nations voted to stop adding them by 2035. | STOPPING BY *2035* | hero: calendar 2035
-fact: 27 leap seconds added from 1972 to end-2016 (latest on 31 Dec 2016). CGPM 2022 resolved to stop by or before 2035. Leap-second-related software outages reported historically (e.g. 2012). Good.
+fact: 27 leap seconds added from 1972 to end-2016 (latest on 31 Dec 2016). CGPM 2022 resolved to stop by or before 2035. Leap-second-related software outages reported historically (e.g. 2012). Good. Source: https://en.wikipedia.org/wiki/Leap_second
 alt: The extra second on New Year's Eve.
 alt: Why we're about to drop leap seconds.
 tags: time, science, computers
@@ -294,7 +294,7 @@ hook: Fireworks get their colour from metal salts. | COLOURS FROM *METALS* | her
 - Copper compounds burn blue. | *COPPER* IS BLUE | hero: flame Blue
 - Barium makes green and calcium makes orange. | *BARIUM* IS GREEN | hero: flame Green
 - Blue is the hardest colour to get right. | BLUE IS *HARDEST* | hero: star Hard colour
-fact: Standard pyrotechnic colour chemistry: strontium (red), sodium (yellow), copper (blue), barium (green), calcium (orange). Blue is widely described as the hardest colour to produce, since copper compounds break down at high temperature.
+fact: Standard pyrotechnic colour chemistry: strontium (red), sodium (yellow), copper (blue), barium (green), calcium (orange). Blue is widely described as the hardest colour to produce, since copper compounds break down at high temperature. Source: https://en.wikipedia.org/wiki/Pyrotechnic_colorant
 alt: Which metal makes which firework colour.
 alt: Why blue is the hardest firework.
 tags: fireworks, chemistry, science

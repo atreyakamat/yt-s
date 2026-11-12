@@ -5,6 +5,7 @@
 //   npm run daily -- 3            next 3 reels
 //   npm run daily -- --dry        just show what's next
 //   npm run daily -- --redo vid-26   render one again (e.g. after a script fix)
+//   npm run daily -- --redo vid-1..vid-30   or   --redo vid-3,vid-9   render several again
 //
 // Output: ../out/<YYYY-MM-DD>/<id>.mp4 + <id>.txt (title, description, hashtags, pinned comment) + <id>.transcript.txt + <id>.srt
 import fs from "node:fs";
@@ -17,6 +18,16 @@ const args = process.argv.slice(2);
 const dry = args.includes("--dry");
 const redoAt = args.indexOf("--redo");
 const redo = redoAt >= 0 ? args[redoAt + 1] : undefined;
+// "vid-1..vid-30" (a range) or "vid-3,vid-9" (a list) or "vid-26".
+const redoIds = (() => {
+  if (!redo) return null;
+  const range = redo.match(/^vid-(\d+)\.\.(?:vid-)?(\d+)$/);
+  if (range) {
+    const [a, b] = [Number(range[1]), Number(range[2])];
+    return new Set(Array.from({ length: Math.max(0, b - a + 1) }, (_, i) => a + i));
+  }
+  return new Set(redo.split(",").filter(Boolean).map((id) => Number(id.replace(/\D/g, ""))));
+})();
 const count = Number(args.find((a) => /^\d+$/.test(a)) ?? process.env.DAILY_COUNT ?? 2);
 
 const stateFile = path.join(repo, ".cutaway-progress.json");
@@ -54,7 +65,7 @@ const now = new Date();
 const newYearSeason = process.env.DAILY_SEASON === "1" || now.getMonth() === 11 || (now.getMonth() === 0 && now.getDate() <= 5);
 const todo = ready.filter((r) => !state.done[r.id] && (r.series !== "new-year" || newYearSeason));
 if (newYearSeason) todo.sort((a, b) => Number(b.series === "new-year") - Number(a.series === "new-year"));
-const picks = redo ? ready.filter((r) => r.id === redo) : todo.slice(0, count);
+const picks = redoIds ? ready.filter((r) => redoIds.has(Number(r.id.replace(/\D/g, "")))) : todo.slice(0, count);
 
 const doneCount = Object.keys(state.done).length;
 console.log(`Cutaway daily: ${doneCount} of ${ready.length} reels done, ${ready.length - doneCount} left.`);

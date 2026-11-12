@@ -24,6 +24,10 @@ import { PenCap, type PenCapState } from "./visuals/PenCap";
 import { Touchscreen, type TouchscreenState } from "./visuals/Touchscreen";
 import { Zipper, type ZipperState } from "./visuals/Zipper";
 import { GenericVisualView } from "./visuals/generic/Generic";
+import { Stage } from "./components/Stage";
+
+// Generic templates get a slightly bigger stage so they fill the frame.
+const GENERIC_KINDS = new Set(["hero", "layers", "flow", "compare", "cycle", "counter", "timeline", "bars", "zoom", "callout", "grid", "gauge", "wave"]);
 import { theme } from "./theme";
 import type { Reel as ReelData, Scene } from "./types";
 
@@ -86,7 +90,7 @@ export const Reel: React.FC<{ reel: ReelData }> = ({ reel }) => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: theme.bg }}>
-      <Background />
+      <Background accent={accent} />
       {reel.scenes.map((scene, i) => (
         <Sequence
           key={i}
@@ -94,13 +98,15 @@ export const Reel: React.FC<{ reel: ReelData }> = ({ reel }) => {
           durationInFrames={Math.round(scene.dur * fps)}
           name={`${i + 1}. ${scene.text || "loop"}`}
         >
-          <SceneVisual scene={scene} accent={accent} />
+          <Stage first={i === 0} zoom={GENERIC_KINDS.has(scene.visual.kind) ? 1.08 : 1}>
+            <SceneVisual scene={scene} accent={accent} />
+          </Stage>
           <OnScreenText
             text={scene.text}
             highlight={scene.highlight}
             accent={accent}
           />
-          <Captions vo={scene.vo} accent={accent} />
+          <Captions vo={scene.vo} accent={accent} voDur={scene.voDur} />
           {scene.sfx && reel.assets.sfx.includes(scene.sfx) && (
             <Audio src={staticFile(`sfx/${scene.sfx}.mp3`)} volume={0.6} />
           )}

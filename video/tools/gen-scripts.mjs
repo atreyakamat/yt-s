@@ -1,5 +1,5 @@
 // Compiles the compact script sources in ../scripts-src/**/*.md into the full
-// how-things-work/<series>/<group>/vid-NNN.md files the renderer reads, plus SCRIPTS.md.
+// how-things-work/batch-NN/vid-NNN.md files the renderer reads (batches of 50, see validate.mjs), plus SCRIPTS.md.
 // Usage: node tools/gen-scripts.mjs        (from video/)  ->  npm run gen
 //
 // Source format (one file per group):
@@ -21,6 +21,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { batchDir } from "./validate.mjs";
 
 const videoDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const repo = path.resolve(videoDir, "..");
@@ -231,7 +232,7 @@ for (const f of files) {
         const c = compile(e, { file: f });
         if (seen.has(e.id)) throw new Error(`id ${e.id} already used in ${seen.get(e.id)}`);
         seen.set(e.id, f);
-        const dir = path.join(outRoot, cfg.series, cfg.group);
+        const dir = path.join(outRoot, batchDir(e.id));
         fs.mkdirSync(dir, { recursive: true });
         fs.writeFileSync(path.join(dir, `vid-${e.id}.md`), render(e, c, cfg));
         index.push({ id: e.id, title: e.title, series: cfg.series, group: cfg.group, duration: c.duration, hook: c.scenes[0].vo, fact: c.meta.fact });
