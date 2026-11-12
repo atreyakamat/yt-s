@@ -31,7 +31,38 @@ const lines = [
     "",
   ]),
 ];
+// Near-duplicates: topics whose key words are the same, or one is contained in the other
+// ("Hub dynamo" vs "Bicycle hub dynamo", "Why we yawn" vs "Yawning"). The checker only rejects identical names.
+const STOP = new Set(
+  "why how what the a an of in on for to with your you we our do does is are get gets its it and or from at by when".split(" "),
+);
+const stem = (w) => w.replace(/(ing|ers|er|es|s|ed)$/, "");
+const keys = (t) =>
+  new Set(
+    String(t)
+      .toLowerCase()
+      .replace(/[^a-z0-9 ]/g, " ")
+      .split(/\s+/)
+      .filter((w) => w && !STOP.has(w))
+      .map(stem)
+      .filter((w) => w.length > 2),
+  );
+const sorted = [...reels].sort((a, b) => idNum(a.id) - idNum(b.id));
+const near = [];
+for (let i = 0; i < sorted.length; i++) {
+  const a = keys(sorted[i].topic);
+  if (!a.size) continue;
+  for (let j = 0; j < i; j++) {
+    const b = keys(sorted[j].topic);
+    if (!b.size) continue;
+    const [small, big] = a.size <= b.size ? [a, b] : [b, a];
+    if ([...small].every((w) => big.has(w)) && (small.size >= 2 || big.size === 1))
+      near.push(`${sorted[i].id} "${sorted[i].topic}"  ~  ${sorted[j].id} "${sorted[j].topic}"`);
+  }
+}
+lines.push("## Possible near-duplicates", "", near.length ? near.map((n) => `- ${n}`).join("\n") : "None found.", "");
 fs.writeFileSync(path.join(contentDir, "TOPICS.md"), lines.join("\n"));
+if (near.length) console.log(`! ${near.length} possible near-duplicate topic pair(s): see the end of TOPICS.md`);
 console.log(`Wrote how-things-work/TOPICS.md (${reels.length} topics).`);
 console.log(`Next free id: vid-${next[0]} (folder how-things-work/${batchDir(next[0])}/)`);
 if (want > 1) console.log(`Next ${want} free ids: ${next.map((n) => `vid-${n}`).join(", ")}`);
