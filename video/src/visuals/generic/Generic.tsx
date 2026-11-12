@@ -274,8 +274,8 @@ export const Compare: React.FC<P<"compare">> = ({ v, accent }) => {
 export const Cycle: React.FC<P<"cycle">> = ({ v, accent }) => {
   const { frame, dur, stagger, pop } = useTiming();
   const n = v.steps.length;
-  const R = 285;
-  const cy = CY;
+  const R = 262;
+  const cy = CY - 10;
   const angle = (i: number) => -Math.PI / 2 + (i / n) * Math.PI * 2;
   const travel = interpolate(frame, [0, dur], [0, Math.max(1, n * 0.999)], { extrapolateRight: "clamp" });
   const active = Math.floor(travel) % n;
@@ -292,7 +292,7 @@ export const Cycle: React.FC<P<"cycle">> = ({ v, accent }) => {
         const on = i === active;
         return (
           <g key={i} transform={`translate(${x} ${y}) scale(${Math.min(1, s) * (on ? 1.08 : 1)})`}>
-            <circle r={104} fill={on ? shade(accent, -0.55) : "#1E2028"} stroke={on ? accent : "#3A3F4B"} strokeWidth={6} />
+            <circle r={98} fill={on ? shade(accent, -0.55) : "#1E2028"} stroke={on ? accent : "#3A3F4B"} strokeWidth={6} />
             <T x={0} y={0} text={label} size={32} max={11} center />
           </g>
         );

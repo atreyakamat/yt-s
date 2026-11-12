@@ -8,6 +8,9 @@ import { validateAll } from "./validate.mjs";
 const want = new Set(process.argv.slice(2));
 const { reels, errors } = validateAll(parse);
 const shown = want.size ? errors.filter((e) => want.has(path.basename(e.split(":")[0], ".md"))) : errors;
+// A requested id with no file at all is an error too (e.g. a script written to the wrong folder).
+const found = new Set([...reels.map((r) => r.id), ...errors.map((e) => path.basename(e.split(":")[0], ".md"))]);
+for (const id of want) if (!found.has(id)) shown.push(`${id}: no file found under how-things-work/ (wrong folder or not written yet)`);
 if (shown.length) {
   console.error(shown.map((e) => `x ${e}`).join("\n"));
   console.error(`\n${shown.length} script(s) with errors.`);
