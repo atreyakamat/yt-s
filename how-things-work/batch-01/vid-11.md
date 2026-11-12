@@ -42,10 +42,10 @@ scenes:
     sfx: click
   - at: 8
     dur: 6
-    vo: "Current runs through thin nichrome wires. They glow red hot, around six hundred degrees."
+    vo: "Current runs through thin nichrome wires. They glow red hot, at several hundred degrees."
     text: "RED HOT WIRES"
     highlight: "RED HOT"
-    visual: { kind: bars, unit: "°C", items: [{ label: "Boiling water", value: 100, color: blue }, { label: "Oven", value: 220, color: orange }, { label: "Toaster wire", value: 600, color: red }] }
+    visual: { kind: bars, unit: "°C", items: [{ label: "Boiling water", value: 100, color: blue }, { label: "Oven", value: 220, color: orange }, { label: "Toaster wire, roughly", value: 600, color: red }] }
     sfx: thunk
   - at: 14
     dur: 7
@@ -77,7 +77,5 @@ scenes:
 
 ## Fact check
 
-- Bimetal strip timers: classic and budget pop-up toasters use a bimetallic strip (or a thermostat) to time browning; many modern toasters use an electronic timer. The script says "older and simple toasters" for this reason.
-- Nichrome element temperature: elements glow red at roughly 500-650 °C, so "around six hundred degrees" is fair.
-- The tray is held by a mechanical catch or an electromagnet depending on the model, hence "a magnet or a catch".
-- Browning dial changes the strip's travel / trip point: true for bimetal designs.
+- Nichrome toaster elements glow at several hundred degrees C; sources range about 600 to 900. SOFTENED "around six hundred" to "several hundred". Source: https://frigate.ai/product/toaster-heating-elements/
+- Many classic pop-up toasters time browning with a bimetallic strip or thermostat; electronic timers on others (script says older and simple). OK. Source: https://home.howstuffworks.com/toaster.htm

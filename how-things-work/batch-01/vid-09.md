@@ -83,3 +83,7 @@ scenes:
 **Fact check:** capacitive screens (most phones); grid is indium tin oxide or similar.
 
 Visual style, safe areas and audio rules: same as [vid-01](../cut-it-open/vid-01.md).
+
+## Fact check
+
+- Capacitive touchscreens detect a conductive finger distorting the screen's electrostatic field; plain gloves insulate. OK. Source: https://en.wikipedia.org/wiki/Touchscreen

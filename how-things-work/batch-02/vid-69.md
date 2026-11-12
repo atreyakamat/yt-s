@@ -80,8 +80,4 @@ scenes:
 
 ## Fact check
 
-- Most golf balls have roughly 300-500 dimples, depending on the design.
-- Dimples make the boundary layer turbulent so it stays attached longer, giving a smaller wake and much lower pressure drag; textbooks commonly cite drag roughly halved.
-- Backspin over a dimpled surface generates lift (Magnus effect), lengthening flight.
-- A dimpled ball is commonly cited to fly about twice as far as an identical smooth ball.
-- In the gutta-percha era players noticed that nicked, scuffed balls flew better than new smooth ones, which led to deliberately patterned balls.
+- Golf balls have about 300 to 500 dimples (commonly 330 to 400); dimpled ball drag roughly half and carry roughly twice a smooth ball. OK as "about/roughly". Source: https://www.nationalclubgolfer.com/us/equipment/how-many-dimples-are-on-a-golf-ball

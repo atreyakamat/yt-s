@@ -1,6 +1,6 @@
 ---
 id: vid-95
-title: "Your card pays in about half a second 💳"
+title: "Your card pays in under a second 💳"
 series: the-1-second-machine
 topic: "Contactless payment"
 status: ready-to-build
@@ -8,15 +8,15 @@ duration: 38
 music: hyperfun
 accent: "#BF5AF2"
 hashtags: [howthingswork, contactless, payments, tech, shorts]
-description: "A contactless card has no battery. The reader powers it by radio, and the chip makes a one-time code in about half a second."
+description: "A contactless card has no battery. The reader powers it by radio, and the chip makes a one-time code in under a second."
 pinned: "What else happens in under a second?"
 ---
 
-# vid-95 · Your card pays in about half a second 💳
+# vid-95 · Your card pays in under a second 💳
 
 ## Hook
 
-- **Chosen (0-3s):** "Your card pays in about half a second." Big text: HALF A SECOND
+- **Chosen (0-3s):** "Your card pays in under a second." Big text: UNDER A SECOND
 - **Backup hooks:**
     1. "Your bank card has no battery but it still talks."
     2. "There's a hidden coil in your bank card."
@@ -28,9 +28,9 @@ pinned: "What else happens in under a second?"
 scenes:
   - at: 0
     dur: 3
-    vo: "Your card pays in about half a second."
-    text: "HALF A SECOND"
-    highlight: "HALF"
+    vo: "Your card pays in under a second."
+    text: "UNDER A SECOND"
+    highlight: "UNDER"
     visual: { kind: hero, icon: card, color: accent, motion: pulse }
     sfx: whoosh
   - at: 3
@@ -53,10 +53,10 @@ scenes:
     visual: { kind: compare, mode: versus, left: { label: "Old stripe", icon: card, tag: "Same every time" }, right: { label: "Chip", icon: chip, color: accent, tag: "New code per tap" } }
   - at: 21
     dur: 6
-    vo: "All of that has to finish in about half a second, so you barely pause your hand."
-    text: "500 MILLISECONDS"
-    highlight: "500"
-    visual: { kind: counter, to: 500, label: "milliseconds, card to reader", icon: clock, prefix: "~", suffix: " ms" }
+    vo: "All of that has to finish in a fraction of a second, so you barely pause your hand."
+    text: "A FRACTION OF A SECOND"
+    highlight: "FRACTION"
+    visual: { kind: counter, to: 1, label: "seconds, card to reader", icon: clock, prefix: "<", suffix: " s" }
   - at: 27
     dur: 6
     vo: "Then the terminal checks with your bank, and the beep tells you it's done."
@@ -69,11 +69,10 @@ scenes:
     vo: "The range is only a few centimetres, on purpose. And still..."
     text: ""
     visual: { kind: gauge, value: 10, low: "Touching", high: "Far away", label: "Works within a few cm" }
-    note: "Last line runs back into the hook: 'Your card pays in about half a second.'"
+    note: "Last line runs back into the hook: 'Your card pays in under a second.'"
 ```
 
 ## Fact check
 
-- Contactless (EMV/NFC) cards have no battery; an antenna coil around the card picks up energy from the reader's 13.56 MHz field, and range is a few centimetres.
-- Each contactless transaction includes a one-time cryptogram, so captured data can't simply be replayed (unlike a magnetic stripe).
-- EMV contactless specifications target a card-reader interaction of around 500 ms; online authorisation with the bank follows.
+- Contactless range is about 4 cm optimum and never over 10 cm. OK. Source: https://en.wikipedia.org/wiki/Contactless_payment
+- Transaction speed: no authoritative figure for "half a second" could be read (EMVCo page returned 503), so SOFTENED to "under a second" / "a fraction of a second".

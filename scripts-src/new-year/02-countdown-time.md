@@ -7,7 +7,7 @@ hook: The Times Square ball falls for one minute. | FALLS FOR *ONE MINUTE* | num
 - The first ball dropped on New Year's Eve, 1907. | SINCE *1907* | num: 1907 | first drop | calendar
 - Today's ball is covered in thousands of crystal triangles and LEDs. | CRYSTAL + *LEDs* | grid: ball Ball; lightbulb LEDs; sparkle Crystal
 - It touches down right as the clock turns midnight. | LANDS AT *MIDNIGHT* | hero: bell Midnight
-fact: Ball drop tradition began 1907; ball starts descent at 11:59 pm and takes 60 seconds. Check Times Square Alliance page for current ball specs before quoting size/weight.
+fact: Ball drop tradition began 1907; ball starts descent at 11:59 pm and takes 60 seconds. Check Times Square Alliance page for current ball specs before quoting size/weight. Source: https://en.wikipedia.org/wiki/Times_Square_Ball
 alt: A one-minute drop watched by a million people.
 alt: Why the ball is timed to the second.
 tags: timessquare, newyear, traditions
@@ -19,7 +19,7 @@ hook: One place sees New Year before everyone. | THE *FIRST* PLACE | hero: globe
 - The last places to hit midnight sit at UTC minus 12. | LAST: UTC *−12* | hero: wave Baker Island
 - So the same new year takes 26 hours to travel around the world. | *26 HOURS* TO CIRCLE | num: 26 | hours | globe
 - Someone is always celebrating, somewhere. | *ALWAYS* SOMEWHERE | hero: crowd Celebrating
-fact: Kiribati Line Islands UTC+14 (first); Baker Island UTC-12 (last). The 26-hour spread is 14 + 12. Verify in timeanddate.com.
+fact: Kiribati Line Islands UTC+14 (first); Baker Island UTC-12 (last). The 26-hour spread is 14 + 12. Verify in timeanddate.com. Source: https://en.wikipedia.org/wiki/List_of_UTC_offsets
 alt: Midnight reaches this island first.
 alt: The New Year takes 26 hours to arrive.
 tags: timezones, newyear, geography
@@ -31,7 +31,7 @@ hook: Leap years exist because Earth is late. | EARTH IS *LATE* | hero: globe Ea
 - Add a day every fourth year and it mostly lines up. | ONE EXTRA DAY *EVERY 4* | flow: calendar 365; calendar 365; calendar 366
 - Except centuries, which skip it, unless divisible by 400. | THE *400* RULE | timeline: calendar Every 4 years; cross Skip centuries; check Unless 400
 - Without that, the seasons would slowly drift. | SEASONS *DRIFT* | hero: snowflake Seasons
-fact: Tropical year ~365.2422 days. Gregorian rule: divisible by 4, except centuries unless divisible by 400.
+fact: Tropical year ~365.2422 days. Gregorian rule: divisible by 4, except centuries unless divisible by 400. Source: https://en.wikipedia.org/wiki/Leap_year
 alt: Your calendar has a bug fix every four years.
 alt: 2100 will not be a leap year.
 tags: leapyear, calendar, astronomy
@@ -43,7 +43,7 @@ hook: One second is nine billion vibrations. | A SECOND = *9 BILLION* | num: 9,1
 - Atoms are better timekeepers than the spinning Earth. | BETTER THAN *EARTH* | pair: globe Earth; atom Atom
 - Good atomic clocks lose about a second in hundreds of millions of years. | *HUNDREDS OF MILLIONS* | hero: hourglass Barely drifts
 - That precision is why your phone knows the exact time. | WHY YOUR PHONE *KNOWS* | hero: phone Exact time
-fact: SI second = 9,192,631,770 periods of the Cs-133 hyperfine transition. Best optical clocks are far better; cesium fountain clocks lose roughly a second per hundreds of millions of years (NIST).
+fact: SI second = 9,192,631,770 periods of the Cs-133 hyperfine transition. Best optical clocks are far better; cesium fountain clocks lose roughly a second per hundreds of millions of years (NIST). Source: https://en.wikipedia.org/wiki/Second
 alt: The second has a very strange definition.
 alt: What counts a second for the whole planet.
 tags: time, atomicclock, physics
@@ -55,7 +55,7 @@ hook: Sometimes the world adds a secret extra second. | THE *EXTRA* SECOND | her
 - It lands at the end of a day, so the clock shows 23:59:60. | 23:59:*60* | hero: clock 23:59:60
 - Twenty-seven have been added since 1972. | *27* SINCE 1972 | num: 27 | leap seconds | calendar
 - Software hates them, so the world voted to phase them out by 2035. | PHASED OUT *BY 2035* | hero: chip Software
-fact: 27 leap seconds inserted 1972-2016 (none since). The 2022 CGPM resolution aims to stop using them by or before 2035. Verify at IERS / BIPM.
+fact: 27 leap seconds inserted 1972-2016 (none since). The 2022 CGPM resolution aims to stop using them by or before 2035. Verify at IERS / BIPM. Source: https://en.wikipedia.org/wiki/Leap_second
 alt: A minute with 61 seconds.
 alt: Why programmers fear the leap second.
 tags: time, leapsecond, tech
@@ -67,7 +67,7 @@ hook: Computers have a second Y2K coming. | A SECOND *Y2K* | hero: chip 2038
 - It runs out on 19 January 2038. | RUNS OUT *19 JAN 2038* | num: 2038 | the limit | hourglass
 - After that, the clock wraps around to 1901. | WRAPS TO *1901* | hero: loop-arrow Wraps
 - The fix is simple: 64-bit time, which lasts billions of years. | FIX: *64-BIT* | hero: check 64-bit
-fact: Signed 32-bit time_t overflows at 03:14:07 UTC on 19 Jan 2038 and wraps to 13 Dec 1901. 64-bit time_t lasts ~292 billion years.
+fact: Signed 32-bit time_t overflows at 03:14:07 UTC on 19 Jan 2038 and wraps to 13 Dec 1901. 64-bit time_t lasts ~292 billion years. Source: https://en.wikipedia.org/wiki/Year_2038_problem
 alt: Your old router might break in 2038.
 alt: The day 32-bit time runs out.
 tags: tech, y2k, programming
@@ -88,10 +88,10 @@ tags: y2k, tech, history
 hook: January 1 is a choice, not nature. | NEW YEAR IS *A CHOICE* | hero: calendar Jan 1
 - Nothing in space marks January 1 as special. | NOTHING *SPECIAL* | hero: orbit Orbit
 - Early Roman years began in March. | ROME STARTED *IN MARCH* | hero: calendar March
-- In 46 BC, Julius Caesar's calendar set January 1 as the start. | 46 BC: *JANUARY* | num: 46 BC | Caesar's calendar | calendar
+- In 45 BC, Julius Caesar's calendar made January 1 the official start. | 45 BC: *JANUARY* | num: 45 BC | Caesar's calendar | calendar
 - January was named after Janus, the two-faced god of doors. | JANUS: GOD OF *DOORS* | hero: door Janus
 - A door looks back and forward, which suits a new year. | LOOKING *BOTH WAYS* | pair: arrow-right Back; arrow-right Forward
-fact: Roman civil year began Jan 1 from 153 BC for consular term start; Julian calendar (46-45 BC) fixed it. Janus is the namesake. Confirm dates with Britannica/Oxford Classical Dictionary.
+fact: Roman civil year began Jan 1 from 153 BC for consular term start; Julian calendar (46-45 BC) fixed it. Janus is the namesake. Confirm dates with Britannica/Oxford Classical Dictionary. Source: https://en.wikipedia.org/wiki/Julian_calendar
 alt: Why the year doesn't start on the solstice.
 alt: The god of doors started your year.
 tags: calendar, history, newyear

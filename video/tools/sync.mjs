@@ -19,7 +19,11 @@ const checkOnly = args.includes("--check");
 const onlyArg = args.find((a, i) => args[i - 1] === "--only");
 const only = onlyArg ? new Set(onlyArg.split(",").filter(Boolean)) : null;
 
-const { reels, errors } = validateAll((t) => YAML.parse(t));
+const { reels, errors: allErrors } = validateAll((t) => YAML.parse(t));
+// When rendering chosen reels, a broken script elsewhere must not block them: only their own errors count.
+const errors = only ? allErrors.filter((e) => [...only].some((id) => e.includes(`/${id}.md:`))) : allErrors;
+if (only && allErrors.length > errors.length)
+  console.warn(`  ! ${allErrors.length - errors.length} other script(s) have errors (not rendered now): run npm run check`);
 if (errors.length) {
   console.error(`\n${errors.length} script(s) have errors:\n` + errors.map((e) => `  x ${e}`).join("\n"));
   process.exit(1);
@@ -48,6 +52,18 @@ function copyIfExists(from, dest) {
 
 const warnings = [];
 for (const reel of out) {
+  // How long each line is really spoken (written by tools/voiceover.py) so captions follow the voice.
+  const timingFile = path.join(repo, "assets/vo", `${reel.id}.timing.json`);
+  if (fs.existsSync(timingFile)) {
+    try {
+      const { scenes = {} } = JSON.parse(fs.readFileSync(timingFile, "utf8"));
+      reel.scenes.forEach((s, i) => {
+        if (typeof scenes[i] === "number") s.voDur = scenes[i];
+      });
+    } catch {
+      // A bad timing file just means captions fall back to even spacing.
+    }
+  }
   reel.assets = {
     vo: copyIfExists(path.join(repo, "assets/vo", `${reel.id}.mp3`), path.join(publicDir, "vo", `${reel.id}.mp3`)),
     music: reel.music

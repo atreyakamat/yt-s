@@ -74,6 +74,4 @@ scenes:
 
 ## Fact check
 
-- Cat's eyes were invented by Percy Shaw of Halifax, England, who patented them in 1934.
-- Classic cat's eyes have glass lenses with a mirrored back set in a rubber moulding inside a cast iron base; a passing tyre presses the rubber down and rubber wipers clean the lenses, and rainwater collecting in the base helps wash them.
-- UK road stud colours: white for lane lines, red for the left edge of the carriageway, amber for the central reservation edge, green at slip roads and lay-bys.
+- Percy Shaw patented the cat's eye road stud in 1934 (company formed 1935). OK. Source: https://en.wikipedia.org/wiki/Percy_Shaw

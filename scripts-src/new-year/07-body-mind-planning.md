@@ -19,7 +19,7 @@ hook: Habits take longer than twenty-one days. | NOT *21 DAYS* | num: 21 | myth 
 - It took about two months on average. | ABOUT *66 DAYS* | num: 66 | days | calendar
 - But it ranged from 18 to 254 days. | *18 TO 254* | timeline: calendar 18 days; calendar 254 days
 - Missing one day didn't ruin the habit. | ONE MISS *IS FINE* | hero: check One miss
-fact: Lally et al. (2009, European Journal of Social Psychology): median 66 days to automaticity, range 18-254; a single missed day did not materially affect habit formation. Small sample (96 people), one specific behaviour each.
+fact: Lally et al. (2009, European Journal of Social Psychology): median 66 days to automaticity, range 18-254; a single missed day did not materially affect habit formation. Small sample (96 people), one specific behaviour each. Source: https://en.wikipedia.org/wiki/Habit
 alt: The real number is closer to 66.
 alt: The 21 day habit rule is a myth.
 tags: habits, psychology, myth
@@ -67,7 +67,7 @@ hook: We always underestimate how long things take. | WE *UNDERESTIMATE* TIME | 
 - We imagine the best case and ignore delays. | BEST CASE *ONLY* | hero: sunrise Best case
 - Look at how long similar tasks really took. | CHECK *PAST* TASKS | hero: list Past data
 - Then add a buffer on top. | ADD *A BUFFER* | hero: shield Buffer
-fact: Planning fallacy coined by Kahneman & Tversky (1979); reference class forecasting later advocated by Kahneman and Lovallo; popular 'Hofstadter's law' is a joke law. Good.
+fact: Planning fallacy coined by Kahneman & Tversky (1979); reference class forecasting later advocated by Kahneman and Lovallo; popular 'Hofstadter's law' is a joke law. Good. Source: https://en.wikipedia.org/wiki/Planning_fallacy
 alt: Why your to-do list never fits the day.
 alt: Plan with last year's data, not hope.
 tags: planning, psychology, productivity
@@ -91,7 +91,7 @@ hook: A lower resting heart rate often means fitter. | LOWER *RESTING* HEART RAT
 - So it needs fewer beats to move the same blood. | FEWER *BEATS* | hero: pulse Fewer beats
 - Athletes may rest in the forties or fifties. | ATHLETES: *40s–50s* | hero: dumbbell Athletes
 - Check it first thing in the morning. | CHECK IT *AT WAKING* | hero: sunrise Morning
-fact: Normal adult resting heart rate 60-100 bpm (AHA); well-trained athletes often 40-60. Lower can reflect fitness but very low with symptoms warrants medical advice. Add 'not medical advice'.
+fact: Normal adult resting heart rate 60-100 bpm (AHA); well-trained athletes often 40-60. Lower can reflect fitness but very low with symptoms warrants medical advice. Add 'not medical advice'. Verified: Resting 60-100 bpm (AHA); well-trained athletes 40-60, can be lower: OK. Source: https://en.wikipedia.org/wiki/Heart_rate
 alt: Your pulse is a fitness score.
 alt: Why athletes' hearts beat slower.
 tags: fitness, heart, health
@@ -139,7 +139,7 @@ hook: Meditation can train attention like a muscle. | TRAIN YOUR *ATTENTION* | h
 - Studies link it to lower stress and better focus. | LESS *STRESS* | hero: heart Less stress
 - Effects are modest and vary person to person. | EFFECTS ARE *MODEST* | hero: target Modest
 - Even ten minutes a day can help you start. | *10 MINUTES* A DAY | num: 10 | minutes | clock
-fact: Meta-analyses show mindfulness-based programmes have small-to-moderate effects on anxiety/stress; neuroimaging findings (e.g. Hölzel 2011) are small and heterogeneous. Keep claims modest.
+fact: Meta-analyses show mindfulness-based programmes have small-to-moderate effects on anxiety/stress; neuroimaging findings (e.g. Hölzel 2011) are small and heterogeneous. Keep claims modest. Verified: 10 min/day is practical starting guidance, not a study result; wording is hedged: OK. Source: https://en.wikipedia.org/wiki/Mindfulness
 alt: A workout for attention.
 alt: What ten minutes of calm can do.
 tags: mind, meditation, brain
@@ -151,7 +151,7 @@ hook: Your brain forgets most of what it sees. | WE *FORGET* MOST THINGS | hero:
 - Reviewing right before forgetting strengthens memory. | REVIEW *BEFORE* FORGETTING | hero: loop-arrow Review
 - Spaced repetition spreads reviews over longer gaps. | *SPACED* REPETITION | timeline: calendar Day 1; calendar Day 3; calendar Day 7; calendar Day 21
 - That's how flashcard apps help you learn. | FLASHCARDS *WORK* | hero: list Flashcards
-fact: Ebbinghaus (1885) forgetting curve; spacing effect strongly supported (Cepeda et al. 2006 meta-analysis). Example schedule of 1/3/7/21 days is illustrative.
+fact: Ebbinghaus (1885) forgetting curve; spacing effect strongly supported (Cepeda et al. 2006 meta-analysis). Example schedule of 1/3/7/21 days is illustrative. Verified: Ebbinghaus curve: memory halves in days/weeks without review; day schedule illustrative: OK. Source: https://en.wikipedia.org/wiki/Forgetting_curve
 alt: Why cramming doesn't last.
 alt: Review at the right moment.
 tags: memory, learning, brain
@@ -163,7 +163,7 @@ hook: The ten thousand hour rule is oversimplified. | *10,000 HOURS* IS A MYTH |
 - But the number 10,000 was an average, not a rule. | AN *AVERAGE* | hero: scale Average
 - Quality, feedback and field all change the hours. | *FEEDBACK* COUNTS | hero: check Feedback
 - You can get good far sooner than elite. | GOOD *MUCH SOONER* | hero: sunrise Sooner
-fact: Ericsson et al. (1993) reported elite violin students averaged ~10,000 h by age 20 (best group); popularised by Gladwell; Ericsson said deliberate practice quality, not a magic number. Meta-analyses show practice explains a portion of skill variance.
+fact: Ericsson et al. (1993) reported elite violin students averaged ~10,000 h by age 20 (best group); popularised by Gladwell; Ericsson said deliberate practice quality, not a magic number. Meta-analyses show practice explains a portion of skill variance. Verified: 10,000 hours popularised by Gladwell; critics say practice explains limited variance: OK. Source: https://en.wikipedia.org/wiki/Outliers_(book)
 alt: The most misquoted number in learning.
 alt: Deliberate practice beats raw hours.
 tags: learning, practice, myth
@@ -187,7 +187,7 @@ hook: Work for twenty-five minutes, then break. | *25 MINUTES* ON | num: 25 | mi
 - Work for twenty-five minutes, then rest five. | 25 WORK, *5 REST* | bars: clock Work=25; clock Rest=5
 - After four rounds, take a longer break. | *4 ROUNDS*, LONG BREAK | grid: check One; check Two; check Three; check Four
 - Short sprints keep focus fresh. | SPRINTS *STAY FRESH* | hero: bolt Sprint
-fact: Pomodoro Technique by Francesco Cirillo (late 1980s), named for tomato-shaped timer; classic 25/5 with a 15-30 min break after four. Evidence of benefits is anecdotal/limited; timed breaks generally help vigilance.
+fact: Pomodoro Technique by Francesco Cirillo (late 1980s), named for tomato-shaped timer; classic 25/5 with a 15-30 min break after four. Evidence of benefits is anecdotal/limited; timed breaks generally help vigilance. Verified: Cirillo, late 1980s, 25 min work, short break, long break after four, tomato timer: OK. Source: https://en.wikipedia.org/wiki/Pomodoro_Technique
 alt: A tomato timer for your focus.
 alt: Why 25 minutes works for many.
 tags: focus, productivity, technique
@@ -220,10 +220,10 @@ tags: productivity, boundaries, wellbeing
 hook: Writing three good things can lift mood. | WRITE *3 GOOD* THINGS | num: 3 | good things | list
 - You pay attention to what went well. | NOTICE *WINS* | hero: star Wins
 - Studies found small mood boosts after weeks. | SMALL *BOOSTS* | hero: chart-up Mood
-- A famous study had people do it for ten weeks. | *10 WEEKS* | hero: calendar Ten weeks
+- A famous study had people try it for a week. | *ONE WEEK* | hero: calendar One week
 - The effects are modest, not a cure. | NOT A *CURE* | hero: cross Not a cure
 - Pick a regular time, like before bed. | A *REGULAR* TIME | hero: bed Bedtime
-fact: Emmons & McCullough (2003) gratitude journaling over ~10 weeks raised self-reported wellbeing; Seligman et al. (2005) 'Three Good Things' improved happiness for six months in some groups. Replications show small effects; not a clinical treatment.
+fact: Emmons & McCullough (2003) gratitude journaling over ~10 weeks raised self-reported wellbeing; Seligman et al. (2005) 'Three Good Things' improved happiness for six months in some groups. Replications show small effects; not a clinical treatment. Verified: Seligman 2005 three-good-things, asked for one week, effects up to six months: reworded from ten weeks (not found in sources). Source: https://en.wikipedia.org/wiki/Gratitude
 alt: Three good things before bed.
 alt: A tiny habit with a modest mood lift.
 tags: wellbeing, gratitude, habits
@@ -283,7 +283,7 @@ hook: An emergency fund stops small shocks becoming debt. | SHOCKS *WITHOUT DEBT
 - A common target is three to six months of expenses. | *3–6 MONTHS* | num: 6 | months | calendar
 - Start with one month or a small buffer. | START *SMALL* | hero: coin Small buffer
 - Keep it in an easy-access account. | *EASY ACCESS* | hero: bank Savings
-fact: Common financial guidance: 3-6 months of essential expenses; individual needs differ (job stability, dependants). Starting with a smaller buffer is standard advice. Not financial advice.
+fact: Common financial guidance: 3-6 months of essential expenses; individual needs differ (job stability, dependants). Starting with a smaller buffer is standard advice. Not financial advice. Verified: 3-6 months is common advice but sources say it depends on the person; wording says common target: OK. Source: https://en.wikipedia.org/wiki/Emergency_fund
 alt: The savings that stops a crisis.
 alt: Build it one small deposit at a time.
 tags: money, savings, planning
@@ -295,7 +295,7 @@ hook: Split your take-home pay three ways. | SPLIT PAY *THREE WAYS* | hero: coin
 - Twenty percent goes to savings and debt repayment. | *20%* SAVINGS | hero: coin Savings
 - Elizabeth Warren popularised the rule in a 2005 book. | WARREN, *2005* | hero: book Book
 - Adjust the split to fit your own income. | ADJUST *TO YOU* | hero: gear Adjust
-fact: 50/30/20 rule popularised by Elizabeth Warren and Amelia Warren Tyagi in 'All Your Worth' (2005). It's a rule of thumb; high-cost areas may make 50% for needs unrealistic. Not financial advice.
+fact: 50/30/20 rule popularised by Elizabeth Warren and Amelia Warren Tyagi in 'All Your Worth' (2005). It's a rule of thumb; high-cost areas may make 50% for needs unrealistic. Not financial advice. Verified: Warren popularised 50/30/20 in All Your Worth (2005); could not confirm via fetched pages, widely documented: kept, low risk. Source: https://en.wikipedia.org/wiki/Elizabeth_Warren
 alt: A three-bucket budget.
 alt: The simple rule behind many budgets.
 tags: money, budget, rule

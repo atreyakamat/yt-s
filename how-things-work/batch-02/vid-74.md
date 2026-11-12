@@ -74,6 +74,4 @@ scenes:
 
 ## Fact check
 
-- Mains AC is 50 Hz in Europe/UK (60 Hz in North America), so there are 100 (or 120) half-cycles per second; the hook's '100' assumes 50 Hz and the VO says 'in Europe'.
-- Phase-cut (TRIAC) dimmers delay switching on in each half-cycle; a later turn-on means less average power and a dimmer lamp.
-- Early dimmers were resistive (rheostats) that wasted the unused power as heat; phase-cut dimmers waste very little.
+- 50 Hz mains has 100 half-cycles per second; phase-cut dimmers trim each one. OK (50 Hz regions). Source: https://en.wikipedia.org/wiki/Utility_frequency

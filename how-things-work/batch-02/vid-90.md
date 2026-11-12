@@ -48,10 +48,10 @@ scenes:
     visual: { kind: flow, steps: [{ label: "Strike on the strip", icon: arrow }, { label: "Glass grit makes heat", icon: flame }, { label: "Phosphorus flashes", icon: star }] }
   - at: 14
     dur: 6
-    vo: "A tiny bit turns into white phosphorus, which bursts into flame in air."
-    text: "WHITE PHOSPHORUS"
-    highlight: "WHITE"
-    visual: { kind: zoom, levels: [{ label: "Striking strip", icon: box }, { label: "A grain of phosphorus", icon: molecule }, { label: "Flash of white phosphorus", icon: star }] }
+    vo: "A tiny bit flares up in the air, a spark hot enough to light the head."
+    text: "TINY FLASH"
+    highlight: "FLASH"
+    visual: { kind: zoom, levels: [{ label: "Striking strip", icon: box }, { label: "A grain of phosphorus", icon: molecule }, { label: "Tiny flash of fire", icon: star }] }
     sfx: click
   - at: 20
     dur: 6
@@ -83,6 +83,6 @@ scenes:
 ## Fact check
 
 - Safety match heads contain potassium chlorate, sulfur, binder and filler; the striking strip contains red phosphorus and powdered glass.
-- Friction converts a little red phosphorus to white phosphorus, which ignites in air and lights the head.
+- Friction heats a little red phosphorus until it flashes and lights the head; the exact chemistry (often said to involve white phosphorus) is debated, so the script only says it flares up.
 - Match splints are commonly impregnated with paraffin wax so the flame carries to the wood.
 - The strike-to-flare sequence takes a fraction of a second; a blink lasts roughly 0.1-0.4 s.

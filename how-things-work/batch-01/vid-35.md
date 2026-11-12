@@ -74,6 +74,4 @@ scenes:
 
 ## Fact check
 
-- Actuated signal controllers register a pedestrian call once; further presses in the same cycle don't change the timing.
-- In many city centres signals run fixed-time plans at busy periods, so pedestrian phases come automatically and buttons may have no effect (or only trigger accessible features).
-- A 2004 New York Times report found that more than 2,500 of the city's roughly 3,250 walk buttons no longer worked, i.e. most of them.
+- NYC: a 2004 New York Times report said most (over 2,500 of about 3,250) crossing buttons were inactive. OK. Source: https://www.npr.org/2004/03/26/1794049/pressing-the-button-to-cross-a-manhattan-street (original NYT, Feb 2004, quoted via https://www.techdirt.com/2004/02/27/new-yorkers-keep-pushing-useless-traffic-light-buttons/)

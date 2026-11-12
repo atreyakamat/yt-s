@@ -147,7 +147,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-92](batch-02/vid-92.md) | the-1-second-machine | Bluetooth | Your Bluetooth jumps channel 1,600 times a second | 42s |
 | [vid-93](batch-02/vid-93.md) | the-1-second-machine | Anti-lock brakes | Your brakes can pump 15 times every second | 42s |
 | [vid-94](batch-02/vid-94.md) | the-1-second-machine | Contrails | Contrails freeze into ice faster than you can blink ❄️ | 35s |
-| [vid-95](batch-02/vid-95.md) | the-1-second-machine | Contactless payment | Your card pays in about half a second 💳 | 38s |
+| [vid-95](batch-02/vid-95.md) | the-1-second-machine | Contactless payment | Your card pays in under a second 💳 | 38s |
 | [vid-96](batch-02/vid-96.md) | the-1-second-machine | Inkjet printer nozzles | Your inkjet printer boils ink thousands of times a second | 35.5s |
 | [vid-97](batch-02/vid-97.md) | the-1-second-machine | Hammer drill | A hammer drill hits the wall hundreds of times a second | 41s |
 | [vid-98](batch-02/vid-98.md) | the-1-second-machine | Quartz watch | Your watch has a crystal vibrating 32,768 times a second ⌚ | 36s |
@@ -194,7 +194,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-134](batch-03/vid-134.md) | cut-it-open | Boiler condensate pipe | Your boiler makes its own water, and needs a pipe for it 💧 | 39s |
 | [vid-135](batch-03/vid-135.md) | cut-it-open | Disposable lighter | Your lighter holds a gas squeezed into a liquid 🔥 | 40s |
 | [vid-136](batch-03/vid-136.md) | cut-it-open | Lithium-ion battery | Your phone battery is a sandwich thinner than paper 🔋 | 39s |
-| [vid-137](batch-03/vid-137.md) | cut-it-open | RAM | Your computer's memory has to be refilled 15 times a second | 42s |
+| [vid-137](batch-03/vid-137.md) | cut-it-open | RAM | Your computer's memory has to be refilled at least 15 times a second | 42s |
 | [vid-138](batch-03/vid-138.md) | cut-it-open | Car differential | Your car's wheels secretly spin at different speeds | 44s |
 | [vid-139](batch-03/vid-139.md) | cut-it-open | Escalator | Your escalator steps flatten out by switching tracks | 39s |
 | [vid-140](batch-03/vid-140.md) | cut-it-open | Water tower | A water tower is a giant battery for water pressure 💧 | 38s |
@@ -272,9 +272,9 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-202](batch-05/vid-202.md) | cut-it-open | Clamp meter | This meter reads electric current without touching the wire | 37s |
 | [vid-203](batch-05/vid-203.md) | cut-it-open | Turn-lock handbag clasp | Your bag's clasp locks with one quarter turn 👜 | 37s |
 | [vid-204](batch-05/vid-204.md) | cut-it-open | Yo-yo | Your yo-yo's string isn't even tied on 🪀 | 38.5s |
-| [vid-205](batch-05/vid-205.md) | cut-it-open | Soft contact lens | Your contact lens is mostly water 💧 | 37s |
+| [vid-205](batch-05/vid-205.md) | cut-it-open | Soft contact lens | Your contact lens is a thin gel full of water 💧 | 37s |
 | [vid-206](batch-05/vid-206.md) | cut-it-open | Dishwasher | Your dishwasher never fills up. It recycles a small pool 🍽️ | 40s |
-| [vid-207](batch-05/vid-207.md) | the-1-second-machine | Champagne cork pop | A champagne cork leaves the bottle in a thousandth of a second 🍾 | 32s |
+| [vid-207](batch-05/vid-207.md) | the-1-second-machine | Champagne cork pop | A champagne cork leaves the bottle in a flash 🍾 | 32s |
 | [vid-208](batch-05/vid-208.md) | the-1-second-machine | Sonic toothbrush vibration | Your sonic toothbrush hums at the pitch of middle C 🎵 | 38s |
 | [vid-209](batch-05/vid-209.md) | the-1-second-machine | Garage door safety sensor | Your garage door is watching an invisible beam 👁️ | 37s |
 | [vid-210](batch-05/vid-210.md) | the-1-second-machine | Piezo lighter | Click. A crystal just made thousands of volts ⚡ | 41s |
@@ -286,7 +286,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-216](batch-05/vid-216.md) | the-1-second-machine | Card payment approval | Your card payment crosses the world in about two seconds | 34s |
 | [vid-217](batch-05/vid-217.md) | the-1-second-machine | Nail gun | A nail gun sinks a nail faster than you can blink | 40s |
 | [vid-218](batch-05/vid-218.md) | the-1-second-machine | Automatic umbrella | Your umbrella opens in under one second. Here's the spring ☂️ | 36s |
-| [vid-219](batch-05/vid-219.md) | the-1-second-machine | Golf drive impact | Your golf ball touches the club for half a millisecond ⛳ | 33s |
+| [vid-219](batch-05/vid-219.md) | the-1-second-machine | Golf drive impact | Your golf ball touches the club for about half a millisecond ⛳ | 33s |
 | [vid-220](batch-05/vid-220.md) | the-1-second-machine | Infrared thermometer | This thermometer reads you without touching, in about 1 second 🌡️ | 35s |
 | [vid-221](batch-05/vid-221.md) | the-1-second-machine | Hot air popcorn maker | A popcorn kernel explodes in less than a blink 🍿 | 40s |
 | [vid-222](batch-05/vid-222.md) | cut-it-open | Aluminium can making | Your drink can started life as a flat metal coin 🥫 | 39s |
@@ -294,7 +294,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-224](batch-05/vid-224.md) | cut-it-open | Hot water cylinder | Your hot water tank keeps hot water floating on cold 🔥 | 39s |
 | [vid-225](batch-05/vid-225.md) | cut-it-open | Candle | A candle doesn't burn wax. It burns wax gas 🕯️ | 41s |
 | [vid-226](batch-05/vid-226.md) | cut-it-open | Noise-cancelling headphones | Noise-cancelling headphones fight sound with more sound 🎧 | 38s |
-| [vid-227](batch-05/vid-227.md) | cut-it-open | QR code | You can rip a third off a QR code and it still works | 42s |
+| [vid-227](batch-05/vid-227.md) | cut-it-open | QR code | You can rip a chunk off a QR code and it still works | 42s |
 | [vid-228](batch-05/vid-228.md) | cut-it-open | Rain-sensing wipers | Your wipers see rain with invisible light | 42s |
 | [vid-229](batch-05/vid-229.md) | cut-it-open | Walk-through metal detector | The airport metal detector makes metal talk back | 36s |
 | [vid-230](batch-05/vid-230.md) | cut-it-open | Suspension bridge cables | This bridge cable is made of 27,572 wires 🌉 | 39s |
@@ -340,7 +340,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-265](batch-06/vid-265.md) | cut-it-open | Sunscreen | Your sunscreen fights two different kinds of sunlight ☀️ | 37s |
 | [vid-266](batch-06/vid-266.md) | cut-it-open | Fridge door seal | Your fridge door is held shut by a hidden magnet 🧲 | 44s |
 | [vid-267](batch-06/vid-267.md) | youve-been-using-it-wrong | Takeaway noodle box | Your takeaway noodle box unfolds into a plate 🥡 | 33s |
-| [vid-268](batch-06/vid-268.md) | youve-been-using-it-wrong | Toilet roll over or under | The inventor of toilet roll says it goes OVER 🧻 | 36s |
+| [vid-268](batch-06/vid-268.md) | youve-been-using-it-wrong | Toilet roll over or under | A famous 1891 patent drawing shows toilet roll OVER 🧻 | 36s |
 | [vid-269](batch-06/vid-269.md) | youve-been-using-it-wrong | Room thermostat | Turning your thermostat up won't warm you faster 🌡️ | 37s |
 | [vid-270](batch-06/vid-270.md) | youve-been-using-it-wrong | Lint filter | That fluff in your dryer filter is your clothes 👕 | 41s |
 | [vid-271](batch-06/vid-271.md) | youve-been-using-it-wrong | Cold phone battery | Your phone dies in the cold even with battery left ❄️ | 38s |
@@ -362,14 +362,14 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-287](batch-06/vid-287.md) | cut-it-open | Password hashing | Good websites don't know your password. Here's how they check it | 42s |
 | [vid-288](batch-06/vid-288.md) | cut-it-open | Catalytic converter | Your exhaust hides a honeycomb of precious metals | 43s |
 | [vid-289](batch-06/vid-289.md) | cut-it-open | Bicycle derailleur | Your bike's gear changer is just a spring and a cable | 38s |
-| [vid-290](batch-06/vid-290.md) | cut-it-open | Electricity substation | That fenced yard takes in up to 400,000 volts ⚡ | 38s |
+| [vid-290](batch-06/vid-290.md) | cut-it-open | Electricity substation | Some fenced yards: 400,000 volts ⚡ | 38s |
 | [vid-291](batch-06/vid-291.md) | cut-it-open | Colour-shifting ink | Tilt your money and the number changes colour | 36s |
 | [vid-292](batch-06/vid-292.md) | cut-it-open | Stud finder | Your stud finder feels wood through the wall | 42s |
 | [vid-293](batch-06/vid-293.md) | cut-it-open | Down jacket | Your puffer jacket is mostly air, not feathers 🧥 | 38s |
 | [vid-294](batch-06/vid-294.md) | cut-it-open | Binocular prisms | Without these hidden prisms your binoculars would be upside down 🔭 | 36s |
 | [vid-295](batch-06/vid-295.md) | cut-it-open | Instant ice pack | This ice pack gets cold with no freezer at all 🧊 | 37s |
 | [vid-296](batch-06/vid-296.md) | cut-it-open | Fridge cooling cycle | Your fridge doesn't make cold. It pumps heat out ❄️ | 41s |
-| [vid-297](batch-06/vid-297.md) | why-is-it-shaped-like-that | Fizzy bottle petal base | This is why fizzy drink bottles stand on five little feet 🍾 | 35s |
+| [vid-297](batch-06/vid-297.md) | why-is-it-shaped-like-that | Fizzy bottle petal base | This is why most fizzy drink bottles stand on five little feet 🍾 | 35s |
 | [vid-298](batch-06/vid-298.md) | why-is-it-shaped-like-that | Open-front toilet seat | Why public toilet seats have a gap at the front 🚻 | 32s |
 | [vid-299](batch-06/vid-299.md) | why-is-it-shaped-like-that | Overlapping roof tiles | This is why roof tiles never line up 🏠 | 37s |
 | [vid-300](batch-06/vid-300.md) | why-is-it-shaped-like-that | Ironing board | Your ironing board is pointed so it can wear your shirt 👔 | 41s |
@@ -411,7 +411,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-331](batch-07/vid-331.md) | the-1-second-machine | Laptop drop sensor | Some laptops sense a fall and brace before it lands 💻 | 38s |
 | [vid-332](batch-07/vid-332.md) | the-1-second-machine | Loading a web page | Clicking a link sets off dozens of trips in under a second | 42s |
 | [vid-333](batch-07/vid-333.md) | the-1-second-machine | Crumple zones | Your car is built to crush, and that saves you | 43s |
-| [vid-334](batch-07/vid-334.md) | the-1-second-machine | Evacuation slide | A plane's escape slide inflates in about 6 seconds | 36s |
+| [vid-334](batch-07/vid-334.md) | the-1-second-machine | Evacuation slide | A plane's escape slide inflates in under 10 seconds | 36s |
 | [vid-335](batch-07/vid-335.md) | the-1-second-machine | Speed camera | A speed camera measures you faster than you blink 📸 | 39s |
 | [vid-336](batch-07/vid-336.md) | the-1-second-machine | Coin validator | Coin machines test your coin's metal in a split second | 36.5s |
 | [vid-337](batch-07/vid-337.md) | the-1-second-machine | Laser distance measure | This gadget measures your room by timing light | 42s |
@@ -548,7 +548,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-453](batch-10/vid-453.md) | the-1-second-machine | Driver reaction time | In one second at 70 mph, you cover 31 metres | 42s |
 | [vid-454](batch-10/vid-454.md) | the-1-second-machine | Landing tyre smoke | That puff of smoke at landing is the tyres catching up 💨 | 41s |
 | [vid-455](batch-10/vid-455.md) | the-1-second-machine | Optical recycling sorter | Recycling plants sort plastic with puffs of air 💨 | 44s |
-| [vid-456](batch-10/vid-456.md) | the-1-second-machine | Barcodes on letters | Mail machines read your handwriting 10 letters a second ✉️ | 35s |
+| [vid-456](batch-10/vid-456.md) | the-1-second-machine | Barcodes on letters | Mail machines sort about 10 letters a second ✉️ | 35s |
 | [vid-457](batch-10/vid-457.md) | the-1-second-machine | Staple gun | A staple gun saves your slow squeeze for one instant slam | 41s |
 | [vid-458](batch-10/vid-458.md) | the-1-second-machine | Lockstitch | A sewing machine can make 15 stitches every second 🧵 | 36s |
 | [vid-459](batch-10/vid-459.md) | the-1-second-machine | Click hand warmer | Click this disc and a liquid turns solid in seconds 🔥 | 32.5s |
@@ -573,7 +573,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-478](batch-10/vid-478.md) | before-it-existed | Before toothpaste tubes | Before toothpaste tubes, families dipped into one shared jar 🫙 | 38s |
 | [vid-479](batch-10/vid-479.md) | before-it-existed | Before light switches | Before light switches, you lit a room with a match 🕯️ | 38s |
 | [vid-480](batch-10/vid-480.md) | before-it-existed | Carpet beater | Before vacuums, people beat their carpets with sticks 🪵 | 41s |
-| [vid-481](batch-10/vid-481.md) | before-it-existed | First headphones | The first headphones were built in a kitchen 🎧 | 38s |
+| [vid-481](batch-10/vid-481.md) | before-it-existed | First headphones | The first modern headphones were built in a kitchen 🎧 | 38s |
 | [vid-482](batch-10/vid-482.md) | before-it-existed | Floppy disk | Before USB sticks, your files fit on a floppy. Barely 💾 | 42s |
 | [vid-483](batch-10/vid-483.md) | before-it-existed | Electric starter | Before electric starters, you cranked your car by hand | 43s |
 | [vid-484](batch-10/vid-484.md) | before-it-existed | Dandy horse | The first bike had no pedals. You ran sitting down | 37s |
@@ -838,7 +838,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-718](batch-15/vid-718.md) | before-it-existed | Before deodorant | Before deodorant, people just covered the smell 🌸 | 38s |
 | [vid-719](batch-15/vid-719.md) | before-it-existed | Before doorbells | Before doorbells, houses had bells on wires in the walls 🔔 | 38s |
 | [vid-720](batch-15/vid-720.md) | before-it-existed | Tinderbox | Before matches, lighting a fire took a whole kit 🔥 | 41s |
-| [vid-721](batch-15/vid-721.md) | before-it-existed | First camera phone | The first phone camera took photos smaller than a stamp 📱 | 37s |
+| [vid-721](batch-15/vid-721.md) | before-it-existed | First camera phone | The first phone camera shot just 0.1 megapixels 📱 | 37s |
 | [vid-722](batch-15/vid-722.md) | before-it-existed | Computer password | The first computer password was stolen almost immediately 🔑 | 42s |
 | [vid-723](batch-15/vid-723.md) | before-it-existed | Car headlights | The first car headlights were flames, not bulbs 🔦 | 42s |
 | [vid-724](batch-15/vid-724.md) | before-it-existed | Marine chronometer | Before GPS, sailors found their way with a clock ⏱️ | 37s |
@@ -932,7 +932,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-802](batch-17/vid-802.md) | cut-it-open | Self-drilling screw | This screw has a drill bit built into its tip | 42s |
 | [vid-803](batch-17/vid-803.md) | cut-it-open | Iron-on patch | Your iron-on patch is held on by glue that melts 🔥 | 37s |
 | [vid-804](batch-17/vid-804.md) | cut-it-open | Water filter straw | Your filter straw is packed with thousands of tiny tubes 💧 | 32.5s |
-| [vid-805](batch-17/vid-805.md) | cut-it-open | Foil emergency blanket | This 50-gram foil sheet bounces your body heat back 🥶 | 35s |
+| [vid-805](batch-17/vid-805.md) | cut-it-open | Foil emergency blanket | This thin foil sheet bounces your body heat back 🥶 | 35s |
 | [vid-806](batch-17/vid-806.md) | cut-it-open | Centrifugal juicer | Your juicer flings juice out like a washing machine spin 🍊 | 41s |
 | [vid-807](batch-17/vid-807.md) | the-1-second-machine | Cola and mint geyser | Drop mints in cola and it erupts in under a second 🌋 | 34s |
 | [vid-808](batch-17/vid-808.md) | the-1-second-machine | Jet blade hand dryer | This hand dryer scrapes water off instead of heating it 💨 | 38s |
@@ -1354,7 +1354,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-1189](batch-24/vid-1189.md) | cut-it-open | Trolleybus poles | Trolleybuses need two poles. Trams only need one | 36s |
 | [vid-1190](batch-24/vid-1190.md) | cut-it-open | Number plate cameras | Number plate cameras can read your car in the dark | 38s |
 | [vid-1191](batch-24/vid-1191.md) | cut-it-open | Thumbtack | A thumbtack turns a gentle push into crushing pressure | 38.5s |
-| [vid-1192](batch-24/vid-1192.md) | cut-it-open | Heat gun | A heat gun is a hairdryer that hits 600 degrees | 42s |
+| [vid-1192](batch-24/vid-1192.md) | cut-it-open | Heat gun | A heat gun is a hairdryer that hits 500 degrees | 42s |
 | [vid-1193](batch-24/vid-1193.md) | cut-it-open | Woolly hat | You don't lose half your heat through your head 🧢 | 37s |
 | [vid-1194](batch-24/vid-1194.md) | cut-it-open | Shock-corded tent poles | Your tent poles have a bungee cord hiding inside ⛺ | 38s |
 | [vid-1195](batch-24/vid-1195.md) | cut-it-open | Safety glasses | Safety glasses are made of the plastic used in riot shields 🥽 | 36s |
@@ -1721,7 +1721,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-1521](batch-31/vid-1521.md) | new-year | Why a 'budget' is just a plan for your money | Why a 'budget' is just a plan for your money | 24.8s |
 | [vid-1522](batch-31/vid-1522.md) | new-year | Why your sleep comes in 90-minute cycles | Why your sleep comes in 90-minute cycles | 24.5s |
 | [vid-1523](batch-31/vid-1523.md) | new-year | Why we sing Auld Lang Syne at midnight | Why we sing Auld Lang Syne at midnight | 27.4s |
-| [vid-1524](batch-31/vid-1524.md) | new-year | Why champagne corks fly out so fast | Why champagne corks fly out so fast | 26.6s |
+| [vid-1524](batch-31/vid-1524.md) | new-year | Why champagne corks fly out so fast | Why champagne corks fly out so fast | 27.400000000000002s |
 | [vid-1525](batch-31/vid-1525.md) | new-year | Where champagne bubbles come from | Where champagne bubbles come from | 27.799999999999997s |
 | [vid-1526](batch-31/vid-1526.md) | new-year | Why sparklers burn so hot | Why sparklers burn so hot | 27.1s |
 | [vid-1527](batch-31/vid-1527.md) | new-year | Why the countdown exists | Why the countdown exists | 25.8s |
@@ -1732,7 +1732,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-1532](batch-31/vid-1532.md) | new-year | Why we change the clocks | Why we change the clocks | 25.3s |
 | [vid-1533](batch-31/vid-1533.md) | new-year | The clocks that keep GPS honest | The clocks that keep GPS honest | 25.2s |
 | [vid-1534](batch-31/vid-1534.md) | new-year | Why if-then plans beat willpower | Why if-then plans beat willpower | 24.5s |
-| [vid-1535](batch-31/vid-1535.md) | new-year | Where 10,000 steps came from | Where 10,000 steps came from | 22.8s |
+| [vid-1535](batch-31/vid-1535.md) | new-year | Where 10,000 steps came from | Where 10,000 steps came from | 23.2s |
 | [vid-1536](batch-31/vid-1536.md) | new-year | How much exercise health experts suggest | How much exercise health experts suggest | 20.599999999999998s |
 | [vid-1537](batch-31/vid-1537.md) | new-year | Why muscles are sore two days later | Why muscles are sore two days later | 24.8s |
 | [vid-1538](batch-31/vid-1538.md) | new-year | How caffeine keeps you awake | How caffeine keeps you awake | 25s |
@@ -1772,12 +1772,12 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-1567](batch-32/vid-1567.md) | new-year | Why confetti flutters instead of falling | Why confetti flutters instead of falling | 22.400000000000002s |
 | [vid-1568](batch-32/vid-1568.md) | new-year | Why LED bulbs run cooler than old bulbs | Why LED bulbs run cooler than old bulbs | 25s |
 | [vid-1569](batch-32/vid-1569.md) | new-year | Why Spain eats twelve grapes at midnight | Why Spain eats twelve grapes at midnight | 22.7s |
-| [vid-1570](batch-32/vid-1570.md) | new-year | Why Japan rings temple bells 108 times | Why Japan rings temple bells 108 times | 24.9s |
+| [vid-1570](batch-32/vid-1570.md) | new-year | Why Japan rings temple bells 108 times | Why Japan rings temple bells 108 times | 26.2s |
 | [vid-1571](batch-32/vid-1571.md) | new-year | Why Scotland has Hogmanay and first-footing | Why Scotland has Hogmanay and first-footing | 23.299999999999997s |
 | [vid-1572](batch-32/vid-1572.md) | new-year | Why Denmark smashes plates on New Year's Eve | Why Denmark smashes plates on New Year's Eve | 23.7s |
 | [vid-1573](batch-32/vid-1573.md) | new-year | Why Brazil wears white and jumps seven waves | Why Brazil wears white and jumps seven waves | 23.2s |
 | [vid-1574](batch-32/vid-1574.md) | new-year | Why we make New Year's resolutions | Why we make New Year's resolutions | 21.799999999999997s |
-| [vid-1575](batch-32/vid-1575.md) | new-year | Why most resolutions fail by February | Why most resolutions fail by February | 23.2s |
+| [vid-1575](batch-32/vid-1575.md) | new-year | Why many resolutions fail by February | Why many resolutions fail by February | 23.2s |
 | [vid-1576](batch-32/vid-1576.md) | new-year | Why a fresh start effect is real | Why a fresh start effect is real | 24.900000000000002s |
 | [vid-1577](batch-32/vid-1577.md) | new-year | Where the new year arrives first | Where the new year arrives first | 23.5s |
 | [vid-1578](batch-32/vid-1578.md) | new-year | How the Times Square ball drops | How the Times Square ball drops | 24s |
@@ -1826,7 +1826,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-1616](batch-33/vid-1616.md) | new-year | Why a budget app beats a spreadsheet for some people | Why a budget app beats a spreadsheet for some people | 21.4s |
 | [vid-1617](batch-33/vid-1617.md) | new-year | Why an emergency fund matters | Why an emergency fund matters | 23.5s |
 | [vid-1618](batch-33/vid-1618.md) | new-year | How the 50/30/20 budget works | How the 50/30/20 budget works | 25.299999999999997s |
-| [vid-1619](batch-33/vid-1619.md) | new-year | Why the Quadrantid meteor shower peaks in January | Why the Quadrantid meteor shower peaks in January | 26.1s |
+| [vid-1619](batch-33/vid-1619.md) | new-year | Why the Quadrantid meteor shower peaks in January | Why the Quadrantid meteor shower peaks in January | 25.3s |
 | [vid-1620](batch-33/vid-1620.md) | new-year | Why the Sun rises in the east | Why the Sun rises in the east | 25.700000000000003s |
 | [vid-1621](batch-33/vid-1621.md) | new-year | Why the Moon looks bigger near the horizon | Why the Moon looks bigger near the horizon | 24.4s |
 | [vid-1622](batch-33/vid-1622.md) | new-year | Why Betelgeuse could explode | Why Betelgeuse could explode | 25.2s |
@@ -1851,7 +1851,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-1641](batch-33/vid-1641.md) | new-year | Why we count down from ten | Why we count down from ten | 24.299999999999997s |
 | [vid-1642](batch-33/vid-1642.md) | new-year | Why you should unsubscribe from marketing emails | Why you should unsubscribe from marketing emails | 21.900000000000002s |
 | [vid-1643](batch-33/vid-1643.md) | new-year | How a smart speaker hears its wake word | How a smart speaker hears its wake word | 24.4s |
-| [vid-1644](batch-33/vid-1644.md) | new-year | Why we eat cake on special days | Why we eat cake on special days | 24s |
+| [vid-1644](batch-33/vid-1644.md) | new-year | Why we eat cake on special days | Why we eat cake on special days | 24.8s |
 | [vid-1645](batch-33/vid-1645.md) | new-year | Why doughnuts have holes | Why doughnuts have holes | 27s |
 | [vid-1646](batch-33/vid-1646.md) | new-year | Why chocolate melts in your mouth but not your hand | Why chocolate melts in your mouth but not your hand | 21.900000000000002s |
 | [vid-1647](batch-33/vid-1647.md) | new-year | How coffee beans become coffee | How coffee beans become coffee | 20.6s |
@@ -1889,13 +1889,13 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-1674](batch-34/vid-1674.md) | new-year | Why we yawn | Why we yawn | 19.4s |
 | [vid-1675](batch-34/vid-1675.md) | new-year | Why we get hiccups | Why we get hiccups | 20.3s |
 | [vid-1676](batch-34/vid-1676.md) | new-year | Why your stomach growls | Why your stomach growls | 21.799999999999997s |
-| [vid-1677](batch-34/vid-1677.md) | new-year | Why we get goosebumps from music | Why we get goosebumps from music | 21.5s |
+| [vid-1677](batch-34/vid-1677.md) | new-year | Why we get goosebumps from music | Why we get goosebumps from music | 20.599999999999998s |
 | [vid-1678](batch-34/vid-1678.md) | new-year | Why songs get stuck in your head | Why songs get stuck in your head | 18.400000000000002s |
 | [vid-1679](batch-34/vid-1679.md) | new-year | Why we love scary movies | Why we love scary movies | 20.6s |
 | [vid-1680](batch-34/vid-1680.md) | new-year | Why we cry when we're happy | Why we cry when we're happy | 22.4s |
 | [vid-1681](batch-34/vid-1681.md) | new-year | Why laughing is contagious | Why laughing is contagious | 22.5s |
 | [vid-1682](batch-34/vid-1682.md) | new-year | Why dogs tilt their heads | Why dogs tilt their heads | 24.5s |
-| [vid-1683](batch-34/vid-1683.md) | new-year | Why cats purr | Why cats purr | 25.4s |
+| [vid-1683](batch-34/vid-1683.md) | new-year | Why cats purr | Why cats purr | 23.7s |
 | [vid-1684](batch-34/vid-1684.md) | new-year | Why owls can turn their heads so far | Why owls can turn their heads so far | 24s |
 | [vid-1685](batch-34/vid-1685.md) | new-year | Why bats don't get dizzy hanging upside down | Why bats don't get dizzy hanging upside down | 21.799999999999997s |
 | [vid-1686](batch-34/vid-1686.md) | new-year | Why flamingos stand on one leg | Why flamingos stand on one leg | 24.3s |
@@ -1960,10 +1960,10 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-1740](batch-35/vid-1740.md) | new-year | How facial recognition unlocks your phone | How facial recognition unlocks your phone | 19.7s |
 | [vid-1741](batch-35/vid-1741.md) | new-year | How self-driving cars see the road | How self-driving cars see the road | 19s |
 | [vid-1742](batch-35/vid-1742.md) | new-year | How a 3D printer works | How a 3D printer works | 21.8s |
-| [vid-1743](batch-35/vid-1743.md) | new-year | Why phone screens crack | Why phone screens crack | 18.2s |
+| [vid-1743](batch-35/vid-1743.md) | new-year | Why phone screens crack | Why phone screens crack | 18.6s |
 | [vid-1744](batch-35/vid-1744.md) | new-year | Why phones heat up | Why phones heat up | 19.4s |
 | [vid-1745](batch-35/vid-1745.md) | new-year | Why airplane mode helps battery | Why airplane mode helps battery | 19.8s |
-| [vid-1746](batch-35/vid-1746.md) | new-year | How wireless charging works | How wireless charging works | 21.799999999999997s |
+| [vid-1746](batch-35/vid-1746.md) | new-year | How wireless charging works | How wireless charging works | 22.2s |
 | [vid-1747](batch-35/vid-1747.md) | new-year | How headphones play music | How headphones play music | 22.099999999999998s |
 | [vid-1748](batch-35/vid-1748.md) | new-year | Why the sky is blue | Why the sky is blue | 19.700000000000003s |
 | [vid-1749](batch-35/vid-1749.md) | new-year | Why sunsets are red | Why sunsets are red | 19.4s |
@@ -1973,7 +1973,7 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 
 | # | Series | Topic | Title | Length |
 | --- | --- | --- | --- | --- |
-| [vid-1751](batch-36/vid-1751.md) | new-year | Why clouds float | Why clouds float | 22.2s |
+| [vid-1751](batch-36/vid-1751.md) | new-year | Why clouds float | Why clouds float | 23.099999999999998s |
 | [vid-1752](batch-36/vid-1752.md) | new-year | Why it smells like rain | Why it smells like rain | 20.8s |
 | [vid-1753](batch-36/vid-1753.md) | new-year | Why thunder rumbles | Why thunder rumbles | 21.9s |
 | [vid-1754](batch-36/vid-1754.md) | new-year | Why hail forms | Why hail forms | 18.5s |
@@ -1990,18 +1990,18 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-1765](batch-36/vid-1765.md) | new-year | Why deserts get so cold at night | Why deserts get so cold at night | 18.9s |
 | [vid-1766](batch-36/vid-1766.md) | new-year | Why the Arctic is warming faster | Why the Arctic is warming faster | 20.5s |
 | [vid-1767](batch-36/vid-1767.md) | new-year | How trees help the climate | How trees help the climate | 19s |
-| [vid-1768](batch-36/vid-1768.md) | new-year | Why the ozone layer matters | Why the ozone layer matters | 20.3s |
+| [vid-1768](batch-36/vid-1768.md) | new-year | Why the ozone layer matters | Why the ozone layer matters | 20.7s |
 | [vid-1769](batch-36/vid-1769.md) | new-year | Which other planets have auroras | Which other planets have auroras | 21s |
 | [vid-1770](batch-36/vid-1770.md) | new-year | Why Mars is red | Why Mars is red | 20.3s |
 | [vid-1771](batch-36/vid-1771.md) | new-year | Why Saturn has rings | Why Saturn has rings | 20.3s |
 | [vid-1772](batch-36/vid-1772.md) | new-year | How big the universe is | How big the universe is | 25.799999999999997s |
 | [vid-1773](batch-36/vid-1773.md) | new-year | Why we can't hear sound in space | Why we can't hear sound in space | 18.6s |
 | [vid-1774](batch-36/vid-1774.md) | new-year | What a black hole really is | What a black hole really is | 24.4s |
-| [vid-1775](batch-36/vid-1775.md) | new-year | Why the Olympic rings have five colours | Why the Olympic rings have five colours | 23.2s |
+| [vid-1775](batch-36/vid-1775.md) | new-year | Why the Olympic rings have five colours | Why the Olympic rings have five colours | 23.6s |
 | [vid-1776](batch-36/vid-1776.md) | new-year | Why a marathon is 42 kilometres | Why a marathon is 42 kilometres | 27.8s |
 | [vid-1777](batch-36/vid-1777.md) | new-year | Why the football has pentagons | Why the football has pentagons | 22.4s |
 | [vid-1778](batch-36/vid-1778.md) | new-year | Why curveball pitches curve | Why curveball pitches curve | 20.099999999999998s |
-| [vid-1779](batch-36/vid-1779.md) | new-year | Why chess has sixty-four squares | Why chess has sixty-four squares | 22.7s |
+| [vid-1779](batch-36/vid-1779.md) | new-year | Why chess has sixty-four squares | Why chess has sixty-four squares | 23.9s |
 | [vid-1780](batch-36/vid-1780.md) | new-year | Why dice have opposite sides adding to seven | Why dice have opposite sides adding to seven | 18s |
 | [vid-1781](batch-36/vid-1781.md) | new-year | Why the Rubik's Cube has so many combinations | Why the Rubik's Cube has so many combinations | 24.1s |
 | [vid-1782](batch-36/vid-1782.md) | new-year | Why zero was a breakthrough | Why zero was a breakthrough | 21.5s |
@@ -2018,8 +2018,8 @@ Scripts live in batch folders of 50: `batch-01` = vid-1 to vid-50, `batch-02` = 
 | [vid-1793](batch-36/vid-1793.md) | new-year | Why Napoleon wasn't short | Why Napoleon wasn't short | 23.6s |
 | [vid-1794](batch-36/vid-1794.md) | new-year | Why the Library of Alexandria disappeared | Why the Library of Alexandria disappeared | 21.5s |
 | [vid-1795](batch-36/vid-1795.md) | new-year | How the printing press changed the world | How the printing press changed the world | 21.6s |
-| [vid-1796](batch-36/vid-1796.md) | new-year | Why the Titanic sank so fast | Why the Titanic sank so fast | 23.5s |
+| [vid-1796](batch-36/vid-1796.md) | new-year | Why the Titanic sank so fast | Why the Titanic sank so fast | 24.1s |
 | [vid-1797](batch-36/vid-1797.md) | new-year | Why we say OK | Why we say OK | 26.5s |
 | [vid-1798](batch-36/vid-1798.md) | new-year | Why English spelling is so weird | Why English spelling is so weird | 20s |
-| [vid-1799](batch-36/vid-1799.md) | new-year | Why we say bless you after a sneeze | Why we say bless you after a sneeze | 23.6s |
+| [vid-1799](batch-36/vid-1799.md) | new-year | Why we say bless you after a sneeze | Why we say bless you after a sneeze | 23.200000000000003s |
 | [vid-1800](batch-36/vid-1800.md) | new-year | Why a New Year's reset works best when it's small | Why a New Year's reset works best when it's small | 19.7s |

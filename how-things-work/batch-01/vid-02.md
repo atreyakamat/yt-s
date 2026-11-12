@@ -83,3 +83,8 @@ scenes:
 **Fact check:** YKK = Yoshida Kogyo Kabushikikaisha (the company name).
 
 Visual style, safe areas and audio rules: same as [vid-01](../cut-it-open/vid-01.md).
+
+## Fact check
+
+- Y-shaped slider meshes and separates the teeth; each tooth has a bump and a recess. OK. Source: https://en.wikipedia.org/wiki/Zipper
+- YKK stands for Yoshida Kogyo Kabushiki Kaisha (the maker's name). OK. Source: https://en.wikipedia.org/wiki/Zipper

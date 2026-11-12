@@ -54,10 +54,14 @@ export function findExe(name) {
 
 const python = findExe(process.platform === "win32" ? "python" : "python3") ?? "python3";
 
-/** Is the free offline Piper voice set up? (see tools/voiceover.py) */
+/** Is a free offline voice set up? Kokoro (preferred) or Piper; see tools/voiceover.py. */
 export function voiceReady() {
+  const voices = path.join(repo, "tools", "voices");
+  const has = (f) => fs.existsSync(path.join(voices, f));
+  if (has("kokoro-v1.0.onnx") && has("voices-v1.0.bin"))
+    return spawnSync(python, ["-c", "import kokoro_onnx, soundfile"], { stdio: "ignore" }).status === 0;
   const voice = process.env.PIPER_VOICE ?? "en_US-lessac-medium";
-  if (!fs.existsSync(path.join(repo, "tools", "voices", `${voice}.onnx`))) return false;
+  if (!has(`${voice}.onnx`)) return false;
   return spawnSync(python, ["-c", "import piper"], { stdio: "ignore" }).status === 0;
 }
 

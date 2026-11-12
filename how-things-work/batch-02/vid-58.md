@@ -57,7 +57,7 @@ scenes:
     vo: "Alexander Cumming patented the S-bend in 1775. U-bends came later."
     text: "PATENTED IN 1775"
     highlight: "1775"
-    visual: { kind: timeline, events: [{ year: "1596", label: "Harington's flushing toilet" }, { year: "1775", label: "Cumming patents the S-bend" }, { year: "1880", label: "U-bend improves it" }] }
+    visual: { kind: timeline, events: [{ year: "1596", label: "Harington's flushing toilet" }, { year: "1775", label: "Cumming patents the S-bend" }, { year: "1800s", label: "U-bend improves it later" }] }
   - at: 27
     dur: 6
     vo: "Leave a toilet unused for months and that water can dry up, letting smells in."
@@ -74,8 +74,4 @@ scenes:
 
 ## Fact check
 
-- Trap holds a water seal → the S/U-bend (trap) retains water after flushing; this seal blocks sewer gas.
-- 1775 S-bend → Alexander Cumming patented the S-shaped trap in 1775.
-- 1596 → John Harington built a flushing toilet for Elizabeth I's court around 1596.
-- 1880 U-bend → Thomas Crapper is credited with an 1880 U-bend patent that improved on the S-bend.
-- Dry traps → water in an unused trap evaporates over weeks to months, breaking the seal.
+- Cumming patented the S-trap flushing toilet in 1775; Harington described a flushing toilet in 1596. OK. Source: https://www.historyhit.com/alexander-cummings-the-scottish-pioneer-of-the-flush-toilet/

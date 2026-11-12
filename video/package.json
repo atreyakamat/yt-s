@@ -33,6 +33,8 @@
     "build:reel": "node tools/build.mjs",
     "check": "node tools/precheck.mjs",
     "daily": "node tools/daily.mjs",
+    "doctor": "node tools/doctor.mjs",
+    "sheet": "node tools/sheet.mjs && python ../tools/make_sheet.py",
     "gen": "node tools/gen-scripts.mjs"
   },
   "allowScripts": {

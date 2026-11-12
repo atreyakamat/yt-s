@@ -80,8 +80,4 @@ scenes:
 
 ## Fact check
 
-- Pencil cores are graphite (a form of carbon) mixed with clay and fired; they contain no metallic lead.
-- Graphite is layered carbon; the layers are weakly bound and slide off, leaving marks.
-- A large graphite deposit was found at Borrowdale, England in the 1500s and was called 'black lead' or plumbago.
-- Nicolas-Jacques Conté patented the graphite-and-clay process in France in 1795.
-- More clay = harder (H) and lighter; more graphite = softer (B) and darker.
+- Borrowdale graphite found in England in the 1500s (about 1564) and called lead/plumbago; Conte mixed graphite and clay in 1795. OK. Source: https://www.bl.uk/stories/blogs/posts/the-history-of-the-pencil

@@ -7,7 +7,7 @@ hook: The earliest sunset comes before the shortest day. | EARLIEST SUNSET *COME
 - The latest sunrise comes in early January. | LATEST SUNRISE, *EARLY JAN* | hero: sunrise Late sunrise
 - Solar noon drifts across the year, a gap called the equation of time. | NOON *DRIFTS* | hero: clock Solar noon
 - So afternoons brighten before mornings do. | AFTERNOONS *FIRST* | pair: sun Afternoon; moon Morning
-fact: At mid-northern latitudes the earliest sunset is about 2 weeks before the winter solstice and the latest sunrise about 2 weeks after (equation of time + Earth's tilt/eccentricity). Exact dates depend on latitude.
+fact: At mid-northern latitudes the earliest sunset is about 2 weeks before the winter solstice and the latest sunrise about 2 weeks after (equation of time + Earth's tilt/eccentricity). Exact dates depend on latitude. Source: https://en.wikipedia.org/wiki/Equation_of_time
 alt: Why your evenings brighten before your mornings.
 alt: The solstice isn't the earliest sunset.
 tags: astronomy, winter, solstice
@@ -43,7 +43,7 @@ hook: Ice floats, and that's quite unusual. | ICE *FLOATS* | hero: glass Ice in 
 - Freezing locks water into an open hexagonal lattice. | AN *OPEN* LATTICE | hero: snowflake Lattice
 - So ice floats and lakes freeze from the top. | LAKES FREEZE *FROM THE TOP* | hero: drop Lake
 - The water underneath stays liquid, so fish survive. | FISH *SURVIVE* | hero: wave Liquid below
-fact: Ice Ih density ~0.917 g/cm3 vs water ~1.000 (about 8-9% less dense). Water is densest at ~4 °C; lakes freeze from the surface down.
+fact: Ice Ih density ~0.917 g/cm3 vs water ~1.000 (about 8-9% less dense). Water is densest at ~4 °C; lakes freeze from the surface down. Source: https://en.wikipedia.org/wiki/Properties_of_water
 alt: If ice sank, lakes would freeze solid.
 alt: Water breaks a basic rule of materials.
 tags: ice, physics, winter
@@ -55,7 +55,7 @@ hook: Salt doesn't melt ice. It lowers freezing. | SALT *LOWERS* FREEZING | hero
 - That lowers the freezing point of the salty water. | LOWER *FREEZING POINT* | hero: chart-down Lower
 - Road salt works down to roughly minus nine degrees. | WORKS DOWN TO *-9°C* | hero: thermometer Roughly -9°C
 - Colder than that, it needs other chemicals. | COLDER NEEDS *MORE* | hero: snowflake Colder
-fact: Freezing-point depression: NaCl brine eutectic is -21 °C but in practice rock salt works poorly below about -9 to -12 °C; other de-icers (CaCl2, MgCl2) work colder.
+fact: Freezing-point depression: NaCl brine eutectic is -21 °C but in practice rock salt works poorly below about -9 to -12 °C; other de-icers (CaCl2, MgCl2) work colder. Source: https://ltap.engr.wisc.edu/wp-content/uploads/2019/12/Bltn_006_SaltNSand.pdf
 alt: Why gritters spread salt.
 alt: The chemistry on every icy road.
 tags: ice, chemistry, winter
@@ -127,7 +127,7 @@ hook: Pay off the costliest debt first. | PAY THE *COSTLIEST* FIRST | hero: coin
 - So extra money kills the most expensive debt first. | EXTRA → *HIGHEST RATE* | flow: coin Extra cash; percent Highest rate; check Paid off
 - This is called the avalanche method. | THE *AVALANCHE* | hero: mountain Avalanche
 - Paying the smallest first is the snowball method, which can feel better. | SNOWBALL *FEELS* BETTER | hero: ball Snowball
-fact: Avalanche (highest APR first) minimises total interest; snowball (smallest balance first) can improve motivation (Gal & McShane 2012 found progress on closing accounts predicts success). Not financial advice.
+fact: Avalanche (highest APR first) minimises total interest; snowball (smallest balance first) can improve motivation (Gal & McShane 2012 found progress on closing accounts predicts success). Not financial advice. Source: https://en.wikipedia.org/wiki/Debt_snowball_method
 alt: Which debt should you pay first?
 alt: The math behind avalanche vs snowball.
 tags: money, debt, finance
@@ -139,7 +139,7 @@ hook: Cash in a drawer slowly shrinks. | CASH *SLOWLY SHRINKS* | hero: coin Cash
 - Use the rule of 72 again: divide 72 by the rate. | 72 ÷ *RATE* | hero: percent Rate
 - At three percent inflation, prices double in about twenty-four years. | 3% → *24 YEARS* | num: 24 | years to double prices | hourglass
 - So savings usually need to earn more than inflation. | BEAT *INFLATION* | hero: target Beat inflation
-fact: 72/3 = 24 years. Rule of 72 is an approximation; inflation rates vary by country and year. Not investment advice.
+fact: 72/3 = 24 years. Rule of 72 is an approximation; inflation rates vary by country and year. Not investment advice. Source: https://en.wikipedia.org/wiki/Rule_of_72
 alt: The silent cost of keeping cash.
 alt: Prices double faster than you think.
 tags: money, inflation, finance
@@ -187,7 +187,7 @@ hook: A QR code works even when it's scratched. | QR CODES *SURVIVE DAMAGE* | he
 - It also adds error-correcting extra data. | EXTRA *REPAIR DATA* | hero: gear Error correction
 - That lets a scanner rebuild missing parts. | REBUILDS *THE GAPS* | hero: check Rebuilt
 - At the highest level it can lose up to about thirty percent. | UP TO *30%* LOST | meter: 30 | % can be damaged | percent
-fact: QR codes use Reed-Solomon error correction with four levels (L ~7%, M ~15%, Q ~25%, H ~30% of codewords recoverable); three finder patterns indicate orientation.
+fact: QR codes use Reed-Solomon error correction with four levels (L ~7%, M ~15%, Q ~25%, H ~30% of codewords recoverable); three finder patterns indicate orientation. Source: https://en.wikipedia.org/wiki/QR_code
 alt: Why a logo can sit in the middle of a QR code.
 alt: The trick that makes QR codes tough.
 tags: qrcode, tech, digitalreset
@@ -211,7 +211,7 @@ hook: Bluetooth is named after a Viking king. | NAMED AFTER A *KING* | hero: bol
 - The tech united phones, PCs and gadgets too. | UNITING *DEVICES* | hero: phone Devices
 - The logo combines his initials in Viking runes. | LOGO = *HIS RUNES* | hero: sparkle Runes
 - Even the nickname Bluetooth is a mystery. | ORIGIN OF *BLUE* UNCLEAR | hero: question Why blue
-fact: Bluetooth SIG logo merges runic H (Hagall) and B (Bjarkan) for Harald Bluetooth (c. 958-986); name proposed by Jim Kardach (1997) as a placeholder that stuck. Origin of 'Bluetooth' nickname is debated.
+fact: Bluetooth SIG logo merges runic H (Hagall) and B (Bjarkan) for Harald Bluetooth (c. 958-986); name proposed by Jim Kardach (1997) as a placeholder that stuck. Origin of 'Bluetooth' nickname is debated. Source: https://en.wikipedia.org/wiki/Bluetooth
 alt: A Danish king in your earbuds.
 alt: Why the logo looks like a rune.
 tags: bluetooth, history, tech
@@ -223,7 +223,7 @@ hook: Helium balloons float because they're lighter than air. | THEY'RE *LIGHTER
 - If that push beats its weight, it rises. | PUSH > *WEIGHT* | hero: scale Buoyancy
 - Each litre of helium lifts about one gram. | ~*1 GRAM* PER LITRE | num: 1 | gram per litre | scale
 - That's why a party balloon can lift almost nothing. | LIFTS *VERY LITTLE* | hero: gift Tiny load
-fact: Helium ~0.17 kg/m3 vs air ~1.2 kg/m3 at room temperature: net lift ~1.0 g per litre. Balloon skin weight reduces it.
+fact: Helium ~0.17 kg/m3 vs air ~1.2 kg/m3 at room temperature: net lift ~1.0 g per litre. Balloon skin weight reduces it. Source: https://en.wikipedia.org/wiki/Helium
 alt: How a gas floats a balloon.
 alt: Why a balloon can't lift a gift.
 tags: balloon, physics, party

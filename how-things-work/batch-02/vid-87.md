@@ -81,7 +81,4 @@ scenes:
 
 ## Fact check
 
-- Popcorn kernels contain roughly 14% moisture inside a hard, moisture-proof hull (pericarp).
-- Heated water turns to steam; the hull holds until about 180 °C, when it ruptures (French high-speed camera study, 2015, found ~180 °C).
-- The same study filmed the burst in hundredths of a second and linked the pop sound to the release of water vapour, not hull fracture.
-- It also showed a starch 'leg' that pushes the kernel so it jumps.
+- Popcorn hull ruptures at about 180 C (356 F). OK. Source: https://en.wikipedia.org/wiki/Popcorn

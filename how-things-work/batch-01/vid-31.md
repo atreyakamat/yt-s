@@ -76,6 +76,4 @@ scenes:
 
 ## Fact check
 
-- Lithium-ion cells age faster when kept at high state of charge and high temperature (well documented in battery research and in phone makers' battery guidance).
-- High cell voltage accelerates electrolyte oxidation and electrode degradation, which reduces capacity over time.
-- Major phone operating systems offer optimised or adaptive charging that holds around 80% and completes charging based on your routine/alarm.
+- Holding Li-ion at high charge and high temperature speeds capacity loss; charging beyond about 80% accelerates degradation. OK. Source: https://en.wikipedia.org/wiki/Lithium-ion_battery

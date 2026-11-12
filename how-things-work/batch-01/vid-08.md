@@ -75,3 +75,7 @@ scenes:
 **Loop:** "Click..." runs into the opening click and "This click is a tiny rotating machine."
 
 Visual style, safe areas and audio rules: same as [vid-01](../cut-it-open/vid-01.md).
+
+## Fact check
+
+- "4 PARTS" counts the parts the script names (spring, ink, plunger, toothed cylinder); a simplified teaching count, not a manufacturer spec.

@@ -83,3 +83,8 @@ scenes:
 **Fact check:** inflation time roughly 20-50 ms depending on source; keep "about 30". Blink 100-400 ms.
 
 Visual style, safe areas and audio rules: same as [vid-01](../cut-it-open/vid-01.md).
+
+## Fact check
+
+- Airbag fully inflates in about 20 to 30 ms (frontal), 30 ms per Bosch. OK. Source: https://www.bosch-presse.de/pressportal/de/en/deploys-faster-than-a-person-can-blink-220689.html
+- A blink lasts 100 to 400 ms, so over 100 ms holds. OK. Source: https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100706

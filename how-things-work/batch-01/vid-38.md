@@ -8,7 +8,7 @@ duration: 35
 music: sneaky-snitch
 accent: "#FF9F0A"
 hashtags: [jeans, denim, fashion, didyouknow, shorts]
-description: "The little pocket above your right front pocket was made for pocket watches in the 1800s. Wristwatches made it redundant, but it stayed."
+description: "The little pocket above your right front pocket is widely said to have been made for pocket watches in the 1800s. Wristwatches made it redundant, but it stayed."
 pinned: "What else have we all been using wrong?"
 ---
 
@@ -16,7 +16,7 @@ pinned: "What else have we all been using wrong?"
 
 ## Hook
 
-- **Chosen (0-3s):** "The tiny pocket on your jeans was for watches." Big text: A POCKET FOR A WATCH
+- **Chosen (0-3s):** "The tiny pocket on your jeans was reportedly for watches." Big text: A POCKET FOR A WATCH
 - **Backup hooks:**
     1. "Your jeans have a pocket for something nobody carries."
     2. "There's a reason your jeans have a tiny fifth pocket."
@@ -28,7 +28,7 @@ pinned: "What else have we all been using wrong?"
 scenes:
   - at: 0
     dur: 3
-    vo: "The tiny pocket on your jeans was for watches."
+    vo: "The tiny pocket on your jeans was reportedly for watches."
     text: "A POCKET FOR A WATCH"
     highlight: "WATCH"
     visual: { kind: hero, icon: clock, label: "Tiny jeans pocket", color: blue, motion: pulse }
@@ -70,12 +70,9 @@ scenes:
     vo: "Next time you slip a coin in there, remember..."
     text: ""
     visual: { kind: hero, icon: clock, label: "Built for a watch", color: accent, motion: float }
-    note: "Last line runs back into the hook: The tiny pocket on your jeans was for watches."
+    note: "Last line runs back into the hook: The tiny pocket on your jeans was reportedly for watches."
 ```
 
 ## Fact check
 
-- The small pocket on five-pocket jeans is widely known as the watch pocket (also fob or coin pocket); it appears on 19th-century work jeans when pocket watches on chains were common.
-- Its position just above the right front pocket: true on standard five-pocket jeans.
-- Wristwatches became mainstream after the First World War, so the pocket lost its original job.
-- No exact year is claimed for the pocket's first appearance; the script says 'late 1800s'.
+- Watch-pocket origin: widely repeated in Levi Strauss & Co. history, but no authoritative page could be read in this pass (Wikipedia pages on Levi's and pocket watches are silent), so the claim is SOFTENED to "reportedly" / "widely said". Source: https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co. (no statement either way)

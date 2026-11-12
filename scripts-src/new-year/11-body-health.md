@@ -7,7 +7,7 @@ hook: Flu shots take time to work. | FLU SHOTS *TAKE TIME* | hero: shield Flu sh
 - The virus changes, so the shot is updated yearly. | UPDATED *YEARLY* | hero: loop-arrow Yearly
 - It lowers risk and often lessens severity. | LOWER *RISK* | hero: chart-down Risk
 - Ask a doctor or pharmacist what's right for you. | ASK *A PROFESSIONAL* | hero: person Doctor
-fact: Influenza vaccine protection takes ~2 weeks to develop (CDC); strains drift so formulas are updated annually; effectiveness varies by season (often ~40-60% against illness). Timing differs by hemisphere. Not medical advice.
+fact: Influenza vaccine protection takes ~2 weeks to develop (CDC); strains drift so formulas are updated annually; effectiveness varies by season (often ~40-60% against illness). Timing differs by hemisphere. Not medical advice. Verified: Flu vaccine protection takes about two weeks: OK. Source: https://en.wikipedia.org/wiki/Influenza_vaccine
 alt: Why the shot is yearly.
 alt: Protection that needs two weeks.
 tags: health, flu, winter
@@ -19,7 +19,7 @@ hook: Soap breaks germs apart. | SOAP *BREAKS* GERMS | hero: bubble Soap
 - Scrubbing lifts the germs off your skin. | SCRUBBING *LIFTS* | hero: sparkle Scrub
 - Rinsing washes them away. | RINSE *THEM OFF* | hero: drop Rinse
 - Twenty seconds is the usual advice. | *20 SECONDS* | num: 20 | seconds | clock
-fact: Soap surfactants disrupt lipid membranes of enveloped viruses and lift microbes; mechanical friction and rinsing remove them. Health bodies recommend scrubbing for ~20 seconds.
+fact: Soap surfactants disrupt lipid membranes of enveloped viruses and lift microbes; mechanical friction and rinsing remove them. Health bodies recommend scrubbing for ~20 seconds. Verified: WHO/CDC advise at least 20 seconds: OK. Source: https://en.wikipedia.org/wiki/Hand_washing
 alt: Why twenty seconds matters.
 alt: The chemistry of soap.
 tags: health, hygiene, chemistry
@@ -67,7 +67,7 @@ hook: Hot water sometimes freezes faster. | HOT *BEATS* COLD | hero: thermometer
 - Scientists still argue about whether it's real. | STILL *DEBATED* | hero: question Debated
 - Evaporation, convection and dissolved gases may all play a part. | MANY *FACTORS* | hero: gear Factors
 - Results change with container and setup. | SETUP *MATTERS* | hero: box Setup
-fact: Mpemba effect named after Erasto Mpemba (1963 with Denis Osborne); reproducibility is contested (e.g. Burridge & Linden 2016 failed to see it under controlled conditions; other recent studies claim it under specific conditions). Present as debated.
+fact: Mpemba effect named after Erasto Mpemba (1963 with Denis Osborne); reproducibility is contested (e.g. Burridge & Linden 2016 failed to see it under controlled conditions; other recent studies claim it under specific conditions). Present as debated. Verified: Mpemba described it in 1963 as a Tanzanian student: OK. Source: https://en.wikipedia.org/wiki/Mpemba_effect
 alt: Can hot water freeze faster?
 alt: A freezer mystery.
 tags: physics, winter, mystery
@@ -91,7 +91,7 @@ hook: Nobody agrees on why we dream. | WHY *WE DREAM* | hero: moon Dreams
 - Dreams may help process emotions. | PROCESSES *EMOTION* | hero: heart Emotion
 - Some scientists see them as a by-product. | *BY-PRODUCT?* | hero: question By-product
 - Everyone dreams, even if they forget. | *EVERYONE* DREAMS | hero: people Everyone
-fact: Dreams occur mostly in REM (also some in NREM); leading theories include memory consolidation, emotional regulation, threat simulation, and activation-synthesis; none are settled. Most adults have ~4-6 dreams a night (many forgotten).
+fact: Most vivid dreams are in REM (one estimate: 80% of dreams), some in NREM; why we dream is unsettled. Source: https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep
 alt: A mystery you have every night.
 alt: Why dreams exist.
 tags: sleep, brain, mystery
@@ -103,7 +103,7 @@ hook: You can't tickle yourself. | NO *SELF-TICKLING* | hero: person Tickle
 - When someone else tickles, it's a surprise. | SURPRISE *WINS* | hero: sparkle Surprise
 - Surprise touch triggers the laugh reflex. | LAUGH *REFLEX* | hero: heart Laugh
 - Robots that add delay can trick you. | *DELAY* FOOLS IT | hero: clock Delay
-fact: Blakemore, Wolpert & Frith (1998): self-generated touch is attenuated by cerebellar prediction; inserting a delay in a robot-mediated touch made it more ticklish. Good.
+fact: 1998 Blakemore et al.: cerebellum predicts self-touch so it feels weaker; robot-delay tickling. Source: https://en.wikipedia.org/wiki/Tickling
 alt: Your brain cancels your own touch.
 alt: The surprise that tickles.
 tags: brain, body, perception
@@ -115,7 +115,7 @@ hook: Fingers wrinkle in water for grip. | WRINKLES *HELP GRIP* | hero: drop Wri
 - The skin then pulls into ridges. | SKIN *RIDGES* | hero: wave Ridges
 - Wrinkles may channel water like tyre treads. | LIKE *TYRE TREADS* | hero: gear Treads
 - Wet objects were easier to grip in tests. | *BETTER* WET GRIP | hero: check Grip
-fact: Wrinkling is neurally controlled (absent with nerve damage, Wilder-Smith); Changizi et al. (2011) proposed rain-tread function; Kareklas et al. (2013) found improved wet-object handling; later studies (Haseleu et al. 2016) found no grip benefit. Present as debated.
+fact: Wrinkling is nerve-controlled; grip benefit is debated, script says 'may' and 'in tests'. Source: https://en.wikipedia.org/wiki/Fingerprint
 alt: A built-in grip feature, maybe.
 alt: Nerves, not just water.
 tags: body, water, evolution
@@ -125,9 +125,9 @@ hook: Fingerprints may help you grip. | FINGERPRINTS *AND GRIP* | hero: person F
 - Ridges are formed before birth and never change. | *FIXED* BEFORE BIRTH | hero: lock Fixed
 - Even identical twins have different patterns. | TWINS *DIFFER* | hero: people Twins
 - Ridges may improve touch sensitivity. | BETTER *TOUCH* | hero: sparkle Touch
-- A 2009 study suggested they help grip on surfaces. | *GRIP* AID? | hero: check Grip
+- A 2009 study doubted they help grip smooth surfaces. | *GRIP* AID? | hero: check Grip
 - Police use them to identify people. | FORENSIC *USE* | hero: shield Forensic
-fact: Fingerprint patterns develop in the womb (weeks ~10-17) and are not genetically identical even in twins; function (friction/touch) debated; a 2009 Warman & Ennos study suggested ridges reduce grip on smooth surfaces, while a 2021 study (Dzidek) linked ridges to tactile sensitivity. Present as debated.
+fact: Warman & Ennos 2009 doubted ridges improve grip on smooth surfaces: SOFTENED to match. Source: https://en.wikipedia.org/wiki/Fingerprint
 alt: Why you have swirls on your fingers.
 alt: Unique even for twins.
 tags: body, forensics, evolution
@@ -139,7 +139,7 @@ hook: Your blood type depends on markers. | BLOOD *TYPE MARKERS* | hero: drop Bl
 - A plus or minus sign adds the Rh factor. | PLUS *OR MINUS* | hero: percent Rh
 - Mismatched blood can trigger an immune reaction. | MISMATCH *DANGER* | hero: shield Reaction
 - Type O negative is the universal red cell donor. | *O−* CAN DONATE TO ALL | hero: heart Universal
-fact: ABO and Rh systems; O negative red cells are used as universal donor in emergencies; mismatched transfusion causes haemolytic reactions. Frequencies vary by population. Good.
+fact: A/B/AB/O differ by red-cell antigens; O Rh-negative is often called the universal red cell donor (generally true, with caveats). Source: https://en.wikipedia.org/wiki/Blood_type
 alt: A, B, AB, O explained.
 alt: Why blood must match.
 tags: body, blood, health
@@ -151,7 +151,7 @@ hook: Cold treats can cause brain freeze. | ICE CREAM *HEADACHE* | hero: snowfla
 - Nerves read that swelling as pain. | NERVES *READ PAIN* | hero: bolt Pain
 - It's called a cold-stimulus headache. | *COLD-STIMULUS* HEADACHE | hero: brain Headache
 - Eat slowly to avoid it. | *EAT SLOWLY* | hero: clock Slow
-fact: Cold-stimulus headache (sphenopalatine ganglioneuralgia); trigeminal nerve pain from rapid vascular changes in the anterior cerebral artery area (Mages 2012 study hypothesis); resolves within ~30-60 seconds. Mechanism hypothesised.
+fact: Brain freeze: palate vessels constrict then dilate, trigeminal nerve, referred pain; lasts seconds to minutes: OK. Source: https://en.wikipedia.org/wiki/Brain_freeze
 alt: The ice cream headache explained.
 alt: Why cold hits your head.
 tags: body, pain, food
@@ -162,8 +162,8 @@ hook: Onions release a tear-making gas. | ONIONS *MAKE TEARS* | hero: drop Onion
 - An enzyme makes a gas called syn-propanethial-S-oxide. | A *TEAR GAS* | hero: cloud Gas
 - It reaches your eyes and forms mild acid. | FORMS *MILD ACID* | hero: drop Acid
 - Your eyes sting, so your tear glands respond. | EYES *RESPOND* | hero: eye Eyes
-- Chilling the onion first slows the reaction. | CHILL *FIRST* | hero: snowflake Chilled
-fact: Lachrymatory factor synthase converts sulfenic acid into syn-propanethial-S-oxide (Imai et al. 2002); chilling reduces volatility/enzyme activity; a tear-free onion (Sunions) exists. Good.
+- Cutting under water keeps the gas away. | CUT UNDER *WATER* | hero: snowflake Water
+fact: Cutting releases syn-propanethial-S-oxide that stimulates eye nerves; cutting under water reduces it. 'Chilling slows it' was not supported, replaced by cutting under water: SOFTENED. Source: https://en.wikipedia.org/wiki/Onion
 alt: The chemistry of onion tears.
 alt: How to cut without crying.
 tags: food, chemistry, body
@@ -175,7 +175,7 @@ hook: Salty food makes you thirsty. | SALT *MAKES* THIRST | hero: waterglass Thi
 - Sensors in your brain detect the change. | BRAIN *SENSES* IT | hero: brain Sensor
 - You feel thirst and want to drink. | *THIRST* SIGNAL | hero: waterglass Drink
 - Drinking restores the balance. | BALANCE *RESTORED* | hero: scale Balance
-fact: Osmoreceptors in the hypothalamus (OVLT/SFO) detect increased plasma osmolality and trigger thirst and ADH release. Basic physiology.
+fact: Osmoreceptors (OVLT/SFO) detect plasma concentration and drive thirst: OK. Source: https://en.wikipedia.org/wiki/Thirst
 alt: Why chips make you thirsty.
 alt: Osmosis in your head.
 tags: body, food, biology
@@ -187,7 +187,7 @@ hook: Winter hides your thirst signal. | WINTER *HIDES THIRST* | hero: snowflake
 - Layers make you sweat more than you notice. | HIDDEN *SWEAT* | hero: drop Sweat
 - Warm drinks count as water too. | WARM *DRINKS COUNT* | hero: cup Warm drink
 - Check your urine colour for a clue. | PALE *IS GOOD* | hero: check Pale
-fact: Studies (Kenefick et al.) show cold exposure blunts thirst sensation and can cause 'voluntary dehydration'; heated indoor air lowers humidity; urine colour is a rough hydration check. Not medical advice.
+fact: Cold blunting thirst, dry heated air: qualitative, no number; only the thirst mechanism was fetched. Source: https://en.wikipedia.org/wiki/Thirst
 alt: Cold weather dulls thirst.
 alt: A hidden winter habit.
 tags: health, winter, water
@@ -199,7 +199,7 @@ hook: Bruises change colour as they heal. | BRUISES *CHANGE COLOUR* | hero: drop
 - Your body breaks down the blood pigment. | PIGMENT *BREAKS DOWN* | hero: atom Pigment
 - That makes green, then yellow shades. | GREEN, *THEN YELLOW* | hero: sparkle Green
 - Most fade away in two weeks. | *~2 WEEKS* | num: 2 | weeks | calendar
-fact: Haemoglobin breakdown: oxyhaemoglobin (red) → deoxy (blue/purple) → biliverdin (green) → bilirubin (yellow) → haemosiderin (brown); typical bruise heals in ~2 weeks; dating a bruise by colour is unreliable forensically. Severe or unexplained bruising warrants medical advice.
+fact: Small bruises fade in about two weeks; red/blue then green (biliverdin), yellow (bilirubin), brown: OK. Source: https://en.wikipedia.org/wiki/Bruise
 alt: A bruise's colour timeline.
 alt: What the rainbow on your skin means.
 tags: body, health, skin
@@ -211,7 +211,7 @@ hook: Scars are rushed repairs. | SCARS *ARE REPAIRS* | hero: shield Scar
 - Normal skin has a woven, flexible mix. | SKIN *IS WOVEN* | hero: wave Woven
 - Scars lack hair follicles and sweat glands. | NO *HAIR OR SWEAT* | hero: cross Missing
 - Sun protection helps scars fade. | PROTECT *FROM SUN* | hero: sun Sun
-fact: Scar tissue is dense, aligned collagen type I with fewer elastin fibres and no appendages (hair follicles, sweat glands); UV exposure darkens new scars; keloids/hypertrophic scars are different. Good.
+fact: Scar collagen aligns in one direction vs basketweave; hair follicles and sweat glands do not regrow: OK. Source: https://en.wikipedia.org/wiki/Scar
 alt: Why scars never look the same.
 alt: A fast fix, not a perfect one.
 tags: body, skin, healing
@@ -223,7 +223,7 @@ hook: Sunburn hurts hours after the sun. | SUNBURN *COMES LATE* | hero: sun Sunb
 - That inflammation takes hours to build. | *HOURS* TO PEAK | hero: hourglass Hours
 - Pain and redness peak after about a day. | PEAKS *~24 HOURS* | num: 24 | hours | clock
 - Even in winter, snow reflects UV. | *SNOW* REFLECTS UV | hero: snowflake Snow
-fact: Erythema from UVB-induced DNA damage and inflammatory response typically peaks 12-24 hours after exposure; snow reflects up to ~80% of UV (varies); UV index rises with altitude. SPF advice standard. Not medical advice.
+fact: Sunburn symptoms typically worst 24 to 36 hours after exposure; '~24 hours' is within that: OK. Source: https://en.wikipedia.org/wiki/Sunburn
 alt: Why you only notice after the beach.
 alt: Snow can burn you too.
 tags: body, sun, skin
@@ -235,7 +235,7 @@ hook: Mint tricks your cold sensors. | MINT *FEELS COLD* | hero: snowflake Mint
 - Your skin or mouth isn't actually colder. | NOT *ACTUALLY* COLDER | hero: thermometer Same temp
 - The brain reads it as a cooling sensation. | BRAIN *READS* COLD | hero: brain Cooling
 - The same trick works in toothpaste and balms. | TOOTHPASTE *TOO* | hero: bottle Toothpaste
-fact: Menthol activates TRPM8, a cold-sensing ion channel (McKemy et al. 2002; Julius lab); the cooling sensation occurs without a drop in actual temperature. Good.
+fact: TRPM8 is the cold and menthol receptor: OK. Source: https://en.wikipedia.org/wiki/TRPM8
 alt: The chemical that tricks your nerves.
 alt: Cold without cold.
 tags: body, food, chemistry
@@ -247,7 +247,7 @@ hook: Wasabi burns your nose, not your tongue. | WASABI *HITS* THE NOSE | hero: 
 - It triggers pain nerves there. | TRIGGERS *NERVES* | hero: bolt Nerves
 - The burn fades quickly because the vapour disperses. | FADES *FAST* | hero: wave Fades
 - Chilli heat lingers because capsaicin stays on the tongue. | CHILLI *LINGERS* | hero: flame Chilli
-fact: Wasabi/mustard pungency from allyl isothiocyanate activating TRPA1 (volatile; felt in the nose); capsaicin is non-volatile and lingers. Good.
+fact: Wasabi pungency (allyl isothiocyanate) is felt mostly in the nose: OK. Source: https://en.wikipedia.org/wiki/Wasabi
 alt: Heat that goes up your nose.
 alt: Why wasabi fades so fast.
 tags: food, science, spice
@@ -259,7 +259,7 @@ hook: Popcorn explodes from trapped steam. | POPCORN *IS STEAM* | hero: burst Po
 - Pressure builds to about nine atmospheres. | *9 ATMOSPHERES* | num: 9 | atm | gear
 - At about 180 degrees the shell bursts. | BURSTS *AT 180 °C* | num: 180 | °C | thermometer
 - The starch inside puffs and cools into foam. | STARCH *PUFFS* | hero: cloud Foam
-fact: Popcorn pops when internal pressure reaches ~9 atm at ~180 °C; Virot & Ponomarenko (2015) described the leg-like jump. Pericarp moisture ~14% ideal. Good.
+fact: Hull ruptures at about 930 kPa (about 9 atm) and 180 C: OK. Source: https://en.wikipedia.org/wiki/Popcorn
 alt: Why kernels turn inside out.
 alt: A steam explosion in a seed.
 tags: food, physics, snack
@@ -271,7 +271,7 @@ hook: Yeast makes bread rise. | YEAST *MAKES BREAD RISE* | hero: bubble Yeast
 - Gluten stretches to trap the bubbles. | GLUTEN *TRAPS GAS* | hero: box Gluten
 - Heat expands the gas and sets the structure. | OVEN *SETS IT* | hero: flame Oven
 - That's why bread is soft and full of holes. | SOFT, *AIRY* CRUMB | hero: cloud Airy
-fact: Saccharomyces cerevisiae ferments sugars into CO2 and ethanol; gluten network traps gas; oven spring due to gas expansion, then proteins and starch set. Good.
+fact: Yeast ferments sugars producing carbon dioxide that makes air pockets: OK. Source: https://en.wikipedia.org/wiki/Bread
 alt: Tiny gas bubbles lift dough.
 alt: Why bread is airy.
 tags: food, chemistry, baking
@@ -283,7 +283,7 @@ hook: Bananas brown when exposed to air. | BANANAS *BROWN* | hero: plant Banana
 - The reaction makes brown pigments. | *BROWN* PIGMENTS | hero: sparkle Brown
 - Lemon juice slows it down with acid. | LEMON *SLOWS* IT | hero: drop Lemon
 - Browned fruit is safe to eat, but may taste softer. | STILL *SAFE* | hero: check Safe
-fact: Enzymatic browning via polyphenol oxidase; ascorbic/citric acid inhibits; fruit remains edible unless mouldy. Peel browning also from ripening (chlorophyll breakdown, melanin formation).
+fact: Polyphenol oxidase browning; acids (citric, ascorbic) inhibit it: OK. Source: https://en.wikipedia.org/wiki/Enzymatic_browning
 alt: The browning reaction.
 alt: Why lemon juice saves fruit.
 tags: food, chemistry, fruit
@@ -295,7 +295,7 @@ hook: Heat turns runny eggs solid. | HEAT *SETS* EGGS | hero: flame Egg
 - They tangle together and trap water. | *TANGLE* AND TRAP | hero: loop-arrow Tangle
 - That turns clear white into opaque solid. | CLEAR *TO WHITE* | hero: sparkle White
 - Cooked proteins can't go back to runny. | *NO UNDOING* | hero: lock Irreversible
-fact: Denaturation and coagulation of egg proteins (ovalbumin sets ~80 °C; yolk ~65-70 °C). Irreversible in normal cooking. Good.
+fact: Heat denatures egg proteins which then coagulate: basic food science, no numbers; not individually fetched.
 alt: Why egg white turns white.
 alt: Heat rewrites protein shapes.
 tags: food, chemistry, protein
@@ -307,7 +307,7 @@ hook: Oil and water refuse to mix. | OIL *AND WATER* SPLIT | hero: drop Oil and 
 - So water pushes oil away into its own layer. | OIL *FLOATS UP* | hero: arrow-right Float
 - Oil is less dense, so it sits on top. | *LESS DENSE* | hero: scale Density
 - Soap and egg yolk help them mix. | SOAP *BRIDGES* THEM | hero: bubble Emulsifier
-fact: Water is polar and forms hydrogen bonds; non-polar oil is excluded; emulsifiers (soap, lecithin) have both polar and non-polar ends. Basic chemistry. Good.
+fact: Oil/water immiscibility is basic polarity chemistry, no numbers; not individually fetched.
 alt: Why vinaigrette separates.
 alt: The molecule that bridges the gap.
 tags: chemistry, food, water
@@ -319,7 +319,7 @@ hook: Ice cubes crack in warm drinks. | ICE *CRACKS* | hero: snowflake Ice crack
 - Stress builds until the ice fractures. | *STRESS* BUILDS | hero: bolt Stress
 - That's thermal shock. | *THERMAL SHOCK* | hero: bolt Shock
 - Trapped air bubbles also weaken the cube. | AIR *BUBBLES* WEAKEN | hero: bubble Air
-fact: Thermal shock in brittle ice: surface expansion vs cold interior; cloudy ice has trapped air/impurities. Cracks are heard as pops. Good.
+fact: Thermal shock: exterior warms much faster than interior, the strain can crack ice: OK. Source: https://en.wikipedia.org/wiki/Thermal_shock
 alt: Why your drink crackles.
 alt: Thermal shock in a glass.
 tags: physics, ice, food

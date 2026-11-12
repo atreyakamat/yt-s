@@ -82,7 +82,4 @@ scenes:
 
 ## Fact check
 
-- ABS uses wheel-speed sensors (toothed tone ring + sensor) and a hydraulic unit with valves to release and reapply brake pressure when a wheel starts to lock.
-- ABS cycling rate is commonly given as around 15 times per second (figures of roughly 15-20 are typical), hence 'about fifteen'.
-- A locked wheel cannot provide steering; keeping wheels rolling preserves steering control.
-- Pedal pulsing/buzzing during ABS activation is normal; driver guidance for ABS cars is to keep firm pressure and steer.
+- Some anti-lock systems apply and release pressure 15 times per second; script headline says "can". OK. Source: https://en.wikipedia.org/wiki/Anti-lock_braking_system

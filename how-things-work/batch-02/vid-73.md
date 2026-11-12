@@ -63,7 +63,7 @@ scenes:
     vo: "The ceramic is harder than steel, so grit and limescale barely scratch it."
     text: "HARDER THAN STEEL"
     highlight: "HARDER"
-    visual: { kind: bars, unit: "Mohs", items: [{ label: "Limescale", value: 3, color: grey }, { label: "Steel", value: 5.5, color: steel }, { label: "Alumina ceramic", value: 9, color: accent }] }
+    visual: { kind: bars, unit: "Mohs", items: [{ label: "Limescale", value: 3, color: grey }, { label: "Steel", value: 4.5, color: steel }, { label: "Alumina ceramic", value: 9, color: accent }] }
   - at: 33
     dur: 5
     vo: "A quarter turn, no drips. Because your quarter-turn tap..."
@@ -74,7 +74,4 @@ scenes:
 
 ## Fact check
 
-- Washer taps → traditional compression taps press a rubber washer onto a seat; worn washers cause drips.
-- Ceramic disc cartridges → two alumina ceramic discs with ports; rotating one aligns the ports. A quarter (or half) turn takes it from closed to fully open.
-- Ultra-flat lapped faces seal without a washer → the discs are lapped flat to within about a micron.
-- Hardness → alumina is about 9 on the Mohs scale; steel roughly 4-6 (5.5 shown); calcite (limescale) is 3.
+- Mohs: calcite (limescale) 3, corundum (alumina ceramic) 9; steel is listed about 4 to 4.5 in Wikipedia's table (a caption says 5.5), so the chart now shows 4.5. FIXED. Source: https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness

@@ -27,7 +27,7 @@
 | 1521 | new-year / habits-and-money | A budget is permission, not punishment. | 24.8s | Why a 'budget' is just a plan for your money |
 | 1522 | new-year / habits-and-money | Your sleep runs in 90-minute loops. | 24.5s | Why your sleep comes in 90-minute cycles |
 | 1523 | new-year / traditions-and-science | Nobody knows the words to Auld Lang Syne. | 27.4s | Why we sing Auld Lang Syne at midnight |
-| 1524 | new-year / traditions-and-science | A champagne bottle holds tyre-level pressure. | 26.6s | Why champagne corks fly out so fast |
+| 1524 | new-year / traditions-and-science | A champagne bottle holds tyre-level pressure. | 27.4s | Why champagne corks fly out so fast |
 | 1525 | new-year / traditions-and-science | Champagne bubbles aren't random. They start on specks. | 27.8s | Where champagne bubbles come from |
 | 1526 | new-year / traditions-and-science | A sparkler burns above 1,000 degrees. | 27.1s | Why sparklers burn so hot |
 | 1527 | new-year / traditions-and-science | The rocket countdown came from a movie. | 25.8s | Why the countdown exists |
@@ -38,7 +38,7 @@
 | 1532 | new-year / traditions-and-science | Daylight saving began as a war measure. | 25.3s | Why we change the clocks |
 | 1533 | new-year / traditions-and-science | GPS must correct for Einstein every day. | 25.2s | The clocks that keep GPS honest |
 | 1534 | new-year / traditions-and-science | One sentence can boost your follow-through. | 24.5s | Why if-then plans beat willpower |
-| 1535 | new-year / traditions-and-science | Ten thousand steps was a marketing slogan. | 22.8s | Where 10,000 steps came from |
+| 1535 | new-year / traditions-and-science | Ten thousand steps was a marketing slogan. | 23.2s | Where 10,000 steps came from |
 | 1536 | new-year / traditions-and-science | Experts suggest 150 minutes a week. | 20.6s | How much exercise health experts suggest |
 | 1537 | new-year / traditions-and-science | Your sore muscles peak two days later. | 24.8s | Why muscles are sore two days later |
 | 1538 | new-year / traditions-and-science | Caffeine doesn't give energy. It blocks tiredness. | 25s | How caffeine keeps you awake |
@@ -73,12 +73,12 @@
 | 1567 | new-year / winter-science | Confetti falls slowly because air pushes back. | 22.4s | Why confetti flutters instead of falling |
 | 1568 | new-year / winter-science | Old bulbs wasted energy as heat. | 25s | Why LED bulbs run cooler than old bulbs |
 | 1569 | new-year / world-traditions | Spain eats twelve grapes in twelve seconds. | 22.7s | Why Spain eats twelve grapes at midnight |
-| 1570 | new-year / world-traditions | Japan rings temple bells one hundred eight times. | 24.9s | Why Japan rings temple bells 108 times |
+| 1570 | new-year / world-traditions | Japan rings temple bells one hundred eight times. | 26.2s | Why Japan rings temple bells 108 times |
 | 1571 | new-year / world-traditions | In Scotland, your first guest brings luck. | 23.3s | Why Scotland has Hogmanay and first-footing |
 | 1572 | new-year / world-traditions | Danes smash plates on friends' doors. | 23.7s | Why Denmark smashes plates on New Year's Eve |
 | 1573 | new-year / world-traditions | Brazil jumps seven waves at midnight. | 23.2s | Why Brazil wears white and jumps seven waves |
-| 1574 | new-year / world-traditions | Resolutions are over four thousand years old. | 21.8s | Why we make New Year's resolutions |
-| 1575 | new-year / world-traditions | Most resolutions don't last until February. | 23.2s | Why most resolutions fail by February |
+| 1574 | new-year / world-traditions | Resolutions are about four thousand years old. | 21.8s | Why we make New Year's resolutions |
+| 1575 | new-year / world-traditions | Many resolutions don't last until February. | 23.2s | Why many resolutions fail by February |
 | 1576 | new-year / world-traditions | Fresh starts really do boost motivation. | 24.9s | Why a fresh start effect is real |
 | 1577 | new-year / world-traditions | Not every country sees the year start together. | 23.5s | Where the new year arrives first |
 | 1578 | new-year / world-traditions | The Times Square ball weighs over five tonnes. | 24s | How the Times Square ball drops |
@@ -122,7 +122,7 @@
 | 1616 | new-year / body-mind-planning | The best budget is the one you'll keep. | 21.4s | Why a budget app beats a spreadsheet for some people |
 | 1617 | new-year / body-mind-planning | An emergency fund stops small shocks becoming debt. | 23.5s | Why an emergency fund matters |
 | 1618 | new-year / body-mind-planning | Split your take-home pay three ways. | 25.3s | How the 50/30/20 budget works |
-| 1619 | new-year / sky-nature-tech | The year's first meteor shower is brief. | 26.1s | Why the Quadrantid meteor shower peaks in January |
+| 1619 | new-year / sky-nature-tech | The year's first meteor shower is brief. | 25.3s | Why the Quadrantid meteor shower peaks in January |
 | 1620 | new-year / sky-nature-tech | Earth's spin makes the Sun rise east. | 25.7s | Why the Sun rises in the east |
 | 1621 | new-year / sky-nature-tech | The Moon isn't actually bigger at the horizon. | 24.4s | Why the Moon looks bigger near the horizon |
 | 1622 | new-year / sky-nature-tech | Orion's shoulder is a dying star. | 25.2s | Why Betelgeuse could explode |
@@ -147,7 +147,7 @@
 | 1641 | new-year / sky-nature-tech | Why do we count down from ten? | 24.3s | Why we count down from ten |
 | 1642 | new-year / sky-nature-tech | Clean your inbox with one daily habit. | 21.9s | Why you should unsubscribe from marketing emails |
 | 1643 | new-year / sky-nature-tech | Smart speakers listen for one word only. | 24.4s | How a smart speaker hears its wake word |
-| 1644 | new-year / food-history-work | Celebration cakes are older than birthdays. | 24s | Why we eat cake on special days |
+| 1644 | new-year / food-history-work | Celebration cakes are older than birthdays. | 24.8s | Why we eat cake on special days |
 | 1645 | new-year / food-history-work | Doughnuts have holes so they cook evenly. | 27s | Why doughnuts have holes |
 | 1646 | new-year / food-history-work | Chocolate melts just below body temperature. | 21.9s | Why chocolate melts in your mouth but not your hand |
 | 1647 | new-year / food-history-work | Coffee beans are really seeds. | 20.6s | How coffee beans become coffee |
@@ -180,13 +180,13 @@
 | 1674 | new-year / everyday-science | Nobody fully knows why we yawn. | 19.4s | Why we yawn |
 | 1675 | new-year / everyday-science | Hiccups are a tiny spasm in your chest. | 20.3s | Why we get hiccups |
 | 1676 | new-year / everyday-science | Your stomach growls even when it's full. | 21.8s | Why your stomach growls |
-| 1677 | new-year / everyday-science | Music can give you chills. | 21.5s | Why we get goosebumps from music |
+| 1677 | new-year / everyday-science | Music can give you chills. | 20.6s | Why we get goosebumps from music |
 | 1678 | new-year / everyday-science | Songs get stuck in your head. | 18.4s | Why songs get stuck in your head |
 | 1679 | new-year / everyday-science | Scary things feel good when you're safe. | 20.6s | Why we love scary movies |
 | 1680 | new-year / everyday-science | Why do happy moments bring tears? | 22.4s | Why we cry when we're happy |
 | 1681 | new-year / everyday-science | Laughter spreads from person to person. | 22.5s | Why laughing is contagious |
 | 1682 | new-year / everyday-science | Dogs tilt their heads when you talk. | 24.5s | Why dogs tilt their heads |
-| 1683 | new-year / everyday-science | Cats purr for more than happiness. | 25.4s | Why cats purr |
+| 1683 | new-year / everyday-science | Cats purr for more than happiness. | 23.7s | Why cats purr |
 | 1684 | new-year / everyday-science | Owls can almost turn their heads backwards. | 24s | Why owls can turn their heads so far |
 | 1685 | new-year / everyday-science | Bats sleep upside down for a reason. | 21.8s | Why bats don't get dizzy hanging upside down |
 | 1686 | new-year / everyday-science | Flamingos rest on one leg. | 24.3s | Why flamingos stand on one leg |
@@ -246,15 +246,15 @@
 | 1740 | new-year / tech-internet-money | Your phone maps your face. | 19.7s | How facial recognition unlocks your phone |
 | 1741 | new-year / tech-internet-money | Self-driving cars sense with many tools. | 19s | How self-driving cars see the road |
 | 1742 | new-year / tech-internet-money | A 3D printer builds objects layer by layer. | 21.8s | How a 3D printer works |
-| 1743 | new-year / tech-internet-money | Phone glass is strong but brittle. | 18.2s | Why phone screens crack |
+| 1743 | new-year / tech-internet-money | Phone glass is strong but brittle. | 18.6s | Why phone screens crack |
 | 1744 | new-year / tech-internet-money | Phones heat up when working hard. | 19.4s | Why phones heat up |
 | 1745 | new-year / tech-internet-money | Airplane mode saves battery. | 19.8s | Why airplane mode helps battery |
-| 1746 | new-year / tech-internet-money | Wireless charging uses magnetic fields. | 21.8s | How wireless charging works |
+| 1746 | new-year / tech-internet-money | Wireless charging uses magnetic fields. | 22.2s | How wireless charging works |
 | 1747 | new-year / tech-internet-money | Headphones turn current into sound. | 22.1s | How headphones play music |
 | 1748 | new-year / earth-weather-physics | The sky is blue because of scattering. | 19.7s | Why the sky is blue |
 | 1749 | new-year / earth-weather-physics | Sunsets glow red because light travels far. | 19.4s | Why sunsets are red |
 | 1750 | new-year / earth-weather-physics | Rainbows are really full circles. | 24s | Why rainbows are curved |
-| 1751 | new-year / earth-weather-physics | Clouds float even though they weigh a lot. | 22.2s | Why clouds float |
+| 1751 | new-year / earth-weather-physics | Clouds float even though they weigh a lot. | 23.1s | Why clouds float |
 | 1752 | new-year / earth-weather-physics | Rain has its own smell. | 20.8s | Why it smells like rain |
 | 1753 | new-year / earth-weather-physics | Lightning heats air in an instant. | 21.9s | Why thunder rumbles |
 | 1754 | new-year / earth-weather-physics | Hailstones are layered ice balls. | 18.5s | Why hail forms |
@@ -271,18 +271,18 @@
 | 1765 | new-year / earth-weather-physics | Deserts freeze after dark. | 18.9s | Why deserts get so cold at night |
 | 1766 | new-year / earth-weather-physics | The Arctic warms faster than anywhere. | 20.5s | Why the Arctic is warming faster |
 | 1767 | new-year / earth-weather-physics | Trees pull carbon out of the air. | 19s | How trees help the climate |
-| 1768 | new-year / earth-weather-physics | The ozone layer blocks harmful sunlight. | 20.3s | Why the ozone layer matters |
+| 1768 | new-year / earth-weather-physics | The ozone layer blocks harmful sunlight. | 20.7s | Why the ozone layer matters |
 | 1769 | new-year / earth-weather-physics | Other planets have auroras too. | 21s | Which other planets have auroras |
 | 1770 | new-year / earth-weather-physics | Mars is red because it's rusty. | 20.3s | Why Mars is red |
 | 1771 | new-year / earth-weather-physics | Saturn's rings are made of ice. | 20.3s | Why Saturn has rings |
 | 1772 | new-year / earth-weather-physics | The universe is almost unimaginably big. | 25.8s | How big the universe is |
 | 1773 | new-year / earth-weather-physics | In space, no one can hear you. | 18.6s | Why we can't hear sound in space |
 | 1774 | new-year / earth-weather-physics | Black holes have a point of no return. | 24.4s | What a black hole really is |
-| 1775 | new-year / culture-math-history | The Olympic rings link five continents. | 23.2s | Why the Olympic rings have five colours |
+| 1775 | new-year / culture-math-history | The Olympic rings link five continents. | 23.6s | Why the Olympic rings have five colours |
 | 1776 | new-year / culture-math-history | A marathon is oddly long. | 27.8s | Why a marathon is 42 kilometres |
 | 1777 | new-year / culture-math-history | Soccer balls have patterns for a reason. | 22.4s | Why the football has pentagons |
 | 1778 | new-year / culture-math-history | Spin makes a ball curve. | 20.1s | Why curveball pitches curve |
-| 1779 | new-year / culture-math-history | Chess boards have sixty-four squares. | 22.7s | Why chess has sixty-four squares |
+| 1779 | new-year / culture-math-history | Chess boards have sixty-four squares. | 23.9s | Why chess has sixty-four squares |
 | 1780 | new-year / culture-math-history | On a die, opposite faces add to seven. | 18s | Why dice have opposite sides adding to seven |
 | 1781 | new-year / culture-math-history | A Rubik's Cube has billions of states. | 24.1s | Why the Rubik's Cube has so many combinations |
 | 1782 | new-year / culture-math-history | Zero was one of maths' great inventions. | 21.5s | Why zero was a breakthrough |
@@ -299,8 +299,8 @@
 | 1793 | new-year / culture-math-history | Napoleon wasn't actually short. | 23.6s | Why Napoleon wasn't short |
 | 1794 | new-year / culture-math-history | The great library declined over centuries. | 21.5s | Why the Library of Alexandria disappeared |
 | 1795 | new-year / culture-math-history | The printing press spread ideas fast. | 21.6s | How the printing press changed the world |
-| 1796 | new-year / culture-math-history | The Titanic couldn't survive that damage. | 23.5s | Why the Titanic sank so fast |
+| 1796 | new-year / culture-math-history | The Titanic couldn't survive that damage. | 24.1s | Why the Titanic sank so fast |
 | 1797 | new-year / culture-math-history | OK is one of the most used words. | 26.5s | Why we say OK |
 | 1798 | new-year / culture-math-history | English spelling doesn't follow rules. | 20s | Why English spelling is so weird |
-| 1799 | new-year / culture-math-history | People say bless you after sneezes. | 23.6s | Why we say bless you after a sneeze |
+| 1799 | new-year / culture-math-history | People say bless you after sneezes. | 23.2s | Why we say bless you after a sneeze |
 | 1800 | new-year / culture-math-history | Small resets beat grand plans. | 19.7s | Why a New Year's reset works best when it's small |

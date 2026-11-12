@@ -75,7 +75,4 @@ scenes:
 
 ## Fact check
 
-- Burning hydrocarbon fuel produces water vapour; contrails form when it condenses and freezes in cold air.
-- Air at airliner cruise altitude is commonly around -40 °C to -55 °C; the counter shows a typical ground value of 15 °C falling to -40 °C.
-- The ice crystals form within a fraction of a second once the exhaust mixes with the cold air, leaving a short clear gap behind the engine.
-- Contrail persistence depends on humidity: in dry air they sublimate quickly, in ice-supersaturated air they persist and spread.
+- Cruise-altitude air is typically below minus 40 C (often minus 50 to 56 C), so "colder than minus forty" holds; no source read in this pass beyond standard-atmosphere knowledge.
