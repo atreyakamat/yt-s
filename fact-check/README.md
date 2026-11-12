@@ -38,3 +38,13 @@ Written with sources, then checked by a second pass (`verified-1801-1967.md`, `v
 `verified-2135-2300.md`). Every reel with a number, year, name or "first" claim had its cited page fetched; dead
 links were replaced. About 6 claims were corrected and 28 softened (for example, a Kelvin tide machine "geared
 wheel" that was really pulleys and cord, a terminal-velocity time, and the McCormick reaper patent date).
+
+## New reels vid-2301 to vid-2800, and duplicate clean-up (12 Nov 2026)
+
+- Writers who cited sources from memory had their reels re-checked against fetched pages
+  (`verified-2301-2800-*.md`): about 3 corrections, 15 claims softened, and about 25 dead links replaced.
+- A duplicate review of all new reels against vid-1..1800 (`duplicates-1801-2300.md`, and the table in
+  `verified-2301-2800-construction.md`) found 57 reels that repeated an earlier one (same object, same reveal, for
+  example "Hiccups" vs "Why we get hiccups"). All 57 were rewritten as new topics with fetched sources. Reels that
+  only overlap ("partly": a different angle on the same object) were kept.
+- `npm run topics` now lists possible near-duplicate topics at the end of TOPICS.md, so future batches catch this early.
