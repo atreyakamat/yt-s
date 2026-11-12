@@ -39,6 +39,7 @@ const SERIES = new Set([
   "why-is-it-shaped-like-that",
   "the-1-second-machine",
   "before-it-existed",
+  "everyday-engineering", // extra explainers (source: scripts-src/everyday-engineering), drawn with the "explainer" visual
   "new-year", // seasonal set (source: scripts-src/new-year), drawn with the "explainer" visual
 ]);
 const MUSIC = new Set(

@@ -1,6 +1,6 @@
 # Script index
 
-300 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
+350 generated scripts. Source: `scripts-src/`. Regenerate with `npm run gen` in `video/`. Hand-built launch reels (vid-01..10) are not listed here.
 
 | ID | Series / group | Hook | Length | Title |
 |---|---|---|---|---|
@@ -304,3 +304,53 @@
 | 1798 | new-year / culture-math-history | English spelling doesn't follow rules. | 20s | Why English spelling is so weird |
 | 1799 | new-year / culture-math-history | People say bless you after sneezes. | 23.2s | Why we say bless you after a sneeze |
 | 1800 | new-year / culture-math-history | Small resets beat grand plans. | 19.7s | Why a New Year's reset works best when it's small |
+| 2801 | everyday-engineering / kitchen-and-food | Water can float on a hot pan. | 23.9s | Why a water droplet dances on a hot pan |
+| 2802 | everyday-engineering / kitchen-and-food | Searing a steak doesn't seal in juices. | 20.1s | Why searing doesn't seal in juices |
+| 2803 | everyday-engineering / kitchen-and-food | Stale bread isn't just dried out. | 23.6s | Why bread goes stale |
+| 2804 | everyday-engineering / kitchen-and-food | Baking soda and powder are not the same. | 20.5s | Baking soda vs baking powder |
+| 2805 | everyday-engineering / kitchen-and-food | Brown crust is chemistry, not just burning. | 21.4s | Why bread crust turns brown |
+| 2806 | everyday-engineering / kitchen-and-food | Pasta water needs salt for flavour. | 21.9s | Why salt goes in pasta water |
+| 2807 | everyday-engineering / kitchen-and-food | Egg whites whip into a solid foam. | 20s | Why egg whites whip into foam |
+| 2808 | everyday-engineering / kitchen-and-food | Overcooked eggs grow a green ring. | 20.5s | Why boiled eggs get a green ring |
+| 2809 | everyday-engineering / kitchen-and-food | Hot milk grows its own skin. | 18.5s | Why milk forms a skin |
+| 2810 | everyday-engineering / kitchen-and-food | A honing steel doesn't really sharpen. | 19.7s | Why a honing steel doesn't sharpen a knife |
+| 2811 | everyday-engineering / kitchen-and-food | Knives dull because the edge deforms. | 19.8s | Why knives go dull |
+| 2812 | everyday-engineering / kitchen-and-food | Copper heats food more evenly than steel. | 22s | Why copper pans heat evenly |
+| 2813 | everyday-engineering / kitchen-and-food | Cast iron holds heat like a battery. | 20.1s | Why cast iron stays hot |
+| 2814 | everyday-engineering / kitchen-and-food | Wok flavour needs fierce heat. | 20.9s | Why stir-fries have that wok flavour |
+| 2815 | everyday-engineering / kitchen-and-food | Cold brew tastes less sharp than hot. | 19.6s | Why cold brew tastes smoother |
+| 2816 | everyday-engineering / kitchen-and-food | Espresso wears a golden foam. | 20.9s | Why espresso has crema |
+| 2817 | everyday-engineering / kitchen-and-food | Steep tea too long and it turns bitter. | 19.6s | Why tea turns bitter if you steep it too long |
+| 2818 | everyday-engineering / kitchen-and-food | Microwaved water can overheat silently. | 18.7s | Why microwaved water can explode |
+| 2819 | everyday-engineering / kitchen-and-food | Salt helps freeze ice cream. | 18.7s | Why salt makes ice cream freeze |
+| 2820 | everyday-engineering / kitchen-and-food | Beer foam comes from gas and protein. | 22s | Why beer has a foam head |
+| 2821 | everyday-engineering / kitchen-and-food | Crushing garlic makes it much stronger. | 19.3s | Why garlic smells stronger when crushed |
+| 2822 | everyday-engineering / kitchen-and-food | Salt makes vegetables sweat. | 23.6s | Why salt pulls water out of vegetables |
+| 2823 | everyday-engineering / kitchen-and-food | MSG tastes of savoury umami. | 22.3s | Why MSG makes food taste savoury |
+| 2824 | everyday-engineering / kitchen-and-food | Fresh pineapple stops jelly setting. | 21.8s | Why fresh pineapple ruins jelly |
+| 2825 | everyday-engineering / kitchen-and-food | Marinades barely soak into meat. | 18.3s | Why marinades only go skin deep |
+| 2826 | everyday-engineering / kitchen-and-food | Fresh pasta cooks in minutes. | 18.9s | Why fresh pasta cooks so fast |
+| 2827 | everyday-engineering / kitchen-and-food | Rinsing rice changes how it cooks. | 21.4s | Why you rinse rice |
+| 2828 | everyday-engineering / kitchen-and-food | Gluten gives bread its chew. | 23.1s | Why gluten makes bread chewy |
+| 2829 | everyday-engineering / kitchen-and-food | Cakes sink when the structure isn't set. | 18.4s | Why cakes sink in the middle |
+| 2830 | everyday-engineering / kitchen-and-food | Caramel is sugar being broken down. | 18.8s | Why caramel turns brown |
+| 2831 | everyday-engineering / kitchen-and-food | Butter melts almost at body temperature. | 20s | Why butter melts in your mouth |
+| 2832 | everyday-engineering / kitchen-and-food | Melted mozzarella stretches into strings. | 18.7s | Why mozzarella stretches |
+| 2833 | everyday-engineering / kitchen-and-food | Yogurt is milk changed by bacteria. | 21.6s | Why yogurt thickens |
+| 2834 | everyday-engineering / kitchen-and-food | Sourdough gets its sourness from bacteria. | 22.4s | Why sourdough tastes sour |
+| 2835 | everyday-engineering / kitchen-and-food | Kimchi bubbles because it's alive. | 21.4s | Why kimchi bubbles in the jar |
+| 2836 | everyday-engineering / kitchen-and-food | Every oil has a temperature where it smokes. | 19.6s | Why cooking oil has a smoke point |
+| 2837 | everyday-engineering / kitchen-and-food | Tempura batter is made with iced water. | 22.4s | Why tempura batter uses ice-cold water |
+| 2838 | everyday-engineering / kitchen-and-food | Soaking meat in brine keeps it juicy. | 21s | Why brine makes meat juicier |
+| 2839 | everyday-engineering / kitchen-and-food | Dry-aged beef tastes intensely nutty. | 20.6s | Why dry-aged beef tastes nutty |
+| 2840 | everyday-engineering / kitchen-and-food | Cold storage turns potatoes sweeter. | 19.2s | Why potatoes turn sweet in the fridge |
+| 2841 | everyday-engineering / kitchen-and-food | The fridge strips flavour from tomatoes. | 18.8s | Why tomatoes lose flavour in the fridge |
+| 2842 | everyday-engineering / kitchen-and-food | Milk soothes burning chilli better than water. | 18.6s | Why milk puts out chilli's fire |
+| 2843 | everyday-engineering / kitchen-and-food | Some people taste soap in coriander. | 18s | Why coriander tastes like soap to some people |
+| 2844 | everyday-engineering / kitchen-and-food | Properly tempered chocolate snaps cleanly. | 21.3s | Why chocolate should snap |
+| 2845 | everyday-engineering / kitchen-and-food | Sparkling water bites your tongue. | 22.2s | Why sparkling water tastes sharp |
+| 2846 | everyday-engineering / kitchen-and-food | Gelatin turns a liquid into a wobble. | 18s | Why gelatin wobbles |
+| 2847 | everyday-engineering / kitchen-and-food | Cotton candy is spun from pure sugar. | 18.8s | Why cotton candy appears from sugar |
+| 2848 | everyday-engineering / kitchen-and-food | Clear egg white turns solid white. | 20.9s | Why egg whites turn white when cooked |
+| 2849 | everyday-engineering / kitchen-and-food | Pepper makes you sneeze for a reason. | 20.9s | Why pepper makes you sneeze |
+| 2850 | everyday-engineering / kitchen-and-food | Steam burns worse than boiling water. | 21.1s | Why steam burns worse than boiling water |

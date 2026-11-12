@@ -40,6 +40,7 @@ const PINNED = {
   "why-is-it-shaped-like-that": "What shape should we explain next?",
   "the-1-second-machine": "What else happens in under a second?",
   "before-it-existed": "What should we go back in time for next?",
+  "everyday-engineering": "What everyday thing should we explain next?",
   "new-year": "What should we explain for the new year?",
 };
 
