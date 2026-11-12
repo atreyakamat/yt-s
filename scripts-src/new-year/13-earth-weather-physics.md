@@ -79,7 +79,7 @@ hook: Hailstones are layered ice balls. | HAIL *IS LAYERED* | hero: snowflake Ha
 - More water freezes on in layers. | *LAYERS* ADD UP | hero: box Layers
 - When too heavy, they fall. | TOO *HEAVY*, THEY FALL | hero: arrow-right Fall
 - Cut one open to count the layers. | COUNT *THE LAYERS* | hero: list Layers
-fact: Hail grows in thunderstorm updrafts through accretion of supercooled liquid; layers alternate clear/opaque with growth conditions; largest US hailstone 8 inches (Vivian, SD, 2010). Good.
+fact: Hail grows in thunderstorm updrafts through accretion of supercooled liquid; layers alternate clear/opaque with growth conditions; largest officially measured hailstone 7.9 in / 20 cm diameter (Vivian, SD, 23 July 2010; Wikipedia 'Hail').
 alt: Ice onions in the sky.
 alt: Why storms throw ice.
 tags: weather, hail, storms
@@ -175,7 +175,7 @@ hook: The Dead Sea holds you up. | YOU *FLOAT* EASILY | hero: wave Dead Sea
 - So you float high with no effort. | FLOAT *HIGH* | hero: person Floating
 - Nothing much lives in it, hence the name. | NO *FISH* | hero: cross No fish
 - It's also the lowest land on Earth. | *LOWEST* LAND | hero: mountain Low
-fact: Dead Sea salinity ~34% (about 9.6 times ocean average ~3.5%); density ~1.24 kg/L; surface at ~430 m below sea level (shrinking). Microbial life exists (halophilic archaea), 'nothing lives' is a simplification.
+fact: Dead Sea salinity ~34% (about 9.6 times ocean average ~3.5%); density ~1.24 kg/L; surface ~440 m below sea level (439.78 m in 2025; Wikipedia 'Dead Sea'; shrinking). Salinity 34.2% verified. Microbial life exists (halophilic archaea), 'nothing lives' is a simplification.
 alt: A sea you can't sink in.
 alt: The saltiest swim.
 tags: earth, water, density
@@ -223,7 +223,7 @@ hook: The Arctic warms faster than anywhere. | ARCTIC *WARMS FASTEST* | hero: sn
 - That melts more ice in a loop. | A *FEEDBACK* LOOP | hero: loop-arrow Feedback
 - Called ice-albedo feedback. | *ICE-ALBEDO* | hero: snowflake Albedo
 - The Arctic has warmed about four times faster than average. | *~4×* FASTER | num: 4 | x faster | thermometer
-fact: Arctic amplification: ice-albedo feedback plus other factors; Rantanen et al. (2022, Communications Earth & Environment) found the Arctic has warmed nearly four times faster than the global average since 1979. Good.
+fact: Arctic amplification: ice-albedo feedback plus other factors; Rantanen et al. (2022, Communications Earth & Environment) found warming within the Arctic Circle (above 66N) nearly four times the global average since 1979 (via Wikipedia 'Polar amplification'; wider Arctic above 60N ~3x for 1971-2019).
 alt: A melting feedback loop.
 alt: Why the north is changing fastest.
 tags: climate, arctic, earth
@@ -247,7 +247,7 @@ hook: The ozone layer blocks harmful sunlight. | OZONE *BLOCKS UV* | hero: shiel
 - Chemicals called CFCs were destroying it. | *CFCS* ATTACKED IT | hero: cross CFCs
 - The 1987 Montreal Protocol banned them. | MONTREAL, *1987* | hero: flag Treaty
 - The ozone layer is now slowly recovering. | *RECOVERING* | hero: chart-up Recovery
-fact: Stratospheric ozone absorbs UV-B/UV-C; Montreal Protocol (1987) phased out CFCs; UN/WMO assessments (2022) expect recovery to 1980 levels by ~2066 over the Antarctic, ~2045 over the Arctic, ~2040 elsewhere. Good.
+fact: Stratospheric ozone absorbs UV-B/UV-C; Montreal Protocol (1987) phased out CFCs; UN/WMO assessments (2022) expect recovery to 1980 levels by ~2066 over the Antarctic, ~2045 over the Arctic, ~2040 for the near-global average 60N-60S (NOAA CSL executive summary, verified).
 alt: A world treaty that worked.
 alt: Healing the hole.
 tags: climate, ozone, policy

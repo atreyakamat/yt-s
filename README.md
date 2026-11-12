@@ -40,7 +40,7 @@ command uses them automatically once they're set up, and downloads each music tr
 ## Layout
 
 ```
-how-things-work/<series>/vid-N.md   one file per reel (1,500 of them): hook, backup hooks, scenes (YAML), fact check, upload text
+how-things-work/<series>/vid-N.md   one file per reel (1,800 of them): hook, backup hooks, scenes (YAML), fact check, upload text
 how-things-work/SCRIPT_SPEC.md      the script format and every visual you can use
 how-things-work/INDEX.md            every reel in posting order
 video/                              Remotion render engine (TypeScript)
@@ -80,7 +80,7 @@ Music: `npm run daily` downloads each track the first time a reel needs it (need
 
 ## Reels
 
-All 1,500 scripts are in `how-things-work/`, listed in posting order in [how-things-work/INDEX.md](how-things-work/INDEX.md).
+All 1,800 scripts are in `how-things-work/`, listed in posting order in [how-things-work/INDEX.md](how-things-work/INDEX.md).
 Reels 1-10 use hand-built visuals in `video/src/visuals/`; the rest use the reusable templates in
 `video/src/visuals/generic/`, so no new code is needed per topic. To fix a script, edit its `vid-N.md`, run
 `npm run check`, then `npm run daily -- --redo vid-N`.
