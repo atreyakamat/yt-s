@@ -31,3 +31,10 @@ naming year (vid-969), the electric shaver patent year (vid-1318), the speed of 
   rounded or hedged.
 - If a viewer corrects a fact in the comments, fix the script (`how-things-work/batch-NN/vid-N.md`, or for vid-1501+
   the entry in `scripts-src/new-year/` followed by `npm run gen`) and re-render with `npm run daily -- --redo vid-N`.
+
+## New reels vid-1801 to vid-2300 (12 Nov 2026)
+
+Written with sources, then checked by a second pass (`verified-1801-1967.md`, `verified-1968-2134.md`,
+`verified-2135-2300.md`). Every reel with a number, year, name or "first" claim had its cited page fetched; dead
+links were replaced. About 6 claims were corrected and 28 softened (for example, a Kelvin tide machine "geared
+wheel" that was really pulleys and cord, a terminal-velocity time, and the McCormick reaper patent date).
